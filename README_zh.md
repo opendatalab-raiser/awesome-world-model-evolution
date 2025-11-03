@@ -8,7 +8,7 @@
 * **arXiv ID:** [2503.03751]
 *   **简要介绍:** [图像（首帧/种子帧）→ 视频。3D缓存 + 精确相机控制，强调世界一致性的视频生成]
 *   **发表时间:** arXiv [2025]
-*   **链接:** [[Paper]]([paper_link](https://arxiv.org/abs/2503.03751)) | [[PDF]]([pdf_link](https://arxiv.org/pdf/2503.03751)) | [[Code]](link_to_code_if_available) | [[Project Page]](https://research.nvidia.com/labs/toronto-ai/GEN3C/)
+*   **链接:** [[Paper]](https://arxiv.org/abs/2503.03751) | [[PDF]](https://arxiv.org/pdf/2503.03751) | [[Code]](link_to_code_if_available) | [[Project Page]](https://research.nvidia.com/labs/toronto-ai/GEN3C/)
 <details>
     <summary>Abstract</summary>
     
