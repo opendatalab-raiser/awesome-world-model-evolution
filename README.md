@@ -8,7 +8,7 @@
 * **arXiv ID:** [2503.03751]
 *   **One-liner:** [Image (first frame/seed frame) → Video.3D caching + precise camera control, emphasizing world-consistent video generation]
 *   **Published in:** arXiv [2025]
-*   **Links:** [[Paper]]([paper_link](https://arxiv.org/abs/2503.03751)) | [[PDF]]([pdf_link](https://arxiv.org/pdf/2503.03751)) | [[Code]](link_to_code_if_available) | [[Project Page]](https://research.nvidia.com/labs/toronto-ai/GEN3C/)
+*   **Links:** [paper_link](https://arxiv.org/abs/2503.03751) | [pdf_link](https://arxiv.org/pdf/2503.03751) | [[Code]](link_to_code_if_available) | [[Project Page]](https://research.nvidia.com/labs/toronto-ai/GEN3C/)
 <details>
     <summary>Abstract</summary>
     
