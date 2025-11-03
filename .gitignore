@@ -1,0 +1,15 @@
+.DS_Store
+# Python
+__pycache__/
+*.pyc
+venv/
+.env
+
+# IDE
+.vscode/
+.idea/
+.cursor/
+
+# Temporary files
+*.tmp
+*.bak
