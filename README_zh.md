@@ -809,6 +809,7 @@
 <details>
     <summary>Abstract</summary>
     我们提出一种方法，仅使用带已知相机位姿的单目视频即可执行动态场景的新视角与新时间合成。为此，我们引入 Neural Scene Flow Fields，一种时间变化的连续函数，用于建模动态场景的外观、几何及三维场景流。该表示通过神经网络拟合输入视图。我们展示该表示可用于处理复杂动态场景，包括细结构、视角依赖效应与自然运动。 
+</details>
 
 <details>
     <summary>Key points</summary>
