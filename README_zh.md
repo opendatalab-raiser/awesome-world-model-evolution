@@ -9,7 +9,7 @@
 </div>
 
 <p align="center">
-  <strong>精心策划的研究论文、模型和资源合集，追溯从专用模型到统一世界模型的演化历程。</strong>
+  <strong>精心收集的研究论文、模型和资源合集，追溯从专用模型到统一世界模型的演化历程。</strong>
 </p>
 
 ---
@@ -126,7 +126,8 @@
 
 #### 代表性工作
 
-**CLIP: Learning Transferable Visual Models From Natural Language Supervision**
+<details>
+<summary><b>CLIP: Learning Transferable Visual Models From Natural Language Supervision</b></summary>
 
 * **Authors:** Alec Radford, Jong Wook Kim, Chris Hallacy, Aditya Ramesh, Gabriel Goh, Sandhini Agarwal, Girish Sastry, Amanda Askell, Pamela Mishkin, Jack Clark, Gretchen Krueger, Ilya Sutskever
 * **arXiv ID:** 2103.00020
@@ -144,15 +145,17 @@
 
 <details>
     <summary>Key points</summary>
-    * 图像与文本特征的对比学习  
+    * 图像与文本特征的对比学习
     * 大规模弱监督网络数据（4亿对）  
     * 通过文本提示进行零样本分类  
     * 引发多模态基础模型浪潮  
 </details>
+</details>
 
 ---
 
-**DALL-E: Zero-Shot Text-to-Image Generation**
+<details>
+<summary><b>DALL-E: Zero-Shot Text-to-Image Generation</b></summary>
 
 * **Authors:** Aditya Ramesh, Mikhail Pavlov, Gabriel Goh, Scott Gray, Chelsea Voss, Alec Radford, Mark Chen, Ilya Sutskever
 * **arXiv ID:** 2102.12092
@@ -175,10 +178,12 @@
     * 具备组合推理能力（内容+风格+属性）  
     * 预示 Prompt 驱动生成新时代  
 </details>
+</details>
 
 ---
 
-**Show, Attend and Tell: Neural Image Caption Generation with Visual Attention**
+<details>
+<summary><b>Show, Attend and Tell: Neural Image Caption Generation with Visual Attention</b></summary>
 
 * **Authors:** Kelvin Xu, Jimmy Lei Ba, Ryan Kiros, Kyunghyun Cho, Aaron Courville, Ruslan Salakhutdinov, Richard Zemel, Yoshua Bengio
 * **arXiv ID:** 1502.03044
@@ -201,10 +206,12 @@
     * 注意力热力图带来可解释性  
     * 为视觉 Transformer 技术铺路  
 </details>
+</details>
 
 ---
 
-**AttnGAN: Fine-Grained Text-to-Image Generation with Attentional GANs**
+<details>
+<summary><b>AttnGAN: Fine-Grained Text-to-Image Generation with Attentional GANs</b></summary>
 
 * **Authors:** Tao Xu, Pengchuan Zhang, Qiuyuan Huang, Han Zhang, Zhe Gan, Xiaolei Huang, Xiaodong He
 * **arXiv ID:** 1711.10485
@@ -227,6 +234,7 @@
     * DAMSM 损失强化文图语义一致性  
     * 扩展GAN在文本生成图像方向的上限  
 </details>
+</details>
 
 ---
 
@@ -238,7 +246,8 @@
 
 #### 代表性工作
 
-**NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis**
+<details>
+<summary><b>NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis</b></summary>
 
 * **Authors:** Ben Mildenhall, Pratul P. Srinivasan, Matthew Tancik, Jonathan T. Barron, Ravi Ramamoorthi, Ren Ng
 * **arXiv ID:** 2003.08934  
@@ -261,10 +270,12 @@
     * 无需构建显式几何重建，只用多视角图像和相机位姿即可优化。  
     * 展示出高质量的新视角合成效果，推动了视图合成和隐式表示的发展。  
 </details>
+</details>
 
 ---
 
-**3D Gaussian Splatting for Real-Time Radiance Field Rendering**
+<details>
+<summary><b>3D Gaussian Splatting for Real-Time Radiance Field Rendering</b></summary>
 
 * **Authors:** Bernhard Kerbl, Georgios Kopanas, Thomas Leimkühler, George Drettakis
 * **arXiv ID:** 2308.04079
@@ -287,10 +298,12 @@
     * 引入可视性感知的 splatting 渲染器，实现实时新视角合成。  
     * 在大场景、1080p 分辨率下实现 ≥30 fps 的实时渲染，并且质量与此前高质量方法可比。  
 </details>
+</details>
 
 ---
 
-**EG3D: Efficient Geometry-aware 3D Generative Adversarial Networks**
+<details>
+<summary><b>EG3D: Efficient Geometry-aware 3D Generative Adversarial Networks</b></summary>
 
 * **Authors:** Eric R. Chan, Connor Z. Lin, Matthew A. Chan, Koki Nagano, Boxiao Pan, Shalini De Mello, Orazio Gallo, Leonidas Guibas, Jonathan Tremblay, Sameh Khamis, Tero Karras, Gordon Wetzstein 
 * **arXiv ID:** 2112.07945  
@@ -313,10 +326,12 @@
     * 实时生成高分辨率且多视角一致的图像，并产出优质几何。  
     * 提升 3D GAN 的效率与视觉质量，推动 3D 世界生成研究。  
 </details>
+</details>
 
 ---
 
-**Instant Neural Graphics Primitives with a Multiresolution Hash Encoding**
+<details>
+<summary><b>Instant Neural Graphics Primitives with a Multiresolution Hash Encoding</b></summary>
 
 * **Authors:** Thomas Müller, Alex Evans, Christoph Schied, Alexander Keller
 * **arXiv ID:** 2201.05989
@@ -339,7 +354,7 @@
     * 完全 GPU 并行化（融合 CUDA 核心）以最大化效率。  
     * 实现“瞬时”训练与极快推理（神经渲染毫秒级），推动隐式表示与神经渲染实时化。  
 </details>
-
+</details>
 
 ---
 
@@ -351,7 +366,8 @@
 
 #### 代表性工作
 
-**PredRNN: A Recurrent Neural Network for Spatiotemporal Predictive Learning**
+<details>
+<summary><b>PredRNN: A Recurrent Neural Network for Spatiotemporal Predictive Learning</b></summary>
 
 * **Authors:** Yunbo Wang, Haixu Wu, Jianjin Zhang, Zhifeng Gao, Jianmin Wang, Philip S. Yu, Mingsheng Long
 * **arXiv ID:** 2103.09504  
@@ -374,10 +390,12 @@
     * 课程化学习策略（curriculum learning）：从上下文帧学习长期预测。  
     * 在多个基准数据集上取得竞争性预测性能。  
 </details>
+</details>
 
 ---
 
-**SimVP: Simpler yet Better Video Prediction**
+<details>
+<summary><b>SimVP: Simpler yet Better Video Prediction</b></summary>
 
 * **Authors:** Zhangyang Gao, Cheng Tan, Lirong Wu, Stan Z. Li
 * **arXiv ID:** 2206.05099  
@@ -400,10 +418,12 @@
     * 显示出更简单结构也能实现竞争/领先性能。  
     * 降低架构复杂度与计算开销，更适用于实际场景。  
 </details>
+</details>
 
 ---
 
-**Temporal Attention Unit: Towards Efficient Spatiotemporal Predictive Learning**
+<details>
+<summary><b>Temporal Attention Unit: Towards Efficient Spatiotemporal Predictive Learning</b></summary>
 
 * **Authors:** Cheng Tan, Zhangyang Gao, Lirong Wu, Yongjie Xu, Jun Xia, Siyuan Li, Stan Z. Li
 * **arXiv ID:** 2206.12126  
@@ -426,10 +446,12 @@
     * 构建空间编码–解码模块 + 时间模块的解耦架构，提升可扩展性。  
     * 显著提高计算效率，同时在预测准确性上保持竞争水平。  
 </details>
+</details>
 
 ---
 
-**VideoGPT: Video Generation using VQ-VAE and Transformers**
+<details>
+<summary><b>VideoGPT: Video Generation using VQ-VAE and Transformers</b></summary>
 
 * **Authors:** Wilson Yan, Yunzhi Zhang, Pieter Abbeel, Aravind Srinivas
 * **arXiv ID:** 2104.10157
@@ -452,10 +474,12 @@
     * 与 GAN 方法相比，结构更简单但生成质量具有竞争力  
     * 提供一个可复现、基于 Transformer 的自然视频生成基准  
 </details>
+</details>
 
 ---
 
-**Phenaki: Variable Length Video Generation from Open Domain Textual Descriptions**
+<details>
+<summary><b>Phenaki: Variable Length Video Generation from Open Domain Textual Descriptions</b></summary>
 
 * **Authors:** Ruben Villegas, Mohammad Babaeizadeh, Pieter-Jan Kindermans, Hernan Moraldo, Han Zhang, Mohammad Taghi Saffar, Santiago Castro, Julius Kunze, Dumitru Erhan
 * **arXiv ID:** 2210.02399  
@@ -478,6 +502,7 @@
     * 联合训练图文大数据与视频-文本少数据以提升泛化。  
     * 支持开放域文本提示生成任意长度视频，而不仅限于固定短片。  
 </details>
+</details>
 
 ---
 
@@ -493,7 +518,8 @@
 
 #### 代表性工作
 
-**Zero-1-to-3: Zero-shot One Image to 3D Object**
+<details>
+<summary><b>Zero-1-to-3: Zero-shot One Image to 3D Object</b></summary>
 
 * **Authors:** Ruoshi Liu, Rundi Wu, Basile Van Hoorick, Pavel Tokmakov, Sergey Zakharov, Carl Vondrick
 * **arXiv ID:** 2303.11328  
@@ -516,10 +542,12 @@
     * 实现强零样本泛化至分布外真实图像和艺术风格图片。  
     * 支持从单张图像实现新视角合成与隐式 3D 重建。  
 </details>
+</details>
 
 ---
 
-**MVDream: Multi-view Diffusion for 3D Generation**
+<details>
+<summary><b>MVDream: Multi-view Diffusion for 3D Generation</b></summary>
 
 * **Authors:** Yichun Shi, Peng Wang, Jianglong Ye, Mai Long, Kejie Li, Xiao Yang
 * **arXiv ID:** 2308.16512  
@@ -542,10 +570,12 @@
     * 将该模型作为 3D 生成的先验，并通过 SDS（Score Distillation Sampling）提升经典 2D → 3D 方法的稳定性。  
     * 支持少样本微调（如 DreamBooth3D）以实现个性化 3D 生成。  
 </details>
+</details>
 
 ---
 
-**Wonder3D: Single Image to 3D using Cross-Domain Diffusion**
+<details>
+<summary><b>Wonder3D: Single Image to 3D using Cross-Domain Diffusion</b></summary>
 
 * **Authors:** Xiaoxiao Long, Yuan-Chen Guo, Cheng Lin, Yuan Liu, Zhiyang Dou, Lingjie Liu, Yuexin Ma, Song-Hai Zhang, Marc Habermann, Christian Theobalt, Wenping Wang  
 * **arXiv ID:** 2310.15008  
@@ -568,10 +598,12 @@
     * 几何感知法线融合算法：将多视角2D输出高效转换为高质量纹理网格。  
     * 实现从单张图像生成高保真纹理网格，具备强泛化和较快推理速度。  
 </details>
+</details>
 
 ---
 
-**SyncDreamer: Generating Multiview-consistent Images from a Single-view Image**
+<details>
+<summary><b>SyncDreamer: Generating Multiview-consistent Images from a Single-view Image</b></summary>
 
 * **Authors:** Yuan Liu, Cheng Lin, Zijiao Zeng, Xiaoxiao Long, Lingjie Liu, Taku Komura, Wenping Wang
 * **arXiv ID:** 2309.03453  
@@ -594,6 +626,379 @@
     * 从单视图生成多个连贯视角图像，适用于继后续 3D 生成任务。  
     * 展现了强的多视角一致性，为图像-to-3D或文本-to-3D工作提供更可靠输入。  
 </details>
+</details>
+
+---
+
+<details>
+<summary><b>DreamFusion: Text-to-3D using 2D Diffusion</b></summary>
+
+* **Authors:** Ben Poole, Ajay Jain, Jonathan T. Barron, Ben Mildenhall
+* **arXiv ID:** 2209.14988
+* **One-liner:** DreamFusion pioneers text-to-3D by distilling a pre-trained 2D diffusion model into 3D NeRFs via Score Distillation Sampling, requiring zero 3D training data.
+* **Published in:** ICRL 2023
+* **Links:** [[Paper]](https://arxiv.org/abs/2209.14988) | [[PDF]](https://arxiv.org/pdf/2209.14988.pdf) | [[Project Page]](https://dreamfusion3d.github.io/)
+
+> **核心创新**  
+> 提出“分数蒸馏采样”（SDS）损失，将2D扩散模型的分数函数作为先验，在参数空间而非像素空间优化随机初始化的NeRF，实现无3D数据的文本驱动3D生成。
+
+<details>
+    <summary>Abstract</summary>
+    文本到图像合成的最新突破由基于数十亿图文对训练的扩散模型推动。若将这一范式迁移至三维合成，需大规模标注3D数据与高效去噪架构，而两者目前均不存在。本文绕过这些限制，利用预训练二维文本到图像扩散模型实现文本到三维合成。我们提出基于概率密度蒸馏的损失，使二维扩散模型成为参数化图像生成器的优化先验。借鉴DeepDream式流程，该损失通过梯度下降优化随机初始化的三维模型（神经辐射场，NeRF），使其任意视角的二维渲染损失最小。所得三维模型可任意视角观察、重光照或合成至任意三维环境，无需3D训练数据，也无需修改图像扩散模型，充分验证了预训练图像扩散模型作为先验的有效性。
+</details>
+
+<details>
+    <summary>Key points</summary>
+    * 无需3D标注数据，仅依赖大规模2D文本-图像扩散模型。
+    * SDS代替传统重建损失，通过噪声-分数匹配指导NeRF参数更新。
+    * 结合mip-NeRF 360与可微分着色，提升几何与外观一致性。
+    * 引入视角相关文本提示与几何正则项，减少“扁平化”局部最优。
+</details>
+</details>
+
+---
+
+<details>
+<summary><b>ULIP-2: Towards Scalable Multimodal Pre-training for 3D Understanding</b></summary>
+
+* **Authors:** Le Xue, Ning Yu, Shu Zhang, Artemis Panagopoulou, Junnan Li, Roberto Martín-Martín, Jiajun Wu, Caiming Xiong, Ran Xu, Juan Carlos Niebles, Silvio Savarese
+* **arXiv ID:** 2305.08275
+* **One-liner:** ULIP-2 introduces a scalable, annotation-free multimodal pre-training framework that aligns 3D point clouds with images and automatically generated text, enabling superior 3D understanding.
+* **Published in:** CVPR 2024
+* **Links:** [[Paper]](https://arxiv.org/abs/2305.08275) | [[PDF]](https://arxiv.org/pdf/2305.08275.pdf) | [[Code]](https://github.com/salesforce/ULIP)
+
+> **核心创新**  
+> 利用大模型（BLIP-2）从 3D 渲染图像中自动生成多角度语言描述，构建三模态（点云-图像-文本）对齐数据，实现无需人工标注的 3D 表示学习。
+
+<details>
+    <summary>Abstract</summary>
+    多模态预训练通过联合对齐三维形状、二维图像与语言描述，在三维表征学习上展现出显著潜力。然而，现有框架在构建此类数据、尤其是为三维形状配语言描述时，依赖手工标注，既难以扩展，描述也缺乏多样性。为此，我们提出ULIP-2：一种简洁高效的三模态预训练框架，仅输入三维数据即可借助大型多模态模型自动生成全面语言描述，无需任何人工标注，可轻松扩展至大规模数据集；同时引入更大容量骨干网络以提升表征能力。我们在Objaverse与ShapeNet两大三维数据集上构建了点云-图像-语言三模态数据，用于训练ULIP-2。实验表明，ULIP-2在零样本三维分类、微调三维分类和三维字幕生成三项下游任务中均带来显著提升：在Objaverse-LVIS零样本分类取得50.6%新SOTA（top-1），ModelNet40达84.7%；在ScanObjectNN微调基准上，仅用140万参数的紧凑模型即实现91.5%整体准确率。ULIP-2开创了无需人工标注即可扩展的三维多模态表征新范式，相较基线方法实现显著跃升。
+</details>
+
+<details>
+    <summary>Key points</summary>
+    * 无需人工标注，仅依赖 3D 数据即可生成语言描述，具备高度可扩展性。
+    * 引入 BLIP-2 自动生成多角度、细粒度的语言描述，提升文本模态质量与多样性。
+    * 构建两个大规模三模态数据集：ULIP-Objaverse 和 ULIP-ShapeNet。
+    * 在零样本 3D 分类、标准分类和 3D 字幕生成任务中均取得 SOTA 性能。
+</details>
+</details>
+
+---
+
+<details>
+<summary><b>OpenShape: Scaling Up 3D Shape Representation Towards Open-World Understanding</b></summary>
+
+* **Authors:** Minghua Liu, Ruoxi Shi, Kaiming Kuang, Yinhao Zhu, Xuanlin Li, Shizhong Han, Hong Cai, Fatih Porikli, Hao Su
+* **arXiv ID:** 2305.10764
+* **One-liner:** OpenShape achieves powerful open-world zero-shot 3D shape recognition by scaling up multimodal contrastive learning aligned with CLIP across large-scale 3D datasets.
+* **Published in:** NeurIPS 2023
+* **Links:** [[Paper]](https://arxiv.org/abs/2305.10764) | [[PDF]](https://arxiv.org/pdf/2305.10764.pdf) | [[Code]](https://github.com/Colin97/OpenShape_code)
+
+> **核心创新**  
+> 提出一个可扩展的三模态（点云-图像-文本）对比学习框架，结合自动化文本清洗与增强、3D 骨干网络扩展及难负样本挖掘策略，显著提升 3D 表示的开放世界泛化能力。
+
+<details>
+    <summary>Abstract</summary>
+    我们提出 OpenShape，一种学习文本、图像与点云多模态联合表征的方法。沿用多模态对比学习框架对齐表征，但聚焦放大三维表征以实现开放世界形状理解。为此，我们整合多个三维数据集扩大训练规模，并设计策略自动过滤与丰富含噪文本；同时探索三维骨干网络扩容方案，引入新型困难负例挖掘模块加速训练。在零样本三维分类基准上，OpenShape 开放世界识别能力显著：在含 1156 类的 Objaverse-LVIS 取得 46.8% 零样本准确率，远超现有方法不足 10%；ModelNet40 达 85.3%，领先前零样本基线 20%，媲美部分全监督方法。所学嵌入涵盖颜色、形状、风格等丰富语义，支持细粒度文本-三维与图像-三维交互；与 CLIP 嵌入对齐后，可直接用于点云字幕、点云条件图像生成等下游任务。
+</details>
+
+<details>
+    <summary>Key points</summary>
+    * 整合 876k 3D 形状数据，覆盖更丰富类别，解决数据规模瓶颈。
+    * 提出三种文本增强策略（过滤、图像字幕、图像检索）提升文本质量与语义丰富度。
+    * 系统评估并扩展多种 3D 骨干网络（如 PointBERT、SparseConv）以适应大规模训练。
+    * 引入难负样本挖掘策略，缓解类别不平衡并增强模型判别力。
+    * 学习到的 3D 表示与 CLIP 空间对齐，可直接用于图像生成、字幕生成等跨模态任务。
+</details>
+</details>
+
+---
+
+<details>
+<summary><b>DreamLLM: Synergistic Multimodal Comprehension and Creation</b></summary>
+
+* **Authors:** Runpei Dong, Chunrui Han, Yuang Peng, Zekun Qi, Zheng Ge, Jinrong Yang, Liang Zhao, Jianjian Sun, Hongyu Zhou, Haoran Wei, Xiangwen Kong, Xiangyu Zhang, Kaisheng Ma, Li Yi
+* **arXiv ID:** 2309.11499
+* **One-liner:** DREAMLLM is the first multimodal large language model that unifies comprehension and creation by end-to-end generating raw interleaved text and images, enabling true synergy between understanding and generation.
+* **Published in:** ICLR 2024
+* **Links:** [[Paper]](https://arxiv.org/abs/2309.11499) | [[PDF]](https://arxiv.org/pdf/2309.11499.pdf) | [[Code]](https://github.com/RunpeiDong/DreamLLM)
+
+> **核心创新**  
+> 提出一种全新的交错生成预训练（I-GPT）框架，使用 dream queries 和 score distillation 直接建模图像后验分布，避免依赖 CLIP 等中间表示，实现图文交错内容的原生生成与理解。
+
+<details>
+    <summary>Abstract</summary>
+    本文提出 DreamLLM，首个实现多模态理解与创作协同的多模态大型语言模型学习框架。DreamLLM 遵循两大核心原则：一是在原始多模态空间中直接采样建模语言与图像后验，避免 CLIP 等外部特征提取器带来的信息损失，获得更深入的多模态理解；二是生成原始交错的文档，同时建模文本、图像内容及非结构化布局，有效学习所有条件、边缘与联合多模态分布。因此，DreamLLM 成为首个能够生成自由形式交错内容的多模态大型语言模型。综合实验表明，DreamLLM 作为零样本多模态通才表现卓越，充分受益于增强的学习协同效应。
+</details>
+
+<details>
+    <summary>Key points</summary>
+    * 首个支持自由形式图文交错内容生成的 MLLM，具备真正的创作与理解协同能力。
+    * 引入 dream queries 和 dream标签
+    * 通过 score distillation 在像素空间直接采样图像，避免 CLIP 语义损失与模态鸿沟问题。
+    * 支持多模态上下文生成，如图像编辑、主体驱动生成、组合生成等复杂任务。
+</details>
+</details>
+
+---
+
+<details>
+<summary><b>EditWorld: Simulating World Dynamics for Instruction-Following Image Editing</b></summary>
+
+* **Authors:** Ling Yang, Bohan Zeng, Jiaming Liu, Hong Li, Minghao Xu, Wentao Zhang, Shuicheng Yan
+* **arXiv ID:** 2405.14785
+* **One-liner:** EDITWORLD introduces the first world-instructed image editing task, enabling more intelligent and physically plausible image editing by simulating real and virtual world dynamics.
+* **Published in:** ACM Multimedia 2025
+* **Links:** [[Paper]](https://arxiv.org/abs/2405.14785) | [[PDF]](https://arxiv.org/pdf/2405.14785.pdf) | [[Code]](https://github.com/YangLing0818/EditWorld)
+
+> **核心创新**  
+> 提出“世界指令”概念，系统定义并分类七类反映世界动态的编辑指令，构建包含复杂语义变化的多模态数据集，并设计后编辑策略提升编辑质量与一致性。
+
+<details>
+    <summary>Abstract</summary>
+    扩散模型显著提升了图像编辑性能。现有方法通过文本控制、拖拽操作、掩膜重绘等多种手段实现高质量编辑，其中基于指令的编辑因便捷通用而突出。然而，这些方法仍局限于增删替换等简单操作，无法理解呈现真实物理动态的世界规律。为此，本工作提出EditWorld，首次定义并分类“世界指令图像编辑”任务，依托GPT-3.5、Video-LLaVA、SDXL等预训练大模型构建含世界动态指令的新编辑数据集。EditWorld在 curated 数据上训练，并引入设计的后编辑策略强化指令遵循能力。大量实验表明，新方法在该任务上显著优于现有编辑方法。
+</details>
+
+<details>
+    <summary>Key points</summary>
+    * 提出新任务“世界指令图像编辑”，突破传统编辑仅限于添加/删除/替换的局限。
+    * 构建包含10K+三元组的高质量数据集，涵盖真实与虚拟世界中的复杂动态变化。
+    * 设计双分支数据生成流程：文本生成图像 + 视频帧提取，结合 GPT、Video-LLaVA、SDXL 等模型。
+    * 引入 MLLM Score 新指标，更准确地评估编辑结果是否符合指令语义。
+    * 提出后编辑方法（Post-Edit），结合 SAM 与图像修复技术，提升编辑区域精度与非编辑区域一致性。 
+</details>
+</details>
+
+---
+
+<details>
+<summary><b>MIO: A Foundation Model on Multimodal Tokens</b></summary>
+
+* **Authors:** Zekun Wang, King Zhu, Chunpu Xu, Wangchunshu Zhou, Jiaheng Liu, Yibo Zhang, Jiashuo Wang, Ning Shi, Siyu Li, Yizhi Li, Haoran Que, Zhaoxiang Zhang, Yuanxing Zhang, Ge Zhang, Ke Xu, Jie Fu, Wenhao Huang
+* **arXiv ID:** 2409.17692
+* **One-liner:** MIO is the first open-source any-to-any foundation model that simultaneously understands and generates text, image, speech and video in a unified, end-to-end, autoregressive way.
+* **Published in:** EMNLP 2025
+* **Links:** [[Paper]](https://arxiv.org/abs/2409.17692) | [[PDF]](https://arxiv.org/pdf/2409.17692.pdf) | [[Code]](https://github.com/MIO-Team/MIO)
+
+> **核心创新**  
+> 统一多模态词元化 + 四阶段渐进式预训练，实现四模态交错序列的真·任意模态生成，且输入输出表示一致。
+
+<details>
+    <summary>Abstract</summary>
+    本文提出MIO，一种基于多模态token的基础模型，可端到端自回归地理解并生成语音、文本、图像与视频。现有LLM与MM-LLM虽推动通用智能进展，却未实现真正的任意到任意跨模态理解与生成。近期GPT-4o展示了任意到任意潜力，但闭源且不支持多模态交错序列生成。为此，MIO以离散token混合训练四模态，采用因果多模态建模，分四阶段：对齐预训练、交错预训练、语音增强预训练、多元文本视觉语音监督微调。实验表明，MIO在双模、任意到任意及单模基线上均具竞争力或更优，并展现交错视频文本生成、视觉思维链、视觉指南生成、指令图像编辑等任意到任意高级能力。
+</details>
+
+<details>
+    <summary>Key points</summary>
+    * DIDO 离散词元框架保证输入输出一致，天然支持多模态交错生成。
+    * SpeechTokenizer 与 SEED-Tokenizer 将语音/视频/图像压缩为因果词元，可直接做下一词元预测。
+    * 三阶段预训练（对齐→交错→语音增强）+ 多任务监督微调，单/双向任务性能均优。
+    * 在图文音视频基准上达到或超越现有模型，展现视觉思维链、视觉故事、指令编辑等新能力。
+    * 全开源、70 亿参数、端到端训练，无需外部扩散或 TTS 工具。
+</details>
+</details>
+
+---
+
+<details>
+<summary><b>SGEdit: Bridging LLM with Text2Image Generative Model for Scene Graph-based Image Editing</b></summary>
+
+* **Authors:** Zhiyuan Zhang, DongDong Chen, Jing Liao
+* **arXiv ID:** 2410.11815
+* **One-liner:** SGEdit marries LLM reasoning with a fine-tuned diffusion model to turn a scene-graph interface into precise, open-vocabulary image edits—add, remove, replace or re-relate objects in one unified “remove-then-generate” pipeline.
+* **Published in:** SIGGRAPH Asia 2024
+* **Links:** [[Paper]](https://arxiv.org/abs/2410.11815) | [[PDF]](https://arxiv.org/pdf/2410.11815.pdf) | [[Code]](https://github.com/bestzzhang/SGEdit-code)
+
+> **核心创新**  
+> 首个以 LLM 同时作为开放词汇场景解析器（输出掩码+详细描述）和编辑控制器（规划注意力调制的删/生步骤）的系统，并通过“优化词元+丰富提示”的混合概念学习保持物体身份且可编辑。
+
+<details>
+    <summary>Abstract</summary>
+    场景图以节点和边结构化地描述图像中的对象及其关系，可作为自然接口实现精准灵活的编辑。基于此，我们提出将大语言模型与文本到图像生成模型融合，通过场景图进行图像编辑。方法分两阶段：①由LLM驱动的场景解析器构建图像场景图，提取对象、关系及掩码、描述等细粒度属性，并用微调扩散模型为每个对象学习优化令牌与描述提示；②编辑阶段由LLM编辑控制器定位修改区域，注意力调制扩散编辑器利用微调模型完成对象增删替换与属性调整。大量实验表明，该框架在编辑精度与场景美观度上显著优于现有方法。
+</details>
+
+<details>
+    <summary>Key points</summary>
+    * 场景图交互：改节点/边即生成可执行操作。
+    * LLM 解析器输出图及每物体掩码与描述，混合概念学习定制 SD。
+    * LLM 控制器将任意编辑拆为“删除→生成”序列，自动生成提示与框。
+    * 删除时仅关注未掩区特征实现无缝填充；插入时强化文本-区域交叉注意力并隔离框间自注意力。
+</details>
+</details>
+
+---
+
+<details>
+<summary><b>UniReal: Universal Image Generation and Editing via Learning Real-world Dynamics</b></summary>
+
+* **Authors:** Xi Chen, Zhifei Zhang, He Zhang, Yuqian Zhou, Soo Ye Kim, Qing Liu, Yijun Li, Jianming Zhang, Nanxuan Zhao, Yilin Wang, Hui Ding, Zhe Lin, Hengshuang Zhao
+* **arXiv ID:** 2412.07774
+* **One-liner:** UniReal treats any image task as “discontinuous video” inside a single 5B diffusion transformer, learning real-world dynamics from massive video frames to unify generation, editing, customization and composition with one model.
+* **Published in:** CVPR 2025
+* **Links:** [[Paper]](https://arxiv.org/abs/2412.07774) | [[PDF]](https://arxiv.org/pdf/2412.07774.pdf) | [[Code]](https://github.com/XavierCHEN34/UniReal)
+
+> **核心创新**  
+> 首个将多样图像任务重构成伪视频帧生成的通用模型，利用可扩展的视频监督自然获得一致性与变化，并引入分层提示（上下文+图像角色）和索引嵌入，在单文本提示下消除多图像输入的歧义。
+
+<details>
+    <summary>Abstract</summary>
+    我们提出 UniReal，一个用于多种图像生成与编辑任务的统一框架。现有方法往往因任务而异，但核心原则一致：在保持输入输出一致性的同时捕捉视觉变化。受近期视频生成模型在帧间平衡一致性与变化的启发，我们将图像级任务视为不连续的视频生成，把任意数量的输入输出图像当作帧，从而无缝支持图像生成、编辑、定制、合成等任务。尽管面向图像级任务，我们利用视频作为可扩展的通用监督来源，让 UniReal 从大规模视频中学习世界动态，在处理阴影、反射、姿态变化及物体交互方面展现先进能力，并涌现出新应用的潜力。
+</details>
+
+<details>
+    <summary>Key points</summary>
+    * 单个 5B 扩散 Transformer，任意帧间全注意力。
+    * 三类图像角色（画布、资产、控制）+ 可学习类别与索引嵌入，将视觉与“IMG1”等提示词绑定。
+    * 分层提示：基础提示 + 上下文标签（真实/合成、静态/动态、是否含参考）+ 图像角色标签；推理时可组合。
+    * 自动管线从视频挖掘 2300 万+ 帧对，附带描述、掩码、深度、边缘 → 统一监督，覆盖增、删、换、风格化、定制、插入、感知。
+    * 零样本涌现多对象插入、深度条件生成、参考补图、物体缩放等能力。
+    * 训练：256→512→1024 渐进分辨率；流匹配损失；支持任意宽高比。
+</details>
+</details>
+
+---
+
+<details>
+<summary><b>ShapeLLM-Omni: A Native Multimodal LLM for 3D Generation and Understanding</b></summary>
+
+* **Authors:** Junliang Ye, Zhengyi Wang, Ruowen Zhao, Shenghao Xie, Jun Zhu
+* **arXiv ID:** 2506.01853
+* **One-liner:** ShapeLLM-Omni is the first native 3D-LLM that unifies text ⇄ image ⇄ 3D mesh generation, understanding and editing in one autoregressive next-token framework.
+* **Published in:** NeurIPS 2025
+* **Links:** [[Paper]](https://arxiv.org/abs/2506.01853) | [[PDF]](https://arxiv.org/pdf/2506.01853.pdf) | [[Code]](https://github.com/JAMESYJL/ShapeLLM-Omni)
+
+> **核心创新**  
+> 3D VQVAE 将体素压缩为 1024 个离散词元，使冻结的 Qwen-2.5-VL-7B 无需额外网络即可进行完全自回归的 3D 生成/编辑/理解；3D-Alpaca 数据集（34.6 亿词元）保证可扩展性。
+
+<details>
+    <summary>Abstract</summary>
+    近期，ChatGPT-4o 强大的图文能力让原生多模态大模型备受关注，但其模态仍限于图像与文本。三维内容的理解与生成同样关键。为此，我们提出 ShapeLLM-Omni——首个可任意序列理解并生成三维资产与文本的原生三维大模型。首先训练三维向量量化变分自编码器（3D VQVAE），将物体映射到离散潜空间，实现高效精确的形状表达与重建；基于此构建大规模连续训练集 3D-Alpaca，涵盖生成、理解、编辑三类任务，为后续研究与训练提供丰富资源；最后在 3D-Alpaca 上对 Qwen-2.5-vl-7B-Instruct 进行指令微调。我们的工作首次把基础三维能力融入多模态模型，为原生三维 AI 研究提供有效范式。
+</details>
+
+<details>
+    <summary>Key points</summary>
+    * 统一词元化：643→163 隐式→1024 离散词元，8192 码本，可经 Rectified-Flow 还原高质量网格。
+    * 原生 3D-LLM：同一 Transformer 任意顺序处理文本、图像特征、3D 词元，端到端 next-token 预测。
+    * 3D-Alpaca：71.2 万文本生 3D、71.2 万图像生 3D、71.2 万 3D 描述、42 万 3D 编辑对 + UltraChat；共 256 万样本、34.6 亿词元。
+    * 任务：文本/图像→3D、3D→文本、交互式 3D 编辑（增删改）、多轮对话。
+</details>
+</details>
+
+---
+
+<details>
+<summary><b>Step1X-Edit: A Practical Framework for General Image Editing</b></summary>
+
+* **Authors:** Shiyu Liu, Yucheng Han, Peng Xing, Fukun Yin, Rui Wang, Wei Cheng, Jiaqi Liao, Yingming Wang, Honghao Fu, Chunrui Han, Guopeng Li, Yuang Peng, Quan Sun, Jingwei Wu, Yan Cai, Zheng Ge, Ranchen Ming, Lei Xia, Xianfang Zeng, Yibo Zhu, Binxing Jiao, Xiangyu Zhang, Gang Yu, Daxin Jiang
+* **arXiv ID:** 2504.17761
+* **One-liner:** Step1X-Edit closes the gap between open-source and proprietary editors by fusing MLLM reasoning with a DiT decoder, delivering GPT-4o-level quality on 11 real-world editing tasks without masks.
+* **Published in:** arXiv 2025
+* **Links:** [[Paper]](https://arxiv.org/abs/2504.17761) | [[PDF]](https://arxiv.org/pdf/2504.17761.pdf) | [[Code]](https://github.com/stepfun-ai/Step1X-Edit)
+
+> **核心创新**  
+> 轻量级 token-refiner 连接器通过词元拼接将 MLLM 编辑嵌入一次性注入潜空间 DiT，仅用扩散损失完成训练，实现免掩膜、免额外自注意力、免 T5 文本编码器的高保真单步编辑。
+
+<details>
+    <summary>Abstract</summary>
+    近年来，图像编辑模型发展迅猛。GPT-4o、Gemini2 Flash 等前沿多模态模型展现出优异的编辑能力，基本满足用户主流需求，但开源算法与闭源模型差距依然显著。为此，我们发布开源图像编辑模型 Step1X-Edit，性能对标 GPT-4o 与 Gemini2 Flash。具体而言，以多模态大语言模型处理参考图与编辑指令，提取潜嵌入并与扩散图像解码器融合生成目标图；配套构建高质量数据生产管线，同时推出基于真实用户指令的评测基准 GEdit-Bench。实验表明，Step1X-Edit 大幅领先现有开源基线，逼近顶尖闭源模型，为图像编辑领域贡献可复现的先进方案。
+</details>
+
+<details>
+    <summary>Key points</summary>
+    * 统一 MLLM+DiT 管线：Qwen-VL 解析图文 → 压缩多模态词元 → DiT 合成编辑图。
+    * 2000 万合成三元组过滤为 100 万高质量数据，覆盖 11 类任务：增删替换、动作、材质、颜色、风格、色调、文字、人像、背景。
+    * GEdit-Bench：606 条真实用户指令（中英），脱敏处理，首个经人工筛选的真实编辑基准。
+    * 词元拼接条件保留细节，全局引导向量强化语义对齐。
+    * 基于 SD3.5 级底座训练，可即插替换 FLUX、HiDream 等。
+</details>
+</details>
+
+---
+
+<details>
+<summary><b>LangScene-X: Reconstruct Generalizable 3D Language-Embedded Scenes with TriMap Video Diffusion</b></summary>
+
+* **Authors:** Fangfu Liu, Hao Li, Jiawei Chi, Hanyang Wang, Minghui Yang, Fudong Wang, Yueqi Duan
+* **arXiv ID:** 2507.02813
+* **One-liner:** LangScene-X bootstraps a TriMap video diffusion model with a Language-Quantized Compressor to build 3-D language-embedded Gaussian fields from only two images and answer open-vocabulary queries at novel views—without any per-scene optimization.
+* **Published in:** ICCV 2025
+* **Links:** [[Paper]](https://arxiv.org/abs/2507.02813) | [[PDF]](https://arxiv.org/pdf/2507.02813.pdf) | [[Code]](https://github.com/liuff19/LangScene-X)
+
+> **核心创新**  
+> 渐进式多任务视频扩散首次联合生成 RGB、法线与多粒度分割；在 COCO 上训练的轻量级矢量量化压缩器（LQC）将 512 维 CLIP 特征降至 3 维离散码，实现可跨场景、实时渲染的 3D 高斯语言场。
+
+<details>
+    <summary>Abstract</summary>
+    从单张或稀疏二维图像中恢复三维结构并实现开放词汇场景理解，是计算机视觉的核心难题。现有方法依赖每场景稠密视角优化，在视角受限时渲染伪影严重、语义合成失真。为此，我们提出生成式框架 LangScene-X，统一生成三维一致的多模态信息用于重建与理解。该方法首先训练 TriMap 视频扩散模型，通过渐进知识整合，从稀疏输入联合生成外观（RGB）、几何（法向）与语义（分割图）；其次引入语言量化压缩器（LQC），在大规模图像数据集上训练，高效编码语言嵌入，实现跨场景泛化而无需逐场景重训；最后将语言信息对齐至三维表面，重建语言表面场，支持开放式语言查询。真实数据实验表明，LangScene-X 在质量与泛化性上均优于现有最佳方法。
+</details>
+
+<details>
+    <summary>Key points</summary>
+    * TriMap 扩散：四阶段训练（关键帧→3D 一致→加法线→加语义）输出视频级一致三元组。
+    * LQC：2048 码 VQ-VAE，梯度旁路，将任意 CLIP 场压至 3 通道索引，零场景成本。
+    * 语言表面场：DUSt3R 稀疏初始化 + 渐进法线正则 + 2D/3D 语义聚类；5k 步 RGB/几何，5k 步语义。
+    * 推理：2 张图→49 帧 TriMap→语言高斯→实时新视角查询。
+    * 通用：单模型覆盖室内、物体、野外场景，无需逐场景自编码器或稠密标定。
+</details>
+</details>
+
+---
+
+<details>
+<summary><b>MENTOR: Efficient Multimodal-Conditioned Tuning for Autoregressive Vision Generation Models</b></summary>
+
+* **Authors:** Haozhe Zhao, Zefan Cai, Shuzheng Si, Liang Chen, Jiuxiang Gu, Wen Xiao, Junjie Hu
+* **arXiv ID:** 2507.09574
+* **One-liner:** MENTOR introduces an efficient autoregressive framework for multimodal image generation, achieving fine-grained alignment and balanced control via a two-stage training paradigm.
+* **Published in:** arXiv 2025
+* **Links:** [[Paper]](https://arxiv.org/abs/2507.09574) | [[PDF]](https://arxiv.org/pdf/2507.09574.pdf) | [[Code]](https://github.com/HaozheZhao/MENTOR)
+
+> **核心创新**  
+> 提出一种无需交叉注意力或辅助适配器的自回归图像生成方法，通过两阶段训练实现多模态输入的语义与像素级对齐，显著提升训练效率与生成可控性。
+
+<details>
+    <summary>Abstract</summary>
+    最新文本到图像模型虽质量高，却在精细视觉控制、多模态输入平衡及复杂场景训练成本上仍存短板。为此，我们提出MENTOR——一种高效自回归框架，实现多模态条件微调生成图像。MENTOR将自回归图像生成器与两阶段训练结合，无需额外适配器或交叉注意力，即可完成多模态输入与图像输出的token级细粒度对齐。训练分为：1）多模态对齐阶段，建立像素与语义级稳健对齐；2）多模态指令微调阶段，平衡多模态融合并提升可控生成。尽管模型体量小、基线组件一般、训练资源有限，MENTOR仍在DreamBench++基准上取得优异表现，在概念保持与指令遵循方面超越竞对，并相比扩散模型具备更高重建保真、更广任务适应与更佳训练效率。
+</details>
+
+<details>
+    <summary>Key points</summary>
+    * 自回归架构统一处理图像与文本输入，简化模型结构。
+    * 两阶段训练策略：第一阶段实现多模态对齐，第二阶段增强指令遵循与跨模态融合能力。
+    * 无需交叉注意力机制，降低训练成本。
+    * 支持多种下游任务（如图像分割、主题驱动生成、上下文图像生成）且无需修改架构。
+</details>
+</details>
+
+---
+
+<details>
+<summary><b>GSFixer: Improving 3D Gaussian Splatting with Reference-Guided Video Diffusion Priors</b></summary>
+
+* **Authors:** Xingyilang Yin, Qi Zhang, Jiahao Chang, Ying Feng, Qingnan Fan, Xi Yang, Chi-Man Pun, Huaqi Zhang, Xiaodong Cun
+* **arXiv ID:** 2508.09667
+* **One-liner:** GSFixer introduces a reference-guided video diffusion prior method to restore artifacts in 3D Gaussian Splatting and improve reconstruction quality under sparse-view conditions.
+* **Published in:** arXiv 2025
+* **Links:** [[Paper]](https://arxiv.org/abs/2508.09667) | [[PDF]](https://arxiv.org/pdf/2508.09667.pdf) | [[Code]](https://github.com/GVCLab/GSFixer)
+
+> **核心创新**  
+> 提出将 2D 语义特征与 3D 几何特征融合为条件，引导视频扩散模型修复伪影视图，并设计参考视图引导的轨迹采样策略，实现高质量 3DGS 重建。
+
+<details>
+    <summary>Abstract</summary>
+    稀疏视角下用3D高斯溅射重建3D场景因信息不足而成病态问题，常伴显著伪影。近期方法尝试引入生成先验补全缺失区域，却难以保持与输入观测一致。为此，我们提出GSFixer，一种提升稀疏输入3DGS质量的新框架。核心是基于DiT视频扩散模型的参考引导视频修复，其以成对伪影3DGS渲染与干净帧训练，并接受额外参考条件。模型将输入稀疏视图作为参考，融合视觉几何基础模型提取的2D语义与3D几何特征，在修复伪影新视角时增强语义连贯性与三维一致性。此外，针对3DGS伪影修复缺乏基准，我们构建DL3DV-Res，含低质量3DGS渲染的伪影帧。大量实验表明，GSFixer在3DGS伪影修复与稀疏视角重建上均优于现有最佳方法。
+</details>
+
+<details>
+    <summary>Key points</summary>
+    * 构建基于 DiT 的视频扩散模型，用于修复 3DGS 渲染中的伪影视图。
+    * 引入 DINOv2 和 VGGT 提取 2D 语义与 3D 几何特征，增强视图一致性与语义保真度。
+    * 设计参考视图引导的轨迹采样策略，兼顾视角覆盖与修复质量。
+    * 提出 DL3DV-Res 数据集，用于评估 3DGS 伪影修复性能。
+    * 在稀疏视角重建任务中显著优于现有方法，具备良好的跨数据集泛化能力。
+</details>
+</details>
 
 ---
 
@@ -605,7 +1010,8 @@
 
 #### 代表性工作
 
-**Lumiere: A Space-Time Diffusion Model for Video Generation**
+<details>
+<summary><b>Lumiere: A Space-Time Diffusion Model for Video Generation</b></summary>
 
 * **Authors:** Omer Bar-Tal, Hila Chefer, Omer Tov, Charles Herrmann, Roni Paiss, Shiran Zada, Ariel Ephrat, Junhwa Hur, Guanghui Liu, Amit Raj, Yuanzhen Li, Michael Rubinstein, Tomer Michaeli, Oliver Wang, Deqing Sun, Tali Dekel, Inbar Mosseri
 * **arXiv ID:** 2401.12945 
@@ -628,10 +1034,12 @@
     * 利用预训练文本到图像扩散模型结构再扩展至视频生成。  
     * 支持多任务：文本到视频、图像到视频、视频修补、风格化生成。  
 </details>
+</details>
 
 ---
 
-**Stable Video Diffusion: Scaling Latent Video Diffusion Models to Large Datasets**
+<details>
+<summary><b>Stable Video Diffusion: Scaling Latent Video Diffusion Models to Large Datasets</b></summary>
 
 * **Authors:** Andreas Blattmann, Tim Dockhorn, Sumith Kulal, Daniel Mendelevitch, Maciej Kilian, Dominik Lorenz, Yam Levi, Zion English, Vikram Voleti, Adam Letts, Varun Jampani, Robin Rombach
 * **arXiv ID:** 2311.15127 
@@ -654,10 +1062,12 @@
     * 模型兼具图像→视频和文本→视频能力，并提供多视角 3D 模型潜力。  
     * 展示在大规模视频生成任务上的效率与效果提升。  
 </details>
+</details>
 
 ---
 
-**AnimateDiff: Animate Your Personalized Text-to-Image Diffusion Models without Specific Tuning**
+<details>
+<summary><b>AnimateDiff: Animate Your Personalized Text-to-Image Diffusion Models without Specific Tuning</b></summary>
 
 * **Authors:** Yuwei Guo, Ceyuan Yang, Anyi Rao, Zhengyang Liang, Yaohui Wang, Yu Qiao, Maneesh Agrawala, Dahua Lin, Bo Dai
 * **arXiv ID:** 2307.04725 
@@ -680,10 +1090,12 @@
     * 保持原图像生成模型的高质量输出，同时赋予运动能力。  
     * 简化动画生成流程，降低模型-调优负担。  
 </details>
+</details>
 
 ---
 
-**Emu Video: Factorizing Text-to-Video Generation by Explicit Image Conditioning**
+<details>
+<summary><b>Emu Video: Factorizing Text-to-Video Generation by Explicit Image Conditioning</b></summary>
 
 * **Authors:** Rohit Girdhar, Mannat Singh, Andrew Brown, Quentin Duval, Samaneh Azadi, Sai Saketh Rambhatla, Akbar Shah, Xi Yin, Devi Parikh, Ishan Misra
 * **arXiv ID:** 2311.10709
@@ -706,10 +1118,12 @@
     * 实现高质量、高分辨率视频生成，并提升用户图像动画能力。  
     * 在人工评测中优于先前文本→视频方法。  
 </details>
+</details>
 
 ---
 
-**VideoPoet: A Large Language Model for Zero-Shot Video Generation**
+<details>
+<summary><b>VideoPoet: A Large Language Model for Zero-Shot Video Generation</b></summary>
 
 * **Authors:** Dan Kondratyuk, Lijun Yu, Xiuye Gu, José Lezama, Jonathan Huang, Grant Schindler, Rachel Hornung, Vighnesh Birodkar, Jimmy Yan, Ming-Chang Chiu, Krishna Somandepalli, Hassan Akbari, Yair Alon, Yong Cheng, Josh Dillon, Agrim Gupta, Meera Hahn, Anja Hauth, David Hendon, Alonso Martinez, David Minnen, Mikhail Sirotenko, Kihyuk Sohn, Xuan Yang, Hartwig Adam, Ming-Hsuan Yang, Irfan Essa, Huisheng Wang, David A. Ross, Bryan Seybold, Lu Jiang
 * **arXiv ID:** 2312.14125
@@ -732,6 +1146,7 @@
     * 支持零样本视频生成，满足不同条件输入。  
     * 展现多模态视频生成新范式，推动视频生成研究。  
 </details>
+</details>
 
 ---
 
@@ -743,7 +1158,8 @@
 
 #### 代表性工作
 
-**DUSt3R: Geometric 3D Vision Made Easy**
+<details>
+<summary><b>DUSt3R: Geometric 3D Vision Made Easy</b></summary>
 
 * **Authors:** Shuzhe Wang, Vincent Leroy, Yohann Cabon, Boris Chidlovskii, Jerome Revaud
 * **arXiv ID:** 2312.14132  
@@ -766,10 +1182,12 @@
     * Transformer-基模型直接从图像预测稠密 3D 几何，跳过传统 SfM／MVS 模块。  
     * 在深度、位姿与重建任务上取得新的性能标杆。  
 </details>
+</details>
 
 ---
 
-**4D Gaussian Splatting for Real-Time Dynamic Scene Rendering**
+<details>
+<summary><b>4D Gaussian Splatting for Real-Time Dynamic Scene Rendering</b></summary>
 
 * **Authors:** Guanjun Wu, Taoran Yi, Jiemin Fang, Lingxi Xie, Xiaopeng Zhang, Wei Wei, Wenyu Liu, Qi Tian, Xinggang Wang
 * **arXiv ID:** 2310.08528  
@@ -792,10 +1210,12 @@
     * 在大规模场景下实现实时（30 fps+）渲染。  
     * 相比传统逐帧建模显著提升训练/存储效率。  
 </details>
+</details>
 
 ---
 
-**Neural Scene Flow Fields for Space-Time View Synthesis of Dynamic Scenes**
+<details>
+<summary><b>Neural Scene Flow Fields for Space-Time View Synthesis of Dynamic Scenes</b></summary>
 
 * **Authors:** Zhengqi Li, Simon Niklaus, Noah Snavely, Oliver Wang  
 * **arXiv ID:** 2011.13084  
@@ -818,10 +1238,12 @@
     * 支持新视角合成（空间）与新时间合成（插帧/时间方向）。  
     * 能处理薄结构、视角依赖反射与复杂运动。  
 </details>
+</details>
 
 ---
 
-**CoTracker: It is Better to Track Together**
+<details>
+<summary><b>CoTracker: It is Better to Track Together</b></summary>
 
 * **Authors:** Nikita Karaev, Ignacio Rocco, Benjamin Graham, Natalia Neverova, Andrea Vedaldi, Christian Rupprecht
 * **arXiv ID:** 2307.07635  
@@ -844,10 +1266,12 @@
     * 在线短窗口执行，训练采用长序列反复展开，增强长时段追踪能力。  
     * 在遮挡、视野外点场景下明显优于传统独立追踪方法。  
 </details>
+</details>
 
 ---
 
-**GEN3C: 3D-Informed World-Consistent Video Generation with Precise Camera Control**
+<details>
+<summary><b>GEN3C: 3D-Informed World-Consistent Video Generation with Precise Camera Control</b></summary>
 
 * **作者：** Xuanchi Ren, Tianchang Shen, Jiahui Huang, Huan Ling, Yifan Lu, Merlin Nimier-David, Thomas Müller, Alexander Keller, Sanja Fidler, Jun Gao
 * **arXiv ID:** 2503.03751
@@ -872,6 +1296,7 @@
     * 将相机轨迹从相对尺度统一到米制尺度
     * 推理时在交互式 3D 点云中绘制并渲染相机轨迹预览
 </details>
+</details>
 
 ---
 
@@ -890,7 +1315,8 @@
 
 #### 代表性工作
 
-**OpenAI Sora**
+<details>
+<summary><b>OpenAI Sora</b></summary>
 
 * **Authors:** OpenAI (团队)  
 * **Model ID:** Sora (2024)  
@@ -913,10 +1339,12 @@
     * 支持灵活的输入模态（文本、图像、视频）与多样的视频输出格式。  
     * 强调通用性与规模化：目标是构建类似“世界模型”的视觉生成系统。  
 </details>
+</details>
 
 ---
 
-**Runway Gen-3 Alpha**
+<details>
+<summary><b>Runway Gen-3 Alpha</b></summary>
 
 * **Authors:** Runway AI (团队)  
 * **Model ID:** Gen-3 Alpha (2024)  
@@ -939,10 +1367,12 @@
     * 在生成质量、速度、运动流畅度方面比上代显著改进。  
     * 面向创作者与影视制作流程，强调实用性与制作体验。  
 </details>
+</details>
 
 ---
 
-**Pika 1.0**
+<details>
+<summary><b>Pika 1.0</b></summary>
 
 * **Authors:** Pika Labs (团队)  
 * **Model ID:** Pika 1.0 (2023)  
@@ -965,6 +1395,7 @@
     * 简化创作流程：Web 界面 + Discord 等平台接入，降低视频生成门槛。  
     * 快速增长用户基础：推出半年内已有数十万用户、每周生成百万级视频。 
 </details>
+</details>
 
 
 ---
@@ -980,7 +1411,8 @@
 
 #### 代表性工作
 
-**RT-2: Vision-Language-Action Models**
+<details>
+<summary><b>RT-2: Vision-Language-Action Models</b></summary>
 
 * **Authors:** Anthony Brohan, Noah Brown, Justice Carbajal, Yevgen Chebotar, Xi Chen, Krzysztof Choromanski, Tianli Ding, Danny Driess, Avinava Dubey, Chelsea Finn, Pete Florence, Chuyuan Fu, Montse Gonzalez Arenas, Keerthana Gopalakrishnan, Kehang Han, Karol Hausman, Alexander Herzog, Jasmine Hsu, Brian Ichter, Alex Irpan, Nikhil Joshi, Ryan Julian, Dmitry Kalashnikov, Yuheng Kuang, Isabel Leal, Lisa Lee, Tsang-Wei Edward Lee, Sergey Levine, Yao Lu, Henryk Michalewski, Igor Mordatch, Karl Pertsch, Kanishka Rao, Krista Reymann, Michael Ryoo, Grecia Salazar, Pannag Sanketi, Pierre Sermanet, Jaspiar Singh, Anikait Singh, Radu Soricut, Huong Tran, Vincent Vanhoucke, Quan Vuong, Ayzaan Wahid, Stefan Welker, Paul Wohlhart, Jialin Wu, Fei Xia, Ted Xiao, Peng Xu, Sichun Xu, Tianhe Yu, Brianna Zitkovich
 * **arXiv ID:** 2307.15818
@@ -1003,10 +1435,12 @@
     * 输出离散化机器人动作 token 序列  
     * 强零样本操控能力：可执行未示教任务/对象/指令  
 </details>
+</details>
 
 ---
 
-**GAIA-1: A Generative World Model for Autonomous Driving**
+<details>
+<summary><b>GAIA-1: A Generative World Model for Autonomous Driving</b></summary>
 
 * **Authors:** Anthony Hu, Lloyd Russell, Hudson Yeo, Zak Murez, George Fedoseev, Alex Kendall, Jamie Shotton, Gianluca Corrado
 * **arXiv ID:** 2311.07541
@@ -1029,10 +1463,12 @@
     * 用于闭环 AD 仿真、鲁棒性测试和长尾案例生成  
     * 提高数据效率与泛化能力的同时提升安全性  
 </details>
+</details>
 
 ---
 
-**PaLM-E: An Embodied Multimodal Language Model**
+<details>
+<summary><b>PaLM-E: An Embodied Multimodal Language Model</b></summary>
 
 * **Authors:** Danny Driess, Fei Xia, Mehdi S. M. Sajjadi, Corey Lynch, Aakanksha Chowdhery, Brian Ichter, Ayzaan Wahid, Jonathan Tompson, Quan Vuong, Tianhe Yu, Wenlong Huang, Yevgen Chebotar, Pierre Sermanet, Daniel Duckworth, Sergey Levine, Vincent Vanhoucke, Karol Hausman, Marc Toussaint, Klaus Greff, Andy Zeng, Igor Mordatch, Pete Florence
 * **arXiv ID:** 2303.03378
@@ -1055,6 +1491,7 @@
     * 具备长期规划、任务分解与泛化能力  
     * 推动“机器人 = LLM + 具身输入”研究范式  
 </details>
+</details>
 
 ---
 
@@ -1073,7 +1510,8 @@
 
 #### 代表性工作
 
-**WISE: A World Knowledge-Informed Semantic Evaluation for Text-to-Image Generation**
+<details>
+<summary><b>WISE: A World Knowledge-Informed Semantic Evaluation for Text-to-Image Generation</b></summary>
 
 * **Authors:** Yuwei Niu, Munan Ning, Mengren Zheng, Weiyang Jin, Bin Lin, Peng Jin, Jiaqi Liao, Chaoran Feng, Kunpeng Ning, Bin Zhu, Li Yuan
 * **arXiv ID:** 2503.07265
@@ -1096,10 +1534,12 @@
     * 与人工偏好高度相关，优于 CLIPScore/BERTScore 等指标  
     * 可用作未来文生图模型 benchmark 的通用评价层  
 </details>
+</details>
 
 ---
 
-**Are Video Models Ready as Zero-Shot Reasoners?An Empirical Study with the MME-COF Benchmark**
+<details>
+<summary><b>Are Video Models Ready as Zero-Shot Reasoners? An Empirical Study with the MME-COF Benchmark</b></summary>
 
 * **Authors:** Ziyu Guo, Xinyan Chen, Renrui Zhang, Ruichuan An, Yu Qi, Dongzhi Jiang, Xiangtai Li, Manyuan Zhang, Hongsheng Li, Pheng-Ann Heng
 * **arXiv ID:** 2510.26802
@@ -1121,6 +1561,7 @@
     * 面向“零样本”评估，无视频任务微调  
     * 视频模型 vs 文本-图像模型：前者推理能力不足  
     * 揭示了当前视频模型更偏“模式拟合”而非“语义推理”  
+</details>
 </details>
 
 ---

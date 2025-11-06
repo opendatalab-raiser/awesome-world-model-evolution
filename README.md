@@ -130,7 +130,9 @@ Before the era of unified models, researchers pursued a "divide-and-conquer" app
 
 #### Representative Works
 
-**CLIP: Learning Transferable Visual Models From Natural Language Supervision**
+
+<details>
+<summary><b>CLIP: Learning Transferable Visual Models From Natural Language Supervision</b></summary>
 
 * **Authors:** Alec Radford, Jong Wook Kim, Chris Hallacy, Aditya Ramesh, Gabriel Goh, Sandhini Agarwal, Girish Sastry, Amanda Askell, Pamela Mishkin, Jack Clark, Gretchen Krueger, Ilya Sutskever
 * **arXiv ID:** 2103.00020
@@ -153,10 +155,12 @@ Before the era of unified models, researchers pursued a "divide-and-conquer" app
     * Zero-shot classification via text prompts  
     * Sparked multimodal foundation model wave  
 </details>
+</details>
 
 ---
 
-**DALL-E: Zero-Shot Text-to-Image Generation**
+<details>
+<summary><b>DALL-E: Zero-Shot Text-to-Image Generation</b></summary>
 
 * **Authors:** Aditya Ramesh, Mikhail Pavlov, Gabriel Goh, Scott Gray, Chelsea Voss, Alec Radford, Mark Chen, Ilya Sutskever
 * **arXiv ID:** 2102.12092
@@ -179,10 +183,12 @@ Before the era of unified models, researchers pursued a "divide-and-conquer" app
     * Compositional reasoning (shape + style + attribute)  
     * Launch of prompt-driven generative vision  
 </details>
+</details>
 
 ---
 
-**Show, Attend and Tell: Neural Image Caption Generation with Visual Attention**
+<details>
+<summary><b>Show, Attend and Tell: Neural Image Caption Generation with Visual Attention</b></summary>
 
 * **Authors:** Kelvin Xu, Jimmy Lei Ba, Ryan Kiros, Kyunghyun Cho, Aaron Courville, Ruslan Salakhutdinov, Richard Zemel, Yoshua Bengio
 * **arXiv ID:** 1502.03044
@@ -205,10 +211,12 @@ Before the era of unified models, researchers pursued a "divide-and-conquer" app
     * Visual heatmaps → interpretability  
     * Influenced attention-based transformers in vision  
 </details>
+</details>
 
 ---
 
-**AttnGAN: Fine-Grained Text-to-Image Generation with Attentional GANs**
+<details>
+<summary><b>AttnGAN: Fine-Grained Text-to-Image Generation with Attentional GANs</b></summary>
 
 * **Authors:** Tao Xu, Pengchuan Zhang, Qiuyuan Huang, Han Zhang, Zhe Gan, Xiaolei Huang, Xiaodong He
 * **arXiv ID:** 1711.10485
@@ -231,6 +239,7 @@ Before the era of unified models, researchers pursued a "divide-and-conquer" app
     * DAMSM loss for text-image consistency  
     * Major milestone before diffusion models  
 </details>
+</details>
 
 ---
 
@@ -242,7 +251,8 @@ Before the era of unified models, researchers pursued a "divide-and-conquer" app
 
 #### Representative Works
 
-**NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis**
+<details>
+<summary><b>NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis</b></summary>
 
 * **Authors:** Ben Mildenhall, Pratul P. Srinivasan, Matthew Tancik, Jonathan T. Barron, Ravi Ramamoorthi, Ren Ng  
 * **arXiv ID:** 2003.08934  
@@ -265,10 +275,12 @@ Before the era of unified models, researchers pursued a "divide-and-conquer" app
     * Requires only input images + known camera poses (no explicit surface reconstruction)  
     * Demonstrates high-quality novel view synthesis of complex scenes  
 </details>
+</details>
 
 ---
 
-**3D Gaussian Splatting for Real-Time Radiance Field Rendering**
+<details>
+<summary><b>3D Gaussian Splatting for Real-Time Radiance Field Rendering</b></summary>
 
 * **Authors:** Bernhard Kerbl, Georgios Kopanas, Thomas Leimkühler, George Drettakis  
 * **arXiv ID:** 2308.04079  
@@ -291,10 +303,12 @@ Before the era of unified models, researchers pursued a "divide-and-conquer" app
     * Employs a high-performance splatting renderer enabling real-time novel-view rendering at high resolution  
     * Targets full real-world scenes with real-time performance constraints  
 </details>
+</details>
 
 ---
 
-**EG3D: Efficient Geometry-aware 3D Generative Adversarial Networks**
+<details>
+<summary><b>EG3D: Efficient Geometry-aware 3D Generative Adversarial Networks</b></summary>
 
 * **Authors:** Eric R. Chan, Connor Z. Lin, Matthew A. Chan, Koki Nagano, Boxiao Pan, Shalini De Mello, Orazio Gallo, Leonidas Guibas, Jonathan Tremblay, Sameh Khamis, Tero Karras, Gordon Wetzstein  
 * **arXiv ID:** 2112.07945  
@@ -317,10 +331,12 @@ Before the era of unified models, researchers pursued a "divide-and-conquer" app
     * Produces multi-view consistent, high-resolution images plus underlying geometry  
     * Improves efficiency and realism of 3D GANs, bridging geometry and image synthesis  
 </details>
+</details>
 
 ---
 
-**Instant Neural Graphics Primitives with a Multiresolution Hash Encoding**
+<details>
+<summary><b>Instant Neural Graphics Primitives with a Multiresolution Hash Encoding</b></summary>
 
 * **Authors:** Thomas Müller, Alex Evans, Christoph Schied, Alexander Keller  
 * **arXiv ID:** 2201.05989  
@@ -343,6 +359,7 @@ Before the era of unified models, researchers pursued a "divide-and-conquer" app
     * Fully fused GPU implementation (CUDA kernels) for maximum parallelism and efficiency  
     * Enables neural graphics primitives (NeRF/SDF/image) to train in seconds and render in tens of milliseconds  
 </details>
+</details>
 
 ---
 
@@ -354,7 +371,8 @@ Before the era of unified models, researchers pursued a "divide-and-conquer" app
 
 #### Representative Works
 
-**PredRNN: A Recurrent Neural Network for Spatiotemporal Predictive Learning**
+<details>
+<summary><b>PredRNN: A Recurrent Neural Network for Spatiotemporal Predictive Learning</b></summary>
 
 * **Authors:** Yunbo Wang, Haixu Wu, Jianjin Zhang, Zhifeng Gao, Jianmin Wang, Philip S. Yu, Mingsheng Long
 * **arXiv ID:** 2103.09504
@@ -377,10 +395,12 @@ Before the era of unified models, researchers pursued a "divide-and-conquer" app
     * Applied to spatiotemporal predictive learning without explicit geometry or flow guidance.  
     * Demonstrates improved future-frame prediction performance on benchmark datasets.  
 </details>
+</details>
 
 ---
 
-**SimVP: Simpler yet Better Video Prediction**
+<details>
+<summary><b>SimVP: Simpler yet Better Video Prediction</b></summary>
 
 * **Authors:** Zhangyang Gao, Cheng Tan, Lirong Wu, Stan Z. Li
 * **arXiv ID:** 2206.05099
@@ -403,10 +423,12 @@ Before the era of unified models, researchers pursued a "divide-and-conquer" app
     * Demonstrates that simpler architectures can achieve competitive or superior results in video prediction benchmarks.  
     * Reduces architectural complexity and computational overhead compared to more sophisticated models.  
 </details>
+</details>
 
 ---
 
-**Temporal Attention Unit: Towards Efficient Spatiotemporal Predictive Learning**
+<details>
+<summary><b>Temporal Attention Unit: Towards Efficient Spatiotemporal Predictive Learning</b></summary>
 
 * **Authors:** Cheng Tan, Zhangyang Gao, Lirong Wu, Yongjie Xu, Jun Xia, Siyuan Li, Stan Z. Li  
 * **arXiv ID:** 2206.12126 
@@ -429,10 +451,12 @@ Before the era of unified models, researchers pursued a "divide-and-conquer" app
     * Framework decouples spatial encoding/decoding and temporal module, enabling better scalability.  
     * Shows improved computational efficiency while maintaining predictive accuracy on benchmark datasets.  
 </details>
+</details>
 
 ---
 
-**VideoGPT: Video Generation using VQ-VAE and Transformers**
+<details>
+<summary><b>VideoGPT: Video Generation using VQ-VAE and Transformers</b></summary>
 
 * **Authors:** Wilson Yan, Yunzhi Zhang, Pieter Abbeel, Aravind Srinivas  
 * **arXiv ID:** 2104.10157
@@ -455,10 +479,12 @@ Before the era of unified models, researchers pursued a "divide-and-conquer" app
     * Achieves competitive quality compared to GAN-based video generation models, but with simpler likelihood-based framework.  
     * Provides a reproducible baseline for transformer-based video generation on natural video datasets.  
 </details>
+</details>
 
 ---
 
-**Phenaki: Variable Length Video Generation from Open Domain Textual Descriptions**
+<details>
+<summary><b>Phenaki: Variable Length Video Generation from Open Domain Textual Descriptions</b></summary>
 
 * **Authors:** Ruben Villegas, Mohammad Babaeizadeh, Pieter-Jan Kindermans, Hernan Moraldo, Han Zhang, Mohammad Taghi Saffar, Santiago Castro, Julius Kunze, Dumitru Erhan  
 * **arXiv ID:** 2210.02399
@@ -481,6 +507,7 @@ Before the era of unified models, researchers pursued a "divide-and-conquer" app
     * Leverages joint training on large image-text corpus and smaller video-text datasets to improve generalization.  
     * Capable of generating long videos from sequences of prompts, rather than single static text.  
 </details>
+</details>
 
 ---
 
@@ -496,7 +523,8 @@ Current state-of-the-art models are beginning to break down the barriers between
 
 #### Representative Works
 
-**Zero-1-to-3: Zero-shot One Image to 3D Object**
+<details>
+<summary><b>Zero-1-to-3: Zero-shot One Image to 3D Object</b></summary>
 
 * **Authors:** Ruoshi Liu, Rundi Wu, Basile Van Hoorick, Pavel Tokmakov, Sergey Zakharov, Carl Vondrick  
 * **arXiv ID:** 2303.11328  
@@ -519,10 +547,12 @@ Current state-of-the-art models are beginning to break down the barriers between
     * Achieves zero-shot generalization to out-of-distribution real-world and artistic images.  
     * Enables both novel-view synthesis and implicit 3D reconstruction from only one image.  
 </details>
+</details>
 
 ---
 
-**MVDream: Multi-view Diffusion for 3D Generation**
+<details>
+<summary><b>MVDream: Multi-view Diffusion for 3D Generation</b></summary>
 
 * **Authors:** Yichun Shi, Peng Wang, Jianglong Ye, Long Mai, Kejie Li, Xiao Yang  
 * **arXiv ID:** 2308.16512  
@@ -545,10 +575,12 @@ Current state-of-the-art models are beginning to break down the barriers between
     * Serves as a 3D-agnostic prior: the model does not commit to one explicit 3D representation but still ensures multi-view consistency.  
     * Demonstrates improved geometry fidelity using Score Distillation Sampling driven by multi-view images.  
 </details>
+</details>
 
 ---
 
-**Wonder3D: Single Image to 3D using Cross-Domain Diffusion**
+<details>
+<summary><b>Wonder3D: Single Image to 3D using Cross-Domain Diffusion</b></summary>
 
 * **Authors:** Xiaoxiao Long, Yuan-Chen Guo, Cheng Lin, Yuan Liu, Zhiyang Dou, Lingjie Liu, Yuexin Ma, Song-Hai Zhang, Marc Habermann, Christian Theobalt, Wenping Wang  
 * **arXiv ID:** 2310.15008  
@@ -571,10 +603,12 @@ Current state-of-the-art models are beginning to break down the barriers between
     * Geometry-aware normal fusion algorithm transforms the multi-view 2D outputs into a high-quality textured mesh efficiently.  
     * Achieves high-fidelity textured mesh reconstruction with strong generalization and relatively fast inference (minutes) from a single image.  
 </details>
+</details>
 
 ---
 
-**SyncDreamer: Generating Multiview-consistent Images from a Single-view Image**
+<details>
+<summary><b>SyncDreamer: Generating Multiview-consistent Images from a Single-view Image</b></summary>
 
 * **Authors:** Yuan Liu, Cheng Lin, Zijiao Zeng, Xiaoxiao Long, Lingjie Liu, Taku Komura, Wenping Wang  
 * **arXiv ID:** 2309.03453  
@@ -597,6 +631,379 @@ Current state-of-the-art models are beginning to break down the barriers between
     * From a single view image, produces multiple coherent novel view images suitable for downstream 3D tasks.  
     * Demonstrates strong multiview consistency, facilitating improved image-to-3D or text-to-3D workflows.  
 </details>
+</details>
+
+---
+
+<details>
+<summary><b>DreamFusion: Text-to-3D using 2D Diffusion</b></summary>
+
+* **Authors:** Ben Poole, Ajay Jain, Jonathan T. Barron, Ben Mildenhall
+* **arXiv ID:** 2209.14988
+* **One-liner:** DreamFusion pioneers text-to-3D by distilling a pre-trained 2D diffusion model into 3D NeRFs via Score Distillation Sampling, requiring zero 3D training data.
+* **Published in:** ICRL 2023
+* **Links:** [[Paper]](https://arxiv.org/abs/2209.14988) | [[PDF]](https://arxiv.org/pdf/2209.14988.pdf) | [[Project Page]](https://dreamfusion3d.github.io/)
+
+> **Core Innovation**  
+> Introduces Score Distillation Sampling (SDS)—a loss that leverages 2D diffusion score functions as priors to optimize a randomly-initialized NeRF in parameter space, enabling text-to-3D without any 3D supervision.
+
+<details>
+    <summary>Abstract</summary>
+    Recent breakthroughs in text-to-image synthesis have been driven by diffusion models trained on billions of image-text pairs. Adapting this approach to 3D synthesis would require large-scale datasets of labeled 3D data and efficient architectures for denoising 3D data, neither of which currently exist. In this work, we circumvent these limitations by using a pretrained 2D text-to-image diffusion model to perform text-to-3D synthesis. We introduce a loss based on probability density distillation that enables the use of a 2D diffusion model as a prior for optimization of a parametric image generator. Using this loss in a DeepDream-like procedure, we optimize a randomly-initialized 3D model (a Neural Radiance Field, or NeRF) via gradient descent such that its 2D renderings from random angles achieve a low loss. The resulting 3D model of the given text can be viewed from any angle, relit by arbitrary illumination, or composited into any 3D environment. Our approach requires no 3D training data and no modifications to the image diffusion model, demonstrating the effectiveness of pretrained image diffusion models as priors.
+</details>
+
+<details>
+    <summary>Key points</summary>
+    * Zero 3D annotations—only a large-scale 2D text-to-image diffusion model is required.
+    * SDS replaces reconstruction loss; updates NeRF by matching injected noise to diffusion-predicted scores.
+    * Integrates mip-NeRF 360 with differentiable shading for coherent geometry and appearance.
+    * View-dependent text conditioning plus geometric regularizers mitigate “cardboard” local minima. 
+</details>
+</details>
+
+---
+
+<details>
+<summary><b>ULIP-2: Towards Scalable Multimodal Pre-training for 3D Understanding</b></summary>
+
+* **Authors:** Le Xue, Ning Yu, Shu Zhang, Artemis Panagopoulou, Junnan Li, Roberto Martín-Martín, Jiajun Wu, Caiming Xiong, Ran Xu, Juan Carlos Niebles, Silvio Savarese
+* **arXiv ID:** 2305.08275
+* **One-liner:** ULIP-2 introduces a scalable, annotation-free multimodal pre-training framework that aligns 3D point clouds with images and automatically generated text, enabling superior 3D understanding.
+* **Published in:** CVPR 2024
+* **Links:** [[Paper]](https://arxiv.org/abs/2305.08275) | [[PDF]](https://arxiv.org/pdf/2305.08275.pdf) | [[Code]](https://github.com/salesforce/ULIP)
+
+> **Core Innovation**  
+> Leverages large multimodal models (BLIP-2) to automatically generate holistic language descriptions from rendered 2D views of 3D objects, enabling scalable tri-modal alignment without human annotations.
+
+<details>
+    <summary>Abstract</summary>
+    Recent advancements in multimodal pre-training have shown promising efficacy in 3D representation learning by aligning multimodal features across 3D shapes, their 2D counterparts, and language descriptions. However, the methods used by existing frameworks to curate such multimodal data, in particular language descriptions for 3D shapes, are not scalable, and the collected language descriptions are not diverse. To address this, we introduce ULIP-2, a simple yet effective tri-modal pre-training framework that leverages large multimodal models to automatically generate holistic language descriptions for 3D shapes. It only needs 3D data as input, eliminating the need for any manual 3D annotations, and is therefore scalable to large datasets. ULIP-2 is also equipped with scaled-up backbones for better multimodal representation learning. We conduct experiments on two large-scale 3D datasets, Objaverse and ShapeNet, and augment them with tri-modal datasets of 3D point clouds, images, and language for training ULIP-2. Experiments show that ULIP-2 demonstrates substantial benefits in three downstream tasks: zero-shot 3D classification, standard 3D classification with fine-tuning, and 3D captioning (3D-to-language generation). It achieves a new SOTA of 50.6% (top-1) on Objaverse-LVIS and 84.7% (top-1) on ModelNet40 in zero-shot classification. In the ScanObjectNN benchmark for standard fine-tuning, ULIP-2 reaches an overall accuracy of 91.5% with a compact model of only 1.4 million parameters. ULIP-2 sheds light on a new paradigm for scalable multimodal 3D representation learning without human annotations and shows significant improvements over existing baselines.
+</details>
+
+<details>
+    <summary>Key points</summary>
+    * Annotation-free: only 3D data is required, making the framework highly scalable.
+    * Uses BLIP-2 to generate detailed, multi-view language descriptions, enhancing text modality quality and diversity.
+    * Introduces two large-scale tri-modal datasets: ULIP-Objaverse and ULIP-ShapeNet.
+    * Achieves SOTA performance on zero-shot 3D classification, standard classification, and 3D-to-language captioning.
+</details>
+</details>
+
+---
+
+<details>
+<summary><b>OpenShape: Scaling Up 3D Shape Representation Towards Open-World Understanding</b></summary>
+
+* **Authors:** Minghua Liu, Ruoxi Shi, Kaiming Kuang, Yinhao Zhu, Xuanlin Li, Shizhong Han, Hong Cai, Fatih Porikli, Hao Su
+* **arXiv ID:** 2305.10764
+* **One-liner:** OpenShape achieves powerful open-world zero-shot 3D shape recognition by scaling up multimodal contrastive learning aligned with CLIP across large-scale 3D datasets.
+* **Published in:** NeurIPS 2023
+* **Links:** [[Paper]](https://arxiv.org/abs/2305.10764) | [[PDF]](https://arxiv.org/pdf/2305.10764.pdf) | [[Code]](https://github.com/Colin97/OpenShape_code)
+
+> **Core Innovation**  
+> Introduces a scalable tri-modal contrastive learning framework with automated text filtering/enrichment, 3D backbone scaling, and hard negative mining to greatly improve open-world generalization of 3D representations.
+
+<details>
+    <summary>Abstract</summary>
+    We introduce OpenShape, a method for learning multi-modal joint representations of text, image, and point clouds. We adopt the commonly used multi-modal contrastive learning framework for representation alignment, but with a specific focus on scaling up 3D representations to enable open-world 3D shape understanding. To achieve this, we scale up training data by ensembling multiple 3D datasets and propose several strategies to automatically filter and enrich noisy text descriptions. We also explore and compare strategies for scaling 3D backbone networks and introduce a novel hard negative mining module for more efficient training. We evaluate OpenShape on zero-shot 3D classification benchmarks and demonstrate its superior capabilities for open-world recognition. Specifically, OpenShape achieves a zero-shot accuracy of 46.8% on the 1,156-category Objaverse-LVIS benchmark, compared to less than 10% for existing methods. OpenShape also achieves an accuracy of 85.3% on ModelNet40, outperforming previous zero-shot baseline methods by 20% and performing on par with some fully-supervised methods. Furthermore, we show that our learned embeddings encode a wide range of visual and semantic concepts (e.g., subcategories, color, shape, style) and facilitate fine-grained text-3D and image-3D interactions. Due to their alignment with CLIP embeddings, our learned shape representations can also be integrated with off-the-shelf CLIP-based models for various applications, such as point cloud captioning and point cloud-conditioned image generation.
+</details>
+
+<details>
+    <summary>Key points</summary>
+    * Ensembles 876k 3D shapes across diverse categories to address data scarcity.
+    * Proposes three text enrichment strategies—filtering, captioning, and image retrieval—to improve text quality and semantics.
+    * Evaluates and scales multiple 3D backbones (e.g., PointBERT, SparseConv) for large-scale training.
+    * Introduces hard negative mining to address class imbalance and enhance model discrimination.
+    * Learned 3D representations are CLIP-aligned and readily usable for cross-modal tasks like image generation and captioning.
+</details>
+</details>
+
+---
+
+<details>
+<summary><b>DreamLLM: Synergistic Multimodal Comprehension and Creation</b></summary>
+
+* **Authors:** Runpei Dong, Chunrui Han, Yuang Peng, Zekun Qi, Zheng Ge, Jinrong Yang, Liang Zhao, Jianjian Sun, Hongyu Zhou, Haoran Wei, Xiangwen Kong, Xiangyu Zhang, Kaisheng Ma, Li Yi
+* **arXiv ID:** 2309.11499
+* **One-liner:** DREAMLLM is the first multimodal large language model that unifies comprehension and creation by end-to-end generating raw interleaved text and images, enabling true synergy between understanding and generation.
+* **Published in:** ICLR 2024
+* **Links:** [[Paper]](https://arxiv.org/abs/2309.11499) | [[PDF]](https://arxiv.org/pdf/2309.11499.pdf) | [[Code]](https://github.com/RunpeiDong/DreamLLM)
+
+> **Core Innovation**  
+> Introduces a novel Interleaved Generative Pre-training (I-GPT) framework that uses dream queries and score distillation to directly model image posteriors without relying on intermediate representations like CLIP, enabling native generation and understanding of interleaved multimodal content.
+
+<details>
+    <summary>Abstract</summary>
+    This paper presents DreamLLM, a learning framework that first achieves versatile Multimodal Large Language Models (MLLMs) empowered with frequently overlooked synergy between multimodal comprehension and creation. DreamLLM operates on two fundamental principles. The first focuses on the generative modeling of both language and image posteriors by direct sampling in the raw multimodal space. This approach circumvents the limitations and information loss inherent to external feature extractors like CLIP, and a more thorough multimodal understanding is obtained. Second, DreamLLM fosters the generation of raw, interleaved documents, modeling both text and image contents, along with unstructured layouts. This allows DreamLLM to learn all conditional, marginal, and joint multimodal distributions effectively. As a result, DreamLLM is the first MLLM capable of generating free-form interleaved content. Comprehensive experiments highlight DreamLLM's superior performance as a zero-shot multimodal generalist, reaping from the enhanced learning synergy.
+</details>
+
+<details>
+    <summary>Key points</summary>
+    * First MLLM capable of free-form interleaved text-image generation with real synergy between creation and comprehension.
+    * Introduces dream queries and dream label
+    * Uses score distillation for direct pixel-space image sampling, avoiding CLIP-induced semantic loss and modality gaps.
+    * Supports in-context multimodal generation such as image editing, subject-driven generation, and compositional creation.
+</details>
+</details>
+
+---
+
+<details>
+<summary><b>EditWorld: Simulating World Dynamics for Instruction-Following Image Editing</b></summary>
+
+* **Authors:** Ling Yang, Bohan Zeng, Jiaming Liu, Hong Li, Minghao Xu, Wentao Zhang, Shuicheng Yan
+* **arXiv ID:** 2405.14785
+* **One-liner:** EDITWORLD introduces the first world-instructed image editing task, enabling more intelligent and physically plausible image editing by simulating real and virtual world dynamics.
+* **Published in:** ACM Multimedia 2025
+* **Links:** [[Paper]](https://arxiv.org/abs/2405.14785) | [[PDF]](https://arxiv.org/pdf/2405.14785.pdf) | [[Code]](https://github.com/YangLing0818/EditWorld)
+
+> **Core Innovation**  
+> Proposes the concept of world instructions, systematically defines and categorizes seven types of editing instructions that reflect world dynamics, constructs a multimodal dataset with complex semantic changes, and introduces a post-edit strategy to improve editing quality and consistency.
+
+<details>
+    <summary>Abstract</summary>
+    Diffusion models have significantly improved the performance of image editing. Existing methods realize various approaches to achieve high-quality image editing, including but not limited to text control, dragging operation, and mask-and-inpainting. Among these, instruction-based editing stands out for its convenience and effectiveness in following human instructions across diverse scenarios. However, it still focuses on simple editing operations like adding, replacing, or deleting, and falls short of understanding aspects of world dynamics that convey the realistic dynamic nature in the physical world. Therefore, this work, EditWorld, introduces a new editing task, namely world-instructed image editing, which defines and categorizes the instructions grounded by various world scenarios. We curate a new image editing dataset with world instructions using a set of large pretrained models (e.g., GPT-3.5, Video-LLava and SDXL). To enable sufficient simulation of world dynamics for image editing, our EditWorld trains model in the curated dataset, and improves instruction-following ability with designed post-edit strategy. Extensive experiments demonstrate our method significantly outperforms existing editing methods in this new task.
+</details>
+
+<details>
+    <summary>Key points</summary>
+    * Introduces world-instructed image editing, going beyond traditional add/remove/replace operations.
+    * Constructs a high-quality dataset with 10K+ triplets covering complex dynamics from real and virtual worlds.
+    * Designs a dual-branch data generation pipeline: text-to-image synthesis + video frame extraction, leveraging GPT, Video-LLaVA, SDXL, etc.
+    * Proposes MLLM Score, a new metric for better evaluating semantic alignment of editing results.
+    * Introduces a Post-Edit method combining SAM and inpainting to improve editing precision and non-edited region consistency.
+</details>
+</details>
+
+---
+
+<details>
+<summary><b>MIO: A Foundation Model on Multimodal Tokens</b></summary>
+
+* **Authors:** Zekun Wang, King Zhu, Chunpu Xu, Wangchunshu Zhou, Jiaheng Liu, Yibo Zhang, Jiashuo Wang, Ning Shi, Siyu Li, Yizhi Li, Haoran Que, Zhaoxiang Zhang, Yuanxing Zhang, Ge Zhang, Ke Xu, Jie Fu, Wenhao Huang
+* **arXiv ID:** 2409.17692
+* **One-liner:** MIO is the first open-source any-to-any foundation model that simultaneously understands and generates text, image, speech and video in a unified, end-to-end, autoregressive way.
+* **Published in:** EMNLP 2025
+* **Links:** [[Paper]](https://arxiv.org/abs/2409.17692) | [[PDF]](https://arxiv.org/pdf/2409.17692.pdf) | [[Code]](https://github.com/MIO-Team/MIO)
+
+> **Core Innovation**  
+> MIO is the first open-source any-to-any foundation model that simultaneously understands and generates text, image, speech and video in a unified, end-to-end, autoregressive way.
+
+<details>
+    <summary>Abstract</summary>
+    State-of-the-art computer vision systems are trained to predict a fixed set of predetermined object categories. This restricted form of supervision limits their generality and usability since additional labeled data is needed to specify any other visual concept. Learning directly from raw text about images is a promising alternative which leverages a much broader source of supervision. We demonstrate that the simple pre-training task of predicting which caption goes with which image is an efficient and scalable way to learn SOTA image representations from scratch on a dataset of 400 million (image, text) pairs collected from the internet. After pre-training, natural language is used to reference learned visual concepts (or describe new ones) enabling zero-shot transfer of the model to downstream tasks. We study the performance of this approach by benchmarking on over 30 different existing computer vision datasets, spanning tasks such as OCR, action recognition in videos, geo-localization, and many types of fine-grained object classification. The model transfers non-trivially to most tasks and is often competitive with a fully supervised baseline without the need for any dataset specific training. For instance, we match the accuracy of the original ResNet-50 on ImageNet zero-shot without needing to use any of the 1.28 million training examples it was trained on.
+</details>
+
+<details>
+    <summary>Key points</summary>
+    * DIDO discrete-token framework guarantees I/O consistency and natively supports multimodal interleaved generation.
+    * SpeechTokenizer & SEED-Tokenizer provide compact, causal tokens for speech/video/image, ready for next-token prediction.
+    * Three-stage pre-training (alignment → interleaved → speech-enhanced) + large-scale multi-task SFT deliver strong uni/bi-modal performance.
+    * Competitive or SOTA results on image/text/speech/video benchmarks; emergent abilities: chain-of-visual-thought, visual story, instructional editing.
+    * Fully open-source, 7 B-scale, end-to-end trainable, no external diffusion or TTS tools required.
+</details>
+</details>
+
+---
+
+<details>
+<summary><b>SGEdit: Bridging LLM with Text2Image Generative Model for Scene Graph-based Image Editing</b></summary>
+
+* **Authors:** Zhiyuan Zhang, DongDong Chen, Jing Liao
+* **arXiv ID:** 2410.11815
+* **One-liner:** SGEdit marries LLM reasoning with a fine-tuned diffusion model to turn a scene-graph interface into precise, open-vocabulary image edits—add, remove, replace or re-relate objects in one unified “remove-then-generate” pipeline.
+* **Published in:** SIGGRAPH Asia 2024
+* **Links:** [[Paper]](https://arxiv.org/abs/2410.11815) | [[PDF]](https://arxiv.org/pdf/2410.11815.pdf) | [[Code]](https://github.com/bestzzhang/SGEdit-code)
+
+> **Core Innovation**  
+> First system that uses an LLM both as (1) an open-vocabulary scene parser that outputs masks + detailed captions and (2) an editing controller that plans attention-modulated remove/generate steps, all empowered by hybrid concept learning (optimized token + rich prompt) for identity-preserving yet editable objects.
+
+<details>
+    <summary>Abstract</summary>
+    Scene graphs offer a structured, hierarchical representation of images, with nodes and edges symbolizing objects and the relationships among them. It can serve as a natural interface for image editing, dramatically improving precision and flexibility. Leveraging this benefit, we introduce a new framework that integrates large language model (LLM) with Text2Image generative model for scene graph-based image editing. This integration enables precise modifications at the object level and creative recomposition of scenes without compromising overall image integrity. Our approach involves two primary stages: ① Utilizing a LLM-driven scene parser, we construct an image's scene graph, capturing key objects and their interrelationships, as well as parsing fine-grained attributes such as object masks and descriptions. These annotations facilitate concept learning with a fine-tuned diffusion model, representing each object with an optimized token and detailed description prompt. ② During the image editing phase, a LLM editing controller guides the edits towards specific areas. These edits are then implemented by an attention-modulated diffusion editor, utilizing the fine-tuned model to perform object additions, deletions, replacements, and adjustments. Through extensive experiments, we demonstrate that our framework significantly outperforms existing image editing methods in terms of editing precision and scene aesthetics.
+</details>
+
+<details>
+    <summary>Key points</summary>
+    * Scene-graph-driven UI: users edit nodes/edges; system translates to executable ops.
+    * LLM parser → graph + per-object mask & caption; hybrid concept learning fine-tunes SD for each object.
+    * LLM controller decomposes any edit into sequential “remove → generate” with text prompts & boxes.
+    * Attention-modulated removal fills masked regions by attending only to unmasked features; insertion enhances cross-attn alignment and suppresses inter-box self-attn. 
+</details>
+</details>
+
+---
+
+<details>
+<summary><b>UniReal: Universal Image Generation and Editing via Learning Real-world Dynamics</b></summary>
+
+* **Authors:** Xi Chen, Zhifei Zhang, He Zhang, Yuqian Zhou, Soo Ye Kim, Qing Liu, Yijun Li, Jianming Zhang, Nanxuan Zhao, Yilin Wang, Hui Ding, Zhe Lin, Hengshuang Zhao
+* **arXiv ID:** 2412.07774
+* **One-liner:** UniReal treats any image task as “discontinuous video” inside a single 5 B diffusion transformer, learning real-world dynamics from massive video frames to unify generation, editing, customization and composition with one model.
+* **Published in:** CVPR 2025
+* **Links:** [[Paper]](https://arxiv.org/abs/2412.07774) | [[PDF]](https://arxiv.org/pdf/2412.07774.pdf) | [[Code]](https://github.com/XavierCHEN34/UniReal)
+
+> **Core Innovation**  
+> First universal image model that reformulates diverse tasks into pseudo-video frame generation, leverages scalable video supervision for natural consistency/variation, and introduces hierarchical prompt (context + image role) plus index embedding to disambiguate multi-image inputs under one text prompt.
+
+<details>
+    <summary>Abstract</summary>
+    We introduce UniReal, a unified framework designed to address various image generation and editing tasks. Existing solutions often vary by tasks, yet share fundamental principles: preserving consistency between inputs and outputs while capturing visual variations. Inspired by recent video generation models that effectively balance consistency and variation across frames, we propose a unifying approach that treats image-level tasks as discontinuous video generation. Specifically, we treat varying numbers of input and output images as frames, enabling seamless support for tasks such as image generation, editing, customization, composition, etc. Although designed for image-level tasks, we leverage videos as a scalable source for universal supervision. UniReal learns world dynamics from large-scale videos, demonstrating advanced capability in handling shadows, reflections, pose variation, and object interaction, while also exhibiting emergent capability for novel applications.
+</details>
+
+<details>
+    <summary>Key points</summary>
+    * Single 5B diffusion transformer; full attention across any number of input/output frames.
+    * Three image roles—canvas, asset, control—plus learnable category & index embeddings bind visuals to prompt terms like “IMG1”.
+    * Hierarchical prompt: base prompt + context tags (realistic/synthetic, static/dynamic, w/ or w/o ref) + image role tags; composable at inference.
+    * Auto pipeline mines 23M+ frame pairs from videos with captions, masks, depth, edges → universal supervision for add, remove, replace, stylize, customize, insert, perception.
+    * Emergent zero-shot abilities: multi-object insertion, depth-conditioned generation, reference inpainting, object resizing, etc.
+    * Training: 256 → 512 → 1024 progressive resolution; flow-matching loss; handles arbitrary aspect ratios.
+</details>
+</details>
+
+---
+
+<details>
+<summary><b>ShapeLLM-Omni: A Native Multimodal LLM for 3D Generation and Understanding</b></summary>
+
+* **Authors:** Junliang Ye, Zhengyi Wang, Ruowen Zhao, Shenghao Xie, Jun Zhu
+* **arXiv ID:** 2506.01853
+* **One-liner:** ShapeLLM-Omni is the first native 3D-LLM that unifies text ⇄ image ⇄ 3D mesh generation, understanding and editing in one autoregressive next-token framework.
+* **Published in:** NeurIPS 2025
+* **Links:** [[Paper]](https://arxiv.org/abs/2506.01853) | [[PDF]](https://arxiv.org/pdf/2506.01853.pdf) | [[Code]](https://github.com/JAMESYJL/ShapeLLM-Omni)
+
+> **Core Innovation**  
+> A 3D VQVAE compresses voxels into 1024 discrete tokens, enabling a frozen Qwen-2.5-VL-7B to perform fully autoregressive 3D generation/editing/understanding without extra networks; the 3D-Alpaca dataset (3.46 B tokens) makes it scalable.
+
+<details>
+    <summary>Abstract</summary>
+    Recently, the powerful text-to-image capabilities of ChatGPT-4o have led to growing appreciation for native multimodal large language models. However, its multimodal capabilities remain confined to images and text. Yet beyond images, the ability to understand and generate 3D content is equally crucial. To address this gap, we propose ShapeLLM-Omni-a native 3D large language model capable of understanding and generating 3D assets and text in any sequence. First, we train a 3D vector-quantized variational autoencoder (VQVAE), which maps 3D objects into a discrete latent space to achieve efficient and accurate shape representation and reconstruction. Building upon the 3D-aware discrete tokens, we innovatively construct a large-scale continuous training dataset named 3D-Alpaca, encompassing generation, comprehension, and editing, thus providing rich resources for future research and training. Finally, by performing instruction-based training of the Qwen-2.5-vl-7B-Instruct model on the 3D-Alpaca dataset. Our work provides an effective attempt at extending multimodal models with basic 3D capabilities, which contributes to future research in 3D-native AI.
+</details>
+
+<details>
+    <summary>Key points</summary>
+    * Unified tokenizer: 643 → 163 latent → 1024 discrete tokens; 8192-codebook; reversible to high-quality mesh via Rectified-Flow.
+    * Native 3D-LLM: same transformer handles text, image features, 3D tokens in any order; next-token prediction end-to-end.
+    * 3D-Alpaca: 712k text-to-3D, 712k image-to-3D, 712k 3D caption, 420k 3D editing pairs + UltraChat; 2.56 M samples, 3.46 B tokens.
+    * Tasks: text-to-3D, image-to-3D, 3D-to-text, interactive 3D editing (add/remove/modify), multi-turn dialogue.
+</details>
+</details>
+
+---
+
+<details>
+<summary><b>Step1X-Edit: A Practical Framework for General Image Editing</b></summary>
+
+* **Authors:** Shiyu Liu, Yucheng Han, Peng Xing, Fukun Yin, Rui Wang, Wei Cheng, Jiaqi Liao, Yingming Wang, Honghao Fu, Chunrui Han, Guopeng Li, Yuang Peng, Quan Sun, Jingwei Wu, Yan Cai, Zheng Ge, Ranchen Ming, Lei Xia, Xianfang Zeng, Yibo Zhu, Binxing Jiao, Xiangyu Zhang, Gang Yu, Daxin Jiang
+* **arXiv ID:** 2504.17761
+* **One-liner:** Step1X-Edit closes the gap between open-source and proprietary editors by fusing MLLM reasoning with a DiT decoder, delivering GPT-4o-level quality on 11 real-world editing tasks without masks.
+* **Published in:** arXiv 2025
+* **Links:** [[Paper]](https://arxiv.org/abs/2504.17761) | [[PDF]](https://arxiv.org/pdf/2504.17761.pdf) | [[Code]](https://github.com/stepfun-ai/Step1X-Edit)
+
+> **Core Innovation**  
+> A lightweight token-refiner connector injects MLLM edit embeddings directly into a latent DiT via token-concatenation, enabling single-pass, high-fidelity editing trained only with diffusion loss—no masks, no extra self-attention, no T5 text encoder.
+
+<details>
+    <summary>Abstract</summary>
+    In recent years, image editing models have witnessed remarkable and rapid development. The recent unveiling of cutting-edge multimodal models such as GPT-4o and Gemini2 Flash has introduced highly promising image editing capabilities. These models demonstrate an impressive aptitude for fulfilling a vast majority of user-driven editing requirements, marking a significant advancement in the field of image manipulation. However, there is still a large gap between the open-source algorithm with these closed-source models. Thus, in this paper, we aim to release a state-of-the-art image editing model, called Step1X-Edit, which can provide comparable performance against the closed-source models like GPT-4o and Gemini2 Flash. More specifically, we adopt the Multimodal LLM to process the reference image and the user's editing instruction. A latent embedding has been extracted and integrated with a diffusion image decoder to obtain the target image. To train the model, we build a data generation pipeline to produce a high-quality dataset. For evaluation, we develop the GEdit-Bench, a novel benchmark rooted in real-world user instructions. Experimental results on GEdit-Bench demonstrate that Step1X-Edit outperforms existing open-source baselines by a substantial margin and approaches the performance of leading proprietary models, thereby making significant contributions to the field of image editing.
+</details>
+
+<details>
+    <summary>Key points</summary>
+    * Unified MLLM+DiT pipeline: Qwen-VL parses image+instruction → compact multimodal tokens → DiT synthesizes edited image.
+    * 20 M synthetic triplets filtered to 1 M high-quality (Step1X-Edit-HQ); covers 11 tasks: add/remove/replace, motion, material, color, style, tone, text, portrait, background.
+    * GEdit-Bench: 606 real-user prompts (EN/CN), privacy-safe, first benchmark with genuine instructions & human filtering.
+    * Token-concatenation conditioning preserves fine detail; global guidance vector from mean MLLM embedding enhances semantic alignment.
+    * Trained from SD3.5-class base; supports plug-in replacement (FLUX, HiDream, etc.).
+</details>
+</details>
+
+---
+
+<details>
+<summary><b>LangScene-X: Reconstruct Generalizable 3D Language-Embedded Scenes with TriMap Video Diffusion</b></summary>
+
+* **Authors:** Fangfu Liu, Hao Li, Jiawei Chi, Hanyang Wang, Minghui Yang, Fudong Wang, Yueqi Duan
+* **arXiv ID:** 2507.02813
+* **One-liner:** LangScene-X bootstraps a TriMap video diffusion model with a Language-Quantized Compressor to build 3-D language-embedded Gaussian fields from only two images and answer open-vocabulary queries at novel views—without any per-scene optimization.
+* **Published in:** ICCV 2025
+* **Links:** [[Paper]](https://arxiv.org/abs/2507.02813) | [[PDF]](https://arxiv.org/pdf/2507.02813.pdf) | [[Code]](https://github.com/liuff19/LangScene-X)
+
+> **Core Innovation**  
+> A progressive multi-task video diffusion first jointly generates RGB, normals and multi-granularity segmentation; a lightweight vector-quantized compressor (LQC) trained on COCO reduces 512-D CLIP features to 3-D discrete codes, enabling cross-scene 3-D Gaussian language fields that render in real time.
+
+<details>
+    <summary>Abstract</summary>
+    Recovering 3D structures with open-vocabulary scene understanding from 2D images is a fundamental but daunting task. Recent developments have achieved this by performing per-scene optimization with embedded language information. However, they heavily rely on the calibrated dense-view reconstruction paradigm, thereby suffering from severe rendering artifacts and implausible semantic synthesis when limited views are available. In this paper, we introduce a novel generative framework, coined LangScene-X, to unify and generate 3D consistent multi-modality information for reconstruction and understanding. Powered by the generative capability of creating more consistent novel observations, we can build generalizable 3D language-embedded scenes from only sparse views. Specifically, we first train a TriMap video diffusion model that can generate appearance (RGBs), geometry (normals), and semantics (segmentation maps) from sparse inputs through progressive knowledge integration. Furthermore, we propose a Language Quantized Compressor (LQC), trained on large-scale image datasets, to efficiently encode language embeddings, enabling cross-scene generalization without per-scene retraining. Finally, we reconstruct the language surface fields by aligning language information onto the surface of 3D scenes, enabling open-ended language queries. Extensive experiments on real-world data demonstrate the superiority of our LangScene-X over state-of-the-art methods in terms of quality and generalizability.
+</details>
+
+<details>
+    <summary>Key points</summary>
+    * TriMap diffusion: 4-stage training (key-frame → 3-D consistent → add normals → add semantics) produces video-level coherent triplets.
+    * LQC: VQ-VAE with 2048 codes; 1e-4 L2 loss, gradient bypass; compresses any CLIP field to 3-channel index, zero per-scene cost.
+    * Language surface fields: DUSt3R sparse init + progressive normal regularization + 2-D/3-D semantic clustering; 5k steps RGB/Geo, 5k steps sem.
+    * Inference: 2 input views → 49-frame TriMap → language Gaussians → real-time novel-view query.
+    * Generalizable: one model handles indoor, object-level, in-the-wild; no scene-wise auto-encoder, no dense calibration.
+</details>
+</details>
+
+---
+
+<details>
+<summary><b>MENTOR: Efficient Multimodal-Conditioned Tuning for Autoregressive Vision Generation Models</b></summary>
+
+* **Authors:** Haozhe Zhao, Zefan Cai, Shuzheng Si, Liang Chen, Jiuxiang Gu, Wen Xiao, Junjie Hu
+* **arXiv ID:** 2507.09574
+* **One-liner:** MENTOR introduces an efficient autoregressive framework for multimodal image generation, achieving fine-grained alignment and balanced control via a two-stage training paradigm.
+* **Published in:** arXiv 2025
+* **Links:** [[Paper]](https://arxiv.org/abs/2507.09574) | [[PDF]](https://arxiv.org/pdf/2507.09574.pdf) | [[Code]](https://github.com/HaozheZhao/MENTOR)
+
+> **Core Innovation**  
+> The core innovation lies in an autoregressive image generation method that eliminates the need for cross-attention or auxiliary adapters, using a two-stage training strategy to achieve semantic and pixel-level alignment across multimodal inputs, greatly improving training efficiency and controllability.
+
+<details>
+    <summary>Abstract</summary>
+    Recent text-to-image models produce high-quality results but still struggle with precise visual control, balancing multimodal inputs, and requiring extensive training for complex multimodal image generation. To address these limitations, we propose MENTOR, a novel autoregressive (AR) framework for efficient Multimodal-conditioned Tuning for Autoregressive multimodal image generation. MENTOR combines an AR image generator with a two-stage training paradigm, enabling fine-grained, token-level alignment between multimodal inputs and image outputs without relying on auxiliary adapters or cross-attention modules. The two-stage training consists of: (1) a multimodal alignment stage that establishes robust pixel- and semantic-level alignment, followed by (2) a multimodal instruction tuning stage that balances the integration of multimodal inputs and enhances generation controllability. Despite modest model size, suboptimal base components, and limited training resources, MENTOR achieves strong performance on the DreamBench++ benchmark, outperforming competitive baselines in concept preservation and prompt following. Additionally, our method delivers superior image reconstruction fidelity, broad task adaptability, and improved training efficiency compared to diffusion-based methods.
+</details>
+
+<details>
+    <summary>Key points</summary>
+    * Unified autoregressive architecture for joint image and text processing with simplified model design.
+    * Two-stage training: Stage 1 aligns multimodal inputs; Stage 2 enhances instruction-following and cross-modal fusion.
+    * Eliminates cross-attention modules, reducing training costs.
+    * Supports various downstream tasks (e.g., segmentation, subject-driven generation, in-context generation) without architectural changes.
+</details>
+</details>
+
+---
+
+<details>
+<summary><b>GSFixer: Improving 3D Gaussian Splatting with Reference-Guided Video Diffusion Priors</b></summary>
+
+* **Authors:** Xingyilang Yin, Qi Zhang, Jiahao Chang, Ying Feng, Qingnan Fan, Xi Yang, Chi-Man Pun, Huaqi Zhang, Xiaodong Cun
+* **arXiv ID:** 2508.09667
+* **One-liner:** GSFixer introduces a reference-guided video diffusion prior method to restore artifacts in 3D Gaussian Splatting and improve reconstruction quality under sparse-view conditions.
+* **Published in:** arXiv 2025
+* **Links:** [[Paper]](https://arxiv.org/abs/2508.09667) | [[PDF]](https://arxiv.org/pdf/2508.09667.pdf) | [[Code]](https://github.com/GVCLab/GSFixer)
+
+> **Core Innovation**  
+> The core innovation lies in fusing 2D semantic and 3D geometric features as conditions to guide a video diffusion model for artifact restoration, along with a reference-guided trajectory sampling strategy for high-quality 3DGS reconstruction.
+
+<details>
+    <summary>Abstract</summary>
+    Reconstructing 3D scenes using 3D Gaussian Splatting (3DGS) from sparse views is an ill-posed problem due to insufficient information, often resulting in noticeable artifacts. While recent approaches have sought to leverage generative priors to complete information for under-constrained regions, they struggle to generate content that remains consistent with input observations. To address this challenge, we propose GSFixer, a novel framework designed to improve the quality of 3DGS representations reconstructed from sparse inputs. The core of our approach is the reference-guided video restoration model, built upon a DiT-based video diffusion model trained on paired artifact 3DGS renders and clean frames with additional reference-based conditions. Considering the input sparse views as references, our model integrates both 2D semantic features and 3D geometric features of reference views extracted from the visual geometry foundation model, enhancing the semantic coherence and 3D consistency when fixing artifact novel views. Furthermore, considering the lack of suitable benchmarks for 3DGS artifact restoration evaluation, we present DL3DV-Res which contains artifact frames rendered using low-quality 3DGS. Extensive experiments demonstrate our GSFixer outperforms current state-of-the-art methods in 3DGS artifact restoration and sparse-view 3D reconstruction.
+</details>
+
+<details>
+    <summary>Key points</summary>
+    * Proposes a DiT-based video diffusion model for restoring artifact-prone views in 3DGS rendering.
+    * Utilizes DINOv2 and VGGT to extract 2D semantic and 3D geometric features, enhancing view consistency and semantic fidelity.
+    * Introduces a reference-guided trajectory sampling strategy to balance view coverage and restoration quality.
+    * Presents DL3DV-Res dataset for evaluating 3DGS artifact restoration performance.
+    * Significantly outperforms existing methods in sparse-view reconstruction and generalizes well across datasets.
+</details>
+</details>
 
 ---
 
@@ -608,7 +1015,8 @@ Current state-of-the-art models are beginning to break down the barriers between
 
 #### Representative Works
 
-**Lumiere: A Space-Time Diffusion Model for Video Generation**
+<details>
+<summary><b>Lumiere: A Space-Time Diffusion Model for Video Generation</b></summary>
 
 * **Authors:** Omer Bar-Tal, Hila Chefer, Omer Tov, Charles Herrmann, Roni Paiss, Shiran Zada, Ariel Ephrat, Junhwa Hur, Guanghui Liu, Amit Raj, Yuanzhen Li, Michael Rubinstein, Tomer Michaeli, Oliver Wang, Deqing Sun, Tali Dekel, Inbar Mosseri  
 * **arXiv ID:** 2401.12945  
@@ -630,10 +1038,12 @@ Current state-of-the-art models are beginning to break down the barriers between
     * Bypasses multi-stage temporal super-resolution cascades.  
     * Demonstrates improved motion coherence and diverse video generation.  
 </details>
+</details>
 
 ---
 
-**Stable Video Diffusion: Scaling Latent Video Diffusion Models to Large Datasets**
+<details>
+<summary><b>Stable Video Diffusion: Scaling Latent Video Diffusion Models to Large Datasets</b></summary>
 
 * **Authors:** Andreas Blattmann, Tim Dockhorn, Sumith Kulal, Daniel Mendelevitch, Maciej Kilian, Dominik Lorenz, Yam Levi, Zion English, Vikram Voleti, Adam Letts, Varun Jampani, Robin Rombach  
 * **arXiv ID:** 2311.15127  
@@ -655,10 +1065,12 @@ Current state-of-the-art models are beginning to break down the barriers between
     * Highlights the importance of well-curated large scale video data for video diffusion performance.  
     * Demonstrates latent video diffusion’s capability to act as a multi-view 3D prior and to enable image-to-video generation and camera motion control.  
 </details>
+</details>
 
 ---
 
-**AnimateDiff: Animate Your Personalized Text-to-Image Diffusion Models without Specific Tuning**
+<details>
+<summary><b>AnimateDiff: Animate Your Personalized Text-to-Image Diffusion Models without Specific Tuning</b></summary>
 
 * **Authors:** Yuwei Guo, Ceyuan Yang, Anyi Rao, Zhengyang Liang, Yaohui Wang, Yu Qiao, Maneesh Agrawala, Dahua Lin, Bo Dai  
 * **arXiv ID:** 2307.04725  
@@ -680,10 +1092,12 @@ Current state-of-the-art models are beginning to break down the barriers between
     * MotionLoRA: lightweight fine-tuning for adapting motion patterns with low cost.  
     * Enables high-quality animation generation from existing personalized image models.  
 </details>
+</details>
 
 ---
 
-**Emu Video: Factorizing Text-to-Video Generation by Explicit Image Conditioning**
+<details>
+<summary><b>Emu Video: Factorizing Text-to-Video Generation by Explicit Image Conditioning</b></summary>
 
 * **Authors:** Rohit Girdhar, Mannat Singh, Andrew Brown, Quentin Duval, Samaneh Azadi, Sai Saketh Rambhatla, Akbar Shah, Xi Yin, Devi Parikh, Ishan Misra  
 * **arXiv ID:** 2311.10709  
@@ -705,10 +1119,12 @@ Current state-of-the-art models are beginning to break down the barriers between
     * Adjusted diffusion noise schedules and multi-stage training to enable high-quality, high-resolution video generation.  
     * Demonstrates significant quality improvements over previous text-to-video approaches.  
 </details>
+</details>
 
 ---
 
-**VideoPoet: A Large Language Model for Zero-Shot Video Generation**
+<details>
+<summary><b>VideoPoet: A Large Language Model for Zero-Shot Video Generation</b></summary>
 
 * **Authors:** Dan Kondratyuk, Lijun Yu, Xiuye Gu, José Lezama, Jonathan Huang, Grant Schindler, Rachel Hornung, Vighnesh Birodkar, Jimmy Yan, Ming-Chang Chiu, Krishna Somandepalli, Hassan Akbari, Yair Alon, Yong Cheng, Josh Dillon, Agrim Gupta, Meera Hahn, Anja Hauth, David Hendon, Alonso Martinez, David Minnen, Mikhail Sirotenko, Kihyuk Sohn, Xuan Yang  
 * **arXiv ID:** 2312.14125  
@@ -730,6 +1146,7 @@ Current state-of-the-art models are beginning to break down the barriers between
     * Training protocol similar to LLMs: large-scale pretraining + adaptation.  
     * Enables zero-shot video generation across many conditioning types.  
 </details>
+</details>
 
 ---
 
@@ -741,7 +1158,8 @@ Significance: These models represent crucial technical achievements in understan
 
 #### Representative Works
 
-**DUSt3R: Geometric 3D Vision Made Easy**
+<details>
+<summary><b>DUSt3R: Geometric 3D Vision Made Easy</b></summary>
 
 * **Authors:** Shuzhe Wang, Vincent Leroy, Yohann Cabon, Boris Chidlovskii, Jérôme Revaud  
 * **arXiv ID:** 2312.14132  
@@ -764,10 +1182,12 @@ Significance: These models represent crucial technical achievements in understan
     * Uses Transformer-based architecture to directly predict dense 3D geometry from images.  
     * Achieves state-of-the-art on depth, pose, and reconstruction benchmarks under unconstrained settings.  
 </details>
+</details>
 
 ---
 
-**4D Gaussian Splatting for Real-Time Dynamic Scene Rendering**
+<details>
+<summary><b>4D Gaussian Splatting for Real-Time Dynamic Scene Rendering</b></summary>
 
 * **Authors:** Guanjun Wu, Taoran Yi, Jiemin Fang, Lingxi Xie, Xiaopeng Zhang, Wei Wei, Wenyu Liu, Qi Tian, Xinggang Wang  
 * **arXiv ID:** 2310.08528  
@@ -790,10 +1210,12 @@ Significance: These models represent crucial technical achievements in understan
     * Efficient deformation field network and splatting renderer designed for dynamic geometry + appearance.  
     * Training and storage efficiency improved relative to prior dynamic scene representations.  
 </details>
+</details>
 
 ---
 
-**Neural Scene Flow Fields for Space-Time View Synthesis of Dynamic Scenes**
+<details>
+<summary><b>Neural Scene Flow Fields for Space-Time View Synthesis of Dynamic Scenes</b></summary>
 
 * **Authors:** Zhengqi Li, Simon Niklaus, Noah Snavely, Oliver Wang  
 * **arXiv ID:** 2011.13084  
@@ -816,10 +1238,12 @@ Significance: These models represent crucial technical achievements in understan
     * Supports novel view and novel time synthesis (i.e., view + motion interpolation).  
     * Handles challenging dynamic phenomena such as thin structures, specularities and complex motion.  
 </details>
+</details>
 
 ---
 
-**CoTracker: It is Better to Track Together**
+<details>
+<summary><b>CoTracker: It is Better to Track Together</b></summary>
 
 * **Authors:** Nikita Karaev, Ignacio Rocco, Benjamin Graham, Natalia Neverova, Andrea Vedaldi, Christian Rupprecht 
 * **arXiv ID:** 2307.07635  
@@ -842,10 +1266,12 @@ Significance: These models represent crucial technical achievements in understan
     * Works online in causal short windows but is trained as an unrolled long-window recurrent to handle long sequences and occlusion.  
     * Significant improvements in robustness and accuracy over traditional independent point tracking methods, especially under occlusion and out-of-view.  
 </details>
+</details>
 
 ---
 
-**GEN3C: 3D-Informed World-Consistent Video Generation with Precise Camera Control**
+<details>
+<summary><b>GEN3C: 3D-Informed World-Consistent Video Generation with Precise Camera Control</b></summary>
 
 * **Authors:** Xuanchi Ren, Tianchang Shen, Jiahui Huang, Huan Ling, Yifan Lu, Merlin Nimier-David, Thomas Müller, Alexander Keller, Sanja Fidler, Jun Gao
 * **arXiv ID:** 2503.03751
@@ -863,6 +1289,7 @@ Significance: These models represent crucial technical achievements in understan
 <details>
     <summary>Key points</summary>
    Depth Anything v2 (metric version) is used to predict metric depth for a single reference image, and the pixels are back-projected into camera space to form a stable 3D representation (point cloud). Then, it is registered/scaled with the point cloud obtained by COLMAP triangulation of each training video, thereby unifying the camera trajectory from relative scale to metric scale. During inference, the camera trajectory preview is drawn and rendered in this interactive 3D point cloud.
+</details>
 </details>
 
 ---
@@ -882,7 +1309,8 @@ Models that generate dynamic, spatially consistent virtual environments from lan
 
 #### Representative Works
 
-**OpenAI Sora**
+<details>
+<summary><b>OpenAI Sora</b></summary>
 
 * **Authors:** OpenAI Research Team
 * **Model:** Sora (2024)
@@ -905,10 +1333,12 @@ Models that generate dynamic, spatially consistent virtual environments from lan
     * Strong physical consistency and camera control  
     * Supports text → video, image → video, video editing, and stylization  
 </details>
+</details>
 
 ---
 
-**Runway Gen-3 Alpha**
+<details>
+<summary><b>Runway Gen-3 Alpha</b></summary>
 
 * **Authors:** Runway Research Team
 * **Model:** Gen-3 Alpha (2024)
@@ -931,10 +1361,12 @@ Models that generate dynamic, spatially consistent virtual environments from lan
     * New control tools (Motion Brush, camera path control)  
     * Designed for professional film & creator workflows  
 </details>
+</details>
 
 ---
 
-**Pika 1.0**
+<details>
+<summary><b>Pika 1.0</b></summary>
 
 * **Authors:** Pika Labs Team
 * **Model:** Pika 1.0 (2023)
@@ -957,6 +1389,7 @@ Models that generate dynamic, spatially consistent virtual environments from lan
     * Web UI + Discord integration for accessible creation  
     * Consumer-focused, fast iteration and community-driven growth  
 </details>
+</details>
 
 ---
 
@@ -971,7 +1404,8 @@ Models designed for robotic control and autonomous agents that must integrate pe
 
 #### Representative Works
 
-**RT-2: Vision-Language-Action Models**
+<details>
+<summary><b>RT-2: Vision-Language-Action Models</b></summary>
 
 * **Authors:** Anthony Brohan, Noah Brown, Justice Carbajal, Yevgen Chebotar, Xi Chen, Krzysztof Choromanski, Tianli Ding, Danny Driess, Avinava Dubey, Chelsea Finn, Pete Florence, Chuyuan Fu, Montse Gonzalez Arenas, Keerthana Gopalakrishnan, Kehang Han, Karol Hausman, Alexander Herzog, Jasmine Hsu, Brian Ichter, Alex Irpan, Nikhil Joshi, Ryan Julian, Dmitry Kalashnikov, Yuheng Kuang, Isabel Leal, Lisa Lee, Tsang-Wei Edward Lee, Sergey Levine, Yao Lu, Henryk Michalewski, Igor Mordatch, Karl Pertsch, Kanishka Rao, Krista Reymann, Michael Ryoo, Grecia Salazar, Pannag Sanketi, Pierre Sermanet, Jaspiar Singh, Anikait Singh, Radu Soricut, Huong Tran, Vincent Vanhoucke, Quan Vuong, Ayzaan Wahid, Stefan Welker, Paul Wohlhart, Jialin Wu, Fei Xia, Ted Xiao, Peng Xu, Sichun Xu, Tianhe Yu, Brianna Zitkovich
 * **arXiv ID:** 2307.15818
@@ -994,10 +1428,12 @@ Models designed for robotic control and autonomous agents that must integrate pe
     * Outputs robotic action tokens
     * Strong zero-shot generalization to new objects, tasks, environment changes
 </details>
+</details>
 
 ---
 
-**GAIA-1: A Generative World Model for Autonomous Driving**
+<details>
+<summary><b>GAIA-1: A Generative World Model for Autonomous Driving</b></summary>
 
 * **Authors:** Anthony Hu, Lloyd Russell, Hudson Yeo, Zak Murez, George Fedoseev, Alex Kendall, Jamie Shotton, Gianluca Corrado
 * **arXiv ID:** 2311.07541
@@ -1021,10 +1457,12 @@ Models designed for robotic control and autonomous agents that must integrate pe
     * Closed-loop simulation for AD evaluation + training
     * Enables rare / edge-case generation for safety
 </details>
+</details>
 
 ---
 
-**PaLM-E: An Embodied Multimodal Language Model**
+<details>
+<summary><b>PaLM-E: An Embodied Multimodal Language Model</b></summary>
 
 * **Authors:** Danny Driess, Fei Xia, Mehdi S. M. Sajjadi, Corey Lynch, Aakanksha Chowdhery, Brian Ichter, Ayzaan Wahid, Jonathan Tompson, Quan Vuong, Tianhe Yu, Wenlong Huang, Yevgen Chebotar, Pierre Sermanet, Daniel Duckworth, Sergey Levine, Vincent Vanhoucke, Karol Hausman, Marc Toussaint, Klaus Greff, Andy Zeng, Igor Mordatch, Pete Florence
 * **arXiv ID:** 2303.03378
@@ -1047,6 +1485,7 @@ Models designed for robotic control and autonomous agents that must integrate pe
     * Handles long-horizon task reasoning and grounding
     * Builds toward unified *robotics-LLM world models*
 </details>
+</details>
 
 ---
 
@@ -1065,7 +1504,8 @@ A true world model benchmark should evaluate:
 
 #### Representative Works
 
-**WISE: A World Knowledge-Informed Semantic Evaluation for Text-to-Image Generation**
+<details>
+<summary><b>WISE: A World Knowledge-Informed Semantic Evaluation for Text-to-Image Generation</b></summary>
 
 * **Authors:** Yuwei Niu, Munan Ning, Mengren Zheng, Weiyang Jin, Bin Lin, Peng Jin, Jiaqi Liao, Chaoran Feng, Kunpeng Ning, Bin Zhu, Li Yuan
 * **arXiv ID:** 2503.07265
@@ -1088,10 +1528,12 @@ A true world model benchmark should evaluate:
     * Shows stronger correlation with human preference vs CLIPScore/BERTScore  
     * Designed as a standardized benchmark for semantic T2I evaluation  
 </details>
+</details>
 
 ---
 
-**Are Video Models Ready as Zero-Shot Reasoners? An Empirical Study with the MME-COF Benchmark**
+<details>
+<summary><b>Are Video Models Ready as Zero-Shot Reasoners? An Empirical Study with the MME-COF Benchmark</b></summary>
 
 * **Authors:** Ziyu Guo, Xinyan Chen, Renrui Zhang, Ruichuan An, Yu Qi, Dongzhi Jiang, Xiangtai Li, Manyuan Zhang, Hongsheng Li, Pheng-Ann Heng
 * **arXiv ID:** 2510.26802
@@ -1113,6 +1555,7 @@ A true world model benchmark should evaluate:
     * Zero-shot evaluation — no task-specific video fine-tuning  
     * Reveals video models are weaker in causal & common-sense reasoning  
     * Shows video models rely on pattern recognition rather than deep inference  
+</details>
 </details>
 
 ---
