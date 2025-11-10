@@ -1002,6 +1002,268 @@
 
 ---
 
+<details>
+<summary><b>CLIP-NeRF: Text-and-Image Driven Manipulation of Neural Radiance Fields</b></summary>
+
+* **Authors:** Can Wang, Menglei Chai, Mingming He, Dongdong Chen, Jing Liao
+* **arXiv ID:** 2112.05139
+* **One-liner:** CLIP-NeRF presents a multi-modal 3D object manipulation method using the CLIP model，enabling users to manipulate NeRF via brief text prompts or example images.
+* **Published in:** CVPR 2022
+* **Links:** [[Paper]](https://arxiv.org/abs/2112.05139) | [[PDF]](https://arxiv.org/pdf/2112.05139.pdf) | [[Code]](https://github.com/cassiePython/CLIPNeRF)
+
+> **核心创新**  
+> 论文的核心创新在于设计了一种解耦的条件神经辐射场（disentangled conditional NeRF）架构，通过引入形状码和外观码分别控制形状变形和外观颜色，并利用 CLIP 模型的多模态能力实现文本和图像驱动的 3D 操控。
+
+<details>
+    <summary>Abstract</summary>
+    我们提出 CLIP-NeRF，这是一种用于神经辐射场（NeRF）的多模态 3D 对象操作方法。通过利用最近的对比语言-图像预训练（CLIP）模型的联合语言-图像嵌入空间，我们提出了一个统一框架，允许用户通过简短的文本提示或示例图像以用户友好的方式操作 NeRF。具体来说，为了将 NeRF 的新视图合成能力与生成模型的潜在表示的可控操作能力相结合，我们引入了一种解耦的条件 NeRF 架构，允许分别控制形状和外观。这是通过将形状条件通过学习到的形变场应用于位置编码，并将颜色条件推迟到体积渲染阶段来实现的。为了将这种解耦的潜在表示与 CLIP 嵌入联系起来，我们设计了两个代码映射器，它们以 CLIP 嵌入作为输入，并更新潜在代码以反映目标编辑。这些映射器通过基于 CLIP 的匹配损失进行训练，以确保操作的准确性。此外，我们提出了一种逆优化方法，可以将输入图像准确地投影到潜在代码中以进行操作，从而实现对真实图像的编辑。我们通过在各种文本提示和示例图像上的广泛实验来评估我们的方法，并提供了一个直观的界面以实现交互式编辑。
+</details>
+
+<details>
+    <summary>Key points</summary>
+    * 提出了解耦的条件神经辐射场架构，分别控制形状和外观。
+    * 设计形状变形网络，通过位移向量更新位置编码，实现对形状的精确控制。
+    * 借助 CLIP 模型的文本和图像编码器，将文本提示或示例图像映射到解耦的潜在空间，实现对神经辐射场的操控。
+    * 引入前馈代码映射器，实现快速推理，支持同一类别中不同对象的编辑。
+    * 提出一种逆优化方法，能够将真实图像投影到潜在代码中进行编辑。
+</details>
+</details>
+
+---
+
+<details>
+<summary><b>Genesis: Multimodal Driving Scene Generation with Spatio-Temporal and Cross-Modal Consistency</b></summary>
+
+* **Authors:** Xiangyu Guo, Zhanqian Wu, Kaixin Xiong, Ziyang Xu, Lijun Zhou, Gangwei Xu, Shaoqing Xu, Haiyang Sun, Bing Wang, Guang Chen, Hangjun Ye, Wenyu Liu, Xinggang Wang
+* **arXiv ID:** 2506.07497
+* **One-liner:** Genesis presents a unified framework for jointly generating multi-view driving videos and LiDAR sequences, achieving spatio-temporal and cross-modal consistency.
+* **Published in:** arXiv 2025
+* **Links:** [[Paper]](https://arxiv.org/abs/2506.07497) | [[PDF]](https://arxiv.org/pdf/2506.07497.pdf) | [[Code]](https://github.com/xiaomi-research/genesis)
+
+> **核心创新**  
+> Genesis 的核心创新在于设计了一种统一的多模态生成架构，通过共享条件输入和结构化语义描述模块 DataCrafter，实现视频和 LiDAR 数据在视觉和几何领域的协同演化。
+
+<details>
+    <summary>Abstract</summary>
+    我们提出Genesis，一个统一框架，用于联合生成多视角驾驶视频和LiDAR序列，确保时空一致性和跨模态一致性。Genesis采用两阶段架构，整合基于DiT的视频扩散模型与3D-VAE编码，以及具有BEV感知的LiDAR生成器，后者结合基于NeRF的渲染和自适应采样。两种模态通过共享潜在空间直接耦合，实现视觉和几何领域的连贯演变。为引导生成structured semantics，我们引入DataCrafter，一个基于视觉语言模型的字幕生成模块，提供场景级和实例级监督。在nuScenes基准上的广泛实验表明，Genesis在视频和LiDAR指标（FVD 16.95，FID 4.24，Chamfer 0.611）上达到最佳性能，并有助于分割和3D检测等下游任务，验证了生成数据的语义保真度和实用性。
+</details>
+
+<details>
+    <summary>Key points</summary>
+    * Genesis 采用双分支架构，通过共享条件输入（如场景描述和布局）实现视频和 LiDAR 的联合生成，确保跨模态一致性。
+    * 基于视觉语言模型，DataCrafter 提供场景级别和实例级别的描述，生成详细的语义先验，指导多模态生成。
+    * 视频生成分支采用 DiT 扩散模型结合 3D-VAE 编码器，捕捉细粒度视觉动态，而 LiDAR 生成分支则利用 BEV 表示和 NeRF 渲染实现精确的几何重建。
+    * 通过将图像特征提取的 BEV 特征融入 LiDAR 扩散模型，增强几何和视觉领域之间的一致性。
+</details>
+</details>
+
+---
+
+<details>
+<summary><b>Hunyuan3D-Omni: A Unified Framework for Controllable Generation of 3D Assets</b></summary>
+
+* **Authors:** Team Hunyuan3D: Bowen Zhang, Chunchao Guo, Haolin Liu, Hongyu Yan, Huiwen Shi, Jingwei Huang, Junlin Yu, Kunhong Li, Linus, Penghao Wang, Qingxiang Lin, Sicong Liu, Xianghui Yang, Yixuan Tang, Yunfei Zhao, Zeqiang Lai, Zhihao Liang, Zibo Zhao
+* **arXiv ID:** 2509.21245
+* **One-liner:** Hunyuan3D-Omni is a unified framework for fine-grained, controllable 3D asset generation based on multi-modal conditioning signals.
+* **Published in:** arXiv 2025
+* **Links:** [[Paper]](https://arxiv.org/abs/2509.21245) | [[PDF]](https://arxiv.org/pdf/2509.21245.pdf) | [[Code]](https://github.com/Tencent-Hunyuan/Hunyuan3D-Omni)
+
+> **核心创新**  
+> 论文的核心创新在于设计了一个统一的控制编码器，整合点云、体素、骨骼姿态和边界框等多种条件信号，通过渐进式、难度感知的训练策略，实现对3D生成过程的精确控制。
+
+<details>
+    <summary>Abstract</summary>
+    我们提出了Hunyuan3D-Omni，这是一个基于Hunyuan3D 2.1的统一框架，用于实现精细且可控的3D资产生成。除了图像之外，它还接受点云、体素、包围盒和骨骼姿态先验作为条件信号，从而能够精确控制几何形状、拓扑结构和姿态。我们的模型并非为每种模态单独设置头部，而是将所有信号统一在一个跨模态架构中。我们采用了一种渐进式的、具有难度感知的采样策略进行训练，该策略为每个示例选择一种控制模态，并倾向于对更难的信号（例如骨骼姿态）进行采样，同时减少对更容易的信号（例如点云）的权重，从而鼓励稳健的多模态融合和对缺失输入的优雅处理。实验表明，这些额外的控制措施提高了生成精度，实现了几何感知的变换，并增强了生产工作流程的鲁棒性。
+</details>
+
+<details>
+    <summary>Key points</summary>
+    * Hunyuan3D-Omni 提出了一个支持多种条件信号的统一框架，实现了对几何、拓扑和姿态的精确控制。
+    * 设计了一个统一控制编码器，将各种额外条件信号编码为嵌入特征，与图像特征结合，实现可控的3D生成。
+    * 提出了一种渐进式的、难度感知的采样策略，优先训练更具挑战性的条件信号，提高模型对多模态融合的鲁棒性。
+    * 实验表明，与仅基于图像的3D生成相比，额外的控制信号显著提高了生成精度，增强了几何保真度，并改善了生产流程中的稳健性。
+</details>
+</details>
+
+---
+
+<details>
+<summary><b>LERF: Language Embedded Radiance Fields</b></summary>
+
+* **Authors:** Justin Kerr, Chung Min Kim, Ken Goldberg, Angjoo Kanazawa, Matthew Tancik
+* **arXiv ID:** 2303.09553
+* **One-liner:** LERF optimizes CLIP language embeddings into a dense, multi-scale 3D field within NeRF, enabling real-time, open-vocabulary natural language queries of 3D scenes without fine-tuning or region proposals.
+* **Published in:** ICCV 2023
+* **Links:** [[Paper]](https://arxiv.org/abs/2303.09553) | [[PDF]](https://arxiv.org/pdf/2303.09553.pdf) | [[Code]](https://github.com/kerrj/lerf)
+
+> **核心创新**  
+> 核心创新在于通过体积渲染学习一个三维语言场，利用多尺度图像块特征金字塔进行监督，实现分层、视角一致的3D语义查询，同时保留原始CLIP模型的零样本能力。
+
+<details>
+    <summary>Abstract</summary>
+    Language Embedded Radiance Fields (LERFs)是一种创新方法，它将自然语言描述与3D空间中的特定位置关联起来。LERFs通过在NeRF（神经辐射场）中体积渲染CLIP嵌入，学习一个密集的、多尺度的语言场。这种方法使得LERFs能够实时、交互式地为各种语言提示提取3D相关性图，而无需依赖区域提议或掩码。LERFs在机器人技术、理解视觉-语言模型以及与3D场景交互方面具有潜在的应用价值，支持长尾开放词汇查询，并在3D场景中实现像素级对齐的零样本查询。
+</details>
+
+<details>
+    <summary>Key points</summary>
+    * 多尺度语言场：学习基于位置和物理尺度的密集3D场，捕捉分层语义
+    * 体积渲染CLIP嵌入：沿射线使用NeRF体积渲染权重渲染CLIP嵌入，并归一化到单位球面
+    * 视角一致性：跨多个训练视角平均嵌入，比2D CLIP产生更局部化且3D一致的相关性热图
+    * 无需微调：直接使用预训练CLIP模型，无需在分割数据集上训练，保留开放词汇能力
+    * DINO正则化：引入自监督DINO特征作为正则化器，改善场的平滑性和物体边界
+    * 解耦架构：为语言特征（CLIP/DINO）和辐射场（RGB/密度）训练独立网络，防止语言梯度影响几何
+</details>
+</details>
+
+---
+
+<details>
+<summary><b>Viewset Diffusion: (0-)Image-Conditioned 3D Generative Models from 2D Data</b></summary>
+
+* **Authors:** Stanislaw Szymanowicz, Christian Rupprecht, Andrea Vedaldi
+* **arXiv ID:** 2306.07881
+* **One-liner:** Viewset Diffusion trains a diffusion model to generate viewsets (multi-view images) while internally reconstructing 3D radiance fields, enabling both probabilistic single-view reconstruction and unconditional 3D generation using only 2D multi-view supervision.
+* **Published in:** ICCV 2023
+* **Links:** [[Paper]](https://arxiv.org/abs/2306.07881) | [[PDF]](https://arxiv.org/pdf/2306.07881.pdf) | [[Code]](https://github.com/szymanowiczs/viewset-diffusion)
+
+> **核心创新**  
+> 核心创新在于将三维生成重构为视图集扩散：通过生成一组二维视图并将去噪器设计为三维重建器加可微渲染，模型仅从零二维数据中学习三维生成先验，在统一框架内实现模糊感知重建与生成，无需三维真实标注。
+
+<details>
+    <summary>Abstract</summary>
+    Viewset Diffusion是一种基于扩散模型的3D对象生成器，仅使用多视角2D数据进行监督。它利用视图集（多个2D视角的集合）与3D模型之间的一一映射关系，训练扩散模型生成视图集，并设计神经网络生成器内部重建对应的3D模型。该模型可基于零、一或多个输入视图进行条件生成。在单个视图条件下，它能考虑任务的模糊性，生成多个与输入兼容的解决方案。模型训练仅使用渲染损失，每个视图集最少仅需三视图，且能高效地以前馈方式完成重建。
+</details>
+
+<details>
+    <summary>Key points</summary>
+    * 视图集-三维等价性：利用视图集与三维模型之间的双射映射，仅通过二维监督实现三维生成
+    * 内部三维重建：扩散去噪函数Φ从噪声视图集重建显式三维辐射场（体素网格），由可微渲染Ψ解码
+    * 任意条件输入：支持零视图（无条件）、单视图或少视图条件生成，通过对不同视图施加不同噪声水平实现
+    * 几何反投影：二维特征通过相机感知的反投影提升到三维，在聚合前创建视图对齐的特征体积
+    * 基于注意力的多视图融合：使用交叉注意力以遮挡感知方式聚合多视图特征，最粗层级使用学习到的类别特定查询
+    * 概率式重建：通过学习分布采样处理单视图重建的固有模糊性，生成多样化合理三维形状而非模糊平均
+    * 数据高效性：训练时每物体仅需3个视图，远少于基于优化方法（50+视图）
+</details>
+</details>
+
+---
+
+<details>
+<summary><b>Aligned Novel View Image and Geometry Synthesis via Cross-modal Attention Instillation</b></summary>
+
+* **Authors:** Min-Seop Kwak, Junho Kim, Sangdoo Yun, Dongyoon Han, Taekyoung Kim, Seungryong Kim, Jin-Hwa Kim
+* **arXiv ID:** 2506.11924
+* **One-liner:** MoAI is a diffusion-based warping-and-inpainting framework that synthesizes aligned novel view images and geometry from sparse unposed reference images by distilling attention maps from the image branch to a parallel geometry branch, enabling extrapolative view synthesis without dense posed data or pose-embedded models.
+* **Published in:** arXiv 2025
+* **Links:** [[Paper]](https://arxiv.org/abs/2506.11924) | [[PDF]](https://arxiv.org/pdf/2506.11924.pdf) | [[Code]](https://github.com/cvlab-kaist/MoAI)
+
+> **核心创新**  
+> 核心创新在于跨模态注意力蒸馏（MoAI），在训练和推理期间将图像扩散分支的空间注意力图注入几何扩散分支，构建协同多任务学习框架：用确定性几何线索正则化图像合成，同时利用丰富的语义图像特征增强几何补全，确保生成的图像与几何精确对齐。
+
+<details>
+    <summary>Abstract</summary>
+    我们提出了一种基于扩散模型的框架，通过变形与修复方法实现图像和几何严格对齐的新视图生成。与依赖密集带姿态图像或局限于固定视域的位姿嵌入模型不同，我们的方法借助现有几何预测器，从参考图像中提取局部几何信息，并将新视图合成转化为图像与几何的修复任务。为确保生成图像与几何的精确对齐，我们提出跨模态注意力蒸馏技术，将图像扩散分支的注意力图注入到并行的几何扩散分支，在训练与推理中实现信息共享。我们进一步引入基于邻近性的网格条件，整合深度与法向信息，通过插值点云与过滤错误几何预测来优化生成结果。实验表明，我们的方法在未见场景中实现了高保真外推视图生成，具备竞争性的插值重建质量，并生成对齐的彩色点云以支持全面的三维补全。
+</details>
+
+<details>
+    <summary>Key points</summary>
+    * 利用现成的几何预测器从参考图像估计部分点云，将其投影至目标视角作为稀疏几何条件进行修复
+    * 将图像U-Net的注意力图转移至几何U-Net，通过共享结构信息对齐模态，同时防止有害的特征混合
+    * 通过球旋转算法将稀疏点云转为网格，拼接深度和法线图以过滤错误投影并提供更密集的几何线索
+    * 处理位于参考相机凸包外的目标视角，利用学习到的场景先验生成合理的遮挡/未见区域
+    * 支持未配准的参考图像，无需先前扩散模型NVS方法所需的已知相机位姿
+    * 联合预测新视角图像和点图，生成几何一致的彩色点云以实现完整3D补全
+    * 几何补全的确定性为更模糊图像修复任务提供更强训练信号进行正则化
+    * 将所有参考视图的键/值特征与目标查询拼接，实现跨任意数量输入的遮挡感知特征聚合
+</details>
+</details>
+
+---
+
+<details>
+<summary><b>Scaling Transformer-Based Novel View Synthesis Models with Token Disentanglement and Synthetic Data</b></summary>
+
+* **Authors:** Nithin Gopalakrishnan Nair, Srinivas Kaza, Xuan Luo, Vishal M. Patel, Stephen Lombardi, Jungyeon Park
+* **arXiv ID:** 2509.06950
+* **One-liner:** This paper introduces a Token-Disentangled (Tok-D) Transformer block that explicitly distinguishes source and target tokens through layer-wise modulation, enabling efficient and robust training on synthetic multi-view data generated by diffusion models, thereby achieving state-of-the-art novel view synthesis with improved generalization and reduced computational cost.
+* **Published in:** ICCV 2025
+* **Links:** [[Paper]](https://arxiv.org/abs/2509.06950) | [[PDF]](https://arxiv.org/pdf/2509.06950.pdf) | [[Project Page]](https://scaling3dnvs.github.io/)
+
+> **核心创新**  
+> 核心创新是Token-Disentangled (Tok-D) Transformer块，它通过基于指示变量的调制在每层分别处理源token和目标token（对注意力和MLP层进行前置缩放/移位调制，后置缩放调制），解决了仅解码器NVS架构的根本低效问题。这种解耦消除了冗余的特征对齐，提升了计算效率，关键地使模型对合成数据伪影具有鲁棒性，从而能够通过合成数据增强实现有效的数据扩展——这是此前会降低基线模型性能的方法。
+
+<details>
+    <summary>Abstract</summary>
+    为解决稀疏输入视图下新视图合成的泛化问题，我们提出了一种结合合成数据和token解耦的Transformer架构方法。首先，利用扩散模型生成的合成数据扩展训练集，增强模型对未见场景的泛化能力。其次，针对合成数据中的伪影问题，设计了token解耦过程，通过区分真实特征和伪影特征的token，增强特征分离，提高模型对伪影的鲁棒性。实验表明，该方法在多个基准测试中均取得了优异的性能，同时显著降低了计算成本。
+</details>
+
+<details>
+    <summary>Key points</summary>
+    * 揭示仅解码器NVS Transformer（如LVSM）在对齐源/目标特征时浪费容量且易受源噪声影响，限制了可扩展性。
+    * 引入token类型感知调制（δ指示器），为每层Transformer的源token和目标token生成独立的风格向量及缩放/移位参数。
+    * 解耦机制防止合成源视图的伪影传播至目标生成，与朴素Transformer不同。
+    * 使用CAT3D生成多视角数据，但关键地反转条件/目标角色（真实条件图像作为目标，合成视图作为源），强制输出真实性并提升鲁棒性。
+    * 提出通过warping和噪声混合的3D一致噪声初始化方法，提升合成数据质量。
+</details>
+</details>
+
+---
+
+<details>
+<summary><b>NeRF-HuGS: Improved Neural Radiance Fields in Non-static Scenes Using Heuristics-Guided Segmentation</b></summary>
+
+* **Authors:** Jiahao Chen, Yipeng Qin, Lingjie Liu, Jiangbo Lu, Guanbin Li
+* **arXiv ID:** 2403.17537
+* **One-liner:** NeRF-HuGS introduces a "Heuristics-Guided Segmentation" paradigm that synergizes hand-crafted cues (SfM features & color residuals) with SAM to accurately separate static scenes from transient distractors without prior knowledge, significantly boosting NeRF quality in non-static environments.
+* **Published in:** CVPR 2024
+* **Links:** [[Paper]](https://arxiv.org/abs/2403.17537) | [[PDF]](https://arxiv.org/pdf/2403.17537.pdf) | [[Code]](https://github.com/cnhaox/NeRF-HuGS)
+
+> **核心创新**  
+> 核心创新是启发式引导分割（HuGS）框架，它将静/瞬态分离重构为协同过程：不再单纯依赖启发式或分割，而是通过互补启发式（基于SfM的高频纹理检测 + 基于颜色残差的低频纹理检测）提供粗略静态线索，引导SAM生成精确、边界感知的静态掩码，从而打破了现有方法在通用性与准确性之间的根本权衡。
+
+<details>
+    <summary>Abstract</summary>
+    NeRF在处理静态场景时表现出色，但在动态场景中易受干扰。为解决这一问题，我们提出了“启发式引导分割”（HuGS）方法，结合手工启发式规则和先进分割模型，有效分离静态场景与动态干扰物。该方法融合了基于运动恢复结构（SfM）的启发式规则和颜色残差启发式规则，以适应不同纹理特征。实验表明，HuGS方法能显著减少动态干扰对NeRF的影响，提升其在非静态场景中的性能。
+</details>
+
+<details>
+    <summary>Key points</summary>
+    * NeRF的静态场景假设使其在包含移动物体、阴影等瞬态干扰物的真实数据中产生伪影
+    * 静态物体的SfM特征点在跨视图匹配次数上显著多于瞬态物体，且高频与低频纹理需不同启发式处理
+    * HuGS通过阈值筛选SfM静态特征点→SAM生成初始静态图→部分训练Nerfacto提供颜色残差图→双启发式融合→再次SAM生成最终静态掩码
+</details>
+</details>
+
+---
+
+<details>
+<summary><b>RealFusion: 360° Reconstruction of Any Object from a Single Image</b></summary>
+
+* **Authors:** Luke Melas-Kyriazi, Christian Rupprecht, Iro Laina, Andrea Vedaldi
+* **arXiv ID:** 2302.10663
+* **One-liner:** Proposes RealFusion, a method that uses single-image textual inversion to generate custom prompts for Stable Diffusion, combined with SDS loss and efficient InstantNGP reconstruction, enabling 360° photorealistic 3D reconstruction of arbitrary objects from a single image.
+* **Published in:** CVPR 2023
+* **Links:** [[Paper]](https://arxiv.org/abs/2302.10663) | [[PDF]](https://arxiv.org/pdf/2302.10663.pdf) | [[Code]](https://github.com/lukemelas/realfusion)
+
+> **核心创新**  
+> 核心创新在于单图像文本反转技术：通过对单张输入图像进行大量增强，创建自定义文本token嵌入，使扩散模型生成视角一致、物体特定的先验信息，从而在无需任何3D监督的情况下，弥合了通用2D扩散模型与精确单视角3D重建之间的鸿沟。
+
+<details>
+    <summary>Abstract</summary>
+    单图像重建完整360°对象模型极具挑战性，因为二维图像信息不足以推断出完整的三维结构。为解决这一问题，研究者采用了一种基于扩散模型的条件图像生成器，通过精心设计的提示词（prompt）来引导模型“想象”出对象的多角度视图。接着，他们借鉴DreamFields和DreamFusion的方法，将输入图像、条件先验和其他约束条件融合，最终生成一个与输入视角一致且能合理外推到未见视角的3D模型。实验表明，该方法在多个基准测试中均取得了最佳的重建效果，无论是定性还是定量评估，都显著优于其他单目3D重建方法。
+</details>
+
+<details>
+    <summary>Key points</summary>
+    * 结合两个同时的目标——重建损失（拟合输入视角）和基于SDS的先验损失（使用Stable Diffusion约束新视角）。
+    * 单图像文本反转通过对输入图像进行重度增强来优化自定义token⟨e⟩，使扩散模型针对特定物体而非通用类别。
+    * 使用InstantNGP实现快速训练，并引入从粗到精的训练策略以减少表面伪影。
+    * 添加2D法向量平滑正则化和掩码损失以改善几何质量。
+</details>
+</details>
+
+---
+
 ### 模态 + 时间一致性
 
 **能力特征**：将文本描述或静态图像转换为时间连贯的动态视频序列的模型。
