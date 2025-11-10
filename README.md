@@ -1007,6 +1007,268 @@ Current state-of-the-art models are beginning to break down the barriers between
 
 ---
 
+<details>
+<summary><b>CLIP-NeRF: Text-and-Image Driven Manipulation of Neural Radiance Fields</b></summary>
+
+* **Authors:** Can Wang, Menglei Chai, Mingming He, Dongdong Chen, Jing Liao
+* **arXiv ID:** 2112.05139
+* **One-liner:** CLIP-NeRF presents a multi-modal 3D object manipulation method using the CLIP model，enabling users to manipulate NeRF via brief text prompts or example images.
+* **Published in:** CVPR 2022
+* **Links:** [[Paper]](https://arxiv.org/abs/2112.05139) | [[PDF]](https://arxiv.org/pdf/2112.05139.pdf) | [[Code]](https://github.com/cassiePython/CLIPNeRF)
+
+> **Core Innovation**  
+> The core innovation lies in the disentangled conditional NeRF architecture, which uses shape and appearance codes to separately control shape and appearance, combined with CLIP's multi-modal capabilities for text and image-driven 3D manipulation.
+
+<details>
+    <summary>Abstract</summary>
+    We present CLIP-NeRF, a multi-modal 3D object manipulation method for neural radiance fields (NeRF). By leveraging the joint language-image embedding space of the recent Contrastive Language-Image Pre-Training (CLIP) model, we propose a unified framework that allows manipulating NeRF in a user-friendly way, using either a short text prompt or an exemplar image. Specifically, to combine the novel view synthesis capability of NeRF and the controllable manipulation ability of latent representations from generative models, we introduce a disentangled conditional NeRF architecture that allows individual control over both shape and appearance. This is achieved by performing the shape conditioning via applying a learned deformation field to the positional encoding and deferring color conditioning to the volumetric rendering stage. To bridge this disentangled latent representation to the CLIP embedding, we design two code mappers that take a CLIP embedding as input and update the latent codes to reflect the targeted editing. The mappers are trained with a CLIP-based matching loss to ensure the manipulation accuracy. Furthermore, we propose an inverse optimization method that accurately projects an input image to the latent codes for manipulation to enable editing on real images. We evaluate our approach by extensive experiments on a variety of text prompts and exemplar images and also provide an intuitive interface for interactive editing.
+</details>
+
+<details>
+    <summary>Key points</summary>
+    * Proposes a disentangled conditional NeRF architecture for separate shape and appearance control.
+    * Designs a shape deformation network to update positional encodings via displacement vectors for precise shape control.
+    * Leverages CLIP's text and image encoders to map text prompts or example images to the disentangled latent space for NeRF manipulation.
+    * Introduces feedforward code mappers for fast inference, supporting editing of different objects within the same category.
+    * Presents an inverse optimization method to project real images into latent codes for manipulation.
+</details>
+</details>
+
+---
+
+<details>
+<summary><b>Genesis: Multimodal Driving Scene Generation with Spatio-Temporal and Cross-Modal Consistency</b></summary>
+
+* **Authors:** Xiangyu Guo, Zhanqian Wu, Kaixin Xiong, Ziyang Xu, Lijun Zhou, Gangwei Xu, Shaoqing Xu, Haiyang Sun, Bing Wang, Guang Chen, Hangjun Ye, Wenyu Liu, Xinggang Wang
+* **arXiv ID:** 2506.07497
+* **One-liner:** Genesis presents a unified framework for jointly generating multi-view driving videos and LiDAR sequences, achieving spatio-temporal and cross-modal consistency.
+* **Published in:** arXiv 2025
+* **Links:** [[Paper]](https://arxiv.org/abs/2506.07497) | [[PDF]](https://arxiv.org/pdf/2506.07497.pdf) | [[Code]](https://github.com/xiaomi-research/genesis)
+
+> **Core Innovation**  
+> The core innovation of Genesis lies in its unified multimodal generation architecture that enables coherent evolution of video and LiDAR data across visual and geometric domains through shared conditional inputs and structured semantic guidance from DataCrafter.
+
+<details>
+    <summary>Abstract</summary>
+    We present Genesis, a unified framework for joint generation of multi-view driving videos and LiDAR sequences with spatio-temporal and cross-modal consistency. Genesis employs a two-stage architecture that integrates a DiT-based video diffusion model with 3D-VAE encoding, and a BEV-aware LiDAR generator with NeRF-based rendering and adaptive sampling. Both modalities are directly coupled through a shared latent space, enabling coherent evolution across visual and geometric domains. To guide the generation with structured semantics, we introduce DataCrafter, a captioning module built on vision-language models that provides scene-level and instance-level supervision. Extensive experiments on the nuScenes benchmark demonstrate that Genesis achieves state-of-the-art performance across video and LiDAR metrics (FVD 16.95, FID 4.24, Chamfer 0.611), and benefits downstream tasks including segmentation and 3D detection, validating the semantic fidelity and practical utility of the generated data.
+</details>
+
+<details>
+    <summary>Key points</summary>
+    * Genesis uses a dual-branch design where both video and LiDAR generation are conditioned on shared inputs (e.g., scene descriptions and layouts), ensuring cross-modal consistency.
+    * Built on vision-language models, DataCrafter generates scene-level and instance-level descriptions to provide detailed semantic guidance for multimodal generation.
+    * The video branch leverages a DiT-based diffusion model with 3D-VAE encoding for fine-grained visual dynamics, while the LiDAR branch uses BEV representation and NeRF-based rendering for accurate geometry.
+    * BEV features extracted from image pathways are incorporated into the LiDAR diffusion model to enhance consistency between geometric and visual domains.
+</details>
+</details>
+
+---
+
+<details>
+<summary><b>Hunyuan3D-Omni: A Unified Framework for Controllable Generation of 3D Assets</b></summary>
+
+* **Authors:** Team Hunyuan3D: Bowen Zhang, Chunchao Guo, Haolin Liu, Hongyu Yan, Huiwen Shi, Jingwei Huang, Junlin Yu, Kunhong Li, Linus, Penghao Wang, Qingxiang Lin, Sicong Liu, Xianghui Yang, Yixuan Tang, Yunfei Zhao, Zeqiang Lai, Zhihao Liang, Zibo Zhao
+* **arXiv ID:** 2509.21245
+* **One-liner:** Hunyuan3D-Omni is a unified framework for fine-grained, controllable 3D asset generation based on multi-modal conditioning signals.
+* **Published in:** arXiv 2025
+* **Links:** [[Paper]](https://arxiv.org/abs/2509.21245) | [[PDF]](https://arxiv.org/pdf/2509.21245.pdf) | [[Code]](https://github.com/Tencent-Hunyuan/Hunyuan3D-Omni)
+
+> **Core Innovation**  
+> The core innovation lies in the unified control encoder that integrates diverse conditioning signals like point clouds, voxels, skeletons, and bounding boxes. Combined with a progressive, difficulty-aware training strategy, it enables precise control over the 3D generation process.
+
+<details>
+    <summary>Abstract</summary>
+    Recent advances in 3D-native generative models have accelerated asset creation for games, film, and design. However, most methods still rely primarily on image or text conditioning and lack fine-grained, cross-modal controls, which limits controllability and practical adoption. To address this gap, we present Hunyuan3D-Omni, a unified framework for fine-grained, controllable 3D asset generation built on Hunyuan3D 2.1. In addition to images, Hunyuan3D-Omni accepts point clouds, voxels, bounding boxes, and skeletal pose priors as conditioning signals, enabling precise control over geometry, topology, and pose. Instead of separate heads for each modality, our model unifies all signals in a single cross-modal architecture. We train with a progressive, difficulty-aware sampling strategy that selects one control modality per example and biases sampling toward harder signals (e.g., skeletal pose) while downweighting easier ones (e.g., point clouds), encouraging robust multi-modal fusion and graceful handling of missing inputs. Experiments show that these additional controls improve generation accuracy, enable geometry-aware transformations, and increase robustness for production workflows.
+</details>
+
+<details>
+    <summary>Key points</summary>
+    * Hunyuan3D-Omni introduces a unified framework supporting diverse conditioning signals for precise control over geometry, topology, and pose in 3D generation.
+    * It designs a unified control encoder to convert various conditions into embeddings, which are combined with image features to achieve controllable 3D generation.
+    * A progressive, difficulty-aware sampling strategy is proposed, prioritizing harder signals during training to enhance the model's robustness to multimodal fusion.
+    * Experiments show that additional control signals improve generation accuracy, enhance geometric fidelity, and increase robustness in production workflows compared to image-only 3D generation.
+</details>
+</details>
+
+---
+
+<details>
+<summary><b>LERF: Language Embedded Radiance Fields</b></summary>
+
+* **Authors:** Justin Kerr, Chung Min Kim, Ken Goldberg, Angjoo Kanazawa, Matthew Tancik
+* **arXiv ID:** 2303.09553
+* **One-liner:** LERF optimizes CLIP language embeddings into a dense, multi-scale 3D field within NeRF, enabling real-time, open-vocabulary natural language queries of 3D scenes without fine-tuning or region proposals.
+* **Published in:** ICCV 2023
+* **Links:** [[Paper]](https://arxiv.org/abs/2303.09553) | [[PDF]](https://arxiv.org/pdf/2303.09553.pdf) | [[Code]](https://github.com/kerrj/lerf)
+
+> **Core Innovation**  
+> The key innovation is learning a volumetric language field that renders CLIP embeddings through volume rendering, supervised by multi-scale feature pyramids from image crops, enabling hierarchical, view-consistent 3D semantic queries while preserving the original CLIP model's zero-shot capabilities.
+
+<details>
+    <summary>Abstract</summary>
+    Humans describe the physical world using natural language to refer to specific 3D locations based on a vast range of properties: visual appearance, semantics, abstract associations, or actionable affordances. In this work we propose Language Embedded Radiance Fields (LERFs), a method for grounding language embeddings from off-the-shelf models like CLIP into NeRF, which enable these types of open-ended language queries in 3D. LERF learns a dense, multi-scale language field inside NeRF by volume rendering CLIP embeddings along training rays, supervising these embeddings across training views to provide multi-view consistency and smooth the underlying language field. After optimization, LERF can extract 3D relevancy maps for a broad range of language prompts interactively in real-time, which has potential use cases in robotics, understanding vision-language models, and interacting with 3D scenes. LERF enables pixel-aligned, zero-shot queries on the distilled 3D CLIP embeddings without relying on region proposals or masks, supporting long-tail open-vocabulary queries hierarchically across the volume. 
+</details>
+
+<details>
+    <summary>Key points</summary>
+    * Multi-Scale Language Field: Learns a dense 3D field conditioned on position and physical scale to capture hierarchical semantics
+    * Volumetric CLIP Rendering: Renders CLIP embeddings along rays using NeRF's volume rendering weights, then normalizes to unit sphere
+    * View-Consistency: Averaging embeddings across multiple training views produces more localized and 3D-consistent relevancy maps than 2D CLIP
+    * No Fine-Tuning Required: Directly uses off-the-shelf CLIP model without training on segmentation datasets, preserving open-vocabulary capabilities
+    * DINO Regularization: Incorporates self-supervised DINO features as a regularizer to improve field smoothness and object boundaries
+    * Decoupled Architecture: Trains separate networks for language features (CLIP/DINO) and radiance field (RGB/density) to prevent language gradients from affecting geometry
+</details>
+</details>
+
+---
+
+<details>
+<summary><b>Viewset Diffusion: (0-)Image-Conditioned 3D Generative Models from 2D Data</b></summary>
+
+* **Authors:** Stanislaw Szymanowicz, Christian Rupprecht, Andrea Vedaldi
+* **arXiv ID:** 2306.07881
+* **One-liner:** Viewset Diffusion trains a diffusion model to generate viewsets (multi-view images) while internally reconstructing 3D radiance fields, enabling both probabilistic single-view reconstruction and unconditional 3D generation using only 2D multi-view supervision.
+* **Published in:** ICCV 2023
+* **Links:** [[Paper]](https://arxiv.org/abs/2306.07881) | [[PDF]](https://arxiv.org/pdf/2306.07881.pdf) | [[Code]](https://github.com/szymanowiczs/viewset-diffusion)
+
+> **Core Innovation**  
+> The key innovation is framing 3D generation as viewset diffusion: by generating a set of 2D views and designing the denoiser as a 3D reconstructor followed by differentiable rendering, the model learns a 3D generative prior from 2D data alone, unifying ambiguous-aware reconstruction and generation in a single framework without requiring 3D ground truth.
+
+<details>
+    <summary>Abstract</summary>
+    We present Viewset Diffusion, a diffusion-based generator that outputs 3D objects while only using multi-view 2D data for supervision. We note that there exists a one-to-one mapping between viewsets, i.e., collections of several 2D views of an object, and 3D models. Hence, we train a diffusion model to generate viewsets, but design the neural network generator to reconstruct internally corresponding 3D models, thus generating those too. We fit a diffusion model to a large number of viewsets for a given category of objects. The resulting generator can be conditioned on zero, one or more input views. Conditioned on a single view, it performs 3D reconstruction accounting for the ambiguity of the task and allowing to sample multiple solutions compatible with the input. The model performs reconstruction efficiently, in a feed-forward manner, and is trained using only rendering losses using as few as three views per viewset.
+</details>
+
+<details>
+    <summary>Key points</summary>
+    * Exploits the bijective mapping between viewsets and 3D models to enable 3D generation via 2D supervision only
+    * The diffusion denoising function Φ reconstructs an explicit 3D radiance field (voxel grid) from noisy viewsets, decoded by differentiable rendering Ψ
+    * Supports zero (unconditional), single, or few-view conditioning by applying different noise levels to different views (noised views for generation, clean views for conditioning)
+    * 2D features are lifted to 3D via camera-aware unprojection, creating view-aligned feature volumes before aggregation
+    * Attention-based Multi-view Fusion: Uses cross-attention to aggregate features from multiple views in an occlusion-aware manner, with learned per-category queries at coarsest level
+    * Handles inherent ambiguity in single-view reconstruction by sampling from the learned distribution, producing diverse plausible 3D shapes instead of blurry averages
+    * Requires only 3 views per object during training, significantly less than optimization-based methods (50+ views)
+</details>
+</details>
+
+---
+
+<details>
+<summary><b>Aligned Novel View Image and Geometry Synthesis via Cross-modal Attention Instillation</b></summary>
+
+* **Authors:** Min-Seop Kwak, Junho Kim, Sangdoo Yun, Dongyoon Han, Taekyoung Kim, Seungryong Kim, Jin-Hwa Kim
+* **arXiv ID:** 2506.11924
+* **One-liner:** MoAI is a diffusion-based warping-and-inpainting framework that synthesizes aligned novel view images and geometry from sparse unposed reference images by distilling attention maps from the image branch to a parallel geometry branch, enabling extrapolative view synthesis without dense posed data or pose-embedded models.
+* **Published in:** arXiv 2025
+* **Links:** [[Paper]](https://arxiv.org/abs/2506.11924) | [[PDF]](https://arxiv.org/pdf/2506.11924.pdf) | [[Code]](https://github.com/cvlab-kaist/MoAI)
+
+> **Core Innovation**  
+> The key innovation is cross-modal attention instillation (MoAI), where spatial attention maps from the image diffusion branch are injected into the geometry diffusion branch during both training and inference, creating a synergistic multi-task learning framework that regularizes image synthesis with deterministic geometry cues while enhancing geometry completion with rich semantic image features, ensuring precise alignment between generated images and geometry.
+
+<details>
+    <summary>Abstract</summary>
+    We introduce a diffusion-based framework that performs aligned novel view image and geometry generation via a warping-and-inpainting methodology. Unlike prior methods that require dense posed images or pose-embedded generative models limited to in-domain views, our method leverages off-the-shelf geometry predictors to predict partial geometries viewed from reference images, and formulates novel-view synthesis as an inpainting task for both image and geometry. To ensure accurate alignment between generated images and geometry, we propose cross-modal attention distillation, where attention maps from the image diffusion branch are injected into a parallel geometry diffusion branch during both training and inference. This multi-task approach achieves synergistic effects, facilitating geometrically robust image synthesis as well as well-defined geometry prediction. We further introduce proximity-based mesh conditioning to integrate depth and normal cues, interpolating between point cloud and filtering erroneously predicted geometry from influencing the generation process. Empirically, our method achieves high-fidelity extrapolative view synthesis on both image and geometry across a range of unseen scenes, delivers competitive reconstruction quality under interpolation settings, and produces geometrically aligned colored point clouds for comprehensive 3D completion.
+</details>
+
+<details>
+    <summary>Key points</summary>
+    * Warping-and-Inpainting Paradigm: Leverages off-the-shelf geometry predictors to estimate partial point clouds from reference images, projecting them to target viewpoints as sparse * geometric conditioning for inpainting
+    * Transfers attention maps from image U-Net to geometry U-Net, aligning modalities via shared structural information while preventing harmful feature mixing
+    * Converts sparse point clouds to mesh via ball-pivoting, concatenating depth and normal maps to filter erroneous projections and provide denser geometric cues
+    * Handles target viewpoints outside the convex hull of reference cameras, generating plausible occluded/unseen regions using learned scene priors
+    * Works with unposed reference images, eliminating the need for known camera poses as required by prior diffusion-based NVS methods
+    * Jointly predicts novel view images and pointmaps, producing geometrically consistent colored point clouds for comprehensive 3D completion
+    * Geometry completion's deterministic nature provides stronger training signals to regularize the more ambiguous image inpainting task
+    * Concatenates key/value features from all reference views with target queries, enabling occlusion-aware feature aggregation across arbitrary numbers of inputs
+</details>
+</details>
+
+---
+
+<details>
+<summary><b>Scaling Transformer-Based Novel View Synthesis Models with Token Disentanglement and Synthetic Data</b></summary>
+
+* **Authors:** Nithin Gopalakrishnan Nair, Srinivas Kaza, Xuan Luo, Vishal M. Patel, Stephen Lombardi, Jungyeon Park
+* **arXiv ID:** 2509.06950
+* **One-liner:** This paper introduces a Token-Disentangled (Tok-D) Transformer block that explicitly distinguishes source and target tokens through layer-wise modulation, enabling efficient and robust training on synthetic multi-view data generated by diffusion models, thereby achieving state-of-the-art novel view synthesis with improved generalization and reduced computational cost.
+* **Published in:** ICCV 2025
+* **Links:** [[Paper]](https://arxiv.org/abs/2509.06950) | [[PDF]](https://arxiv.org/pdf/2509.06950.pdf) | [[Project Page]](https://scaling3dnvs.github.io/)
+
+> **Core Innovation**  
+> The core innovation is the Token-Disentangled (Tok-D) Transformer block, which addresses the fundamental inefficiency in decoder-only NVS architectures by using indicator-based modulation to separately process source and target tokens at each layer (pre-modulation for scaling/shifting attention and MLP layers, post-modulation for scaling). This disentanglement eliminates redundant feature alignment, improves computational efficiency, and critically, makes the model robust to synthetic data artifacts, enabling effective data scaling via synthetic augmentation—an approach that previously degraded baseline model performance.
+
+<details>
+    <summary>Abstract</summary>
+    Large transformer-based models have made significant progress in generalizable novel view synthesis (NVS) from sparse input views, generating novel viewpoints without the need for test-time optimization. However, these models are constrained by the limited diversity of publicly available scene datasets, making most real-world (in-the-wild) scenes out-of-distribution. To overcome this, we incorporate synthetic training data generated from diffusion models, which improves generalization across unseen domains. While synthetic data offers scalability, we identify artifacts introduced during data generation as a key bottleneck affecting reconstruction quality. To address this, we propose a token disentanglement process within the transformer architecture, enhancing feature separation and ensuring more effective learning. This refinement not only improves reconstruction quality over standard transformers but also enables scalable training with synthetic data. As a result, our method outperforms existing models on both in-dataset and cross-dataset evaluations, achieving state-of-the-art results across multiple benchmarks while significantly reducing computational costs.
+</details>
+
+<details>
+    <summary>Key points</summary>
+    * Reveals that decoder-only NVS transformers (e.g., LVSM) waste capacity aligning source/target features and are vulnerable to source noise, limiting scalability.
+    * Introduces token-type-aware modulation (δ indicator) that generates separate style vectors and scale/shift parameters for source vs. target tokens at every transformer layer.
+    * The disentanglement mechanism prevents artifact propagation from synthetic source views to target generation, unlike naive transformers.
+    * Uses CAT3D to generate multi-view data but crucially reverses the conditioning/target roles (real conditioned image becomes target, synthetic views become sources), forcing realistic output and robustness.
+    * Proposes 3D-consistent noise initialization for diffusion models via warping and noise blending to improve synthetic data quality.
+</details>
+</details>
+
+---
+
+<details>
+<summary><b>NeRF-HuGS: Improved Neural Radiance Fields in Non-static Scenes Using Heuristics-Guided Segmentation</b></summary>
+
+* **Authors:** Jiahao Chen, Yipeng Qin, Lingjie Liu, Jiangbo Lu, Guanbin Li
+* **arXiv ID:** 2403.17537
+* **One-liner:** NeRF-HuGS introduces a "Heuristics-Guided Segmentation" paradigm that synergizes hand-crafted cues (SfM features & color residuals) with SAM to accurately separate static scenes from transient distractors without prior knowledge, significantly boosting NeRF quality in non-static environments.
+* **Published in:** CVPR 2024
+* **Links:** [[Paper]](https://arxiv.org/abs/2403.17537) | [[PDF]](https://arxiv.org/pdf/2403.17537.pdf) | [[Code]](https://github.com/cnhaox/NeRF-HuGS)
+
+> **Core Innovation**  
+> The core innovation is the Heuristics-Guided Segmentation (HuGS) framework that reframes static/transient separation as a collaborative process: instead of relying purely on heuristics or segmentation, it uses complementary heuristics (SfM-based for high-frequency textures, color-residual for low-frequency) to provide coarse static cues that guide SAM into producing precise, boundary-aware static maps, thus overcoming the fundamental trade-off between generality and accuracy in prior methods.
+
+<details>
+    <summary>Abstract</summary>
+    Neural Radiance Field (NeRF) has been widely recognized for its excellence in novel view synthesis and 3D scene reconstruction. However, their effectiveness is inherently tied to the assumption of static scenes, rendering them susceptible to undesirable artifacts when confronted with transient distractors such as moving objects or shadows. In this work, we propose a novel paradigm, namely "Heuristics-Guided Segmentation" (HuGS), which significantly enhances the separation of static scenes from transient distractors by harmoniously combining the strengths of hand-crafted heuristics and state-of-the-art segmentation models, thus significantly transcending the limitations of previous solutions. Furthermore, we delve into the meticulous design of heuristics, introducing a seamless fusion of Structure-from-Motion (SfM)-based heuristics and color residual heuristics, catering to a diverse range of texture profiles. Extensive experiments demonstrate the superiority and robustness of our method in mitigating transient distractors for NeRFs trained in non-static scenes.
+</details>
+
+<details>
+    <summary>Key points</summary>
+    * NeRF's static scene assumption causes artifacts in real-world data with transient distractors like moving objects/shadows
+    * Static objects' SfM feature points have significantly more cross-view matches than transient ones, and high/low-frequency textures require different heuristics
+    * HuGS thresholds SfM static features → SAM generates initial static map → partially-trained Nerfacto provides color residual map → dual heuristics fusion → SAM again for final static mask
+</details>
+</details>
+
+---
+
+<details>
+<summary><b>RealFusion: 360° Reconstruction of Any Object from a Single Image</b></summary>
+
+* **Authors:** Luke Melas-Kyriazi, Christian Rupprecht, Iro Laina, Andrea Vedaldi
+* **arXiv ID:** 2302.10663
+* **One-liner:** Proposes RealFusion, a method that uses single-image textual inversion to generate custom prompts for Stable Diffusion, combined with SDS loss and efficient InstantNGP reconstruction, enabling 360° photorealistic 3D reconstruction of arbitrary objects from a single image.
+* **Published in:** CVPR 2023
+* **Links:** [[Paper]](https://arxiv.org/abs/2302.10663) | [[PDF]](https://arxiv.org/pdf/2302.10663.pdf) | [[Code]](https://github.com/lukemelas/realfusion)
+
+> **Core Innovation**  
+> The core innovation is the single-image textual inversion technique that creates a custom text token embedding from a single input image (via heavy augmentations), which conditions the diffusion model to generate view-consistent, object-specific priors—bridging the gap between generic 2D diffusion and precise single-view 3D reconstruction without any 3D supervision.
+
+<details>
+    <summary>Abstract</summary>
+    We consider the problem of reconstructing a full 360° photographic model of an object from a single image of it. We do so by fitting a neural radiance field to the image, but find this problem to be severely ill-posed. We thus take an off-the-self conditional image generator based on diffusion and engineer a prompt that encourages it to "dream up" novel views of the object. Using an approach inspired by DreamFields and DreamFusion, we fuse the given input view, the conditional prior, and other regularizers in a final, consistent reconstruction. We demonstrate state-of-the-art reconstruction results on benchmark images when compared to prior methods for monocular 3D reconstruction of objects. Qualitatively, our reconstructions provide a faithful match of the input view and a plausible extrapolation of its appearance and 3D shape, including to the side of the object not visible in the image.
+</details>
+
+<details>
+    <summary>Key points</summary>
+    * Methodology: Combines two simultaneous objectives—reconstruction loss (fitting the input view) and SDS-based prior loss (constraining novel views using Stable Diffusion).
+    * Single-image textual inversion optimizes a custom token ⟨e⟩ using heavily-augmented versions of the input image, making the diffusion model object-specific rather than category-generic.
+    * Uses InstantNGP for fast training and introduces coarse-to-fine training to reduce surface artifacts.
+    * Adds normal smoothness regularization in 2D and mask loss to improve geometry.
+</details>
+</details>
+
+---
+
 ### Modality + Temporal Consistency
 
 **Capability Profile**: Models that transform textual descriptions or static images into temporally coherent, dynamic video sequences.
@@ -1600,3 +1862,4 @@ If this project helps you, please give us a Star ⭐️!
 ## 📄 License
 
 This project is licensed under [MIT License](LICENSE).
+
