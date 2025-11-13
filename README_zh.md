@@ -1562,6 +1562,34 @@
 
 ---
 
+<details>
+<summary><b>World-consistent Video Diffusion with Explicit 3D Modeling</b></summary>
+
+* **Authors:** Qihang Zhang, Shuangfei Zhai, Miguel Angel Bautista, Kevin Miao, Alexander Toshev, Joshua Susskind, Jiatao Gu
+* **arXiv ID:** 2412.01821
+* **One-liner:** 单张图像/多视图图像 → 多视图图像/视频。显式3D监督（XYZ图），从单图预测“6D视频”，把多种3D任务统一到一个扩散模型里。
+* **Published in:** CVPR 2025 Highlight  
+*   **Links:** [[Paper]](https://arxiv.org/abs/2412.01821) | [[PDF]](https://zqh0253.github.io/wvd/media/wvd.pdf) | [[Project Page]](https://zqh0253.github.io/wvd/)
+   
+
+> **核心创新**  
+> 提出 WVD：在训练时纳入显式3D监督，使用XYZ 图像（为每个像素编码全局三维坐标），并训练一个 diffusion transformer 来学习 RGB 与 XYZ 帧的联合分布；推理阶段通过灵活的 inpainting 策略支持从 RGB 估计 XYZ、或根据给定相机轨迹由 XYZ 投影生成新的 RGB 帧。由此在单图到3D、多视图立体、相机可控视频生成等任务间实现统一。
+
+<details>
+    <summary>Abstract</summary>
+    扩散模型的最新进展为图像和视频生成树立了新的标杆，实现了单帧和多帧环境下逼真的视觉合成。然而，这些模型在高效且显式地生成三维一致性内容方面仍然面临挑战。为了解决这一问题，我们提出了世界一致性视频扩散（WVD）框架，该框架利用 XYZ 图像进行显式三维监督，其中 XYZ 图像编码了每个图像像素的全局三维坐标。更具体地说，我们训练了一个扩散变换器来学习 RGB 帧和 XYZ 帧的联合分布。该方法通过灵活的图像修复策略支持多任务适应性。例如，WVD 可以从真实 RGB 帧估计 XYZ 帧，或者使用沿指定相机轨迹的 XYZ 投影生成新的 RGB 帧。通过这种方式，WVD 统一了诸如single-image-to-3D生成、多视图立体视觉和相机控制视频生成等任务。我们的方法在多个基准测试中展现了优异的性能，为使用单个预训练模型生成三维一致性视频和图像提供了一种可扩展的解决方案。
+</details>
+
+<details>
+    <summary>Key points</summary>
+    * 先将场景点云归一化并栅格化为每帧的图像XYZ图像.
+    * 作为6D视频被联合扩散学习.
+    * 像素层面提供显式几何监督与跨视角一致性。
+</details>
+</details>
+
+---
+
 ## 🌟 "三位一体"原型：涌现的世界模型
 
 本节重点介绍展示**三大一致性初步整合**的模型，表现出涌现的世界模型能力。这些系统代表了当前前沿，展现了真正世界模拟的雏形。

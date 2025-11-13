@@ -20,7 +20,7 @@
 
 ## 📋 Table of Contents
 
-- [Awesome World Model Evolution - Forging the World Model Universe from Unified Multimodal Models](#awesome-world-model-evolution---forging-the-world-model-universe-from-unified-multimodal-models-)
+- [Awesome World Model Evolution - Forging the World Model Universe from Unified Multimodal Models ](#awesome-world-model-evolution---forging-the-world-model-universe-from-unified-multimodal-models-)
   - [📋 Table of Contents](#-table-of-contents)
   - [🎯 Introduction](#-introduction)
     - [What is a World Model?](#what-is-a-world-model)
@@ -1551,6 +1551,30 @@ Significance: These models represent crucial technical achievements in understan
 <details>
     <summary>Key points</summary>
    Depth Anything v2 (metric version) is used to predict metric depth for a single reference image, and the pixels are back-projected into camera space to form a stable 3D representation (point cloud). Then, it is registered/scaled with the point cloud obtained by COLMAP triangulation of each training video, thereby unifying the camera trajectory from relative scale to metric scale. During inference, the camera trajectory preview is drawn and rendered in this interactive 3D point cloud.
+</details>
+</details>
+
+---
+
+<details>
+<summary><b>World-consistent Video Diffusion with Explicit 3D Modeling</b></summary>
+
+* **Authors:** Qihang Zhang, Shuangfei Zhai, Miguel Angel Bautista, Kevin Miao, Alexander Toshev, Joshua Susskind, Jiatao Gu
+* **arXiv ID:** 2412.01821
+*   **One-liner:** 
+*   **Published in:** CVPR 2025 Highlight
+*   **Links:** [[Paper]](https://arxiv.org/abs/2412.01821) | [[PDF]](https://zqh0253.github.io/wvd/media/wvd.pdf) | [[Project Page]](https://zqh0253.github.io/wvd/)
+   
+> **Core Innovation**  
+> Propose WVD: During training, we incorporate explicit 3D supervision, using XYZ images (encoding global 3D coordinates for each pixel) and training a diffusion transformer to learn the joint distribution of RGB and XYZ frames. During the inference phase, a flexible inpainting strategy supports estimating XYZ from RGB or generating new RGB frames from XYZ projection based on a given camera trajectory. This achieves unification across tasks such as single-image to 3D, multi-view stereo, and camera-controlled video generation.
+
+<details>
+    <summary>Abstract</summary>
+    Recent advancements in diffusion models have set new benchmarks in image and video generation, enabling realistic visual synthesis across single- and multi-frame contexts. However, these models still struggle with efficiently and explicitly generating 3D-consistent content. To address this, we propose World-consistent Video Diffusion (WVD), a novel framework that incorporates explicit 3D supervision using XYZ images, which encode global 3D coordinates for each image pixel. More specifically, we train a diffusion transformer to learn the joint distribution of RGB and XYZ frames. This approach supports multi-task adaptability via a flexible inpainting strategy. For example, WVD can estimate XYZ frames from ground-truth RGB or generate novel RGB frames using XYZ projections along a specified camera trajectory. In doing so, WVD unifies tasks like single-image-to-3D generation, multi-view stereo, and camera-controlled video generation. Our approach demonstrates competitive performance across multiple benchmarks, providing a scalable solution for 3D-consistent video and image generation with a single pretrained model.
+</details>
+<details>
+    <summary>Key points</summary>
+   First, the scene point cloud is normalized and rasterized into XYZ images for each frame. These are then jointly diffused and learned as 6D video, providing explicit geometric supervision and cross-view consistency at the pixel level.
 </details>
 </details>
 
