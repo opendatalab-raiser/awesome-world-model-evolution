@@ -1,3 +1,7 @@
+<p align="center">
+  <a href="README.md">English</a> | <a href="README_zh.md">中文</a>
+</p>
+
 ### Temporal Consistency
 
 **Objective**: Model temporal dynamics, object motion, and causal relationships in video sequences.
