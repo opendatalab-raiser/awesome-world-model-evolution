@@ -123,15 +123,14 @@
 
 ---
 
-
 <details>
 <summary><b> Zero-Shot Text-to-Image Generation</b></summary>
 
 * **Authors:** Aditya Ramesh, Mikhail Pavlov, Gabriel Goh, Scott Gray, Chelsea Voss, Alec Radford, Mark Chen, Ilya Sutskever
 * **arXiv ID:** 2102.12092
 * **One-liner:** Developed a simple transformer-based autoregressive model for text-to-image generation that is competitive with domain-specific models in zero-shot evaluation.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2102.12092) | [[PDF]](https://arxiv.org/pdf/2102.12092)
+* **Published in:** arxiv (24 Feb 2021)
+* **Links:** [[Paper]](https://arxiv.org/abs/2102.12092) | [[PDF]](https://arxiv.org/pdf/2102.12092) | [[Code]](https://github.com/openai/dall-e)
 
 > **Core Innovation**
 > Achieved competitive zero-shot text-to-image generation by modeling text and image tokens as a single data stream with a transformer architecture.
@@ -155,11 +154,11 @@
 <details>
 <summary><b> High-Resolution Image Synthesis with Latent Diffusion Models</b></summary>
 
-* **Authors:** Robin Rombach, Andreas Blattmann, Dominik Lorenz, Patrick Esser, Björn Ommer
+* **Authors:** Robin Rombach, Andreas Blattmann, Dominik Lorenz, Patrick Esser, Bj枚rn Ommer
 * **arXiv ID:** 2112.10752
 * **One-liner:** Introduced latent diffusion models (LDMs) that reduce computational costs while maintaining high image quality and flexibility for tasks like text-to-image generation.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2112.10752) | [[PDF]](https://arxiv.org/pdf/2112.10752)
+* **Published in:** arxiv (20 Dec 2021)
+* **Links:** [[Paper]](https://arxiv.org/abs/2112.10752) | [[PDF]](https://arxiv.org/pdf/2112.10752) | [[Code]](https://github.com/CompVis/stable-diffusion)
 
 > **Core Innovation**
 > Applied diffusion models in the latent space of pretrained autoencoders to balance complexity reduction and detail preservation, enabling efficient high-fidelity image synthesis.
@@ -186,8 +185,8 @@
 * **Authors:** Chitwan Saharia, William Chan, Saurabh Saxena, Lala Li, Jay Whang, Emily Denton, Seyed Kamyar Seyed Ghasemipour, Burcu Karagol Ayan, S. Sara Mahdavi, Rapha Gontijo Lopes, Tim Salimans, Jonathan Ho, David J Fleet, Mohammad Norouzi
 * **arXiv ID:** 2205.11487
 * **One-liner:** Created Imagen, a text-to-image diffusion model with exceptional photorealism and language understanding, leveraging large language models for text encoding.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2205.11487) | [[PDF]](https://arxiv.org/pdf/2205.11487)
+* **Published in:** arxiv (23 May 2022)
+* **Links:** [[Paper]](https://arxiv.org/abs/2205.11487) | [[PDF]](https://arxiv.org/pdf/2205.11487) | [[Code]](https://github.com/GACWR/Deep-Floyd-IF?tab=readme-ov-file)
 
 > **Core Innovation**
 > Demonstrated that scaling the language model in Imagen improves sample fidelity and image-text alignment more than scaling the image diffusion model, achieving state-of-the-art FID scores.
@@ -214,8 +213,8 @@
 * **Authors:** Jiahui Yu, Yuanzhong Xu, Jing Yu Koh, Thang Luong, Gunjan Baid, Zirui Wang, Vijay Vasudevan, Alexander Ku, Yinfei Yang, Burcu Karagol Ayan, Ben Hutchinson, Wei Han, Zarana Parekh, Xin Li, Han Zhang, Jason Baldridge, Yonghui Wu
 * **arXiv ID:** 2206.10789
 * **One-liner:** Developed Parti, a sequence-to-sequence model for text-to-image generation that scales to 20B parameters, achieving high-fidelity and content-rich image synthesis.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2206.10789) | [[PDF]](https://arxiv.org/pdf/2206.10789)
+* **Published in:** arxiv (22 Jun 2022)
+* **Links:** [[Paper]](https://arxiv.org/abs/2206.10789) | [[PDF]](https://arxiv.org/pdf/2206.10789) | [[Code]](https://github.com/google-research/parti)
 
 > **Core Innovation**
 > Treated text-to-image generation as a sequence-to-sequence problem, using a transformer-based image tokenizer and scaling model size for improved performance.
@@ -242,8 +241,8 @@
 * **Authors:** Hao Liu, Wilson Yan, Pieter Abbeel
 * **arXiv ID:** 2302.00902
 * **One-liner:** Proposed LQAE, an unsupervised method to align text and image modalities using pretrained language models, enabling few-shot image classification.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2302.00902) | [[PDF]](https://arxiv.org/pdf/2302.00902)
+* **Published in:** arxiv (2 Feb 2023)
+* **Links:** [[Paper]](https://arxiv.org/abs/2302.00902) | [[PDF]](https://arxiv.org/pdf/2302.00902) | [[Code]](https://github.com/haoliuhl/language-quantized-autoencoders)
 
 > **Core Innovation**
 > Learned to represent images as sequences of text tokens by quantizing image embeddings with a pretrained language codebook, facilitating multimodal tasks without aligned data.
@@ -270,8 +269,8 @@
 * **Authors:** Ronghuan Wu, Wanchao Su, Kede Ma, Jing Liao
 * **arXiv ID:** 2304.14400
 * **One-liner:** Introduced IconShop, a text-guided vector icon synthesis method using autoregressive transformers for high-quality and diverse SVG generation.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2304.14400) | [[PDF]](https://arxiv.org/pdf/2304.14400)
+* **Published in:** arxiv (27 Apr 2023)
+* **Links:** [[Paper]](https://arxiv.org/abs/2304.14400) | [[PDF]](https://arxiv.org/pdf/2304.14400) | [[Code]](https://github.com/kingnobro/IconShop)
 
 > **Core Innovation**
 > Sequentialized and tokenized SVG paths and text descriptions to leverage autoregressive transformers for unconditional and text-conditioned icon synthesis.
@@ -295,11 +294,11 @@
 <details>
 <summary><b> SDXL: Improving Latent Diffusion Models for High-Resolution Image Synthesis</b></summary>
 
-* **Authors:** Dustin Podell, Zion English, Kyle Lacey, Andreas Blattmann, Tim Dockhorn, Jonas Müller, Joe Penna, Robin Rombach
+* **Authors:** Dustin Podell, Zion English, Kyle Lacey, Andreas Blattmann, Tim Dockhorn, Jonas M眉ller, Joe Penna, Robin Rombach
 * **arXiv ID:** 2307.01952
 * **One-liner:** Presented SDXL, an enhanced latent diffusion model with a larger UNet backbone and novel conditioning schemes for improved text-to-image synthesis.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2307.01952) | [[PDF]](https://arxiv.org/pdf/2307.01952)
+* **Published in:** arxiv (4 Jul 2023)
+* **Links:** [[Paper]](https://arxiv.org/abs/2307.01952) | [[PDF]](https://arxiv.org/pdf/2307.01952) | [[Code]](https://github.com/Stability-AI/generative-models)
 
 > **Core Innovation**
 > Increased model parameters and introduced multiple conditioning schemes and aspect ratio training, with a refinement model for better visual fidelity.
@@ -326,8 +325,8 @@
 * **Authors:** Quan Sun, Qiying Yu, Yufeng Cui, Fan Zhang, Xiaosong Zhang, Yueze Wang, Hongcheng Gao, Jingjing Liu, Tiejun Huang, Xinlong Wang
 * **arXiv ID:** 2307.05222
 * **One-liner:** Developed Emu, a multimodal foundation model that generates images and texts from any single or multimodal input using a unified autoregressive training process.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2307.05222) | [[PDF]](https://arxiv.org/pdf/2307.05222)
+* **Published in:** arxiv (11 Jul 2023)
+* **Links:** [[Paper]](https://arxiv.org/abs/2307.05222) | [[PDF]](https://arxiv.org/pdf/2307.05222) | [[Code]](https://github.com/baaivision/Emu)
 
 > **Core Innovation**
 > Trained end-to-end with a unified objective for next token prediction in multimodal sequences, enabling versatile tasks like image captioning and text-to-image generation.
@@ -354,8 +353,8 @@
 * **Authors:** Shanchuan Lin, Anran Wang, Xiao Yang
 * **arXiv ID:** 2402.13929
 * **One-liner:** Proposed a diffusion distillation method for efficient one-step/few-step text-to-image generation based on SDXL, achieving state-of-the-art results.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2402.13929) | [[PDF]](https://arxiv.org/pdf/2402.13929)
+* **Published in:** arxiv (21 Feb 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2402.13929) | [[PDF]](https://arxiv.org/pdf/2402.13929) | [[Code]](https://github.com/Stability-AI/generative-models)
 
 > **Core Innovation**
 > Combined progressive and adversarial distillation to balance quality and mode coverage, enabling fast inference with high fidelity.
@@ -382,8 +381,8 @@
 * **Authors:** Lei Zhu, Fangyun Wei, Yanye Lu
 * **arXiv ID:** 2403.07874
 * **One-liner:** Introduced V2T Tokenizer to enable large language models to comprehend and process images as linguistic entities without fine-tuning on multimodal data.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2403.07874) | [[PDF]](https://arxiv.org/pdf/2403.07874)
+* **Published in:** arxiv (12 Mar 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2403.07874) | [[PDF]](https://arxiv.org/pdf/2403.07874) | [[Code]](https://github.com/zh460045050/V2L-Tokenizer)
 
 > **Core Innovation**
 > Transformed images into discrete words using an encoder-decoder and CLIP model, allowing LLMs to perform visual tasks autoregressively.
@@ -410,8 +409,8 @@
 * **Authors:** Vladimir Arkhipkin, Andrei Filatov, Viacheslav Vasilev, Anastasia Maltseva, Said Azizov, Igor Pavlov, Julia Agafonova, Andrey Kuznetsov, Denis Dimitrov
 * **arXiv ID:** 2312.03511
 * **One-liner:** Introduced Kandinsky 3.0, a high-quality text-to-image model based on latent diffusion.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2312.03511) | [[PDF]](https://arxiv.org/pdf/2312.03511)
+* **Published in:** arxiv (6 Dec 2023)
+* **Links:** [[Paper]](https://arxiv.org/abs/2312.03511) | [[PDF]](https://arxiv.org/pdf/2312.03511) | [[Code]](https://github.com/ai-forever/Kandinsky-3)
 
 > **Core Innovation**
 > Achieved higher realism and quality in image generation through architectural improvements and training techniques.
@@ -434,13 +433,13 @@
 
 
 <details>
-<summary><b> PixArt-$α$: Fast Training of Diffusion Transformer for Photorealistic Text-to-Image Synthesis</b></summary>
+<summary><b> PixArt-$伪$: Fast Training of Diffusion Transformer for Photorealistic Text-to-Image Synthesis</b></summary>
 
 * **Authors:** Junsong Chen, Jincheng Yu, Chongjian Ge, Lewei Yao, Enze Xie, Yue Wu, Zhongdao Wang, James Kwok, Ping Luo, Huchuan Lu, Zhenguo Li
 * **arXiv ID:** 2310.00426
-* **One-liner:** Developed PIXART-α, a low-cost Transformer-based text-to-image model with competitive quality.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2310.00426) | [[PDF]](https://arxiv.org/pdf/2310.00426)
+* **One-liner:** Developed PIXART-伪, a low-cost Transformer-based text-to-image model with competitive quality.
+* **Published in:** arxiv (30 Sep 2023)
+* **Links:** [[Paper]](https://arxiv.org/abs/2310.00426) | [[PDF]](https://arxiv.org/pdf/2310.00426) | [[Code]](https://github.com/PixArt-alpha/PixArt-alpha)
 
 > **Core Innovation**
 > Reduced training costs and CO2 emissions while maintaining high-resolution image synthesis.
@@ -467,8 +466,8 @@
 * **Authors:** Jingyuan Yang, Jiawei Feng, Hui Huang
 * **arXiv ID:** 2401.04608
 * **One-liner:** Proposed Emotional Image Content Generation (EICG) for generating emotion-faithful images.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2401.04608) | [[PDF]](https://arxiv.org/pdf/2401.04608)
+* **Published in:** arxiv (9 Jan 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2401.04608) | [[PDF]](https://arxiv.org/pdf/2401.04608) | [[Code]]()
 
 > **Core Innovation**
 > Enabled generation of semantic-clear images based on abstract emotions using CLIP alignment.
@@ -495,8 +494,8 @@
 * **Authors:** Seung Hyun Lee, Yinxiao Li, Junjie Ke, Innfarn Yoo, Han Zhang, Jiahui Yu, Qifei Wang, Fei Deng, Glenn Entis, Junfeng He, Gang Li, Sangpil Kim, Irfan Essa, Feng Yang
 * **arXiv ID:** 2401.05675
 * **One-liner:** Introduced Parrot for multi-objective optimization in text-to-image generation.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2401.05675) | [[PDF]](https://arxiv.org/pdf/2401.05675)
+* **Published in:** arxiv (11 Jan 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2401.05675) | [[PDF]](https://arxiv.org/pdf/2401.05675) | [[Code]]()
 
 > **Core Innovation**
 > Automated reward trade-off to improve image quality without manual weight adjustment.
@@ -523,8 +522,8 @@
 * **Authors:** Jie Qin, Jie Wu, Weifeng Chen, Yuxi Ren, Huixia Li, Hefeng Wu, Xuefeng Xiao, Rui Wang, Shilei Wen
 * **arXiv ID:** 2401.10061
 * **One-liner:** Proposed DiffusionGPT, a unified system for diverse prompts and model integration using LLMs.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2401.10061) | [[PDF]](https://arxiv.org/pdf/2401.10061)
+* **Published in:** arxiv (18 Jan 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2401.10061) | [[PDF]](https://arxiv.org/pdf/2401.10061) | [[Code]](https://github.com/DiffusionGPT/DiffusionGPT)
 
 > **Core Innovation**
 > Leveraged LLMs to select appropriate generative models based on input prompts.
@@ -551,8 +550,8 @@
 * **Authors:** Changyao Tian, Xizhou Zhu, Yuwen Xiong, Weiyun Wang, Zhe Chen, Wenhai Wang, Yuntao Chen, Lewei Lu, Tong Lu, Jie Zhou, Hongsheng Li, Yu Qiao, Jifeng Dai
 * **arXiv ID:** 2401.10208
 * **One-liner:** Presented MM-Interleaved, an end-to-end model for interleaved image-text data generation.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2401.10208) | [[PDF]](https://arxiv.org/pdf/2401.10208)
+* **Published in:** arxiv (18 Jan 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2401.10208) | [[PDF]](https://arxiv.org/pdf/2401.10208) | [[Code]](https://github.com/OpenGVLab/MM-Interleaved)
 
 > **Core Innovation**
 > Improved handling of multi-image scenarios with fine-grained feature access.
@@ -579,8 +578,8 @@
 * **Authors:** Xiaojun Wu, Dixiang Zhang, Ruyi Gan, Junyu Lu, Ziwei Wu, Renliang Sun, Jiaxing Zhang, Pingjian Zhang, Yan Song
 * **arXiv ID:** 2401.14688
 * **One-liner:** Developed Taiyi-Diffusion-XL, a bilingual text-to-image model for Chinese and English.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2401.14688) | [[PDF]](https://arxiv.org/pdf/2401.14688)
+* **Published in:** arxiv (26 Jan 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2401.14688) | [[PDF]](https://arxiv.org/pdf/2401.14688) | [[Code]](https://github.com/IDEA-CCNL/Taiyi-Diffusion-XL)
 
 > **Core Innovation**
 > Extended CLIP and Stable-Diffusion-XL with bilingual support and enhanced prompts.
@@ -607,8 +606,8 @@
 * **Authors:** Xingchen Zeng, Ziyao Gao, Yilin Ye, Wei Zeng
 * **arXiv ID:** 2401.15559
 * **One-liner:** Proposed IntentTuner, an interactive framework for intent-aligned fine-tuning of T2I models.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2401.15559) | [[PDF]](https://arxiv.org/pdf/2401.15559)
+* **Published in:** arxiv (28 Jan 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2401.15559) | [[PDF]](https://arxiv.org/pdf/2401.15559) | [[Code]]()
 
 > **Core Innovation**
 > Streamlined fine-tuning by incorporating user intentions and automated data augmentation.
@@ -635,8 +634,8 @@
 * **Authors:** Huizhuo Yuan, Zixiang Chen, Kaixuan Ji, Quanquan Gu
 * **arXiv ID:** 2402.10210
 * **One-liner:** Introduced SPIN-Diffusion, a self-play fine-tuning method for diffusion models.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2402.10210) | [[PDF]](https://arxiv.org/pdf/2402.10210)
+* **Published in:** arxiv (15 Feb 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2402.10210) | [[PDF]](https://arxiv.org/pdf/2402.10210) | [[Code]]()
 
 > **Core Innovation**
 > Enabled iterative self-improvement without additional human preference data.
@@ -663,8 +662,8 @@
 * **Authors:** Zongyu Wu, Hongcheng Gao, Yueze Wang, Xiang Zhang, Suhang Wang
 * **arXiv ID:** 2402.10882
 * **One-liner:** Proposed POSI, a universal prompt optimizer for safe text-to-image generation.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2402.10882) | [[PDF]](https://arxiv.org/pdf/2402.10882)
+* **Published in:** arxiv (16 Feb 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2402.10882) | [[PDF]](https://arxiv.org/pdf/2402.10882) | [[Code]]()
 
 > **Core Innovation**
 > Reduced generation of unsafe content by converting toxic prompts to clean ones.
@@ -691,8 +690,8 @@
 * **Authors:** Tanzila Rahman, Shweta Mahajan, Hsin-Ying Lee, Jian Ren, Sergey Tulyakov, Leonid Sigal
 * **arXiv ID:** 2402.11487
 * **One-liner:** Proposed a concept-driven personalization framework for TTI models that enables generation with multiple interacting and entangled concepts.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2402.11487) | [[PDF]](https://arxiv.org/pdf/2402.11487)
+* **Published in:** arxiv (18 Feb 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2402.11487) | [[PDF]](https://arxiv.org/pdf/2402.11487) | [[Code]]()
 
 > **Core Innovation**
 > Joint learning of custom tokens and latent segmentation masks using an EM-like optimization to disentangle concepts in user-provided images.
@@ -719,8 +718,8 @@
 * **Authors:** Nailei Hei, Qianyu Guo, Zihao Wang, Yan Wang, Haofen Wang, Wenqiang Zhang
 * **arXiv ID:** 2402.12760
 * **One-liner:** Developed an automated prompt optimization framework to bridge the gap between novice user inputs and model-preferred prompts.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2402.12760) | [[PDF]](https://arxiv.org/pdf/2402.12760)
+* **Published in:** arxiv (20 Feb 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2402.12760) | [[PDF]](https://arxiv.org/pdf/2402.12760) | [[Code]]()
 
 > **Core Innovation**
 > Introduced a User-Friendly Fine-Grained Text Generation framework and a Coarse-Fine Granularity Prompts dataset for automated prompt refinement.
@@ -744,11 +743,11 @@
 <details>
 <summary><b> Scaling Rectified Flow Transformers for High-Resolution Image Synthesis</b></summary>
 
-* **Authors:** Patrick Esser, Sumith Kulal, Andreas Blattmann, Rahim Entezari, Jonas Müller, Harry Saini, Yam Levi, Dominik Lorenz, Axel Sauer, Frederic Boesel, Dustin Podell, Tim Dockhorn, Zion English, Kyle Lacey, Alex Goodwin, Yannik Marek, Robin Rombach
+* **Authors:** Patrick Esser, Sumith Kulal, Andreas Blattmann, Rahim Entezari, Jonas M眉ller, Harry Saini, Yam Levi, Dominik Lorenz, Axel Sauer, Frederic Boesel, Dustin Podell, Tim Dockhorn, Zion English, Kyle Lacey, Alex Goodwin, Yannik Marek, Robin Rombach
 * **arXiv ID:** 2403.03206
 * **One-liner:** Improved rectified flow models with biased noise sampling and introduced a novel transformer architecture for superior text-to-image synthesis.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2403.03206) | [[PDF]](https://arxiv.org/pdf/2403.03206)
+* **Published in:** arxiv (5 Mar 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2403.03206) | [[PDF]](https://arxiv.org/pdf/2403.03206) | [[Code]](https://github.com/Stability-AI/sd3.5)
 
 > **Core Innovation**
 > Enhanced noise sampling for perceptual relevance and designed a bidirectional transformer architecture for better text comprehension and typography.
@@ -775,8 +774,8 @@
 * **Authors:** Zhijie Wang, Yuheng Huang, Da Song, Lei Ma, Tianyi Zhang
 * **arXiv ID:** 2403.04014
 * **One-liner:** Created PromptCharm, a mixed-initiative system to assist novice users in text-to-image creation through prompt engineering and refinement.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2403.04014) | [[PDF]](https://arxiv.org/pdf/2403.04014)
+* **Published in:** arxiv (6 Mar 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2403.04014) | [[PDF]](https://arxiv.org/pdf/2403.04014) | [[Code]]()
 
 > **Core Innovation**
 > Combined automatic prompt optimization, style exploration, model explanation visualization, and interactive refinement tools.
@@ -803,8 +802,8 @@
 * **Authors:** Leigang Qu, Wenjie Wang, Yongqi Li, Hanwang Zhang, Liqiang Nie, Tat-Seng Chua
 * **arXiv ID:** 2403.04321
 * **One-liner:** Enhanced text-to-image alignment by bolstering discriminative abilities through a discriminative adapter and fine-tuning.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2403.04321) | [[PDF]](https://arxiv.org/pdf/2403.04321)
+* **Published in:** arxiv (7 Mar 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2403.04321) | [[PDF]](https://arxiv.org/pdf/2403.04321) | [[Code]](https://github.com/LgQu/DPT-T2I)
 
 > **Core Innovation**
 > Proposed using discriminative modeling to improve generative alignment, with a self-correction mechanism during inference.
@@ -826,13 +825,13 @@
 
 
 <details>
-<summary><b> PixArt-Σ: Weak-to-Strong Training of Diffusion Transformer for 4K Text-to-Image Generation</b></summary>
+<summary><b> PixArt-危: Weak-to-Strong Training of Diffusion Transformer for 4K Text-to-Image Generation</b></summary>
 
 * **Authors:** Junsong Chen, Chongjian Ge, Enze Xie, Yue Wu, Lewei Yao, Xiaozhe Ren, Zhongdao Wang, Ping Luo, Huchuan Lu, Zhenguo Li
 * **arXiv ID:** 2403.04692
-* **One-liner:** Introduced PixArt-Σ, a Diffusion Transformer model for efficient 4K resolution image generation with high fidelity and text alignment.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2403.04692) | [[PDF]](https://arxiv.org/pdf/2403.04692)
+* **One-liner:** Introduced PixArt-危, a Diffusion Transformer model for efficient 4K resolution image generation with high fidelity and text alignment.
+* **Published in:** arxiv (7 Mar 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2403.04692) | [[PDF]](https://arxiv.org/pdf/2403.04692) | [[Code]](https://github.com/PixArt-alpha/PixArt-sigma)
 
 > **Core Innovation**
 > Achieved training efficiency via weak-to-strong training with high-quality data and efficient token compression.
@@ -859,8 +858,8 @@
 * **Authors:** Jiwon Choi, Wooyoung Jo, Seongyon Hong, Beomseok Kwon, Wonhoon Park, Hoi-Jun Yoo
 * **arXiv ID:** 2403.04982
 * **One-liner:** Designed an energy-efficient stable diffusion processor for mobile deployment with high throughput and reduced power consumption.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2403.04982) | [[PDF]](https://arxiv.org/pdf/2403.04982)
+* **Published in:** arxiv (8 Mar 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2403.04982) | [[PDF]](https://arxiv.org/pdf/2403.04982) | [[Code]]()
 
 > **Core Innovation**
 > Implemented hardware optimizations including sparsity augmentation, important pixel spotting, and dual-mode core architecture.
@@ -887,8 +886,8 @@
 * **Authors:** Wendi Zheng, Jiayan Teng, Zhuoyi Yang, Weihan Wang, Jidong Chen, Xiaotao Gu, Yuxiao Dong, Ming Ding, Jie Tang
 * **arXiv ID:** 2403.05121
 * **One-liner:** Proposed CogView3, a cascaded framework using relay diffusion for efficient and high-quality text-to-image generation.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2403.05121) | [[PDF]](https://arxiv.org/pdf/2403.05121)
+* **Published in:** arxiv (8 Mar 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2403.05121) | [[PDF]](https://arxiv.org/pdf/2403.05121) | [[Code]]()
 
 > **Core Innovation**
 > Introduced relay-based super-resolution to reduce training and inference costs while improving performance.
@@ -915,8 +914,8 @@
 * **Authors:** Yuhao Jia, Wenhan Tan
 * **arXiv ID:** 2403.06400
 * **One-liner:** Introduced a divide-and-conquer approach for layout-based text-to-image generation to handle complex spatial relationships with lightweight LLMs.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2403.06400) | [[PDF]](https://arxiv.org/pdf/2403.06400)
+* **Published in:** arxiv (11 Mar 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2403.06400) | [[PDF]](https://arxiv.org/pdf/2403.06400) | [[Code]]()
 
 > **Core Innovation**
 > Decoupled layout prediction and image generation into subtasks for improved accuracy and perceptual quality.
@@ -943,8 +942,8 @@
 * **Authors:** Likun Li, Haoqi Zeng, Changpeng Yang, Haozhe Jia, Di Xu
 * **arXiv ID:** 2403.07500
 * **One-liner:** Proposed block-wise Low-Rank Adaptation for effective personalization and stylization in text-to-image generation.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2403.07500) | [[PDF]](https://arxiv.org/pdf/2403.07500)
+* **Published in:** arxiv (12 Mar 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2403.07500) | [[PDF]](https://arxiv.org/pdf/2403.07500) | [[Code]]()
 
 > **Core Innovation**
 > Enabled fine-grained fine-tuning of different SD blocks to achieve faithful and stylized image generation.
@@ -971,8 +970,8 @@
 * **Authors:** Michael Ogezi, Ning Shi
 * **arXiv ID:** 2403.07605
 * **One-liner:** Proposed NegOpt for automated negative prompt optimization, enhancing image quality by 25% in Inception Score.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2403.07605) | [[PDF]](https://arxiv.org/pdf/2403.07605)
+* **Published in:** arxiv (12 Mar 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2403.07605) | [[PDF]](https://arxiv.org/pdf/2403.07605) | [[Code]](https://huggingface.co/datasets/mikeogezi/negopt_full)
 
 > **Core Innovation**
 > Developed a method combining supervised fine-tuning and reinforcement learning to generate effective negative prompts automatically, outperforming manual approaches.
@@ -999,8 +998,8 @@
 * **Authors:** Shihao Zhao, Shaozhe Hao, Bojia Zi, Huaizhe Xu, Kwan-Yee K. Wong
 * **arXiv ID:** 2403.07860
 * **One-liner:** Introduced LaVi-Bridge, enabling flexible integration of diverse language and vision models for improved text-to-image generation.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2403.07860) | [[PDF]](https://arxiv.org/pdf/2403.07860)
+* **Published in:** arxiv (12 Mar 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2403.07860) | [[PDF]](https://arxiv.org/pdf/2403.07860) | [[Code]](https://github.com/ShihaoZhaoZSH/LaVi-Bridge)
 
 > **Core Innovation**
 > Created a plug-and-play pipeline using LoRA and adapters to combine pre-trained models without modifying original weights, enhancing capabilities like text alignment and image quality.
@@ -1027,8 +1026,8 @@
 * **Authors:** Minbin Huang, Yanxin Long, Xinchi Deng, Ruihang Chu, Jiangfeng Xiong, Xiaodan Liang, Hong Cheng, Qinglin Lu, Wei Liu
 * **arXiv ID:** 2403.08857
 * **One-liner:** Proposed DialogGen for multi-turn text-to-image generation via MLLM alignment, improving output coherence and modality switching.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2403.08857) | [[PDF]](https://arxiv.org/pdf/2403.08857)
+* **Published in:** arxiv (13 Mar 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2403.08857) | [[PDF]](https://arxiv.org/pdf/2403.08857) | [[Code]](https://github.com/Centaurusalpha/DialogGen)
 
 > **Core Innovation**
 > Developed a pipeline with drawing prompt alignment, data curation, and error correction to build a multi-modal interactive dialogue system, validated on the DialogBen benchmark.
@@ -1055,8 +1054,8 @@
 * **Authors:** Seungdae Han, Joohee Kim
 * **arXiv ID:** 2403.14944
 * **One-liner:** Introduced CLIP-VQDiffusion for text-to-image generation without paired captions, achieving state-of-the-art performance on FFHQ.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2403.14944) | [[PDF]](https://arxiv.org/pdf/2403.14944)
+* **Published in:** arxiv (22 Mar 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2403.14944) | [[PDF]](https://arxiv.org/pdf/2403.14944) | [[Code]](https://github.com/INFINIQ-AI1/CLIPVQDiffusion)
 
 > **Core Innovation**
 > Leveraged pretrained CLIP for multimodal representations to generate realistic images from text, even out-of-distribution, outperforming previous methods by 4.4% in clipscore.
@@ -1083,8 +1082,8 @@
 * **Authors:** Lin Zhao, Tianchen Zhao, Zinan Lin, Xuefei Ning, Guohao Dai, Huazhong Yang, Yu Wang
 * **arXiv ID:** 2403.16379
 * **One-liner:** Developed FlashEval for efficient evaluation of text-to-image models, achieving 10x speedup with representative subset selection.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2403.16379) | [[PDF]](https://arxiv.org/pdf/2403.16379)
+* **Published in:** arxiv (25 Mar 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2403.16379) | [[PDF]](https://arxiv.org/pdf/2403.16379) | [[Code]](https://github.com/thu-nics/FlashEval)
 
 > **Core Innovation**
 > Proposed an iterative search algorithm to select subsets of text-image datasets, enabling comparable evaluation quality with fewer samples on COCO and DiffusionDB.
@@ -1111,8 +1110,8 @@
 * **Authors:** Yingshan Chang, Yasi Zhang, Zhiyuan Fang, Yingnian Wu, Yonatan Bisk, Feng Gao
 * **arXiv ID:** 2403.16394
 * **One-liner:** Identified dataset skew as a cause of generalization failures in entity-relation compositions and proposed metrics to quantify it.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2403.16394) | [[PDF]](https://arxiv.org/pdf/2403.16394)
+* **Published in:** arxiv (25 Mar 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2403.16394) | [[PDF]](https://arxiv.org/pdf/2403.16394) | [[Code]]()
 
 > **Core Innovation**
 > Introduced statistical metrics for linguistic and visual skew, showing that controlled perturbations improve generalization without increasing data size.
@@ -1139,8 +1138,8 @@
 * **Authors:** Sanyam Lakhanpal, Shivang Chopra, Vinija Jain, Aman Chadha, Man Luo
 * **arXiv ID:** 2403.16422
 * **One-liner:** Proposed a training-free framework to enhance visual text generation, improving OCR metrics by over 23% on LenCom-Eval benchmark.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2403.16422) | [[PDF]](https://arxiv.org/pdf/2403.16422)
+* **Published in:** arxiv (25 Mar 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2403.16422) | [[PDF]](https://arxiv.org/pdf/2403.16422) | [[Code]]()
 
 > **Core Innovation**
 > Introduced LenCom-Eval benchmark for lengthy and complex text images and a method to boost two-stage generation approaches without retraining.
@@ -1167,8 +1166,8 @@
 * **Authors:** Jingyuan Zhu, Huimin Ma, Jiansheng Chen, Jian Yuan
 * **arXiv ID:** 2403.16954
 * **One-liner:** Introduced Isolated Diffusion to address concept bleeding in multi-concept generation, improving text-image consistency.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2403.16954) | [[PDF]](https://arxiv.org/pdf/2403.16954)
+* **Published in:** arxiv (25 Mar 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2403.16954) | [[PDF]](https://arxiv.org/pdf/2403.16954) | [[Code]]()
 
 > **Core Innovation**
 > Proposed a training-free strategy using split prompts and subject isolation with pre-trained models, compatible with SD and SDXL.
@@ -1195,8 +1194,8 @@
 * **Authors:** Omer Dahary, Or Patashnik, Kfir Aberman, Daniel Cohen-Or
 * **arXiv ID:** 2403.16990
 * **One-liner:** Developed Bounded Attention to prevent semantic leakage in multi-subject generation, enhancing subject individuality.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2403.16990) | [[PDF]](https://arxiv.org/pdf/2403.16990)
+* **Published in:** arxiv (25 Mar 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2403.16990) | [[PDF]](https://arxiv.org/pdf/2403.16990) | [[Code]](https://github.com/omer11a/bounded-attention)
 
 > **Core Innovation**
 > Analyzed attention layer issues and introduced a training-free method to bound information flow during sampling, improving alignment with prompts and layouts.
@@ -1223,8 +1222,8 @@
 * **Authors:** Jingtao Zhan, Qingyao Ai, Yiqun Liu, Jia Chen, Shaoping Ma
 * **arXiv ID:** 2403.19716
 * **One-liner:** Proposed CAPR for automatic prompt reformulation based on user capability, improving interaction with text-to-image systems.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2403.19716) | [[PDF]](https://arxiv.org/pdf/2403.19716)
+* **Published in:** arxiv (27 Mar 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2403.19716) | [[PDF]](https://arxiv.org/pdf/2403.19716) | [[Code]]()
 
 > **Core Innovation**
 > Developed a framework with Conditional Reformulation Model and Configurable Capability Features to learn diverse strategies and simulate high-capability users.
@@ -1251,8 +1250,8 @@
 * **Authors:** Zhiqiu Lin, Deepak Pathak, Baiqi Li, Jiayao Li, Xide Xia, Graham Neubig, Pengchuan Zhang, Deva Ramanan
 * **arXiv ID:** 2404.01291
 * **One-liner:** Introduced VQAScore for improved image-text alignment evaluation using VQA models.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2404.01291) | [[PDF]](https://arxiv.org/pdf/2404.01291)
+* **Published in:** arxiv (1 Apr 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2404.01291) | [[PDF]](https://arxiv.org/pdf/2404.01291) | [[Code]](https://github.com/linzhiqiu/t2v_metrics)
 
 > **Core Innovation**
 > VQAScore addresses limitations of CLIPScore by using VQA models to compute alignment scores, achieving state-of-the-art results on benchmarks and enabling evaluation with complex compositional prompts.
@@ -1279,8 +1278,8 @@
 * **Authors:** Haofan Wang, Matteo Spinelli, Qixun Wang, Xu Bai, Zekui Qin, Anthony Chen
 * **arXiv ID:** 2404.02733
 * **One-liner:** Proposed InstantStyle for tuning-free style-consistent image generation.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2404.02733) | [[PDF]](https://arxiv.org/pdf/2404.02733)
+* **Published in:** arxiv (3 Apr 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2404.02733) | [[PDF]](https://arxiv.org/pdf/2404.02733) | [[Code]](https://github.com/instantX-research/InstantStyle)
 
 > **Core Innovation**
 > InstantStyle decouples style and content in feature space and injects features into style-specific blocks to prevent style degradation and avoid weight tuning.
@@ -1307,8 +1306,8 @@
 * **Authors:** Petru-Daniel Tudosiu, Yongxin Yang, Shifeng Zhang, Fei Chen, Steven McDonagh, Gerasimos Lampouras, Ignacio Iacobacci, Sarah Parisot
 * **arXiv ID:** 2404.02790
 * **One-liner:** Created MuLAn dataset for instance-wise image decomposition to aid text-to-image generation.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2404.02790) | [[PDF]](https://arxiv.org/pdf/2404.02790)
+* **Published in:** arxiv (3 Apr 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2404.02790) | [[PDF]](https://arxiv.org/pdf/2404.02790) | [[Code]](https://mulan-dataset.github.io/)
 
 > **Core Innovation**
 > MuLAn provides multi-layer annotations of RGB images as RGBA decompositions, enabling research into layer-wise generation and editing without training.
@@ -1335,8 +1334,8 @@
 * **Authors:** Hao Li, Yang Zou, Ying Wang, Orchid Majumder, Yusheng Xie, R. Manmatha, Ashwin Swaminathan, Zhuowen Tu, Stefano Ermon, Stefano Soatto
 * **arXiv ID:** 2404.02883
 * **One-liner:** Empirically studied scaling laws for diffusion-based text-to-image models to optimize performance and cost.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2404.02883) | [[PDF]](https://arxiv.org/pdf/2404.02883)
+* **Published in:** arxiv (3 Apr 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2404.02883) | [[PDF]](https://arxiv.org/pdf/2404.02883) | [[Code]]()
 
 > **Core Innovation**
 > Identified efficient UNet designs and data scaling strategies, showing that transformer blocks and dataset quality/diversity are key for text-image alignment.
@@ -1360,11 +1359,11 @@
 <details>
 <summary><b> RL for Consistency Models: Faster Reward Guided Text-to-Image Generation</b></summary>
 
-* **Authors:** Owen Oertell, Jonathan D. Chang, Yiyi Zhang, Kianté Brantley, Wen Sun
+* **Authors:** Owen Oertell, Jonathan D. Chang, Yiyi Zhang, Kiant茅 Brantley, Wen Sun
 * **arXiv ID:** 2404.03673
 * **One-liner:** Developed RLCM for fast reinforcement learning fine-tuning of consistency models in text-to-image generation.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2404.03673) | [[PDF]](https://arxiv.org/pdf/2404.03673)
+* **Published in:** arxiv (25 Mar 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2404.03673) | [[PDF]](https://arxiv.org/pdf/2404.03673) | [[Code]](https://github.com/Owen-Oertell/rlcm)
 
 > **Core Innovation**
 > RLCM frames consistency model inference as RL, enabling faster training and inference with high-quality image generation in few steps, adaptable to various rewards.
@@ -1391,8 +1390,8 @@
 * **Authors:** Wenyi Mo, Tianyu Zhang, Yalong Bai, Bing Su, Ji-Rong Wen, Qing Yang
 * **arXiv ID:** 2404.04095
 * **One-liner:** Introduced PAE for automatic prompt editing to improve image generation quality.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2404.04095) | [[PDF]](https://arxiv.org/pdf/2404.04095)
+* **Published in:** arxiv (5 Apr 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2404.04095) | [[PDF]](https://arxiv.org/pdf/2404.04095) | [[Code]](https://github.com/Mowenyii/PAE)
 
 > **Core Innovation**
 > PAE uses reinforcement learning to dynamically adjust word weights and injection time steps in prompts, enhancing aesthetics and semantic alignment without manual intervention.
@@ -1419,8 +1418,8 @@
 * **Authors:** Xinfeng Li, Yuchen Yang, Jiangyi Deng, Chen Yan, Yanjiao Chen, Xiaoyu Ji, Wenyuan Xu
 * **arXiv ID:** 2404.06666
 * **One-liner:** Proposed SafeGen to mitigate NSFW content generation in text-to-image models in a text-agnostic manner.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2404.06666) | [[PDF]](https://arxiv.org/pdf/2404.06666)
+* **Published in:** arxiv (10 Apr 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2404.06666) | [[PDF]](https://arxiv.org/pdf/2404.06666) | [[Code]]()
 
 > **Core Innovation**
 > SafeGen eliminates explicit visual representations from the model internally, making it resistant to adversarial prompts while preserving benign image fidelity.
@@ -1447,8 +1446,8 @@
 * **Authors:** Tianyi Liang, Jiangqi Liu, Yifei Huang, Shiqi Jiang, Jianshen Shi, Changbo Wang, Chenhui Li
 * **arXiv ID:** 2404.11824
 * **One-liner:** Developed TextCenGen for generating text-friendly backgrounds in text-to-image models without training.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2404.11824) | [[PDF]](https://arxiv.org/pdf/2404.11824)
+* **Published in:** arxiv (18 Apr 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2404.11824) | [[PDF]](https://arxiv.org/pdf/2404.11824) | [[Code]](https://github.com/tianyilt/TextCenGen_Background_Adapt)
 
 > **Core Innovation**
 > TextCenGen relocates conflicting objects using cross-attention maps and force-directed graphs, ensuring smooth backgrounds for text placement while maintaining semantic fidelity.
@@ -1475,8 +1474,8 @@
 * **Authors:** Thibault Castells, Hyoung-Kyu Song, Tairen Piao, Shinkook Choi, Bo-Kyeong Kim, Hanyoung Yim, Changgwun Lee, Jae Gon Kim, Tae-Ho Kim
 * **arXiv ID:** 2404.11925
 * **One-liner:** Optimized Stable Diffusion for fast, high-quality image generation on edge devices.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2404.11925) | [[PDF]](https://arxiv.org/pdf/2404.11925)
+* **Published in:** arxiv (18 Apr 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2404.11925) | [[PDF]](https://arxiv.org/pdf/2404.11925) | [[Code]]()
 
 > **Core Innovation**
 > Enhanced BK-SDM with LCM using high-quality data and advanced distillation, achieving sub-second latency and photo-realistic images in two steps on resource-limited devices.
@@ -1503,8 +1502,8 @@
 * **Authors:** Maria Mihaela Trusca, Wolf Nuyts, Jonathan Thomm, Robert Honig, Thomas Hofmann, Tinne Tuytelaars, Marie-Francine Moens
 * **arXiv ID:** 2404.13766
 * **One-liner:** Proposed FCA and DisCLIP embeddings to improve attribute-object binding in text-to-image generation.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2404.13766) | [[PDF]](https://arxiv.org/pdf/2404.13766)
+* **Published in:** arxiv (21 Apr 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2404.13766) | [[PDF]](https://arxiv.org/pdf/2404.13766) | [[Code]]()
 
 > **Core Innovation**
 > FCA controls visual attention maps using syntactic constraints, and DisCLIP disentangles CLIP embeddings, enhancing alignment without additional model training.
@@ -1531,8 +1530,8 @@
 * **Authors:** Yihang Wu, Xiao Cao, Kaixin Li, Zitan Chen, Haonan Wang, Lei Meng, Zhiyong Huang
 * **arXiv ID:** 2404.13899
 * **One-liner:** Proposed a training-free attribution-focusing mechanism for diffusion models to improve text-image alignment.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2404.13899) | [[PDF]](https://arxiv.org/pdf/2404.13899)
+* **Published in:** arxiv (22 Apr 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2404.13899) | [[PDF]](https://arxiv.org/pdf/2404.13899) | [[Code]]()
 
 > **Core Innovation**
 > Enhanced attention modulation in diffusion models to address entity leakage and attribute misalignment without additional training.
@@ -1560,8 +1559,8 @@
 * **Authors:** Xun Wu, Shaohan Huang, Furu Wei
 * **arXiv ID:** 2404.15100
 * **One-liner:** Created VisionPrefer, a high-quality preference dataset using multimodal LLMs to improve text-to-image model alignment.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2404.15100) | [[PDF]](https://arxiv.org/pdf/2404.15100)
+* **Published in:** arxiv (23 Apr 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2404.15100) | [[PDF]](https://arxiv.org/pdf/2404.15100) | [[Code]]()
 
 > **Core Innovation**
 > Leveraged AI-generated synthetic data for instruction tuning to enhance model alignment across multiple preference aspects.
@@ -1589,8 +1588,8 @@
 * **Authors:** Weifeng Chen, Jiacheng Zhang, Jie Wu, Hefeng Wu, Xuefeng Xiao, Liang Lin
 * **arXiv ID:** 2404.15449
 * **One-liner:** Introduced ID-Aligner, a feedback learning framework for identity-preserving text-to-image generation.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2404.15449) | [[PDF]](https://arxiv.org/pdf/2404.15449)
+* **Published in:** arxiv (23 Apr 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2404.15449) | [[PDF]](https://arxiv.org/pdf/2404.15449) | [[Code]](https://github.com/Weifeng-Chen/ID-Aligner)
 
 > **Core Innovation**
 > Improved identity retention and aesthetic appeal in generated images using reward-based fine-tuning.
@@ -1618,8 +1617,8 @@
 * **Authors:** Chunyi Li, Haoning Wu, Hongkun Hao, Zicheng Zhang, Tengchaun Kou, Chaofeng Chen, Lei Bai, Xiaohong Liu, Weisi Lin, Guangtao Zhai
 * **arXiv ID:** 2404.18343
 * **One-liner:** Developed G-Refine, a general image quality refiner for enhancing AI-generated images.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2404.18343) | [[PDF]](https://arxiv.org/pdf/2404.18343)
+* **Published in:** arxiv (29 Apr 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2404.18343) | [[PDF]](https://arxiv.org/pdf/2404.18343) | [[Code]](https://github.com/Q-Future/Q-Refine)
 
 > **Core Innovation**
 > Addressed perception and alignment quality defects through modular indicators and enhancement.
@@ -1647,8 +1646,8 @@
 * **Authors:** Samyadeep Basu, Keivan Rezaei, Priyatham Kattakinda, Ryan Rossi, Cherry Zhao, Vlad Morariu, Varun Manjunatha, Soheil Feizi
 * **arXiv ID:** 2405.01008
 * **One-liner:** Proposed Mechanistic Localization for efficient model editing in text-to-image models.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2405.01008) | [[PDF]](https://arxiv.org/pdf/2405.01008)
+* **Published in:** arxiv (2 May 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2405.01008) | [[PDF]](https://arxiv.org/pdf/2405.01008) | [[Code]](https://github.com/samyadeepbasu/LocoGen)
 
 > **Core Innovation**
 > Localized knowledge to specific UNet layers to facilitate closed-form updates and editing.
@@ -1676,8 +1675,8 @@
 * **Authors:** Xuehai He, Jian Zheng, Jacob Zhiyuan Fang, Robinson Piramuthu, Mohit Bansal, Vicente Ordonez, Gunnar A Sigurdsson, Nanyun Peng, Xin Eric Wang
 * **arXiv ID:** 2405.04834
 * **One-liner:** Designed FlexEControl, an efficient method for controllable text-to-image generation with multimodal inputs.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2405.04834) | [[PDF]](https://arxiv.org/pdf/2405.04834)
+* **Published in:** arxiv (8 May 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2405.04834) | [[PDF]](https://arxiv.org/pdf/2405.04834) | [[Code]]()
 
 > **Core Innovation**
 > Enhanced faithfulness and reduced computational overhead through weight decomposition.
@@ -1705,8 +1704,8 @@
 * **Authors:** Chengcheng Feng, Mu He, Qiuyu Tian, Haojie Yin, Xiaofang Zhao, Hongwei Tang, Xingqiang Wei
 * **arXiv ID:** 2405.11236
 * **One-liner:** Integrated SVD into LoRA for improved fine-tuning of image generation models.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2405.11236) | [[PDF]](https://arxiv.org/pdf/2405.11236)
+* **Published in:** arxiv (18 May 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2405.11236) | [[PDF]](https://arxiv.org/pdf/2405.11236) | [[Code]]()
 
 > **Core Innovation**
 > Enhanced stability, reduced overfitting, and better feature capture in model outputs.
@@ -1734,8 +1733,8 @@
 * **Authors:** Zhiyu Tan, Mengping Yang, Luozheng Qin, Hao Yang, Ye Qian, Qiang Zhou, Cheng Zhang, Hao Li
 * **arXiv ID:** 2405.12914
 * **One-liner:** Investigated LLMs as text encoders for multilingual and longer-context text-to-image generation.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2405.12914) | [[PDF]](https://arxiv.org/pdf/2405.12914)
+* **Published in:** arxiv (21 May 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2405.12914) | [[PDF]](https://arxiv.org/pdf/2405.12914) | [[Code]](https://github.com/llm-conditioned-diffusion/OmniDiffusion)
 
 > **Core Innovation**
 > Enabled superior text representation and generation quality with a lightweight adapter.
@@ -1763,8 +1762,8 @@
 * **Authors:** Cusuh Ham, Matthew Fisher, James Hays, Nicholas Kolkin, Yuchen Liu, Richard Zhang, Tobias Hinz
 * **arXiv ID:** 2405.12978
 * **One-liner:** Introduced personalized residuals and localized sampling for efficient concept-driven generation.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2405.12978) | [[PDF]](https://arxiv.org/pdf/2405.12978)
+* **Published in:** arxiv (21 May 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2405.12978) | [[PDF]](https://arxiv.org/pdf/2405.12978) | [[Code]](https://github.com/richzhang/webpage-template)
 
 > **Core Innovation**
 > Achieved fast concept learning and sampling with minimal parameters and computational cost.
@@ -1792,8 +1791,8 @@
 * **Authors:** Jiatao Gu, Ying Shen, Shuangfei Zhai, Yizhe Zhang, Navdeep Jaitly, Joshua M. Susskind
 * **arXiv ID:** 2405.21048
 * **One-liner:** Presented Kaleido to enhance diversity in diffusion model image generation using autoregressive latent priors.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2405.21048) | [[PDF]](https://arxiv.org/pdf/2405.21048)
+* **Published in:** arxiv (31 May 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2405.21048) | [[PDF]](https://arxiv.org/pdf/2405.21048) | [[Code]]()
 
 > **Core Innovation**
 > Broadened output diversity while maintaining quality through latent variable guidance.
@@ -1821,8 +1820,8 @@
 * **Authors:** Lianyu Pang, Jian Yin, Baoquan Zhao, Feize Wu, Fu Lee Wang, Qing Li, Xudong Mao
 * **arXiv ID:** 2406.05000
 * **One-liner:** Introduced AttnDreamBooth to improve text-to-image personalization by addressing embedding alignment issues.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2406.05000) | [[PDF]](https://arxiv.org/pdf/2406.05000)
+* **Published in:** arxiv (7 Jun 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2406.05000) | [[PDF]](https://arxiv.org/pdf/2406.05000) | [[Code]]()
 
 > **Core Innovation**
 > Separated the learning of embedding alignment, attention map, and subject identity in different training stages with cross-attention regularization.
@@ -1850,8 +1849,8 @@
 * **Authors:** Kuan Heng Lin, Sicheng Mo, Ben Klingher, Fangzhou Mu, Bolei Zhou
 * **arXiv ID:** 2406.07540
 * **One-liner:** Developed Ctrl-X for efficient structure and appearance control in text-to-image generation without training.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2406.07540) | [[PDF]](https://arxiv.org/pdf/2406.07540)
+* **Published in:** arxiv (11 Jun 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2406.07540) | [[PDF]](https://arxiv.org/pdf/2406.07540) | [[Code]](https://github.com/genforce/ctrl-x)
 
 > **Core Innovation**
 > Enabled feed-forward structure alignment and semantic-aware appearance transfer for plug-and-play functionality.
@@ -1879,8 +1878,8 @@
 * **Authors:** Xingyu Fu, Muyu He, Yujie Lu, William Yang Wang, Dan Roth
 * **arXiv ID:** 2406.07546
 * **One-liner:** Created Commonsense-T2I benchmark to evaluate text-to-image models on commonsense reasoning.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2406.07546) | [[PDF]](https://arxiv.org/pdf/2406.07546)
+* **Published in:** arxiv (11 Jun 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2406.07546) | [[PDF]](https://arxiv.org/pdf/2406.07546) | [[Code]](https://github.com/zeyofu/Commonsense-T2I)
 
 > **Core Innovation**
 > Provided adversarial text prompts with fine-grained annotations to assess model alignment with real-life scenarios.
@@ -1908,8 +1907,8 @@
 * **Authors:** Arman Zarei, Keivan Rezaei, Samyadeep Basu, Mehrdad Saberi, Mazda Moayeri, Priyatham Kattakinda, Soheil Feizi
 * **arXiv ID:** 2406.07844
 * **One-liner:** Identified and addressed compositional attribute binding failures in text-to-image models.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2406.07844) | [[PDF]](https://arxiv.org/pdf/2406.07844)
+* **Published in:** arxiv (12 Jun 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2406.07844) | [[PDF]](https://arxiv.org/pdf/2406.07844) | [[Code]]()
 
 > **Core Innovation**
 > Fine-tuned a linear projection on CLIP's representation to improve attribute-object association without harming FID.
@@ -1937,8 +1936,8 @@
 * **Authors:** Zahraa Al Sahili, Ioannis Patras, Matthew Purver
 * **arXiv ID:** 2406.09070
 * **One-liner:** Introduced FairCoT to enhance fairness in text-to-image models using Chain of Thought reasoning.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2406.09070) | [[PDF]](https://arxiv.org/pdf/2406.09070)
+* **Published in:** arxiv (13 Jun 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2406.09070) | [[PDF]](https://arxiv.org/pdf/2406.09070) | [[Code]]()
 
 > **Core Innovation**
 > Employed iterative CoT refinement to mitigate biases and adjust prompts for diverse representation.
@@ -1966,8 +1965,8 @@
 * **Authors:** Xiaoxiao Ma, Mohan Zhou, Tao Liang, Yalong Bai, Tiejun Zhao, Biye Li, Huaian Chen, Yi Jin
 * **arXiv ID:** 2406.10797
 * **One-liner:** Developed STAR, a scale-wise auto-regressive model for high-resolution text-to-image generation.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2406.10797) | [[PDF]](https://arxiv.org/pdf/2406.10797)
+* **Published in:** arxiv (16 Jun 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2406.10797) | [[PDF]](https://arxiv.org/pdf/2406.10797) | [[Code]](https://github.com/krennic999/STAR)
 
 > **Core Innovation**
 > Enabled text-driven 1024x1024 image synthesis with stable sampling and normalized RoPE for structural consistency.
@@ -1995,8 +1994,8 @@
 * **Authors:** Xinyu Hou, Xiaoming Li, Chen Change Loy
 * **arXiv ID:** 2406.12805
 * **One-liner:** Proposed adaptive inclusive tokens to mitigate stereotypical biases in text-to-image generation.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2406.12805) | [[PDF]](https://arxiv.org/pdf/2406.12805)
+* **Published in:** arxiv (18 Jun 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2406.12805) | [[PDF]](https://arxiv.org/pdf/2406.12805) | [[Code]](https://github.com/itsmag11/AITTI)
 
 > **Core Innovation**
 > Used a lightweight adaptive mapping network to customize tokens without attribute specification.
@@ -2024,8 +2023,8 @@
 * **Authors:** Katherine M. Collins, Najoung Kim, Yonatan Bitton, Verena Rieser, Shayegan Omidshafiei, Yushi Hu, Sherol Chen, Senjuti Dutta, Minsuk Chang, Kimin Lee, Youwei Liang, Georgina Evans, Sahil Singla, Gang Li, Adrian Weller, Junfeng He, Deepak Ramachandran, Krishnamurthy Dj Dvijotham
 * **arXiv ID:** 2406.16807
 * **One-liner:** Investigated the effectiveness of fine-grained vs. coarse-grained human feedback for text-to-image reward models.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2406.16807) | [[PDF]](https://arxiv.org/pdf/2406.16807)
+* **Published in:** arxiv (24 Jun 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2406.16807) | [[PDF]](https://arxiv.org/pdf/2406.16807) | [[Code]]()
 
 > **Core Innovation**
 > Analyzed complexities in feedback types and their impact on model accuracy under various settings.
@@ -2053,8 +2052,8 @@
 * **Authors:** William Berman, Alexander Peysakhovich
 * **arXiv ID:** 2406.18790
 * **One-liner:** Trained MUMU model for image generation from multimodal prompts with interleaved text and images.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2406.18790) | [[PDF]](https://arxiv.org/pdf/2406.18790)
+* **Published in:** arxiv (26 Jun 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2406.18790) | [[PDF]](https://arxiv.org/pdf/2406.18790) | [[Code]]()
 
 > **Core Innovation**
 > Enabled coherent composition of inputs from different images for tasks like style transfer and character consistency.
@@ -2082,8 +2081,8 @@
 * **Authors:** Yanan Sun, Yanchen Liu, Yinhao Tang, Wenjie Pei, Kai Chen
 * **arXiv ID:** 2406.18958
 * **One-liner:** Proposed AnyControl for multi-control image synthesis with arbitrary combinations of control signals.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2406.18958) | [[PDF]](https://arxiv.org/pdf/2406.18958)
+* **Published in:** arxiv (27 Jun 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2406.18958) | [[PDF]](https://arxiv.org/pdf/2406.18958) | [[Code]](https://github.com/open-mmlab/AnyControl)
 
 > **Core Innovation**
 > Developed a Multi-Control Encoder for unified embedding to handle diverse inputs and maintain semantic alignment.
@@ -2111,8 +2110,8 @@
 * **Authors:** Shufan Li, Harkanwar Singh, Aditya Grover
 * **arXiv ID:** 2406.19668
 * **One-liner:** Introduced PopAlign for population-level bias mitigation in T2I models.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2406.19668) | [[PDF]](https://arxiv.org/pdf/2406.19668)
+* **Published in:** arxiv (28 Jun 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2406.19668) | [[PDF]](https://arxiv.org/pdf/2406.19668) | [[Code]](https://github.com/jacklishufan/PopAlignSDXL)
 
 > **Core Innovation**
 > Developed a novel optimization method that addresses biases at the population level, unlike existing pairwise preference methods.
@@ -2139,8 +2138,8 @@
 * **Authors:** Jingtao Zhan, Qingyao Ai, Yiqun Liu, Yingwei Pan, Ting Yao, Jiaxin Mao, Shaoping Ma, Tao Mei
 * **arXiv ID:** 2407.00247
 * **One-liner:** Proposed PRIP for zero-shot prompt refinement using image pivots.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2407.00247) | [[PDF]](https://arxiv.org/pdf/2407.00247)
+* **Published in:** arxiv (28 Jun 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2407.00247) | [[PDF]](https://arxiv.org/pdf/2407.00247) | [[Code]]()
 
 > **Core Innovation**
 > Innovated a method to translate user prompts into system languages by leveraging image representations as intermediaries.
@@ -2167,8 +2166,8 @@
 * **Authors:** Shian Du, Xiaotian Cheng, Qi Qian, Henglu Wei, Yi Xu, Xiangyang Ji
 * **arXiv ID:** 2407.00608
 * **One-liner:** Efficient personalized T2I generation by optimizing in a textual subspace.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2407.00608) | [[PDF]](https://arxiv.org/pdf/2407.00608)
+* **Published in:** arxiv (30 Jun 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2407.00608) | [[PDF]](https://arxiv.org/pdf/2407.00608) | [[Code]]()
 
 > **Core Innovation**
 > Addressed inefficiencies in embedding optimization and improved alignment with novel prompts.
@@ -2195,8 +2194,8 @@
 * **Authors:** Mushui Liu, Yuhang Ma, Yang Zhen, Jun Dan, Yunlong Yu, Zeng Zhao, Zhipeng Hu, Bai Liu, Changjie Fan
 * **arXiv ID:** 2407.00737
 * **One-liner:** Enhanced T2I diffusion models with LLM features via LLM4GEN framework.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2407.00737) | [[PDF]](https://arxiv.org/pdf/2407.00737)
+* **Published in:** arxiv (30 Jun 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2407.00737) | [[PDF]](https://arxiv.org/pdf/2407.00737) | [[Code]](https://github.com/YUHANG-Ma/LLM4GEN)
 
 > **Core Innovation**
 > Improved semantic understanding and alignment in complex prompt scenarios using LLMs.
@@ -2223,8 +2222,8 @@
 * **Authors:** Haofan Wang, Peng Xing, Renyuan Huang, Hao Ai, Qixun Wang, Xu Bai
 * **arXiv ID:** 2407.00788
 * **One-liner:** Introduced InstantStyle-Plus for balanced style transfer in diffusion models.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2407.00788) | [[PDF]](https://arxiv.org/pdf/2407.00788)
+* **Published in:** arxiv (30 Jun 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2407.00788) | [[PDF]](https://arxiv.org/pdf/2407.00788) | [[Code]](https://github.com/instantX-research/InstantStyle-Plus)
 
 > **Core Innovation**
 > Achieved seamless integration of style while preserving content integrity through modular components.
@@ -2251,8 +2250,8 @@
 * **Authors:** Yu Zeng, Vishal M. Patel, Haochen Wang, Xun Huang, Ting-Chun Wang, Ming-Yu Liu, Yogesh Balaji
 * **arXiv ID:** 2407.06187
 * **One-liner:** Developed JEDI for finetuning-free personalized T2I generation.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2407.06187) | [[PDF]](https://arxiv.org/pdf/2407.06187)
+* **Published in:** arxiv (8 Jul 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2407.06187) | [[PDF]](https://arxiv.org/pdf/2407.06187) | [[Code]]()
 
 > **Core Innovation**
 > Enabled fast personalization by learning joint distributions of text-image pairs without optimization.
@@ -2279,8 +2278,8 @@
 * **Authors:** Fanyue Wei, Wei Zeng, Zhenyang Li, Dawei Yin, Lixin Duan, Wen Li
 * **arXiv ID:** 2407.06642
 * **One-liner:** Applied reinforcement learning with DPG for improved personalized T2I generation.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2407.06642) | [[PDF]](https://arxiv.org/pdf/2407.06642)
+* **Published in:** arxiv (9 Jul 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2407.06642) | [[PDF]](https://arxiv.org/pdf/2407.06642) | [[Code]](https://github.com/wfanyue/DPG-T2I-Personalization)
 
 > **Core Innovation**
 > Enhanced structural consistency and visual fidelity through flexible objective incorporation.
@@ -2307,8 +2306,8 @@
 * **Authors:** Wanggui He, Siming Fu, Mushui Liu, Xierui Wang, Wenyi Xiao, Fangxun Shu, Yi Wang, Lei Zhang, Zhelun Yu, Haoyuan Li, Ziwei Huang, LeiLei Gan, Hao Jiang
 * **arXiv ID:** 2407.07614
 * **One-liner:** Introduced MARS for efficient bilingual T2I generation using LLMs.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2407.07614) | [[PDF]](https://arxiv.org/pdf/2407.07614)
+* **Published in:** arxiv (10 Jul 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2407.07614) | [[PDF]](https://arxiv.org/pdf/2407.07614) | [[Code]](https://github.com/fusiming3/MARS)
 
 > **Core Innovation**
 > Combined linguistic and visual processing in a multi-stage training strategy for high efficiency.
@@ -2335,8 +2334,8 @@
 * **Authors:** Youngsun Lim, Hyunjung Shim
 * **arXiv ID:** 2407.10683
 * **One-liner:** Addressed image hallucination in T2I models using factual image retrieval.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2407.10683) | [[PDF]](https://arxiv.org/pdf/2407.10683)
+* **Published in:** arxiv (15 Jul 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2407.10683) | [[PDF]](https://arxiv.org/pdf/2407.10683) | [[Code]]()
 
 > **Core Innovation**
 > Proposed a method to generate factually consistent images by leveraging external sources and editing tools.
@@ -2362,9 +2361,9 @@
 
 * **Authors:** Yanting Miao, William Loh, Suraj Kothawade, Pascal Poupart, Abdullah Rashwan, Yeqing Li
 * **arXiv ID:** 2407.12164
-* **One-liner:** Proposed RPO with λ-Harmonic reward for efficient subject-driven T2I generation.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2407.12164) | [[PDF]](https://arxiv.org/pdf/2407.12164)
+* **One-liner:** Proposed RPO with 位-Harmonic reward for efficient subject-driven T2I generation.
+* **Published in:** arxiv (16 Jul 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2407.12164) | [[PDF]](https://arxiv.org/pdf/2407.12164) | [[Code]](https://github.com/andrew-miao/RPO)
 
 > **Core Innovation**
 > Simplified training setup and improved regularization for better text-image alignment.
@@ -2376,7 +2375,7 @@
 
 <details>
     <summary>Key points</summary>
-    * λ-Harmonic reward function for reliable signals
+    * 位-Harmonic reward function for reliable signals
     * Reward Preference Optimization (RPO) with early stopping
     * Fine-tuning only U-Net component for efficiency
 </details>
@@ -2391,8 +2390,8 @@
 * **Authors:** Jingzhi Gong, Sisi Li, Giordano d&#39;Aloisio, Zishuo Ding, Yulong Ye, William B. Langdon, Federica Sarro
 * **arXiv ID:** 2407.14982
 * **One-liner:** Improved text-to-image generation efficiency and quality with multi-objective optimization.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2407.14982) | [[PDF]](https://arxiv.org/pdf/2407.14982)
+* **Published in:** arxiv (20 Jul 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2407.14982) | [[PDF]](https://arxiv.org/pdf/2407.14982) | [[Code]]()
 
 > **Core Innovation**
 > GreenStableYolo uses NSGA-II and Yolo to optimize parameters and prompts for Stable Diffusion, reducing GPU inference time by 266% and increasing hypervolume by 526% with a slight trade-off in image quality.
@@ -2420,8 +2419,8 @@
 * **Authors:** Hanjun Luo, Ziye Deng, Haoyu Huang, Xuecheng Liu, Ruizhe Chen, Zuozhu Liu
 * **arXiv ID:** 2407.19524
 * **One-liner:** Introduced a universal debiasing framework for text-to-image models without model-specific training.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2407.19524) | [[PDF]](https://arxiv.org/pdf/2407.19524)
+* **Published in:** arxiv (28 Jul 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2407.19524) | [[PDF]](https://arxiv.org/pdf/2407.19524) | [[Code]](https://github.com/VersusDebias/VersusDebias)
 
 > **Core Innovation**
 > VersusDebias employs an array generation module to handle hallucinations and debias multiple attributes, and an image generation module with a small language model for prompt modification, enabling zero-shot debiasing across gender, race, and age.
@@ -2445,11 +2444,11 @@
 <details>
 <summary><b> Reproducibility Study of &#34;ITI-GEN: Inclusive Text-to-Image Generation&#34;</b></summary>
 
-* **Authors:** Daniel Gallo Fernández, Răzvan-Andrei Matisan, Alejandro Monroy Muñoz, Janusz Partyka
+* **Authors:** Daniel Gallo Fern谩ndez, R膬zvan-Andrei Matisan, Alejandro Monroy Mu帽oz, Janusz Partyka
 * **arXiv ID:** 2407.19996
 * **One-liner:** Reproduced and improved upon ITI-GEN for inclusive text-to-image generation, addressing limitations with Hard Prompt Search.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2407.19996) | [[PDF]](https://arxiv.org/pdf/2407.19996)
+* **Published in:** arxiv (29 Jul 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2407.19996) | [[PDF]](https://arxiv.org/pdf/2407.19996) | [[Code]](https://github.com/humansensinglab/ITI-GEN)
 
 > **Core Innovation**
 > The study validates ITI-GEN's improvements in diversity and scalability but identifies issues with proxy features and attribute disentanglement; proposes combining ITI-GEN with Hard Prompt Search and negative prompting for better handling of negation.
@@ -2477,8 +2476,8 @@
 * **Authors:** Qian Zhang, Xiangzi Dai, Ninghua Yang, Xiang An, Ziyong Feng, Xingyu Ren
 * **arXiv ID:** 2408.01181
 * **One-liner:** Developed a text-to-image model integrating visual auto-regressive techniques with CLIP for enhanced generation.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2408.01181) | [[PDF]](https://arxiv.org/pdf/2408.01181)
+* **Published in:** arxiv (2 Aug 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2408.01181) | [[PDF]](https://arxiv.org/pdf/2408.01181) | [[Code]](https://github.com/daixiangzi/VAR-CLIP)
 
 > **Core Innovation**
 > VAR-CLIP uses next-scale prediction in auto-regressive transformers, encodes captions into text embeddings with CLIP, and trains on large datasets like ImageNet, achieving high fidelity and textual congruence in fantasy images.
@@ -2506,8 +2505,8 @@
 * **Authors:** Dongyang Liu, Shitian Zhao, Le Zhuo, Weifeng Lin, Yi Xin, Xinyue Li, Qi Qin, Yu Qiao, Hongsheng Li, Peng Gao
 * **arXiv ID:** 2408.02657
 * **One-liner:** Created a multimodal autoregressive model for versatile image generation and other vision-language tasks.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2408.02657) | [[PDF]](https://arxiv.org/pdf/2408.02657)
+* **Published in:** arxiv (5 Aug 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2408.02657) | [[PDF]](https://arxiv.org/pdf/2408.02657) | [[Code]](https://github.com/Alpha-VLLM/Lumina-mGPT)
 
 > **Core Innovation**
 > Lumina-mGPT initializes from mGPT, uses flexible progressive supervised fine-tuning and unambiguous image representation to generate high-quality images of varying aspect ratios, and extends to omnipotent supervised fine-tuning for unified multimodal capabilities.
@@ -2535,8 +2534,8 @@
 * **Authors:** Liyao Jiang, Negar Hassanpour, Mohammad Salameh, Mohan Sai Singamsetti, Fengyu Sun, Wei Lu, Di Niu
 * **arXiv ID:** 2408.11706
 * **One-liner:** Proposed a method to improve prompt-image alignment and authenticity in text-to-image generation without latent code optimization.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2408.11706) | [[PDF]](https://arxiv.org/pdf/2408.11706)
+* **Published in:** arxiv (21 Aug 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2408.11706) | [[PDF]](https://arxiv.org/pdf/2408.11706) | [[Code]]()
 
 > **Core Innovation**
 > FRAP adaptively adjusts per-token prompt weights using an online algorithm to minimize an objective function for object presence and binding, reducing latency and improving alignment and realism.
@@ -2564,8 +2563,8 @@
 * **Authors:** Eunji Kim, Siwon Kim, Minjun Park, Rahim Entezari, Sungroh Yoon
 * **arXiv ID:** 2408.12692
 * **One-liner:** Discovered and leveraged minority regions in Stable Diffusion for bias reduction without additional training.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2408.12692) | [[PDF]](https://arxiv.org/pdf/2408.12692)
+* **Published in:** arxiv (22 Aug 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2408.12692) | [[PDF]](https://arxiv.org/pdf/2408.12692) | [[Code]]()
 
 > **Core Innovation**
 > The method identifies clustered initial noises for minority attributes and uses weak guidance to steer random noise to these regions, preserving semantic integrity and core functionality while reducing bias.
@@ -2593,8 +2592,8 @@
 * **Authors:** Yilun Liu, Minggui He, Feiyu Yao, Yuhe Ji, Shimin Tao, Jingzhou Du, Duan Li, Jian Gao, Li Zhang, Hao Yang, Boxing Chen, Osamu Yoshie
 * **arXiv ID:** 2408.12910
 * **One-liner:** Introduced a dialogue-based prompt generation model to enhance user-centricity for novice users in text-to-image synthesis.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2408.12910) | [[PDF]](https://arxiv.org/pdf/2408.12910)
+* **Published in:** arxiv (23 Aug 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2408.12910) | [[PDF]](https://arxiv.org/pdf/2408.12910) | [[Code]]()
 
 > **Core Innovation**
 > DialPrompt uses a multi-turn dialogue workflow to guide users in expressing preferences across 15 dimensions, trained on a curated dataset, improving user-centricity while maintaining image quality.
@@ -2622,8 +2621,8 @@
 * **Authors:** Bonan Li, Zicheng Zhang, Xingyi Yang, Xinchao Wang
 * **arXiv ID:** 2408.13149
 * **One-liner:** Developed a consistent dense multiview text-to-image generator for high-quality 3D asset creation.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2408.13149) | [[PDF]](https://arxiv.org/pdf/2408.13149)
+* **Published in:** arxiv (23 Aug 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2408.13149) | [[PDF]](https://arxiv.org/pdf/2408.13149) | [[Code]]()
 
 > **Core Innovation**
 > CoSER achieves neighbor-view consistency through dense interactions and motion path aggregation, and enhances cross-view consistency with spiral bidirectional scanning and weighted down-sampling, integrated with attention and state space models.
@@ -2651,8 +2650,8 @@
 * **Authors:** Peng Xing, Haofan Wang, Yanpeng Sun, Qixun Wang, Xu Bai, Hao Ai, Renyuan Huang, Zechao Li
 * **arXiv ID:** 2408.16766
 * **One-liner:** Constructed a large-scale style transfer dataset and proposed an end-to-end model for enhanced style control.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2408.16766) | [[PDF]](https://arxiv.org/pdf/2408.16766)
+* **Published in:** arxiv (29 Aug 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2408.16766) | [[PDF]](https://arxiv.org/pdf/2408.16766) | [[Code]](https://github.com/instantX-research/CSGO)
 
 > **Core Innovation**
 > IMAGStyle dataset with 210k triplets enables training of CSGO, which decouples content and style features for unified style transfer, text-driven synthesis, and text editing-driven synthesis.
@@ -2680,8 +2679,8 @@
 * **Authors:** Roy Ganz, Michael Elad
 * **arXiv ID:** 2408.17046
 * **One-liner:** Scaled Joint Energy Models to multimodal vision-language domain using CLIP.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2408.17046) | [[PDF]](https://arxiv.org/pdf/2408.17046)
+* **Published in:** arxiv (30 Aug 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2408.17046) | [[PDF]](https://arxiv.org/pdf/2408.17046) | [[Code]]()
 
 > **Core Innovation**
 > Extended JEMs with CLIP by integrating generative and discriminative objectives, enabling realistic image generation from text and competitive performance on benchmarks.
@@ -2708,8 +2707,8 @@
 * **Authors:** Yang Zhang, Rui Zhang, Xuecheng Nie, Haochen Li, Jikun Chen, Yifan Hao, Xin Zhang, Luoqi Liu, Ling Li
 * **arXiv ID:** 2409.01327
 * **One-liner:** Addressed semantic entanglement in multi-concept text-to-image generation.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2409.01327) | [[PDF]](https://arxiv.org/pdf/2409.01327)
+* **Published in:** arxiv (2 Sep 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2409.01327) | [[PDF]](https://arxiv.org/pdf/2409.01327) | [[Code]]()
 
 > **Core Innovation**
 > Proposed SPDiffusion with concept region extraction and protection mechanisms to resolve concept and attribute entanglement, achieving state-of-the-art results.
@@ -2736,8 +2735,8 @@
 * **Authors:** Jing Wang, Ao Ma, Jiasong Feng, Dawei Leng, Yuhui Yin, Xiaodan Liang
 * **arXiv ID:** 2409.04005
 * **One-liner:** Reduced computational complexity in diffusion transformers with proxy tokens.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2409.04005) | [[PDF]](https://arxiv.org/pdf/2409.04005)
+* **Published in:** arxiv (6 Sep 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2409.04005) | [[PDF]](https://arxiv.org/pdf/2409.04005) | [[Code]](https://github.com/360CVGroup/Qihoo-T2X)
 
 > **Core Innovation**
 > Designed PT-DiT using sparse representative token attention to capture global semantics efficiently, leading to significant computation reduction in image and video generation.
@@ -2764,8 +2763,8 @@
 * **Authors:** Yinwei Wu, Xianpan Zhou, Bing Ma, Xuefeng Su, Kai Ma, Xinchao Wang
 * **arXiv ID:** 2409.08240
 * **One-liner:** Enhanced instance feature generation with accurate positioning and fidelity.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2409.08240) | [[PDF]](https://arxiv.org/pdf/2409.08240)
+* **Published in:** arxiv (12 Sep 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2409.08240) | [[PDF]](https://arxiv.org/pdf/2409.08240) | [[Code]]()
 
 > **Core Innovation**
 > Introduced IFG task and IFAdapter to align instance-level features with spatial locations, outperforming other models in quantitative and qualitative evaluations.
@@ -2792,8 +2791,8 @@
 * **Authors:** Haoyuan Sun, Bo Xia, Yongzhe Chang, Xueqian Wang
 * **arXiv ID:** 2409.09774
 * **One-liner:** Extended alignment paradigm to f-divergence for better trade-off in text-to-image models.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2409.09774) | [[PDF]](https://arxiv.org/pdf/2409.09774)
+* **Published in:** arxiv (15 Sep 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2409.09774) | [[PDF]](https://arxiv.org/pdf/2409.09774) | [[Code]]()
 
 > **Core Innovation**
 > Generalized DPO to f-divergence, analyzing gradient fields and finding Jensen-Shannon divergence optimal for alignment and diversity.
@@ -2820,8 +2819,8 @@
 * **Authors:** Youngsun Lim, Hojun Choi, Hyunjung Shim
 * **arXiv ID:** 2409.12784
 * **One-liner:** Introduced automated metric for evaluating factual accuracy in generated images.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2409.12784) | [[PDF]](https://arxiv.org/pdf/2409.12784)
+* **Published in:** arxiv (19 Sep 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2409.12784) | [[PDF]](https://arxiv.org/pdf/2409.12784) | [[Code]](https://github.com/kaist-cvml/I-HallA-v1.0)
 
 > **Core Innovation**
 > Developed I-HallA using VQA to measure image hallucination, with a benchmark dataset showing strong correlation with human judgments.
@@ -2848,8 +2847,8 @@
 * **Authors:** Chihiro Noguchi, Shun Fukuda, Shoichiro Mihara, Masao Yamanaka
 * **arXiv ID:** 2409.17747
 * **One-liner:** Improved scene text recognition for low-resource languages via synthetic image generation.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2409.17747) | [[PDF]](https://arxiv.org/pdf/2409.17747)
+* **Published in:** arxiv (26 Sep 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2409.17747) | [[PDF]](https://arxiv.org/pdf/2409.17747) | [[Code]]()
 
 > **Core Innovation**
 > Proposed diffusion model conditioned on binary states to generate text images, enhancing recognition model performance.
@@ -2876,8 +2875,8 @@
 * **Authors:** Rami Skaik, Leonardo Rossi, Tomaso Fontanini, Andrea Prati
 * **arXiv ID:** 2410.00483
 * **One-liner:** Enabled pose-specific image generation with mask conditioning.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2410.00483) | [[PDF]](https://arxiv.org/pdf/2410.00483)
+* **Published in:** arxiv (1 Oct 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2410.00483) | [[PDF]](https://arxiv.org/pdf/2410.00483) | [[Code]]()
 
 > **Core Innovation**
 > Developed MCGM by incorporating mask embedding injection into diffusion models, allowing flexible control over subject poses from a single image.
@@ -2904,8 +2903,8 @@
 * **Authors:** Yao Teng, Han Shi, Xian Liu, Xuefei Ning, Guohao Dai, Yu Wang, Zhenguo Li, Xihui Liu
 * **arXiv ID:** 2410.01699
 * **One-liner:** Accelerated auto-regressive text-to-image generation with probabilistic parallel decoding.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2410.01699) | [[PDF]](https://arxiv.org/pdf/2410.01699)
+* **Published in:** arxiv (2 Oct 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2410.01699) | [[PDF]](https://arxiv.org/pdf/2410.01699) | [[Code]](https://github.com/tyshiwo1/Accelerating-T2I-AR-with-SJD/)
 
 > **Core Innovation**
 > Proposed SJD algorithm using probabilistic convergence criterion to reduce inference steps while maintaining diversity and quality.
@@ -2932,8 +2931,8 @@
 * **Authors:** Rinon Gal, Adi Haviv, Yuval Alaluf, Amit H. Bermano, Daniel Cohen-Or, Gal Chechik
 * **arXiv ID:** 2410.01731
 * **One-liner:** Automated prompt-adaptive workflow generation for text-to-image tasks.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2410.01731) | [[PDF]](https://arxiv.org/pdf/2410.01731)
+* **Published in:** arxiv (2 Oct 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2410.01731) | [[PDF]](https://arxiv.org/pdf/2410.01731) | [[Code]](https://github.com/google/nerfies)
 
 > **Core Innovation**
 > Introduced LLM-based methods to tailor workflows to user prompts, improving image quality over monolithic models.
@@ -2960,8 +2959,8 @@
 * **Authors:** Liang Chen, Sinan Tan, Zefan Cai, Weichu Xie, Haozhe Zhao, Yichi Zhang, Junyang Lin, Jinze Bai, Tianyu Liu, Baobao Chang
 * **arXiv ID:** 2410.01912
 * **One-liner:** Introduced the DnD-Transformer to address information loss in VQ autoregressive image generation by adding a model depth direction.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2410.01912) | [[PDF]](https://arxiv.org/pdf/2410.01912)
+* **Published in:** arxiv (2 Oct 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2410.01912) | [[PDF]](https://arxiv.org/pdf/2410.01912) | [[Code]](https://github.com/chenllliang/DnD-Transformer)
 
 > **Core Innovation**
 > Enhanced autoregressive image generation with a 2D autoregression approach, improving quality and enabling self-supervised generation of images with text and graphics.
@@ -2988,8 +2987,8 @@
 * **Authors:** Rui Zhao, Hangjie Yuan, Yujie Wei, Shiwei Zhang, Yuchao Gu, Lingmin Ran, Xiang Wang, Zhangjie Wu, Junhao Zhang, Yingya Zhang, Mike Zheng Shou
 * **arXiv ID:** 2410.07133
 * **One-liner:** Developed EvolveDirector to train text-to-image models using public APIs and VLM guidance, reducing data needs and costs.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2410.07133) | [[PDF]](https://arxiv.org/pdf/2410.07133)
+* **Published in:** arxiv (9 Oct 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2410.07133) | [[PDF]](https://arxiv.org/pdf/2410.07133) | [[Code]](https://github.com/showlab/EvolveDirector)
 
 > **Core Innovation**
 > Proposed a framework that uses API-generated data and VLM feedback to evolve a base model, achieving superior performance with less data.
@@ -3016,8 +3015,8 @@
 * **Authors:** Xinchen Zhang, Ling Yang, Guohao Li, Yaqi Cai, Jiake Xie, Yong Tang, Yujiu Yang, Mengdi Wang, Bin Cui
 * **arXiv ID:** 2410.07171
 * **One-liner:** Introduced IterComp to enhance compositional text-to-image generation by aggregating model preferences and iterative feedback learning.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2410.07171) | [[PDF]](https://arxiv.org/pdf/2410.07171)
+* **Published in:** arxiv (9 Oct 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2410.07171) | [[PDF]](https://arxiv.org/pdf/2410.07171) | [[Code]](https://github.com/YangLing0818/IterComp)
 
 > **Core Innovation**
 > Improved compositional capabilities in diffusion models through a framework that trains reward models and refines generation iteratively.
@@ -3044,8 +3043,8 @@
 * **Authors:** Soobin Um, Jong Chul Ye
 * **arXiv ID:** 2410.07838
 * **One-liner:** Presented a framework to generate minority samples in T2I diffusion models via prompt optimization and likelihood objectives.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2410.07838) | [[PDF]](https://arxiv.org/pdf/2410.07838)
+* **Published in:** arxiv (10 Oct 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2410.07838) | [[PDF]](https://arxiv.org/pdf/2410.07838) | [[Code]](https://github.com/soobin-um/MinorityPrompt)
 
 > **Core Innovation**
 > Addressed the high-density focus of T2I models by optimizing prompts to encourage minority feature generation.
@@ -3072,8 +3071,8 @@
 * **Authors:** Jiatao Gu, Yuyang Wang, Yizhe Zhang, Qihang Zhang, Dinghuai Zhang, Navdeep Jaitly, Josh Susskind, Shuangfei Zhai
 * **arXiv ID:** 2410.08159
 * **One-liner:** Proposed DART, a transformer-based model unifying autoregressive and diffusion approaches in a non-Markovian framework.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2410.08159) | [[PDF]](https://arxiv.org/pdf/2410.08159)
+* **Published in:** arxiv (10 Oct 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2410.08159) | [[PDF]](https://arxiv.org/pdf/2410.08159) | [[Code]](https://github.com/daixiangzi/VAR-CLIP)
 
 > **Core Innovation**
 > Unified AR and diffusion for image generation without quantization, enabling efficient training with text and image data.
@@ -3100,8 +3099,8 @@
 * **Authors:** Jinbin Bai, Tian Ye, Wei Chow, Enxin Song, Xiangtai Li, Zhen Dong, Lei Zhu, Shuicheng Yan
 * **arXiv ID:** 2410.08261
 * **One-liner:** Elevated MIM text-to-image generation to SOTA levels with Meissonic, incorporating architectural innovations and high-quality data.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2410.08261) | [[PDF]](https://arxiv.org/pdf/2410.08261)
+* **Published in:** arxiv (10 Oct 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2410.08261) | [[PDF]](https://arxiv.org/pdf/2410.08261) | [[Code]](https://github.com/viiika/Meissonic)
 
 > **Core Innovation**
 > Improved non-autoregressive MIM to match or exceed diffusion models in quality and resolution through various optimizations.
@@ -3128,8 +3127,8 @@
 * **Authors:** Mehrshad Momen-Tayefeh
 * **arXiv ID:** 2410.08608
 * **One-liner:** Conducted a comparison of GAN-based text-to-image methods, identifying the best model based on accuracy metrics.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2410.08608) | [[PDF]](https://arxiv.org/pdf/2410.08608)
+* **Published in:** arxiv (11 Oct 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2410.08608) | [[PDF]](https://arxiv.org/pdf/2410.08608) | [[Code]]()
 
 > **Core Innovation**
 > Analyzed five GAN architectures for text-to-image synthesis, focusing on resolution and accuracy comparisons.
@@ -3156,8 +3155,8 @@
 * **Authors:** Ran Galun, Sagie Benaim
 * **arXiv ID:** 2410.09792
 * **One-liner:** Proposed a compositional approach for text-to-image generation using intermediate representations to improve spatial accuracy.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2410.09792) | [[PDF]](https://arxiv.org/pdf/2410.09792)
+* **Published in:** arxiv (13 Oct 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2410.09792) | [[PDF]](https://arxiv.org/pdf/2410.09792) | [[Code]](https://github.com/RANG1991/Public-Intermediate-Semantics-For-Generation)
 
 > **Core Innovation**
 > Enhanced diffusion models by generating aligned intermediate maps first, then mapping to final images for better FID scores.
@@ -3184,8 +3183,8 @@
 * **Authors:** Xinli Xu, Wenhang Ge, Jiantao Lin, Jiawei Feng, Lie Xu, HanFeng Zhao, Shunsi Zhang, Ying-Cong Chen
 * **arXiv ID:** 2410.10745
 * **One-liner:** Introduced FlexGen for controllable multi-view image generation using 3D-aware text annotations from GPT-4V.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2410.10745) | [[PDF]](https://arxiv.org/pdf/2410.10745)
+* **Published in:** arxiv (14 Oct 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2410.10745) | [[PDF]](https://arxiv.org/pdf/2410.10745) | [[Code]](https://xxu068.github.io/flexgen.github.io/)
 
 > **Core Innovation**
 > Enabled flexible multi-view synthesis from single-view or text inputs with enhanced controllability over attributes.
@@ -3212,8 +3211,8 @@
 * **Authors:** Haotian Tang, Yecheng Wu, Shang Yang, Enze Xie, Junsong Chen, Junyu Chen, Zhuoyang Zhang, Han Cai, Yao Lu, Song Han
 * **arXiv ID:** 2410.10812
 * **One-liner:** Developed HART, a hybrid autoregressive model combining discrete and continuous tokens for high-quality 1024x1024 image generation.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2410.10812) | [[PDF]](https://arxiv.org/pdf/2410.10812)
+* **Published in:** arxiv (14 Oct 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2410.10812) | [[PDF]](https://arxiv.org/pdf/2410.10812) | [[Code]](https://github.com/mit-han-lab/hart)
 
 > **Core Innovation**
 > Overcame AR model limitations with a hybrid tokenizer, achieving better FID and efficiency than diffusion models.
@@ -3240,8 +3239,8 @@
 * **Authors:** Jaehong Yoon, Shoubin Yu, Vaidehi Patil, Huaxiu Yao, Mohit Bansal
 * **arXiv ID:** 2410.12761
 * **One-liner:** Proposed SAFREE, a training-free method for safe text-to-image and text-to-video generation without altering model weights.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2410.12761) | [[PDF]](https://arxiv.org/pdf/2410.12761)
+* **Published in:** arxiv (16 Oct 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2410.12761) | [[PDF]](https://arxiv.org/pdf/2410.12761) | [[Code]](https://github.com/jaehong31/SAFREE)
 
 > **Core Innovation**
 > Detects a subspace for toxic concepts in text embeddings and steers prompts away, incorporating self-validating filtering and adaptive re-attention mechanisms to balance safety and quality.
@@ -3269,8 +3268,8 @@
 * **Authors:** Lijie Fan, Tianhong Li, Siyang Qin, Yuanzhen Li, Chen Sun, Michael Rubinstein, Deqing Sun, Kaiming He, Yonglong Tian
 * **arXiv ID:** 2410.13863
 * **One-liner:** Introduced Fluid, a random-order autoregressive model on continuous tokens, achieving state-of-the-art zero-shot FID and GenEval scores.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2410.13863) | [[PDF]](https://arxiv.org/pdf/2410.13863)
+* **Published in:** arxiv (17 Oct 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2410.13863) | [[PDF]](https://arxiv.org/pdf/2410.13863) | [[Code]]()
 
 > **Core Innovation**
 > Empirically showed that continuous tokens and random generation order improve scaling and performance in text-to-image generation.
@@ -3297,8 +3296,8 @@
 * **Authors:** Yu Zhao, Hao Fei, Xiangtai Li, Libo Qin, Jiayi Ji, Hongyuan Zhu, Meishan Zhang, Min Zhang, Jianguo Wei
 * **arXiv ID:** 2410.15312
 * **One-liner:** Developed a dual learning framework with 3D scene graphs for spatial image-to-text and text-to-image tasks, improving spatial understanding.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2410.15312) | [[PDF]](https://arxiv.org/pdf/2410.15312)
+* **Published in:** arxiv (20 Oct 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2410.15312) | [[PDF]](https://arxiv.org/pdf/2410.15312) | [[Code]]()
 
 > **Core Innovation**
 > Used Spatial Dual Discrete Diffusion (SD^3) to leverage intermediate 3D features for guiding hard processes, enhancing mutual benefits between tasks.
@@ -3313,7 +3312,7 @@
     * Dual learning framework for SI2T and ST2I
     * 3D scene graph representation for spatial features
     * Spatial Dual Discrete Diffusion (SD^3) framework
-    * Utilization of 3D→X processes to guide X→3D processes
+    * Utilization of 3D鈫扻 processes to guide X鈫�3D processes
 </details>
 </details>
 
@@ -3326,8 +3325,8 @@
 * **Authors:** Evans Xu Han, Linghao Jin, Xiaofeng Liu, Paul Pu Liang
 * **arXiv ID:** 2410.16719
 * **One-liner:** Created ConPair dataset using LLMs and VQA for contrastive learning, and proposed EvoGen curriculum to improve compositional T2I generation.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2410.16719) | [[PDF]](https://arxiv.org/pdf/2410.16719)
+* **Published in:** arxiv (22 Oct 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2410.16719) | [[PDF]](https://arxiv.org/pdf/2410.16719) | [[Code]](https://github.com/evansh666/EvoGen)
 
 > **Core Innovation**
 > Automatically curated high-quality contrastive image pairs and applied multi-stage curriculum learning to address compositional challenges.
@@ -3354,8 +3353,8 @@
 * **Authors:** Christopher T.H Teo, Milad Abdollahzadeh, Xinda Ma, Ngai-man Cheung
 * **arXiv ID:** 2410.18615
 * **One-liner:** Identified quality degradation in prompt learning for fair T2I generation and proposed Prompt Queuing and Attention Amplification to improve it.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2410.18615) | [[PDF]](https://arxiv.org/pdf/2410.18615)
+* **Published in:** arxiv (24 Oct 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2410.18615) | [[PDF]](https://arxiv.org/pdf/2410.18615) | [[Code]](https://github.com/Bearwithchris/FairQueue_Code)
 
 > **Core Innovation**
 > Analyzed cross-attention maps to reveal abnormalities and introduced methods to enhance generation quality while maintaining fairness.
@@ -3382,8 +3381,8 @@
 * **Authors:** Weijian Luo
 * **arXiv ID:** 2410.18881
 * **One-liner:** Introduced Diff-Instruct++ (DI++), a fast-converging, image data-free method for aligning one-step T2I generators with human preferences.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2410.18881) | [[PDF]](https://arxiv.org/pdf/2410.18881)
+* **Published in:** arxiv (24 Oct 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2410.18881) | [[PDF]](https://arxiv.org/pdf/2410.18881) | [[Code]](https://github.com/pkulwj1994/diff_instruct_pp)
 
 > **Core Innovation**
 > Formulated alignment as maximizing human reward with KL divergence, showing CFG for diffusion distillation is equivalent to RLHF.
@@ -3411,8 +3410,8 @@
 * **Authors:** Vladimir Arkhipkin, Viacheslav Vasilev, Andrei Filatov, Igor Pavlov, Julia Agafonova, Nikolai Gerasimenko, Anna Averchenkova, Evelina Mironova, Anton Bukashkin, Konstantin Kulikov, Andrey Kuznetsov, Denis Dimitrov
 * **arXiv ID:** 2410.21061
 * **One-liner:** Presented Kandinsky 3, a latent diffusion-based T2I model with high quality and adaptability for various generation tasks.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2410.21061) | [[PDF]](https://arxiv.org/pdf/2410.21061)
+* **Published in:** arxiv (28 Oct 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2410.21061) | [[PDF]](https://arxiv.org/pdf/2410.21061) | [[Code]](https://github.com/ai-forever/Kandinsky-3)
 
 > **Core Innovation**
 > Extended the base model for inpainting, outpainting, image fusion, I2V, T2V, and created a distilled version for faster inference.
@@ -3440,8 +3439,8 @@
 * **Authors:** Arash Marioriyad, Parham Rezaei, Mahdieh Soleymani Baghshah, Mohammad Hossein Rohban
 * **arXiv ID:** 2410.22775
 * **One-liner:** Evaluated compositional generation capabilities of FLUX and LlamaGen, finding FLUX comparable to DALL-E3 while LlamaGen lags behind diffusion models.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2410.22775) | [[PDF]](https://arxiv.org/pdf/2410.22775)
+* **Published in:** arxiv (30 Oct 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2410.22775) | [[PDF]](https://arxiv.org/pdf/2410.22775) | [[Code]]()
 
 > **Core Innovation**
 > Used T2I-CompBench to assess models, highlighting strengths and weaknesses in handling complex compositions.
@@ -3468,8 +3467,8 @@
 * **Authors:** Jia-Hong Huang, Hongyi Zhu, Yixian Shen, Stevan Rudinac, Evangelos Kanoulas
 * **arXiv ID:** 2411.05706
 * **One-liner:** Proposed Image2Text2Image framework for evaluating image captioning models using diffusion models without human references.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2411.05706) | [[PDF]](https://arxiv.org/pdf/2411.05706)
+* **Published in:** arxiv (8 Nov 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2411.05706) | [[PDF]](https://arxiv.org/pdf/2411.05706) | [[Code]]()
 
 > **Core Innovation**
 > Leverages T2I generation to measure similarity between original and generated images, validated through experiments and human evaluations.
@@ -3496,8 +3495,8 @@
 * **Authors:** Zhennan Chen, Yajie Li, Haofan Wang, Zhibo Chen, Zhengkai Jiang, Jun Li, Qian Wang, Jian Yang, Ying Tai
 * **arXiv ID:** 2411.06558
 * **One-liner:** Introduced RAG, a tuning-free method for regional-aware text-to-image generation with precise layout control and repainting capabilities.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2411.06558) | [[PDF]](https://arxiv.org/pdf/2411.06558)
+* **Published in:** arxiv (10 Nov 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2411.06558) | [[PDF]](https://arxiv.org/pdf/2411.06558) | [[Code]](https://github.com/NJU-PCALab/RAG-Diffusion)
 
 > **Core Innovation**
 > Decouples multi-region generation into regional hard binding and soft refinement, enhancing control without additional training.
@@ -3525,8 +3524,8 @@
 * **Authors:** Yiyang Ma, Xingchao Liu, Xiaokang Chen, Wen Liu, Chengyue Wu, Zhiyu Wu, Zizheng Pan, Zhenda Xie, Haowei Zhang, Xingkai yu, Liang Zhao, Yisong Wang, Jiaying Liu, Chong Ruan
 * **arXiv ID:** 2411.07975
 * **One-liner:** JanusFlow unifies image understanding and generation in a single model.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2411.07975) | [[PDF]](https://arxiv.org/pdf/2411.07975)
+* **Published in:** arxiv (12 Nov 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2411.07975) | [[PDF]](https://arxiv.org/pdf/2411.07975) | [[Code]](https://github.com/deepseek-ai/Janus)
 
 > **Core Innovation**
 > Integration of autoregressive language models with rectified flow for unified vision-language modeling.
@@ -3553,8 +3552,8 @@
 * **Authors:** Mizuki Miyamoto, Ryugo Morita, Jinjia Zhou
 * **arXiv ID:** 2411.10183
 * **One-liner:** Proposes new evaluation metrics for detailed text-image alignment.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2411.10183) | [[PDF]](https://arxiv.org/pdf/2411.10183)
+* **Published in:** arxiv (15 Nov 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2411.10183) | [[PDF]](https://arxiv.org/pdf/2411.10183) | [[Code]]()
 
 > **Core Innovation**
 > Assessment of alignment for every individual object using ChatGPT and VQA.
@@ -3581,8 +3580,8 @@
 * **Authors:** Huming Qiu, Guanxu Chen, Mi Zhang, Xiaohan Zhang, Xiaoyu You, Min Yang
 * **arXiv ID:** 2411.10329
 * **One-liner:** Enhances T2I model safety by sanitizing prompt embeddings.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2411.10329) | [[PDF]](https://arxiv.org/pdf/2411.10329)
+* **Published in:** arxiv (15 Nov 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2411.10329) | [[PDF]](https://arxiv.org/pdf/2411.10329) | [[Code]]()
 
 > **Core Innovation**
 > Interpretable framework for identifying and mitigating harmful content in text prompts.
@@ -3610,8 +3609,8 @@
 * **Authors:** Dengsheng Chen, Jie Hu, Tiezhu Yue, Xiaoming Wei, Enhua Wu
 * **arXiv ID:** 2411.14808
 * **One-liner:** Achieves state-of-the-art high-resolution image synthesis via next-token prediction.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2411.14808) | [[PDF]](https://arxiv.org/pdf/2411.14808)
+* **Published in:** arxiv (22 Nov 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2411.14808) | [[PDF]](https://arxiv.org/pdf/2411.14808) | [[Code]]()
 
 > **Core Innovation**
 > Autoregressive model for generating photorealistic images at arbitrary resolutions up to 4K.
@@ -3638,8 +3637,8 @@
 * **Authors:** Rong-Cheng Tu, Zi-Ao Ma, Tian Lan, Yuehao Zhao, Heyan Huang, Xian-Ling Mao
 * **arXiv ID:** 2411.15488
 * **One-liner:** Distills GPT-4o's evaluation capabilities into a smaller open-source MLLM.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2411.15488) | [[PDF]](https://arxiv.org/pdf/2411.15488)
+* **Published in:** arxiv (23 Nov 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2411.15488) | [[PDF]](https://arxiv.org/pdf/2411.15488) | [[Code]](https://github.com/maziao/T2I-Eval)
 
 > **Core Innovation**
 > Task decomposition framework for efficient and scalable image quality evaluation.
@@ -3666,8 +3665,8 @@
 * **Authors:** Xiaoyue Mi, Fan Tang, Juan Cao, Qiang Sheng, Ziyao Huang, Peng Li, Yang Liu, Tong-Yee Lee
 * **arXiv ID:** 2411.15509
 * **One-liner:** Facilitates dynamic interactive assessment of T2I models to uncover failures.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2411.15509) | [[PDF]](https://arxiv.org/pdf/2411.15509)
+* **Published in:** arxiv (23 Nov 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2411.15509) | [[PDF]](https://arxiv.org/pdf/2411.15509) | [[Code]]()
 
 > **Core Innovation**
 > LLM-powered framework for collaborative human-model evaluation with adaptive input generation.
@@ -3694,8 +3693,8 @@
 * **Authors:** Chengyou Jia, Changliang Xia, Zhuohang Dang, Weijia Wu, Hangwei Qian, Minnan Luo
 * **arXiv ID:** 2411.17176
 * **One-liner:** Automates T2I generation steps to reduce user trial-and-error.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2411.17176) | [[PDF]](https://arxiv.org/pdf/2411.17176)
+* **Published in:** arxiv (26 Nov 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2411.17176) | [[PDF]](https://arxiv.org/pdf/2411.17176) | [[Code]](https://github.com/chengyou-jia/ChatGen)
 
 > **Core Innovation**
 > Multi-stage evolution strategy for automating prompt crafting and model configuration.
@@ -3722,8 +3721,8 @@
 * **Authors:** Dongping Chen, Ruoxi Chen, Shu Pu, Zhaoyi Liu, Yanru Wu, Caixi Chen, Benlin Liu, Yue Huang, Yao Wan, Pan Zhou, Ranjay Krishna
 * **arXiv ID:** 2411.17188
 * **One-liner:** Presents evaluation framework for interleaved text-and-image generation consistency.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2411.17188) | [[PDF]](https://arxiv.org/pdf/2411.17188)
+* **Published in:** arxiv (26 Nov 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2411.17188) | [[PDF]](https://arxiv.org/pdf/2411.17188) | [[Code]](https://github.com/Dongping-Chen/ISG)
 
 > **Core Innovation**
 > Scene graph-based assessment of multi-modal content coherence and accuracy.
@@ -3750,8 +3749,8 @@
 * **Authors:** Maorong Wang, Jiafeng Mao, Xueting Wang, Toshihiko Yamasaki
 * **arXiv ID:** 2411.17310
 * **One-liner:** Addresses catastrophic forgetting in diffusion model fine-tuning for multiple rewards.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2411.17310) | [[PDF]](https://arxiv.org/pdf/2411.17310)
+* **Published in:** arxiv (26 Nov 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2411.17310) | [[PDF]](https://arxiv.org/pdf/2411.17310) | [[Code]]()
 
 > **Core Innovation**
 > Reward Incremental Learning method for stable adaptation to sequential objectives.
@@ -3778,8 +3777,8 @@
 * **Authors:** Wataru Shimoda, Naoto Inoue, Daichi Haraguchi, Hayato Mitani, Seiichi Uchida, Kota Yamaguchi
 * **arXiv ID:** 2411.18159
 * **One-liner:** Improves text rendering accuracy in generated images through post-processing.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2411.18159) | [[PDF]](https://arxiv.org/pdf/2411.18159)
+* **Published in:** arxiv (27 Nov 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2411.18159) | [[PDF]](https://arxiv.org/pdf/2411.18159) | [[Code]](https://github.com/CyberAgentAILab/Type-R)
 
 > **Core Innovation**
 > Retouching pipeline for correcting typographical errors in T2I outputs.
@@ -3806,8 +3805,8 @@
 * **Authors:** Tianyi Wei, Dongdong Chen, Yifan Zhou, Xingang Pan
 * **arXiv ID:** 2411.18301
 * **One-liner:** Enhanced MMDiT by mitigating subject neglect in multi-subject prompts.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2411.18301) | [[PDF]](https://arxiv.org/pdf/2411.18301)
+* **Published in:** arxiv (27 Nov 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2411.18301) | [[PDF]](https://arxiv.org/pdf/2411.18301) | [[Code]](https://github.com/wtybest/EnMMDiT)
 
 > **Core Innovation**
 > Proposed test-time optimization with loss functions and strategies to address ambiguities in MMDiT.
@@ -3834,8 +3833,8 @@
 * **Authors:** Shuangqi Li, Hieu Le, Jingyi Xu, Mathieu Salzmann
 * **arXiv ID:** 2411.18810
 * **One-liner:** Improved compositional ability of text-to-image models by leveraging initial noise.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2411.18810) | [[PDF]](https://arxiv.org/pdf/2411.18810)
+* **Published in:** arxiv (27 Nov 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2411.18810) | [[PDF]](https://arxiv.org/pdf/2411.18810) | [[Code]]()
 
 > **Core Innovation**
 > Mined reliable initial noise cases to create a training set for fine-tuning.
@@ -3862,8 +3861,8 @@
 * **Authors:** Anton Voronov, Denis Kuznedelev, Mikhail Khoroshikh, Valentin Khrulkov, Dmitry Baranchuk
 * **arXiv ID:** 2412.01819
 * **One-liner:** Developed Switti, a fast and high-quality scale-wise transformer for T2I generation.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2412.01819) | [[PDF]](https://arxiv.org/pdf/2412.01819)
+* **Published in:** arxiv (2 Dec 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2412.01819) | [[PDF]](https://arxiv.org/pdf/2412.01819) | [[Code]](https://github.com/yandex-research/switti)
 
 > **Core Innovation**
 > Introduced non-causal architecture and optimized guidance for efficiency and quality.
@@ -3890,8 +3889,8 @@
 * **Authors:** Jungwon Park, Jungmin Ko, Dongnam Byun, Jangwon Suh, Wonjong Rhee
 * **arXiv ID:** 2412.02237
 * **One-liner:** Advanced interpretability of cross-attention layers in diffusion models.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2412.02237) | [[PDF]](https://arxiv.org/pdf/2412.02237)
+* **Published in:** arxiv (3 Dec 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2412.02237) | [[PDF]](https://arxiv.org/pdf/2412.02237) | [[Code]]()
 
 > **Core Innovation**
 > Introduced Head Relevance Vectors for concept alignment and control.
@@ -3918,8 +3917,8 @@
 * **Authors:** Qingdong He, Jinlong Peng, Pengcheng Xu, Boyuan Jiang, Xiaobin Hu, Donghao Luo, Yong Liu, Yabiao Wang, Chengjie Wang, Xiangtai Li, Jiangning Zhang
 * **arXiv ID:** 2412.03255
 * **One-liner:** Proposed DynamicControl for adaptive multi-condition T2I generation.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2412.03255) | [[PDF]](https://arxiv.org/pdf/2412.03255)
+* **Published in:** arxiv (4 Dec 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2412.03255) | [[PDF]](https://arxiv.org/pdf/2412.03255) | [[Code]]()
 
 > **Core Innovation**
 > Integrated double-cycle controller and MLLM for condition optimization.
@@ -3946,8 +3945,8 @@
 * **Authors:** Jiangweizhi Peng, Zhiwei Tang, Gaowen Liu, Charles Fleming, Mingyi Hong
 * **arXiv ID:** 2412.03876
 * **One-liner:** Introduced PNO to prevent unsafe image generation without training.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2412.03876) | [[PDF]](https://arxiv.org/pdf/2412.03876)
+* **Published in:** arxiv (5 Dec 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2412.03876) | [[PDF]](https://arxiv.org/pdf/2412.03876) | [[Code]]()
 
 > **Core Innovation**
 > Optimized prompt embedding and noise trajectory for safety and alignment.
@@ -3974,8 +3973,8 @@
 * **Authors:** Jian Han, Jinlai Liu, Yi Jiang, Bin Yan, Yuqi Zhang, Zehuan Yuan, Bingyue Peng, Xiaobing Liu
 * **arXiv ID:** 2412.04431
 * **One-liner:** Created Infinity, a fast and high-quality bitwise autoregressive T2I model.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2412.04431) | [[PDF]](https://arxiv.org/pdf/2412.04431)
+* **Published in:** arxiv (5 Dec 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2412.04431) | [[PDF]](https://arxiv.org/pdf/2412.04431) | [[Code]](https://github.com/FoundationVision/Infinity)
 
 > **Core Innovation**
 > Scaled tokenizer and transformer for improved generation and speed.
@@ -4002,8 +4001,8 @@
 * **Authors:** Yusuf Dalva, Yijun Li, Qing Liu, Nanxuan Zhao, Jianming Zhang, Zhe Lin, Pinar Yanardag
 * **arXiv ID:** 2412.04460
 * **One-liner:** Developed a pipeline for layered content generation with LDMs.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2412.04460) | [[PDF]](https://arxiv.org/pdf/2412.04460)
+* **Published in:** arxiv (5 Dec 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2412.04460) | [[PDF]](https://arxiv.org/pdf/2412.04460) | [[Code]]()
 
 > **Core Innovation**
 > Enabled harmonized generation of foreground and background layers.
@@ -4030,8 +4029,8 @@
 * **Authors:** Meera Hahn, Wenjun Zeng, Nithish Kannen, Rich Galt, Kartikeya Badola, Been Kim, Zi Wang
 * **arXiv ID:** 2412.06771
 * **One-liner:** Proposed proactive T2I agents to align user intent through clarification.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2412.06771) | [[PDF]](https://arxiv.org/pdf/2412.06771)
+* **Published in:** arxiv (9 Dec 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2412.06771) | [[PDF]](https://arxiv.org/pdf/2412.06771) | [[Code]](https://github.com/google-deepmind/proactive_t2i_agents)
 
 > **Core Innovation**
 > Used belief graphs and question-asking for better alignment.
@@ -4058,8 +4057,8 @@
 * **Authors:** Myeongseob Ko, Henry Li, Zhun Wang, Jonathan Patsenker, Jiachen T. Wang, Qinbin Li, Ming Jin, Dawn Song, Ruoxi Jia
 * **arXiv ID:** 2412.07808
 * **One-liner:** Enhanced machine unlearning for diffusion models to remove harmful content.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2412.07808) | [[PDF]](https://arxiv.org/pdf/2412.07808)
+* **Published in:** arxiv (9 Dec 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2412.07808) | [[PDF]](https://arxiv.org/pdf/2412.07808) | [[Code]](https://github.com/reds-lab/Restricted_gradient_diversity_unlearning.git)
 
 > **Core Innovation**
 > Optimized model updates to balance unlearning and alignment.
@@ -4087,8 +4086,8 @@
 * **Authors:** Khalil Mrini, Hanlin Lu, Linjie Yang, Weilin Huang, Heng Wang
 * **arXiv ID:** 2412.08639
 * **One-liner:** Introduced Fast Prompt Alignment (FPA) for efficient text-to-image alignment.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2412.08639) | [[PDF]](https://arxiv.org/pdf/2412.08639)
+* **Published in:** arxiv (11 Dec 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2412.08639) | [[PDF]](https://arxiv.org/pdf/2412.08639) | [[Code]](https://github.com/tiktok/fast_prompt_alignment)
 
 > **Core Innovation**
 > Developed a one-pass prompt optimization framework using LLMs for paraphrasing, reducing computational overhead while maintaining alignment fidelity.
@@ -4115,8 +4114,8 @@
 * **Authors:** Ofir Nabati, Guy Tennenholtz, ChihWei Hsu, Moonkyung Ryu, Deepak Ramachandran, Yinlam Chow, Xiang Li, Craig Boutilier
 * **arXiv ID:** 2412.10419
 * **One-liner:** Designed PASTA, an RL-based agent for interactive text-to-image generation.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2412.10419) | [[PDF]](https://arxiv.org/pdf/2412.10419)
+* **Published in:** arxiv (10 Dec 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2412.10419) | [[PDF]](https://arxiv.org/pdf/2412.10419) | [[Code]]()
 
 > **Core Innovation**
 > Implemented a reinforcement learning approach with adaptive prompt expansions to improve image sets through multi-turn interactions.
@@ -4143,8 +4142,8 @@
 * **Authors:** Runtao Liu, I Chieh Chen, Jindong Gu, Jipeng Zhang, Renjie Pi, Qifeng Chen, Philip Torr, Ashkan Khakzar, Fabio Pizzati
 * **arXiv ID:** 2412.10493
 * **One-liner:** Proposed AlignGuard for safety alignment in text-to-image models.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2412.10493) | [[PDF]](https://arxiv.org/pdf/2412.10493)
+* **Published in:** arxiv (13 Dec 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2412.10493) | [[PDF]](https://arxiv.org/pdf/2412.10493) | [[Code]]()
 
 > **Core Innovation**
 > Applied Direct Preference Optimization with synthetic datasets to remove harmful concepts using LoRA experts.
@@ -4171,8 +4170,8 @@
 * **Authors:** Hao Li, Shamit Lal, Zhiheng Li, Yusheng Xie, Ying Wang, Yang Zou, Orchid Majumder, R. Manmatha, Zhuowen Tu, Stefano Ermon, Stefano Soatto, Ashwin Swaminathan
 * **arXiv ID:** 2412.12391
 * **One-liner:** Empirically studied scaling properties of Diffusion Transformers for text-to-image generation.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2412.12391) | [[PDF]](https://arxiv.org/pdf/2412.12391)
+* **Published in:** arxiv (16 Dec 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2412.12391) | [[PDF]](https://arxiv.org/pdf/2412.12391) | [[Code]]()
 
 > **Core Innovation**
 > Identified U-ViT as a scalable DiT model with better performance than variants, and explored data scaling effects.
@@ -4199,8 +4198,8 @@
 * **Authors:** Zhongjie Duan, Qianyi Zhao, Cen Chen, Daoyuan Chen, Wenmeng Zhou, Yaliang Li, Yingda Chen
 * **arXiv ID:** 2412.12888
 * **One-liner:** Introduced ArtAug for enhancing text-to-image models via model interactions.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2412.12888) | [[PDF]](https://arxiv.org/pdf/2412.12888)
+* **Published in:** arxiv (17 Dec 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2412.12888) | [[PDF]](https://arxiv.org/pdf/2412.12888) | [[Code]]()
 
 > **Core Innovation**
 > Leveraged image understanding models to provide aesthetic suggestions and iteratively fuse enhancements into synthesis models.
@@ -4227,8 +4226,8 @@
 * **Authors:** Hanbin Hong, Shenao Yan, Shuya Feng, Yan Yan, Yuan Hong
 * **arXiv ID:** 2412.16227
 * **One-liner:** Integrated zero-shot text-to-image synthesis with active learning for efficient model training.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2412.16227) | [[PDF]](https://arxiv.org/pdf/2412.16227)
+* **Published in:** arxiv (18 Dec 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2412.16227) | [[PDF]](https://arxiv.org/pdf/2412.16227) | [[Code]]()
 
 > **Core Innovation**
 > Developed a framework using AL criteria to optimize text inputs for generating informative synthetic datasets.
@@ -4255,8 +4254,8 @@
 * **Authors:** Quan Dao, Hao Phung, Trung Dao, Dimitris Metaxas, Anh Tran
 * **arXiv ID:** 2412.16906
 * **One-liner:** Introduced a self-corrected flow distillation method for generative models.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2412.16906) | [[PDF]](https://arxiv.org/pdf/2412.16906)
+* **Published in:** arxiv (22 Dec 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2412.16906) | [[PDF]](https://arxiv.org/pdf/2412.16906) | [[Code]]()
 
 > **Core Innovation**
 > Combined consistency models and adversarial training in flow-matching to achieve high-quality generation in few-step and one-step sampling.
@@ -4283,8 +4282,8 @@
 * **Authors:** Emily Johnson, Noah Wilson
 * **arXiv ID:** 2501.00917
 * **One-liner:** Proposed VLAD model for improved text-to-image generation with dual-stream strategy.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2501.00917) | [[PDF]](https://arxiv.org/pdf/2501.00917)
+* **Published in:** arxiv (1 Jan 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2501.00917) | [[PDF]](https://arxiv.org/pdf/2501.00917) | [[Code]]()
 
 > **Core Innovation**
 > Utilized semantic alignment and hierarchical diffusion to enhance image quality and text rendering accuracy.
@@ -4311,8 +4310,8 @@
 * **Authors:** Tianyu Cui, Jinbin Bai, Guo-Hua Wang, Qing-Guo Chen, Zhao Xu, Weihua Luo, Kaifu Zhang, Ye Shi
 * **arXiv ID:** 2501.03567
 * **One-liner:** Introduced CAMScore, a cyclic reference-free evaluation metric for image captioning.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2501.03567) | [[PDF]](https://arxiv.org/pdf/2501.03567)
+* **Published in:** arxiv (7 Jan 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2501.03567) | [[PDF]](https://arxiv.org/pdf/2501.03567) | [[Code]]()
 
 > **Core Innovation**
 > Developed a framework using text-to-image generation to evaluate captions by comparing generated images with originals, avoiding modality gaps.
@@ -4339,8 +4338,8 @@
 * **Authors:** Yongyu Mu, Hengyu Li, Junxin Wang, Xiaoxuan Zhou, Chenglong Wang, Yingfeng Luo, Qiaozhi He, Tong Xiao, Guocheng Chen, Jingbo Zhu
 * **arXiv ID:** 2501.07086
 * **One-liner:** Extended multilingual capabilities in text-to-image generation with PMT2I.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2501.07086) | [[PDF]](https://arxiv.org/pdf/2501.07086)
+* **Published in:** arxiv (13 Jan 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2501.07086) | [[PDF]](https://arxiv.org/pdf/2501.07086) | [[Code]](https://github.com/takagi97/PMT2I)
 
 > **Core Innovation**
 > Constructed parallel multilingual prompts to enhance comprehension and diversity in image generation using LMMs.
@@ -4367,8 +4366,8 @@
 * **Authors:** Dongwon Kim, Ju He, Qihang Yu, Chenglin Yang, Xiaohui Shen, Suha Kwak, Liang-Chieh Chen
 * **arXiv ID:** 2501.07730
 * **One-liner:** Introduced TA-TiTok, an efficient image tokenizer that integrates text during decoding for improved performance.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2501.07730) | [[PDF]](https://arxiv.org/pdf/2501.07730)
+* **Published in:** arxiv (13 Jan 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2501.07730) | [[PDF]](https://arxiv.org/pdf/2501.07730) | [[Code]](https://github.com/bytedance/1d-tokenizer)
 
 > **Core Innovation**
 > Developed a one-stage training process for image tokenization, eliminating complex distillation and enabling scalability.
@@ -4396,8 +4395,8 @@
 * **Authors:** Tianxiang Xia, Lin Xiao, Yannick Montorfani, Francesco Pavia, Enis Simsar, Thomas Hofmann
 * **arXiv ID:** 2501.09055
 * **One-liner:** Improved text-to-image generation fidelity for actions involving multiple objects using enhanced contrastive learning.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2501.09055) | [[PDF]](https://arxiv.org/pdf/2501.09055)
+* **Published in:** arxiv (15 Jan 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2501.09055) | [[PDF]](https://arxiv.org/pdf/2501.09055) | [[Code]](https://polybox.ethz.ch/index.php/s/dJm3SWyRohUrFxn)
 
 > **Core Innovation**
 > Employed semantically hypergraphic contrastive adjacency learning and InteractDiffusion to amend action understanding.
@@ -4427,8 +4426,8 @@
 * **Authors:** Jiayi Lei, Renrui Zhang, Xiangfei Hu, Weifeng Lin, Zhen Li, Wenjian Sun, Ruoyi Du, Le Zhuo, Zhongyu Li, Xinyue Li, Shitian Zhao, Ziyu Guo, Yiting Lu, Peng Gao, Hongsheng Li
 * **arXiv ID:** 2501.13920
 * **One-liner:** Developed IMAGINE-E, a comprehensive evaluation framework for text-to-image models across multiple domains.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2501.13920) | [[PDF]](https://arxiv.org/pdf/2501.13920)
+* **Published in:** arxiv (23 Jan 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2501.13920) | [[PDF]](https://arxiv.org/pdf/2501.13920) | [[Code]](https://github.com/jylei16/Imagine-e)
 
 > **Core Innovation**
 > Assessed six models in structured output, realism, specific domains, challenging scenarios, and multi-style tasks.
@@ -4452,11 +4451,11 @@
 <details>
 <summary><b> Text-to-Image Generation for Vocabulary Learning Using the Keyword Method</b></summary>
 
-* **Authors:** Nuwan T. Attygalle, Matjaž Kljun, Aaron Quigley, Klen čOpič Pucihar, Jens Grubert, Verena Biener, Luis A. Leiva, Juri Yoneyama, Alice Toniolo, Angela Miguel, Hirokazu Kato, Maheshya Weerasinghe
+* **Authors:** Nuwan T. Attygalle, Matja啪 Kljun, Aaron Quigley, Klen 膷Opi膷 Pucihar, Jens Grubert, Verena Biener, Luis A. Leiva, Juri Yoneyama, Alice Toniolo, Angela Miguel, Hirokazu Kato, Maheshya Weerasinghe
 * **arXiv ID:** 2501.17099
 * **One-liner:** Enhanced vocabulary memorization by combining the keyword method with text-to-image generators.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2501.17099) | [[PDF]](https://arxiv.org/pdf/2501.17099)
+* **Published in:** arxiv (28 Jan 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2501.17099) | [[PDF]](https://arxiv.org/pdf/2501.17099) | [[Code]]()
 
 > **Core Innovation**
 > Externalized mental visual links into images, significantly improving memory retention in language learning.
@@ -4484,8 +4483,8 @@
 * **Authors:** Alex Jinpeng Wang, Dongxing Mao, Jiawei Zhang, Weiming Han, Zhuobai Dong, Linjie Li, Yiqi Lin, Zhengyuan Yang, Libo Qin, Fuwei Zhang, Lijuan Wang, Min Li
 * **arXiv ID:** 2502.07870
 * **One-liner:** Introduced TextAtlas5M, a dataset for evaluating long-text rendering in text-conditioned image generation.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2502.07870) | [[PDF]](https://arxiv.org/pdf/2502.07870)
+* **Published in:** arxiv (11 Feb 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2502.07870) | [[PDF]](https://arxiv.org/pdf/2502.07870) | [[Code]](https://github.com/CSU-JPG/TextAtlas)
 
 > **Core Innovation**
 > Curated TextAtlasEval benchmark, challenging advanced models and highlighting performance gaps.
@@ -4512,8 +4511,8 @@
 * **Authors:** Hoigi Seo, Wongi Jeong, Jae-sun Seo, Se Young Chun
 * **arXiv ID:** 2502.08690
 * **One-liner:** Proposed Skrr, a pruning strategy for text encoders in T2I models to reduce memory usage without performance loss.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2502.08690) | [[PDF]](https://arxiv.org/pdf/2502.08690)
+* **Published in:** arxiv (12 Feb 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2502.08690) | [[PDF]](https://arxiv.org/pdf/2502.08690) | [[Code]]()
 
 > **Core Innovation**
 > Selectively skips or reuses transformer layers, achieving state-of-the-art memory efficiency.
@@ -4540,8 +4539,8 @@
 * **Authors:** Zheng Fang, Lichuan Xiang, Xu Cai, Kaicheng Zhou, Hongkai Wen
 * **arXiv ID:** 2502.10451
 * **One-liner:** Introduced FlexControl, a framework for dynamic block selection in controlled diffusion models.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2502.10451) | [[PDF]](https://arxiv.org/pdf/2502.10451)
+* **Published in:** arxiv (11 Feb 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2502.10451) | [[PDF]](https://arxiv.org/pdf/2502.10451) | [[Code]](https://github.com/Anonymousuuser/FlexControl)
 
 > **Core Innovation**
 > Uses trainable gating and computation-aware loss to enhance adaptability and reduce computational overhead.
@@ -4568,8 +4567,8 @@
 * **Authors:** Ran Li, Xiaomeng Jin, Heng ji
 * **arXiv ID:** 2502.10663
 * **One-liner:** Proposed REAL, an automatic evaluation framework for assessing realism in T2I outputs.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2502.10663) | [[PDF]](https://arxiv.org/pdf/2502.10663)
+* **Published in:** arxiv (15 Feb 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2502.10663) | [[PDF]](https://arxiv.org/pdf/2502.10663) | [[Code]]()
 
 > **Core Innovation**
 > Evaluates fine-grained attributes, unusual relationships, and styles, aligning with human judgement.
@@ -4596,8 +4595,8 @@
 * **Authors:** Taeyoung Yun, Dinghuai Zhang, Jinkyoo Park, Ling Pan
 * **arXiv ID:** 2502.11477
 * **One-liner:** Introduced PAG, using GFlowNets for diverse and effective prompt adaptation in text-to-image generation.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2502.11477) | [[PDF]](https://arxiv.org/pdf/2502.11477)
+* **Published in:** arxiv (17 Feb 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2502.11477) | [[PDF]](https://arxiv.org/pdf/2502.11477) | [[Code]]()
 
 > **Core Innovation**
 > Frames prompt adaptation as probabilistic inference, addressing mode collapse and neural plasticity loss.
@@ -4624,8 +4623,8 @@
 * **Authors:** Minghao Fu, Guo-Hua Wang, Liangfu Cao, Qing-Guo Chen, Zhao Xu, Weihua Luo, Kaifu Zhang
 * **arXiv ID:** 2502.12579
 * **One-liner:** Introduced CHATS, a framework combining human-aligned optimization and test-time sampling for T2I models.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2502.12579) | [[PDF]](https://arxiv.org/pdf/2502.12579)
+* **Published in:** arxiv (18 Feb 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2502.12579) | [[PDF]](https://arxiv.org/pdf/2502.12579) | [[Code]](https://github.com/AIDC-AI/CHATS)
 
 > **Core Innovation**
 > Models preferred and dispreferred distributions, achieving high performance with data efficiency.
@@ -4652,8 +4651,8 @@
 * **Authors:** Young Beom Woo, Sun Eung Kim, Seong-Whan Lee
 * **arXiv ID:** 2502.15203
 * **One-liner:** Proposed FlipConcept for seamless multi-concept personalization in T2I without additional tuning.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2502.15203) | [[PDF]](https://arxiv.org/pdf/2502.15203)
+* **Published in:** arxiv (21 Feb 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2502.15203) | [[PDF]](https://arxiv.org/pdf/2502.15203) | [[Code]]()
 
 > **Core Innovation**
 > Introduced guided appearance attention, mask-guided noise mixing, and background dilution to enhance fidelity and prevent concept leakage.
@@ -4680,8 +4679,8 @@
 * **Authors:** Parth Bhalerao, Mounika Yalamarty, Brian Trinh, Oana Ignat
 * **arXiv ID:** 2502.15972
 * **One-liner:** Introduced MosAIG, a multi-agent framework for multicultural image generation using LLMs.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2502.15972) | [[PDF]](https://arxiv.org/pdf/2502.15972)
+* **Published in:** arxiv (21 Feb 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2502.15972) | [[PDF]](https://arxiv.org/pdf/2502.15972) | [[Code]](https://github.com/OanaIgnat/MosAIG)
 
 > **Core Innovation**
 > Leveraged distinct cultural personas in LLMs and provided a multicultural dataset, showing multi-agent interactions outperform no-agent models.
@@ -4708,8 +4707,8 @@
 * **Authors:** Liang Chen, Shuai Bai, Wenhao Chai, Weichu Xie, Haozhe Zhao, Leon Vinci, Junyang Lin, Baobao Chang
 * **arXiv ID:** 2502.20172
 * **One-liner:** Proposed Dream Engine for arbitrary text-image interleaved control in image generation.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2502.20172) | [[PDF]](https://arxiv.org/pdf/2502.20172)
+* **Published in:** arxiv (27 Feb 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2502.20172) | [[PDF]](https://arxiv.org/pdf/2502.20172) | [[Code]](https://github.com/chenllliang/DreamEngine)
 
 > **Core Innovation**
 > Utilized large multimodal models for shared representation and a two-stage training paradigm for effective control.
@@ -4736,8 +4735,8 @@
 * **Authors:** Amir Mohammad Izadi, Seyed Mohammad Hadi Hosseini, Soroush Vafaie Tabar, Ali Abdollahi, Armin Saghafian, Mahdieh Soleymani Baghshah
 * **arXiv ID:** 2503.06506
 * **One-liner:** Developed a training-free method to improve text-to-image compositionality with constraint-based losses.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2503.06506) | [[PDF]](https://arxiv.org/pdf/2503.06506)
+* **Published in:** arxiv (9 Mar 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2503.06506) | [[PDF]](https://arxiv.org/pdf/2503.06506) | [[Code]](https://github.com/hadi-hosseini/noise-refinement)
 
 > **Core Innovation**
 > Integrated entity and attribute constraints as losses and introduced a feedback-driven noise refinement system.
@@ -4764,8 +4763,8 @@
 * **Authors:** Xing Xie, Jiawei Liu, Ziyue Lin, Huijie Fan, Zhi Han, Yandong Tang, Liangqiong Qu
 * **arXiv ID:** 2503.07334
 * **One-liner:** Introduced ARRA for global-coherent text-to-image generation in autoregressive LLMs without architectural changes.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2503.07334) | [[PDF]](https://arxiv.org/pdf/2503.07334)
+* **Published in:** arxiv (10 Mar 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2503.07334) | [[PDF]](https://arxiv.org/pdf/2503.07334) | [[Code]](https://github.com/xiexing0916/ARRA)
 
 > **Core Innovation**
 > Aligned LLM hidden states with visual representations using a global visual alignment loss and hybrid token.
@@ -4792,8 +4791,8 @@
 * **Authors:** Junsong Chen, Shuchen Xue, Yuyang Zhao, Jincheng Yu, Sayak Paul, Junyu Chen, Han Cai, Song Han, Enze Xie
 * **arXiv ID:** 2503.09641
 * **One-liner:** Presented SANA-Sprint for ultra-fast T2I generation with hybrid distillation and step-adaptive inference.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2503.09641) | [[PDF]](https://arxiv.org/pdf/2503.09641)
+* **Published in:** arxiv (12 Mar 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2503.09641) | [[PDF]](https://arxiv.org/pdf/2503.09641) | [[Code]](https://github.com/NVlabs/Sana)
 
 > **Core Innovation**
 > Combined sCM and LADD for efficient distillation, achieving high-quality generation in 1-4 steps with real-time control.
@@ -4820,8 +4819,8 @@
 * **Authors:** Zirun Guo, Tao Jin
 * **arXiv ID:** 2503.10358
 * **One-liner:** Proposed ConceptGuard to address catastrophic forgetting in sequential diffusion customization.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2503.10358) | [[PDF]](https://arxiv.org/pdf/2503.10358)
+* **Published in:** arxiv (13 Mar 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2503.10358) | [[PDF]](https://arxiv.org/pdf/2503.10358) | [[Code]]()
 
 > **Core Innovation**
 > Combined shift embedding, concept-binding prompts, memory preservation, and a priority queue for dynamic concept management.
@@ -4848,8 +4847,8 @@
 * **Authors:** Chen Chen, Rui Qian, Wenze Hu, Tsu-Jui Fu, Jialing Tong, Xinze Wang, Lezhi Li, Bowen Zhang, Alex Schwing, Wei Liu, Yinfei Yang
 * **arXiv ID:** 2503.10618
 * **One-liner:** Empirically studied DiTs and introduced DiT-Air for efficient and high-performance text-to-image generation.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2503.10618) | [[PDF]](https://arxiv.org/pdf/2503.10618)
+* **Published in:** arxiv (13 Mar 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2503.10618) | [[PDF]](https://arxiv.org/pdf/2503.10618) | [[Code]]()
 
 > **Core Innovation**
 > Found standard DiT comparable to specialized models, with layer-wise sharing reducing model size and achieving SOTA performance.
@@ -4876,8 +4875,8 @@
 * **Authors:** Teng-Fang Hsiao, Bo-Kai Ruan, Yi-Lun Wu, Tzu-Ling Lin, Hong-Han Shuai
 * **arXiv ID:** 2503.15283
 * **One-liner:** Introduced TF-TI2I for training-free text-and-image-to-image generation with enhanced multimodal interactions.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2503.15283) | [[PDF]](https://arxiv.org/pdf/2503.15283)
+* **Published in:** arxiv (19 Mar 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2503.15283) | [[PDF]](https://arxiv.org/pdf/2503.15283) | [[Code]](https://github.com/BlueDyee/TF-TI2I)
 
 > **Core Innovation**
 > Used MM-DiT architecture with Reference Contextual Masking and Winner-Takes-All module to handle complex instructions.
@@ -4904,8 +4903,8 @@
 * **Authors:** Vittorio Pippi, Fabio Quattrini, Silvia Cascianelli, Alessio Tonioni, Rita Cucchiara
 * **arXiv ID:** 2503.17074
 * **One-liner:** Proposed Emuru, an autoregressive model for styled handwritten text generation with zero-shot generalization.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2503.17074) | [[PDF]](https://arxiv.org/pdf/2503.17074)
+* **Published in:** arxiv (21 Mar 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2503.17074) | [[PDF]](https://arxiv.org/pdf/2503.17074) | [[Code]]()
 
 > **Core Innovation**
 > Leveraged a VAE and Transformer trained on synthetic data to generate styled text images without background artifacts.
@@ -4932,8 +4931,8 @@
 * **Authors:** Ketan Suhaas Saichandran, Xavier Thomas, Prakhar Kaushik, Deepti Ghadiyaram
 * **arXiv ID:** 2503.17794
 * **One-liner:** Proposed SCoPE, a training-free method to improve text-to-image alignment for complex scenes.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2503.17794) | [[PDF]](https://arxiv.org/pdf/2503.17794)
+* **Published in:** arxiv (22 Mar 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2503.17794) | [[PDF]](https://arxiv.org/pdf/2503.17794) | [[Code]]()
 
 > **Core Innovation**
 > Progressively refines input prompts from coarse to fine details during inference.
@@ -4960,8 +4959,8 @@
 * **Authors:** Basim Azam, Naveed Akhtar
 * **arXiv ID:** 2503.18324
 * **One-liner:** Introduced a scalable technique for responsible T2I generation addressing fairness and safety.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2503.18324) | [[PDF]](https://arxiv.org/pdf/2503.18324)
+* **Published in:** arxiv (24 Mar 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2503.18324) | [[PDF]](https://arxiv.org/pdf/2503.18324) | [[Code]]()
 
 > **Core Innovation**
 > Uses an interpretable composite responsible space via knowledge distillation and concept whitening.
@@ -4988,8 +4987,8 @@
 * **Authors:** Alex Jinpeng Wang, Linjie Li, Zhengyuan Yang, Lijuan Wang, Min Li
 * **arXiv ID:** 2503.20198
 * **One-liner:** Developed a model for generating high-quality long-text images with unprecedented fidelity.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2503.20198) | [[PDF]](https://arxiv.org/pdf/2503.20198)
+* **Published in:** arxiv (26 Mar 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2503.20198) | [[PDF]](https://arxiv.org/pdf/2503.20198) | [[Code]](https://fingerrec.github.io/longtextar/)
 
 > **Core Innovation**
 > Addresses the bottleneck in text generation quality via a novel binary tokenizer.
@@ -5016,8 +5015,8 @@
 * **Authors:** Qi Qin, Le Zhuo, Yi Xin, Ruoyi Du, Zhen Li, Bin Fu, Yiting Lu, Jiakang Yuan, Xinyue Li, Dongyang Liu, Xiangyang Zhu, Manyuan Zhang, Will Beddow, Erwann Millon, Victor Perez, Wenhai Wang, Conghui He, Bo Zhang, Xiaohong Liu, Hongsheng Li, Yu Qiao, Chang Xu, Peng Gao
 * **arXiv ID:** 2503.21758
 * **One-liner:** Advanced text-to-image generation with Lumina-Image 2.0, emphasizing unification and efficiency.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2503.21758) | [[PDF]](https://arxiv.org/pdf/2503.21758)
+* **Published in:** arxiv (27 Mar 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2503.21758) | [[PDF]](https://arxiv.org/pdf/2503.21758) | [[Code]](https://github.com/Alpha-VLLM/Lumina-Image-2.0?tab=readme-ov-file)
 
 > **Core Innovation**
 > Adopts unified architecture and captioning system for better cross-modal interactions.
@@ -5044,8 +5043,8 @@
 * **Authors:** Hoigi Seo, Junseo Bang, Haechang Lee, Joohoon Lee, Byung Hyun Lee, Se Young Chun
 * **arXiv ID:** 2503.23011
 * **One-liner:** Proposed TokeBi, a training-free framework for strong semantic binding in T2I models.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2503.23011) | [[PDF]](https://arxiv.org/pdf/2503.23011)
+* **Published in:** arxiv (29 Mar 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2503.23011) | [[PDF]](https://arxiv.org/pdf/2503.23011) | [[Code]]()
 
 > **Core Innovation**
 > Leverages geometrical properties of token embeddings to improve cross-attention maps.
@@ -5072,8 +5071,8 @@
 * **Authors:** Yuyao Zhang, Jinghao Li, Yu-Wing Tai
 * **arXiv ID:** 2504.00010
 * **One-liner:** Introduced LayerCraft, a modular framework for structured image generation and editing using LLMs.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2504.00010) | [[PDF]](https://arxiv.org/pdf/2504.00010)
+* **Published in:** arxiv (25 Mar 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2504.00010) | [[PDF]](https://arxiv.org/pdf/2504.00010) | [[Code]](https://github.com/PeterYYZhang/LayerCraft)
 
 > **Core Innovation**
 > Enables controllable scene decomposition and object integration without retraining.
@@ -5100,8 +5099,8 @@
 * **Authors:** Rishubh Parihar, Vaibhav Agrawal, Sachidanand VS, R. Venkatesh Babu
 * **arXiv ID:** 2504.06752
 * **One-liner:** Enabled precise multi-object orientation control in T2I diffusion models.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2504.06752) | [[PDF]](https://arxiv.org/pdf/2504.06752)
+* **Published in:** arxiv (9 Apr 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2504.06752) | [[PDF]](https://arxiv.org/pdf/2504.06752) | [[Code]](https://github.com/rishubhpar/compass-control-src)
 
 > **Core Innovation**
 > Conditions model with orientation-aware compass tokens and constrains cross-attention maps.
@@ -5128,8 +5127,8 @@
 * **Authors:** Shouwei Ruan, Zhenyu Wu, Yao Huang, Ruochen Zhang, Yitong Sun, Caixin Kang, Xingxing Wei
 * **arXiv ID:** 2504.14290
 * **One-liner:** Proposed SC-DPO for safety alignment in T2I models, balancing safety and quality.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2504.14290) | [[PDF]](https://arxiv.org/pdf/2504.14290)
+* **Published in:** arxiv (19 Apr 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2504.14290) | [[PDF]](https://arxiv.org/pdf/2504.14290) | [[Code]]()
 
 > **Core Innovation**
 > Integrates safety constraints into preference optimization with a safety cost model.
@@ -5156,8 +5155,8 @@
 * **Authors:** Anran Yu, Wei Feng, Yaochen Zhang, Xiang Li, Lei Meng, Lei Wu, Xiangxu Meng
 * **arXiv ID:** 2504.15309
 * **One-liner:** Enhanced personalized T2I generation with style refinement and content preservation strategies.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2504.15309) | [[PDF]](https://arxiv.org/pdf/2504.15309)
+* **Published in:** arxiv (19 Apr 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2504.15309) | [[PDF]](https://arxiv.org/pdf/2504.15309) | [[Code]]()
 
 > **Core Innovation**
 > Optimizes style embeddings and preserves model generalization for better controllability.
@@ -5184,8 +5183,8 @@
 * **Authors:** Aviv Slobodkin, Hagai Taitelbaum, Yonatan Bitton, Brian Gordon, Michal Sokolik, Nitzan Bitton Guetta, Almog Gueta, Royi Rassin, Dani Lischinski, Idan Szpektor
 * **arXiv ID:** 2504.17502
 * **One-liner:** Introduced RefVNLI, a cost-effective metric for evaluating subject-driven T2I generation.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2504.17502) | [[PDF]](https://arxiv.org/pdf/2504.17502)
+* **Published in:** arxiv (24 Apr 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2504.17502) | [[PDF]](https://arxiv.org/pdf/2504.17502) | [[Code]]()
 
 > **Core Innovation**
 > Evaluates both textual alignment and subject preservation in a single run.
@@ -5212,8 +5211,8 @@
 * **Authors:** Shintaro Ozaki, Kazuki Hayashi, Yusuke Sakai, Jingun Kwon, Hidetaka Kamigaito, Katsuhiko Hayashi, Manabu Okumura, Taro Watanabe
 * **arXiv ID:** 2504.18269
 * **One-liner:** Improved image generation by refining prompts with augmented entity knowledge.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2504.18269) | [[PDF]](https://arxiv.org/pdf/2504.18269)
+* **Published in:** arxiv (25 Apr 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2504.18269) | [[PDF]](https://arxiv.org/pdf/2504.18269) | [[Code]]()
 
 > **Core Innovation**
 > Proposed TextTIGER, which uses LLMs to summarize augmented entity descriptions for better image generation.
@@ -5240,8 +5239,8 @@
 * **Authors:** Dongzhi Jiang, Ziyu Guo, Renrui Zhang, Zhuofan Zong, Hao Li, Le Zhuo, Shilin Yan, Pheng-Ann Heng, Hongsheng Li
 * **arXiv ID:** 2505.00703
 * **One-liner:** Enhanced text-to-image generation with bi-level chain-of-thought reasoning.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2505.00703) | [[PDF]](https://arxiv.org/pdf/2505.00703)
+* **Published in:** arxiv (1 May 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2505.00703) | [[PDF]](https://arxiv.org/pdf/2505.00703) | [[Code]](https://github.com/CaraJ7/T2I-R1)
 
 > **Core Innovation**
 > Introduced T2I-R1, a model using RL and bi-level CoT for semantic and token-level planning.
@@ -5268,8 +5267,8 @@
 * **Authors:** Muna Numan Said, Aarib Zaidi, Rabia Usman, Sonia Okon, Praneeth Medepalli, Kevin Zhu, Vasu Sharma, Sean O&#39;Brien
 * **arXiv ID:** 2505.01430
 * **One-liner:** Benchmarked cultural biases in text-to-image models using CIS metric.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2505.01430) | [[PDF]](https://arxiv.org/pdf/2505.01430)
+* **Published in:** arxiv (5 Apr 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2505.01430) | [[PDF]](https://arxiv.org/pdf/2505.01430) | [[Code]]()
 
 > **Core Innovation**
 > Developed CIS to evaluate cultural fidelity and identify biases in image generation.
@@ -5296,8 +5295,8 @@
 * **Authors:** Tianle Chen, Chaitanya Chakka, Deepti Ghadiyaram
 * **arXiv ID:** 2505.02236
 * **One-liner:** Improved generation of object states in text-to-image models.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2505.02236) | [[PDF]](https://arxiv.org/pdf/2505.02236)
+* **Published in:** arxiv (4 May 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2505.02236) | [[PDF]](https://arxiv.org/pdf/2505.02236) | [[Code]](https://github.com/cskyl/Object-State-Bench)
 
 > **Core Innovation**
 > Created a pipeline for synthetic data and fine-tuned models to better represent object states.
@@ -5324,8 +5323,8 @@
 * **Authors:** Mingcheng Li, Xiaolu Hou, Ziyang Liu, Dingkang Yang, Ziyun Qian, Jiawei Chen, Jinjie Wei, Yue Jiang, Qingyao Xu, Lihua Zhang
 * **arXiv ID:** 2505.02648
 * **One-liner:** Enhanced complex scene generation with multi-agent collaboration.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2505.02648) | [[PDF]](https://arxiv.org/pdf/2505.02648)
+* **Published in:** arxiv (5 May 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2505.02648) | [[PDF]](https://arxiv.org/pdf/2505.02648) | [[Code]]()
 
 > **Core Innovation**
 > Proposed MCCD using multi-agent scene parsing and hierarchical compositional diffusion.
@@ -5352,8 +5351,8 @@
 * **Authors:** Hang Wang, Zhi-Qi Cheng, Chenhao Lin, Chao Shen, Lei Zhang
 * **arXiv ID:** 2505.06512
 * **One-liner:** Achieved better spatial control and semantic fidelity in text-to-image generation.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2505.06512) | [[PDF]](https://arxiv.org/pdf/2505.06512)
+* **Published in:** arxiv (10 May 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2505.06512) | [[PDF]](https://arxiv.org/pdf/2505.06512) | [[Code]](https://github.com/hwang-cs-ime/HCMA)
 
 > **Core Innovation**
 > Introduced HCMA framework with global and local alignment modules for grounded generation.
@@ -5380,8 +5379,8 @@
 * **Authors:** Amritanshu Tiwari, Cherish Puniani, Kaustubh Sharma, Ojasva Nema
 * **arXiv ID:** 2505.10743
 * **One-liner:** Improved personalization in text-to-image models with reduced forgetting.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2505.10743) | [[PDF]](https://arxiv.org/pdf/2505.10743)
+* **Published in:** arxiv (15 May 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2505.10743) | [[PDF]](https://arxiv.org/pdf/2505.10743) | [[Code]]()
 
 > **Core Innovation**
 > Developed a two-stage pipeline using LoRA fine-tuning and segmentation for subject integration.
@@ -5408,8 +5407,8 @@
 * **Authors:** Yixin Wan, Kai-Wei Chang
 * **arXiv ID:** 2505.11178
 * **One-liner:** Advanced evaluation and improvement of compositional image generation.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2505.11178) | [[PDF]](https://arxiv.org/pdf/2505.11178)
+* **Published in:** arxiv (16 May 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2505.11178) | [[PDF]](https://arxiv.org/pdf/2505.11178) | [[Code]]()
 
 > **Core Innovation**
 > Introduced CompAlign benchmark and CompQuest framework for fine-grained assessment and alignment.
@@ -5436,8 +5435,8 @@
 * **Authors:** Shiyu Xuan, Zechao Li, Jinhui Tang
 * **arXiv ID:** 2505.12606
 * **One-liner:** Enhanced multi-modal object tracking using text-to-image model features.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2505.12606) | [[PDF]](https://arxiv.org/pdf/2505.12606)
+* **Published in:** arxiv (19 May 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2505.12606) | [[PDF]](https://arxiv.org/pdf/2505.12606) | [[Code]]()
 
 > **Core Innovation**
 > Proposed Diff-MM, leveraging Stable Diffusion UNet for unified multi-modal tracking.
@@ -5464,8 +5463,8 @@
 * **Authors:** Chaorui Deng, Deyao Zhu, Kunchang Li, Chenhui Gou, Feng Li, Zeyu Wang, Shu Zhong, Weihao Yu, Xiaonan Nie, Ziang Song, Guang Shi, Haoqi Fan
 * **arXiv ID:** 2505.14683
 * **One-liner:** Developed an open-source unified multimodal model with advanced reasoning.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2505.14683) | [[PDF]](https://arxiv.org/pdf/2505.14683)
+* **Published in:** arxiv (20 May 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2505.14683) | [[PDF]](https://arxiv.org/pdf/2505.14683) | [[Code]](https://github.com/bytedance-seed/BAGEL)
 
 > **Core Innovation**
 > Introduced BAGEL, a decoder-only model pretrained on diverse multimodal data for understanding and generation.
@@ -5492,8 +5491,8 @@
 * **Authors:** Xinran Wang, Muxi Diao, Yuanzhi Liu, Chunyu Wang, Kongming Liang, Zhanyu Ma, Jun Guo
 * **arXiv ID:** 2505.15172
 * **One-liner:** Proposed a new metric for caption detailness in T2I training, improving model performance with efficient data selection.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2505.15172) | [[PDF]](https://arxiv.org/pdf/2505.15172)
+* **Published in:** arxiv (21 May 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2505.15172) | [[PDF]](https://arxiv.org/pdf/2505.15172) | [[Code]]()
 
 > **Core Innovation**
 > Introduced ICR and AOD metrics to evaluate caption detailness, enabling superior T2I model training on high-detail captions.
@@ -5520,15 +5519,15 @@
 * **Authors:** Chuanhao Li, Jianwen Sun, Yukang Feng, Mingliang Zhai, Yifan Chang, Kaipeng Zhang
 * **arXiv ID:** 2505.15779
 * **One-liner:** Developed an Internet-Augmented T2I framework to handle uncertain knowledge in prompts using reference images.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2505.15779) | [[PDF]](https://arxiv.org/pdf/2505.15779)
+* **Published in:** arxiv (21 May 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2505.15779) | [[PDF]](https://arxiv.org/pdf/2505.15779) | [[Code]]()
 
 > **Core Innovation**
 > Integrated active retrieval, hierarchical image selection, and self-reflection to enhance T2I generation for uncertain scenarios.
 
 <details>
     <summary>Abstract</summary>
-    Current text-to-image (T2I) generation models achieve promising results, but they fail on the scenarios where the knowledge implied in the text prompt is uncertain. For example, a T2I model released in February would struggle to generate a suitable poster for a movie premiering in April, because the character designs and styles are uncertain to the model. To solve this problem, we propose an Internet-Augmented text-to-image generation (IA-T2I) framework to compel T2I models clear about such uncertain knowledge by providing them with reference images. Specifically, an active retrieval module is designed to determine whether a reference image is needed based on the given text prompt; a hierarchical image selection module is introduced to find the most suitable image returned by an image search engine to enhance the T2I model; a self-reflection mechanism is presented to continuously evaluate and refine the generated image to ensure faithful alignment with the text prompt. To evaluate the proposed framework;s performance, we collect a dataset named Img-Ref-T2I, where text prompts include three types of uncertain knowledge: (1) known but rare. (2) unknown. (3) ambiguous. Moreover, we carefully craft a complex prompt to guide GPT-4o in making preference evaluation, which has been shown to have an evaluation accuracy similar to that of human preference evaluation. Experimental results demonstrate the effectiveness of our framework, outperforming GPT-4o by about 30% in human evaluation.
+    Current text-to-image (T2I) generation models achieve promising results, but they fail on the scenarios where the knowledge implied in the text prompt is uncertain. For example, a T2I model released in February would struggle to generate a suitable poster for a movie premiering in April, because the character designs and styles are uncertain to the model. To solve this problem, we propose an Internet-Augmented text-to-image generation (IA-T2I) framework to compel T2I models clear about such uncertain knowledge by providing them with reference images. Specifically, an active retrieval module is designed to determine whether a reference image is needed based on the given text prompt; a hierarchical image selection module is introduced to find the most suitable image returned by an image search engine to enhance the T2I model; a self-reflection mechanism is presented to continuously evaluate and refine the generated image to ensure faithful alignment with the text prompt. To evaluate the proposed framework&#39;s performance, we collect a dataset named Img-Ref-T2I, where text prompts include three types of uncertain knowledge: (1) known but rare. (2) unknown. (3) ambiguous. Moreover, we carefully craft a complex prompt to guide GPT-4o in making preference evaluation, which has been shown to have an evaluation accuracy similar to that of human preference evaluation. Experimental results demonstrate the effectiveness of our framework, outperforming GPT-4o by about 30% in human evaluation.
 </details>
 
 <details>
@@ -5548,8 +5547,8 @@
 * **Authors:** Hongji Yang, Yucheng Zhou, Wencheng Han, Jianbing Shen
 * **arXiv ID:** 2505.16763
 * **One-liner:** Created a prompt optimization framework using LVLMs for AI feedback, reducing reliance on human annotations.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2505.16763) | [[PDF]](https://arxiv.org/pdf/2505.16763)
+* **Published in:** arxiv (22 May 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2505.16763) | [[PDF]](https://arxiv.org/pdf/2505.16763) | [[Code]]()
 
 > **Core Innovation**
 > Employed LVLMs as both solver and reward model in reinforcement learning for self-improving prompt rewriting.
@@ -5576,8 +5575,8 @@
 * **Authors:** Mingrui Wu, Lu Wang, Pu Zhao, Fangkai Yang, Jianjin Zhang, Jianfeng Liu, Yuefeng Zhan, Weihao Han, Hao Sun, Jiayi Ji, Xiaoshuai Sun, Qingwei Lin, Weiwei Deng, Dongmei Zhang, Feng Sun, Qi Zhang, Rongrong Ji
 * **arXiv ID:** 2505.17540
 * **One-liner:** Introduced RePrompt, a reinforcement learning-based reprompting framework for better T2I alignment and composition.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2505.17540) | [[PDF]](https://arxiv.org/pdf/2505.17540)
+* **Published in:** arxiv (23 May 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2505.17540) | [[PDF]](https://arxiv.org/pdf/2505.17540) | [[Code]](https://github.com/microsoft/DKI_LLM/tree/main/RePrompt)
 
 > **Core Innovation**
 > Trained a language model to generate structured, self-reflective prompts optimized for image outcomes.
@@ -5604,8 +5603,8 @@
 * **Authors:** Wenchao Zhang, Jiahe Tian, Runze He, Jizhong Han, Jiao Dai, Miaomiao Feng, Wei Mi, Xiaodan Zhang
 * **arXiv ID:** 2505.18730
 * **One-liner:** Established the ABP benchmark to evaluate T2I model alignment with real-world knowledge beyond prompts.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2505.18730) | [[PDF]](https://arxiv.org/pdf/2505.18730)
+* **Published in:** arxiv (24 May 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2505.18730) | [[PDF]](https://arxiv.org/pdf/2505.18730) | [[Code]](https://github.com/smile365317/ABP)
 
 > **Core Innovation**
 > Proposed ABPScore metric and ITKI strategy for improving knowledge integration in T2I generation.
@@ -5632,8 +5631,8 @@
 * **Authors:** Xin Ma, Yaohui Wang, Xinyuan Chen, Tien-Tsin Wong, Cunjian Chen
 * **arXiv ID:** 2505.19063
 * **One-liner:** Proposed OmniPainter for stylized image generation without fine-tuning, using pre-trained diffusion models.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2505.19063) | [[PDF]](https://arxiv.org/pdf/2505.19063)
+* **Published in:** arxiv (25 May 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2505.19063) | [[PDF]](https://arxiv.org/pdf/2505.19063) | [[Code]](https://github.com/maxin-cn/OmniPainter)
 
 > **Core Innovation**
 > Leveraged self-consistency of latent consistency models and norm mixture of self-attention for style transfer.
@@ -5660,8 +5659,8 @@
 * **Authors:** Valerii Startsev, Alexander Ustyuzhanin, Alexey Kirillov, Dmitry Baranchuk, Sergey Kastryulin
 * **arXiv ID:** 2505.19297
 * **One-liner:** Introduced a methodology for creating high-impact SFT datasets using pre-trained models, releasing Alchemist dataset.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2505.19297) | [[PDF]](https://arxiv.org/pdf/2505.19297)
+* **Published in:** arxiv (25 May 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2505.19297) | [[PDF]](https://arxiv.org/pdf/2505.19297) | [[Code]](https://huggingface.co/datasets/yandex/alchemist)
 
 > **Core Innovation**
 > Leveraged generative models to estimate effective training samples for T2I model fine-tuning.
@@ -5688,8 +5687,8 @@
 * **Authors:** Yi Wu, Lingting Zhu, Shengju Qian, Lei Liu, Wandi Qiao, Lequan Yu, Bin Li
 * **arXiv ID:** 2505.19874
 * **One-liner:** Developed StyleAR for style-aligned T2I generation using binary data and enhanced AR models.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2505.19874) | [[PDF]](https://arxiv.org/pdf/2505.19874)
+* **Published in:** arxiv (26 May 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2505.19874) | [[PDF]](https://arxiv.org/pdf/2505.19874) | [[Code]]()
 
 > **Core Innovation**
 > Combined data curation with AR models to utilize text-image binary data for style consistency.
@@ -5716,8 +5715,8 @@
 * **Authors:** Kewen Chen, Xiaobin Hu, Wenqi Ren
 * **arXiv ID:** 2505.22360
 * **One-liner:** Proposed a framework for subject-driven T2I generation with improved identity feature disentanglement and fusion.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2505.22360) | [[PDF]](https://arxiv.org/pdf/2505.22360)
+* **Published in:** arxiv (28 May 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2505.22360) | [[PDF]](https://arxiv.org/pdf/2505.22360) | [[Code]](https://github.com/wuyi2020/StyleAR)
 
 > **Core Innovation**
 > Introduced IEDM for implicit-explicit decoupling and FFM with MoE for feature integration.
@@ -5744,8 +5743,8 @@
 * **Authors:** Qi Cai, Jingwen Chen, Yang Chen, Yehao Li, Fuchen Long, Yingwei Pan, Zhaofan Qiu, Yiheng Zhang, Fengbin Gao, Peihan Xu, Yimeng Wang, Kai Yu, Wenxuan Chen, Ziwei Feng, Zijian Gong, Jianzhuang Pan, Yi Peng, Rui Tian, Siyu Wang, Bo Zhao, Ting Yao, Tao Mei
 * **arXiv ID:** 2505.22705
 * **One-liner:** Introduced HiDream-I1, a sparse DiT-based model for fast, high-quality image generation and editing.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2505.22705) | [[PDF]](https://arxiv.org/pdf/2505.22705)
+* **Published in:** arxiv (28 May 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2505.22705) | [[PDF]](https://arxiv.org/pdf/2505.22705) | [[Code]](https://github.com/HiDream-ai/HiDream-I1)
 
 > **Core Innovation**
 > Built a dual-stream and single-stream sparse DiT with MoE for efficient multimodal interaction.
@@ -5773,8 +5772,8 @@
 * **Authors:** Yuxi Zhang, Yueting Li, Xinyu Du, Sibo Wang
 * **arXiv ID:** 2505.22792
 * **One-liner:** Proposed Rhet2Pix, a framework that improves rhetorical text-to-image generation by formulating it as a multi-step policy optimization problem.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2505.22792) | [[PDF]](https://arxiv.org/pdf/2505.22792)
+* **Published in:** arxiv (28 May 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2505.22792) | [[PDF]](https://arxiv.org/pdf/2505.22792) | [[Code]]()
 
 > **Core Innovation**
 > Rhet2Pix addresses the challenge of generating images from rhetorical language by using a two-layer MDP diffusion module to elaborate sub-sentences and optimize actions, outperforming SOTA models.
@@ -5802,8 +5801,8 @@
 * **Authors:** Qingyu Shi, Jinbin Bai, Zhuoran Zhao, Wenhao Chai, Kaidong Yu, Jianzong Wu, Shuangyong Song, Yunhai Tong, Xiangtai Li, Xuelong Li, Shuicheng Yan
 * **arXiv ID:** 2505.23606
 * **One-liner:** Introduced Muddit, a unified discrete diffusion transformer for fast and parallel generation across text and image modalities.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2505.23606) | [[PDF]](https://arxiv.org/pdf/2505.23606)
+* **Published in:** arxiv (29 May 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2505.23606) | [[PDF]](https://arxiv.org/pdf/2505.23606) | [[Code]](https://github.com/M-E-AGI-Lab/Muddit)
 
 > **Core Innovation**
 > Muddit integrates strong visual priors from a pretrained text-to-image backbone with a lightweight text decoder, achieving competitive performance in quality and efficiency.
@@ -5831,8 +5830,8 @@
 * **Authors:** Yoonjin Oh, Yongjin Kim, Hyomin Kim, Donghwan Chi, Sungwoong Kim
 * **arXiv ID:** 2506.02015
 * **One-liner:** Developed OSPO, an object-centric self-improving framework to enhance fine-grained text-image alignment in text-to-image generation.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2506.02015) | [[PDF]](https://arxiv.org/pdf/2506.02015)
+* **Published in:** arxiv (28 May 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2506.02015) | [[PDF]](https://arxiv.org/pdf/2506.02015) | [[Code]]()
 
 > **Core Innovation**
 > OSPO addresses object hallucination by constructing hard negative data and using object-centric preference optimization, surpassing prior methods in fine-grained alignment.
@@ -5860,8 +5859,8 @@
 * **Authors:** Revant Teotia, Candace Ross, Karen Ullrich, Sumit Chopra, Adriana Romero-Soriano, Melissa Hall, Matthew J. Muckley
 * **arXiv ID:** 2506.05108
 * **One-liner:** Introduced DIM-CIM, a reference-free framework for measuring diversity and generalization in text-to-image models.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2506.05108) | [[PDF]](https://arxiv.org/pdf/2506.05108)
+* **Published in:** arxiv (5 Jun 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2506.05108) | [[PDF]](https://arxiv.org/pdf/2506.05108) | [[Code]](https://github.com/facebookresearch/DIMCIM)
 
 > **Core Innovation**
 > DIM-CIM evaluates default-mode diversity and generalization capacity using the COCO-DIMCIM benchmark, revealing trade-offs and failure cases in model scaling.
@@ -5889,8 +5888,8 @@
 * **Authors:** Kaihang Pan, Wendong Bu, Yuruo Wu, Yang Wu, Kai Shen, Yunfei Li, Hang Zhao, Juncheng Li, Siliang Tang, Yueting Zhuang
 * **arXiv ID:** 2506.05501
 * **One-liner:** Proposed FocusDiff, a method to enhance fine-grained text-image alignment by focusing on subtle semantic differences.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2506.05501) | [[PDF]](https://arxiv.org/pdf/2506.05501)
+* **Published in:** arxiv (5 Jun 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2506.05501) | [[PDF]](https://arxiv.org/pdf/2506.05501) | [[Code]](https://github.com/wendell0218/FocusDiff)
 
 > **Core Innovation**
 > FocusDiff uses a novel reinforcement learning algorithm and a dataset of paired texts to achieve SOTA performance on benchmarks like PairComp.
@@ -5918,8 +5917,8 @@
 * **Authors:** Andrew Z. Wang, Songwei Ge, Tero Karras, Ming-Yu Liu, Yogesh Balaji
 * **arXiv ID:** 2506.08210
 * **One-liner:** Investigated using modern LLMs as text encoders for text-to-image diffusion models, improving alignment with complex prompts.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2506.08210) | [[PDF]](https://arxiv.org/pdf/2506.08210)
+* **Published in:** arxiv (9 Jun 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2506.08210) | [[PDF]](https://arxiv.org/pdf/2506.08210) | [[Code]]()
 
 > **Core Innovation**
 > By exploring embeddings from various layers and using layer-normalized averaging, the study shows that LLMs outperform T5 in text-to-image generation.
@@ -5947,8 +5946,8 @@
 * **Authors:** Yukang Feng, Jianwen Sun, Chuanhao Li, Zizhen Li, Jiaxin Ai, Fanrui Zhang, Yifan Chang, Sizhuo Zhou, Shenglin Zhang, Yu Dai, Kaipeng Zhang
 * **arXiv ID:** 2506.09427
 * **One-liner:** Introduced InterSyn, a large-scale multimodal dataset, and SynJudge, an automatic evaluation model for interleaved image-text outputs.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2506.09427) | [[PDF]](https://arxiv.org/pdf/2506.09427)
+* **Published in:** arxiv (11 Jun 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2506.09427) | [[PDF]](https://arxiv.org/pdf/2506.09427) | [[Code]]()
 
 > **Core Innovation**
 > InterSyn is constructed using the SEIR method, providing rich dialogues for training LMMs, while SynJudge assesses multimodal outputs across multiple dimensions.
@@ -5978,8 +5977,8 @@
 * **Authors:** Qin Zhou, Zhiyang Zhang, Jinglong Wang, Xiaobin Li, Jing Zhang, Qian Yu, Lu Sheng, Dong Xu
 * **arXiv ID:** 2506.09740
 * **One-liner:** Proposed ELBO-T2IAlign, a training-free method to calibrate pixel-text alignment in diffusion models using zero-shot referring image segmentation.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2506.09740) | [[PDF]](https://arxiv.org/pdf/2506.09740)
+* **Published in:** arxiv (11 Jun 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2506.09740) | [[PDF]](https://arxiv.org/pdf/2506.09740) | [[Code]]()
 
 > **Core Innovation**
 > ELBO-T2IAlign addresses misalignment issues by leveraging the evidence lower bound, working across various diffusion architectures without identifying specific causes.
@@ -6007,8 +6006,8 @@
 * **Authors:** Jeonghoon Park, Juyoung Lee, Chaeyeon Chung, Jaeseong Lee, Jaegul Choo, Jindong Gu
 * **arXiv ID:** 2506.13298
 * **One-liner:** Introduced Entanglement-Free Attention (EFA) to mitigate societal biases in text-to-image models while preserving non-target attributes.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2506.13298) | [[PDF]](https://arxiv.org/pdf/2506.13298)
+* **Published in:** arxiv (16 Jun 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2506.13298) | [[PDF]](https://arxiv.org/pdf/2506.13298) | [[Code]]()
 
 > **Core Innovation**
 > EFA adjusts cross-attention layers to incorporate target attributes with equal probability, outperforming existing methods in bias mitigation without distribution shifts.
@@ -6036,8 +6035,8 @@
 * **Authors:** Junyeob Baek, Hosung Lee, Christopher Hoang, Mengye Ren, Sungjin Ahn
 * **arXiv ID:** 2506.14373
 * **One-liner:** Proposed Discrete-JEPA, a method for robust tokenization to enhance symbolic reasoning in AI systems.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2506.14373) | [[PDF]](https://arxiv.org/pdf/2506.14373)
+* **Published in:** arxiv (17 Jun 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2506.14373) | [[PDF]](https://arxiv.org/pdf/2506.14373) | [[Code]]()
 
 > **Core Innovation**
 > Discrete-JEPA extends latent predictive coding with semantic tokenization and complementary objectives, outperforming baselines in visual symbolic prediction tasks.
@@ -6065,8 +6064,8 @@
 * **Authors:** Qinchan Li, Kenneth Chen, Changyue Su, Wittawat Jitkrittum, Qi Sun, Patsorn Sangkloy
 * **arXiv ID:** 2506.14753
 * **One-liner:** Developed a framework to optimize the trade-off between image quality and computational cost in text-to-image generation by routing prompts to appropriate models.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2506.14753) | [[PDF]](https://arxiv.org/pdf/2506.14753)
+* **Published in:** arxiv (17 Jun 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2506.14753) | [[PDF]](https://arxiv.org/pdf/2506.14753) | [[Code]]()
 
 > **Core Innovation**
 > Proposed a framework that automatically routes prompts to different text-to-image models or denoising steps based on complexity, achieving higher average quality than any single model.
@@ -6093,8 +6092,8 @@
 * **Authors:** Yu Xie, Chengjie Zeng, Lingyun Zhang, Yanwei Fu
 * **arXiv ID:** 2506.18325
 * **One-liner:** Introduced PromptSan to detoxify harmful prompts in text-to-image models without altering model architecture.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2506.18325) | [[PDF]](https://arxiv.org/pdf/2506.18325)
+* **Published in:** arxiv (23 Jun 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2506.18325) | [[PDF]](https://arxiv.org/pdf/2506.18325) | [[Code]]()
 
 > **Core Innovation**
 > Proposed NSFW-Classifier Guided Prompt Sanitization with two variants to reduce harmful content generation while maintaining usability.
@@ -6121,8 +6120,8 @@
 * **Authors:** Guo-Hua Wang, Shanshan Zhao, Xinjie Zhang, Liangfu Cao, Pengxin Zhan, Lunhao Duan, Shiyin Lu, Minghao Fu, Xiaohao Chen, Jianshan Zhao, Yang Li, Qing-Guo Chen
 * **arXiv ID:** 2506.23044
 * **One-liner:** Introduced Ovis-U1, a unified model integrating multimodal understanding, text-to-image generation, and image editing.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2506.23044) | [[PDF]](https://arxiv.org/pdf/2506.23044)
+* **Published in:** arxiv (29 Jun 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2506.23044) | [[PDF]](https://arxiv.org/pdf/2506.23044) | [[Code]](https://github.com/AIDC-AI/Ovis-U1)
 
 > **Core Innovation**
 > Developed a 3-billion-parameter model with unified training, achieving high scores on multiple benchmarks for understanding and generation tasks.
@@ -6149,8 +6148,8 @@
 * **Authors:** Liheng Zhang, Lexi Pang, Hang Ye, Xiaoxuan Ma, Yizhou Wang
 * **arXiv ID:** 2507.02792
 * **One-liner:** Proposed a training-free framework for feature injection in text-to-image models to improve structure guidance and visual quality.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2507.02792) | [[PDF]](https://arxiv.org/pdf/2507.02792)
+* **Published in:** arxiv (3 Jul 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2507.02792) | [[PDF]](https://arxiv.org/pdf/2507.02792) | [[Code]]()
 
 > **Core Innovation**
 > Decoupled the sampling schedule of condition features from denoising, introducing a simple schedule and restart refinement for better alignment.
@@ -6177,8 +6176,8 @@
 * **Authors:** Zhanxin Gao, Beier Zhu, Liang Yao, Jian Yang, Ying Tai
 * **arXiv ID:** 2507.08396
 * **One-liner:** Developed CoDi for subject-consistent generation with diverse poses and layouts in text-to-image models.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2507.08396) | [[PDF]](https://arxiv.org/pdf/2507.08396)
+* **Published in:** arxiv (11 Jul 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2507.08396) | [[PDF]](https://arxiv.org/pdf/2507.08396) | [[Code]](https://github.com/NJU-PCALab/CoDi)
 
 > **Core Innovation**
 > Introduced a two-stage strategy using identity transport and refinement to maintain subject consistency while enabling pose diversity.
@@ -6205,8 +6204,8 @@
 * **Authors:** Junyu Chen, Yihua Gao, Mingyong Li
 * **arXiv ID:** 2507.08590
 * **One-liner:** Proposed a framework for image-text matching using multimodal large language models to bridge the modality gap.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2507.08590) | [[PDF]](https://arxiv.org/pdf/2507.08590)
+* **Published in:** arxiv (11 Jul 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2507.08590) | [[PDF]](https://arxiv.org/pdf/2507.08590) | [[Code]](https://github.com/Image-Text-Matching/VSD)
 
 > **Core Innovation**
 > Leveraged MLLMs to generate Visual Semantic Descriptions for instance-level and prototype-level alignment in ITM tasks.
@@ -6233,8 +6232,8 @@
 * **Authors:** Geon Park, Seon Bin Kim, Gunho Jung, Seong-Whan Lee
 * **arXiv ID:** 2507.11947
 * **One-liner:** Introduced RaDL for multi-instance image generation with improved relationship and attribute handling.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2507.11947) | [[PDF]](https://arxiv.org/pdf/2507.11947)
+* **Published in:** arxiv (16 Jul 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2507.11947) | [[PDF]](https://arxiv.org/pdf/2507.11947) | [[Code]]()
 
 > **Core Innovation**
 > Proposed relation-aware disentangled learning to enhance instance-specific attributes and generate relation-aware features.
@@ -6261,8 +6260,8 @@
 * **Authors:** Hyun-Jun Jin, Young-Eun Kim, Seong-Whan Lee
 * **arXiv ID:** 2507.11990
 * **One-liner:** Developed ID-EA to improve identity preservation in personalized portrait generation using text-to-image models.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2507.11990) | [[PDF]](https://arxiv.org/pdf/2507.11990)
+* **Published in:** arxiv (16 Jul 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2507.11990) | [[PDF]](https://arxiv.org/pdf/2507.11990) | [[Code]]()
 
 > **Core Innovation**
 > Introduced ID-Enhancer and ID-Adapter to align text embeddings with visual identity embeddings for better consistency.
@@ -6289,8 +6288,8 @@
 * **Authors:** Min-Jeong Lee, Hee-Dong Kim, Seong-Whan Lee
 * **arXiv ID:** 2507.12771
 * **One-liner:** Proposed ReToM, a token merging strategy to reduce computational cost in stable diffusion models while maintaining quality.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2507.12771) | [[PDF]](https://arxiv.org/pdf/2507.12771)
+* **Published in:** arxiv (17 Jul 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2507.12771) | [[PDF]](https://arxiv.org/pdf/2507.12771) | [[Code]]()
 
 > **Core Innovation**
 > Introduced local representative token guided merging to preserve salient features and improve efficiency in attention operations.
@@ -6317,8 +6316,8 @@
 * **Authors:** Jyun-Ze Tang, Chih-Fan Hsu, Jeng-Lin Li, Ming-Ching Chang, Wei-Chao Chen
 * **arXiv ID:** 2507.16154
 * **One-liner:** Introduced LSSGen for efficient and high-quality multi-resolution image generation in latent space.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2507.16154) | [[PDF]](https://arxiv.org/pdf/2507.16154)
+* **Published in:** arxiv (22 Jul 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2507.16154) | [[PDF]](https://arxiv.org/pdf/2507.16154) | [[Code]]()
 
 > **Core Innovation**
 > Proposed latent space scaling with a lightweight upsampler to avoid artifacts from traditional pixel scaling methods.
@@ -6345,8 +6344,8 @@
 * **Authors:** Yi Xin, Juncheng Yan, Qi Qin, Zhen Li, Dongyang Liu, Shicheng Li, Victor Shea-Jay Huang, Yupeng Zhou, Renrui Zhang, Le Zhuo, Tiancheng Han, Xiaoqing Sun, Siqi Luo, Mengmeng Wang, Bin Fu, Yuewen Cao, Hongsheng Li, Guangtao Zhai, Xiaohong Liu, Yu Qiao, Peng Gao
 * **arXiv ID:** 2507.17801
 * **One-liner:** Introduced Lumina-mGPT 2.0, a high-quality autoregressive image generation model trained from scratch, matching state-of-the-art diffusion models.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2507.17801) | [[PDF]](https://arxiv.org/pdf/2507.17801)
+* **Published in:** arxiv (23 Jul 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2507.17801) | [[PDF]](https://arxiv.org/pdf/2507.17801) | [[Code]](https://github.com/Alpha-VLLM/Lumina-mGPT-2.0)
 
 > **Core Innovation**
 > Revitalized autoregressive modeling for unified multimodal generation with a single framework, achieving flexibility and compositionality.
@@ -6373,8 +6372,8 @@
 * **Authors:** Chieh-Yun Chen, Min Shi, Gong Zhang, Humphrey Shi
 * **arXiv ID:** 2507.20536
 * **One-liner:** Developed T2I-Copilot, a training-free multi-agent system that automates prompt engineering and model selection for T2I generation.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2507.20536) | [[PDF]](https://arxiv.org/pdf/2507.20536)
+* **Published in:** arxiv (28 Jul 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2507.20536) | [[PDF]](https://arxiv.org/pdf/2507.20536) | [[Code]]()
 
 > **Core Innovation**
 > Enhanced generation quality and text-image alignment through collaborative agents, reducing the need for manual prompt refinement.
@@ -6401,8 +6400,8 @@
 * **Authors:** Shijie Zhou, Ruiyi Zhang, Huaisheng Zhu, Branislav Kveton, Yufan Zhou, Jiuxiang Gu, Jian Chen, Changyou Chen
 * **arXiv ID:** 2507.21391
 * **One-liner:** Proposed LLaVA-Reward, an efficient reward model for automatic evaluation of T2I generations using MLLMs.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2507.21391) | [[PDF]](https://arxiv.org/pdf/2507.21391)
+* **Published in:** arxiv (28 Jul 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2507.21391) | [[PDF]](https://arxiv.org/pdf/2507.21391) | [[Code]](https://github.com/sjz5202/LLaVA-Reward)
 
 > **Core Innovation**
 > Improved text-image correlation reasoning with a Skip-connection Cross Attention module, enabling human-aligned scoring.
@@ -6429,8 +6428,8 @@
 * **Authors:** Chenfei Wu, Jiahao Li, Jingren Zhou, Junyang Lin, Kaiyuan Gao, Kun Yan, Sheng-ming Yin, Shuai Bai, Xiao Xu, Yilei Chen, Yuxiang Chen, Zecheng Tang, Zekai Zhang, Zhengyi Wang, An Yang, Bowen Yu, Chen Cheng, Dayiheng Liu, Deqing Li, Hang Zhang, Hao Meng, Hu Wei, Jingyuan Ni, Kai Chen, Kuan Cao, Liang Peng, Lin Qu, Minggang Wu, Peng Wang, Shuting Yu, Tingkun Wen, Wensen Feng, Xiaoxiao Xu, Yi Wang, Yichang Zhang, Yongqiang Zhu, Yujia Wu, Yuxuan Cai, Zenan Liu
 * **arXiv ID:** 2508.02324
 * **One-liner:** Achieved state-of-the-art performance in complex text rendering and precise image editing with Qwen-Image.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2508.02324) | [[PDF]](https://arxiv.org/pdf/2508.02324)
+* **Published in:** arxiv (4 Aug 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2508.02324) | [[PDF]](https://arxiv.org/pdf/2508.02324) | [[Code]](https://github.com/QwenLM/Qwen-Image)
 
 > **Core Innovation**
 > Enhanced text rendering capabilities through progressive training and improved multi-task alignment for consistency.
@@ -6457,8 +6456,8 @@
 * **Authors:** Sourojit Ghosh, Sanjana Gautam, Pranav Venkit, Avijit Ghosh
 * **arXiv ID:** 2508.02937
 * **One-liner:** Identified and analyzed exoticism in GAI tools, highlighting biases against non-Western and marginalized communities.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2508.02937) | [[PDF]](https://arxiv.org/pdf/2508.02937)
+* **Published in:** arxiv (4 Aug 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2508.02937) | [[PDF]](https://arxiv.org/pdf/2508.02937) | [[Code]]()
 
 > **Core Innovation**
 > Documented patterns of exoticism in attire depiction across Global South countries, with implications for harm-aware design.
@@ -6485,8 +6484,8 @@
 * **Authors:** Hyungjin Kim, Seokho Ahn, Young-Duk Seo
 * **arXiv ID:** 2508.03481
 * **One-liner:** Proposed DrUM, a method for personalized T2I generation using user profiling and transformer-based adapters.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2508.03481) | [[PDF]](https://arxiv.org/pdf/2508.03481)
+* **Published in:** arxiv (5 Aug 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2508.03481) | [[PDF]](https://arxiv.org/pdf/2508.03481) | [[Code]]()
 
 > **Core Innovation**
 > Enabled condition-level modeling in latent space for accurate personalization without fine-tuning.
@@ -6513,8 +6512,8 @@
 * **Authors:** Xiaoqi Dong, Xiangyu Zhou, Nicholas Evans, Yujia Lin
 * **arXiv ID:** 2508.04732
 * **One-liner:** Introduced LumiGen, an LVLM-enhanced iterative framework for fine-grained control in T2I generation.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2508.04732) | [[PDF]](https://arxiv.org/pdf/2508.04732)
+* **Published in:** arxiv (5 Aug 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2508.04732) | [[PDF]](https://arxiv.org/pdf/2508.04732) | [[Code]]()
 
 > **Core Innovation**
 > Elevated T2I performance through closed-loop feedback, improving text rendering and pose expression.
@@ -6541,8 +6540,8 @@
 * **Authors:** Wonjun Kang, Byeongkeun Ahn, Minjae Lee, Kevin Galim, Seunghyuk Oh, Hyung Il Koo, Nam Ik Cho
 * **arXiv ID:** 2508.05399
 * **One-liner:** Proposed UNCAGE, a training-free method to improve compositional fidelity in Masked Generative Transformers.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2508.05399) | [[PDF]](https://arxiv.org/pdf/2508.05399)
+* **Published in:** arxiv (7 Aug 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2508.05399) | [[PDF]](https://arxiv.org/pdf/2508.05399) | [[Code]](https://github.com/furiosa-ai/uncage)
 
 > **Core Innovation**
 > Enhanced text-image alignment by prioritizing unmasking of object tokens using attention maps.
@@ -6569,8 +6568,8 @@
 * **Authors:** Fangtai Wu, Mushui Liu, Weijie He, Wanggui He, Hao Jiang, Zhao Wang, Yunlong Yu
 * **arXiv ID:** 2508.07341
 * **One-liner:** Developed CoAR, a framework for customized image generation in unified AR models with minimal parameter tuning.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2508.07341) | [[PDF]](https://arxiv.org/pdf/2508.07341)
+* **Published in:** arxiv (10 Aug 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2508.07341) | [[PDF]](https://arxiv.org/pdf/2508.07341) | [[Code]](https://github.com/KZF-kzf/CoAR)
 
 > **Core Innovation**
 > Enabled subject and style customization while keeping pre-trained parameters frozen, improving efficiency.
@@ -6597,8 +6596,8 @@
 * **Authors:** Jiwon Kim, Pureum Kim, SeonHwa Kim, Soobin Park, Eunju Cha, Kyong Hwan Jin
 * **arXiv ID:** 2508.09575
 * **One-liner:** Proposed DRF, a training-free system for fine-grained control in controllable T2I diffusion models.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2508.09575) | [[PDF]](https://arxiv.org/pdf/2508.09575)
+* **Published in:** arxiv (13 Aug 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2508.09575) | [[PDF]](https://arxiv.org/pdf/2508.09575) | [[Code]](https://github.com/jwonkm/DRF)
 
 > **Core Innovation**
 > Recursively refines latents to better reflect appearance and structural conditions, ensuring consistency.
@@ -6625,8 +6624,8 @@
 * **Authors:** Danyi Gao
 * **arXiv ID:** 2508.10280
 * **One-liner:** Proposed a high-fidelity image generation method integrating text-image contrastive constraints with structural guidance mechanisms.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2508.10280) | [[PDF]](https://arxiv.org/pdf/2508.10280)
+* **Published in:** arxiv (14 Aug 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2508.10280) | [[PDF]](https://arxiv.org/pdf/2508.10280) | [[Code]]()
 
 > **Core Innovation**
 > Enhanced semantic alignment and structural consistency in text-driven image generation without increasing computational complexity.
@@ -6653,8 +6652,8 @@
 * **Authors:** Mingyue Yang, Dianxi Shi, Jialu Zhou, Xinyu Wei, Leqian Li, Shaowu Yang, Chunping Qiu
 * **arXiv ID:** 2508.17760
 * **One-liner:** Introduced CEIDM, a diffusion-based method with dual controls for entity and interaction in T2I generation.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2508.17760) | [[PDF]](https://arxiv.org/pdf/2508.17760)
+* **Published in:** arxiv (25 Aug 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2508.17760) | [[PDF]](https://arxiv.org/pdf/2508.17760) | [[Code]]()
 
 > **Core Innovation**
 > Improved control over entities and their interactions by mining implicit relationships and clustering actions.
@@ -6681,8 +6680,8 @@
 * **Authors:** Qizheng Yang, Tung-I Chen, Siyu Zhao, Ramesh K. Sitaraman, Hui Guan
 * **arXiv ID:** 2509.00642
 * **One-liner:** Developed HADIS, a hybrid adaptive diffusion model serving system for efficient real-time deployment.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2509.00642) | [[PDF]](https://arxiv.org/pdf/2509.00642)
+* **Published in:** arxiv (31 Aug 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2509.00642) | [[PDF]](https://arxiv.org/pdf/2509.00642) | [[Code]]()
 
 > **Core Innovation**
 > Optimized cascade model selection, query routing, and resource allocation to improve response quality and reduce latency.
@@ -6709,8 +6708,8 @@
 * **Authors:** Sapir Esther Yiflach, Yuval Atzmon, Gal Chechik
 * **arXiv ID:** 2509.02295
 * **One-liner:** Introduced Learn-to-Steer, a framework for learning data-driven objectives to improve spatial reasoning in T2I models.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2509.02295) | [[PDF]](https://arxiv.org/pdf/2509.02295)
+* **Published in:** arxiv (2 Sep 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2509.02295) | [[PDF]](https://arxiv.org/pdf/2509.02295) | [[Code]](https://github.com/nerfies/nerfies.github.io)
 
 > **Core Innovation**
 > Dramatically enhanced spatial accuracy by decoding relationships from cross-attention maps and using a learned loss.
@@ -6737,8 +6736,8 @@
 * **Authors:** Linqing Wang, Ximing Xing, Yiji Cheng, Zhiyuan Zhao, Donghao Li, Tiankai Hang, Jiale Tao, Qixun Wang, Ruihuang Li, Comi Chen, Xin Li, Mingrui Wu, Xinchi Deng, Shuyang Gu, Chunyu Wang, Qinglin Lu
 * **arXiv ID:** 2509.04545
 * **One-liner:** Proposed PromptEnhancer, a universal prompt rewriting framework to enhance T2I model alignment without weight modifications.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2509.04545) | [[PDF]](https://arxiv.org/pdf/2509.04545)
+* **Published in:** arxiv (4 Sep 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2509.04545) | [[PDF]](https://arxiv.org/pdf/2509.04545) | [[Code]](https://github.com/Tencent-Hunyuan/HunyuanImage-2.1)
 
 > **Core Innovation**
 > Improved image-text alignment by training a CoT rewriter with a fine-grained reward model.
@@ -6765,8 +6764,8 @@
 * **Authors:** Guandong Li, Zhaobin Chu
 * **arXiv ID:** 2509.05659
 * **One-liner:** Presented EditIDv2, a tuning-free solution for high-complexity narrative scenes and long text inputs in character editing.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2509.05659) | [[PDF]](https://arxiv.org/pdf/2509.05659)
+* **Published in:** arxiv (6 Sep 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2509.05659) | [[PDF]](https://arxiv.org/pdf/2509.05659) | [[Code]]()
 
 > **Core Innovation**
 > Achieved deep semantic editing with identity consistency using minimal data and advanced attention decomposition.
@@ -6793,8 +6792,8 @@
 * **Authors:** Rajatsubhra Chakraborty, Xujun Che, Depeng Xu, Cori Faklaris, Xi Niu, Shuhan Yuan
 * **arXiv ID:** 2509.13496
 * **One-liner:** Proposed BiasMap, a framework for uncovering and mitigating latent concept-level representational biases in stable diffusion models.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2509.13496) | [[PDF]](https://arxiv.org/pdf/2509.13496)
+* **Published in:** arxiv (16 Sep 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2509.13496) | [[PDF]](https://arxiv.org/pdf/2509.13496) | [[Code]]()
 
 > **Core Innovation**
 > Revealed and reduced concept entanglement between demographics and semantics using cross-attention attribution.
@@ -6821,8 +6820,8 @@
 * **Authors:** Komal Kumar, Rao Muhammad Anwer, Fahad Shahbaz Khan, Salman Khan, Ivan Laptev, Hisham Cholakkal
 * **arXiv ID:** 2509.22793
 * **One-liner:** Introduced DEFT, a decompositional efficient fine-tuning framework for T2I models.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2509.22793) | [[PDF]](https://arxiv.org/pdf/2509.22793)
+* **Published in:** arxiv (26 Sep 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2509.22793) | [[PDF]](https://arxiv.org/pdf/2509.22793) | [[Code]](https://github.com/MAXNORM8650/DEFT)
 
 > **Core Innovation**
 > Achieved state-of-the-art performance in personalization and multi-task adaptation with minimal trainable parameters.
@@ -6849,8 +6848,8 @@
 * **Authors:** Mohammad Hossein Sameti, Amir M. Mansourian, Arash Marioriyad, Soheil Fadaee Oshyani, Mohammad Hossein Rohban, Mahdieh Soleymani Baghshah
 * **arXiv ID:** 2509.23457
 * **One-liner:** Proposed a fine-grained test-time optimization framework to enhance compositional faithfulness in T2I generation.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2509.23457) | [[PDF]](https://arxiv.org/pdf/2509.23457)
+* **Published in:** arxiv (27 Sep 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2509.23457) | [[PDF]](https://arxiv.org/pdf/2509.23457) | [[Code]](https://github.com/AmirMansurian/NoConceptLeftBehind)
 
 > **Core Innovation**
 > Improved concept coverage and faithfulness by decomposing prompts and using concept-level feedback.
@@ -6877,8 +6876,8 @@
 * **Authors:** Jia Jun Cheng Xian, Muchen Li, Haotian Yang, Xin Tao, Pengfei Wan, Leonid Sigal, Renjie Liao
 * **arXiv ID:** 2509.25771
 * **One-liner:** Introduced Text Preference Optimization (TPO), a framework for aligning T2I models without paired image preference data.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2509.25771) | [[PDF]](https://arxiv.org/pdf/2509.25771)
+* **Published in:** arxiv (30 Sep 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2509.25771) | [[PDF]](https://arxiv.org/pdf/2509.25771) | [[Code]](https://github.com/DSL-Lab/T2I-Free-Lunch-Alignment)
 
 > **Core Innovation**
 > Achieved better human preference scores and alignment by training on perturbed prompts using LLM.
@@ -6905,8 +6904,8 @@
 * **Authors:** Katherine Crowson, Stella Biderman, Daniel Kornis, Dashiell Stander, Eric Hallahan, Louis Castricato, Edward Raff
 * **arXiv ID:** 2204.08583
 * **One-liner:** Introduced a training-free method using CLIP to guide VQGAN for high-quality image generation and editing from complex text prompts.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2204.08583) | [[PDF]](https://arxiv.org/pdf/2204.08583)
+* **Published in:** arxiv (18 Apr 2022)
+* **Links:** [[Paper]](https://arxiv.org/abs/2204.08583) | [[PDF]](https://arxiv.org/pdf/2204.08583) | [[Code]]()
 
 > **Core Innovation**
 > Achieved superior visual quality in image generation and editing without model training by leveraging multimodal guidance.
@@ -6933,8 +6932,8 @@
 * **Authors:** Tim Brooks, Aleksander Holynski, Alexei A. Efros
 * **arXiv ID:** 2211.09800
 * **One-liner:** Developed InstructPix2Pix, a model for fast image editing from human instructions using generated training data.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2211.09800) | [[PDF]](https://arxiv.org/pdf/2211.09800)
+* **Published in:** arxiv (17 Nov 2022)
+* **Links:** [[Paper]](https://arxiv.org/abs/2211.09800) | [[PDF]](https://arxiv.org/pdf/2211.09800) | [[Code]](https://github.com/timothybrooks/instruct-pix2pix)
 
 > **Core Innovation**
 > Enabled quick image edits in seconds by training on a dataset synthesized with GPT-3 and Stable Diffusion.
@@ -6961,8 +6960,8 @@
 * **Authors:** Kai Zhang, Lingbo Mo, Wenhu Chen, Huan Sun, Yu Su
 * **arXiv ID:** 2306.10012
 * **One-liner:** Created MagicBrush, the first large-scale manually annotated dataset for instruction-guided image editing.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2306.10012) | [[PDF]](https://arxiv.org/pdf/2306.10012)
+* **Published in:** arxiv (16 Jun 2023)
+* **Links:** [[Paper]](https://arxiv.org/abs/2306.10012) | [[PDF]](https://arxiv.org/pdf/2306.10012) | [[Code]](https://github.com/OSU-NLP-Group/MagicBrush)
 
 > **Core Innovation**
 > Improved model performance by fine-tuning on high-quality annotated data, addressing noise in automated datasets.
@@ -6989,8 +6988,8 @@
 * **Authors:** Aosong Feng, Weikang Qiu, Jinbin Bai, Xiao Zhang, Zhen Dong, Kaicheng Zhou, Rex Ying, Leandros Tassiulas
 * **arXiv ID:** 2403.04880
 * **One-liner:** Proposed D-Edit, a framework for versatile image editing by disentangling item-prompt interactions in diffusion models.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2403.04880) | [[PDF]](https://arxiv.org/pdf/2403.04880)
+* **Published in:** arxiv (7 Mar 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2403.04880) | [[PDF]](https://arxiv.org/pdf/2403.04880) | [[Code]]()
 
 > **Core Innovation**
 > Achieved state-of-the-art editing in multiple types (image-based, text-based, mask-based, item removal) with a unified approach.
@@ -7017,8 +7016,8 @@
 * **Authors:** Zichong Meng, Changdi Yang, Jun Liu, Hao Tang, Pu Zhao, Yanzhi Wang
 * **arXiv ID:** 2403.05018
 * **One-liner:** Introduced a robust image editing framework with enhanced in-context learning and language unification.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2403.05018) | [[PDF]](https://arxiv.org/pdf/2403.05018)
+* **Published in:** arxiv (8 Mar 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2403.05018) | [[PDF]](https://arxiv.org/pdf/2403.05018) | [[Code]]()
 
 > **Core Innovation**
 > Improved generalization and quality by incorporating VMamba Block, editing-shift matching, and selective area-matching.
@@ -7042,11 +7041,11 @@
 <details>
 <summary><b> Leveraging LLMs for On-the-Fly Instruction Guided Image Editing</b></summary>
 
-* **Authors:** Rodrigo Santos, João Silva, António Branco
+* **Authors:** Rodrigo Santos, Jo茫o Silva, Ant贸nio Branco
 * **arXiv ID:** 2403.08004
 * **One-liner:** Developed a preparation-free method for instruction-guided image editing using image captioning and DDIM inversion.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2403.08004) | [[PDF]](https://arxiv.org/pdf/2403.08004)
+* **Published in:** arxiv (12 Mar 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2403.08004) | [[PDF]](https://arxiv.org/pdf/2403.08004) | [[Code]]()
 
 > **Core Innovation**
 > Achieved competitive performance without preliminary training or fine-tuning.
@@ -7073,8 +7072,8 @@
 * **Authors:** Aoxue Li, Mingyang Yi, Zhenguo Li
 * **arXiv ID:** 2405.15313
 * **One-liner:** Proposed MaSaFusion to improve text-guided image editing by incorporating mask-informed fusion in self-attention modules.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2405.15313) | [[PDF]](https://arxiv.org/pdf/2405.15313)
+* **Published in:** arxiv (24 May 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2405.15313) | [[PDF]](https://arxiv.org/pdf/2405.15313) | [[Code]]()
 
 > **Core Innovation**
 > Addressed inconsistencies in diffusion-based editing by reducing interference in texture retention and new character creation.
@@ -7101,8 +7100,8 @@
 * **Authors:** Jia Li, Lijie Hu, Zhixian He, Jingfeng Zhang, Tianhang Zheng, Di Wang
 * **arXiv ID:** 2405.19708
 * **One-liner:** Introduced Locate and Forget (LaF) method for precise text-guided image editing by comparing syntactic trees.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2405.19708) | [[PDF]](https://arxiv.org/pdf/2405.19708)
+* **Published in:** arxiv (30 May 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2405.19708) | [[PDF]](https://arxiv.org/pdf/2405.19708) | [[Code]]()
 
 > **Core Innovation**
 > Enhanced semantic alignment between text prompts and image modifications by locating and forgetting target concepts.
@@ -7129,8 +7128,8 @@
 * **Authors:** Tiancheng Shen, Jun Hao Liew, Long Mai, Lu Qi, Jiashi Feng, Jiaya Jia
 * **arXiv ID:** 2406.00121
 * **One-liner:** Proposed Image Editing Recommendation (IER) task and Creativity-VLA framework for generating creative editing instructions from vague prompts.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2406.00121) | [[PDF]](https://arxiv.org/pdf/2406.00121)
+* **Published in:** arxiv (31 May 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2406.00121) | [[PDF]](https://arxiv.org/pdf/2406.00121) | [[Code]]()
 
 > **Core Innovation**
 > Automated the generation of diverse and relevant editing instructions to bridge the gap in user ideation.
@@ -7157,8 +7156,8 @@
 * **Authors:** Hidir Yesiltepe, Yusuf Dalva, Pinar Yanardag
 * **arXiv ID:** 2406.00457
 * **One-liner:** Demonstrated that CLIP enables disentangled editing in diffusion models in a zero-shot manner.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2406.00457) | [[PDF]](https://arxiv.org/pdf/2406.00457)
+* **Published in:** arxiv (1 Jun 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2406.00457) | [[PDF]](https://arxiv.org/pdf/2406.00457) | [[Code]]()
 
 > **Core Innovation**
 > Provided a lightweight approach for precise attribute manipulation without compromising image coherence.
@@ -7185,8 +7184,8 @@
 * **Authors:** Haozhe Zhao, Xiaojian Ma, Liang Chen, Shuzheng Si, Rujie Wu, Kaikai An, Peiyu Yu, Minjia Zhang, Qing Li, Baobao Chang
 * **arXiv ID:** 2407.05282
 * **One-liner:** Created a large-scale, high-quality dataset for instruction-based image editing.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2407.05282) | [[PDF]](https://arxiv.org/pdf/2407.05282)
+* **Published in:** arxiv (7 Jul 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2407.05282) | [[PDF]](https://arxiv.org/pdf/2407.05282) | [[Code]](https://github.com/HaozheZhao/UltraEdit)
 
 > **Core Innovation**
 > Systematically generated a dataset with broader editing instructions, real image sources, and region-based editing support.
@@ -7213,8 +7212,8 @@
 * **Authors:** Ruei-Che Chang, Yuxuan Liu, Lotus Zhang, Anhong Guo
 * **arXiv ID:** 2408.06632
 * **One-liner:** Developed an accessible image editing system for blind and low-vision users.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2408.06632) | [[PDF]](https://arxiv.org/pdf/2408.06632)
+* **Published in:** arxiv (13 Aug 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2408.06632) | [[PDF]](https://arxiv.org/pdf/2408.06632) | [[Code]]()
 
 > **Core Innovation**
 > Introduced natural language verification loops for non-visual image editing and feedback.
@@ -7241,8 +7240,8 @@
 * **Authors:** Zhi Chen, Zecheng Zhao, Yadan Luo, Zi Huang
 * **arXiv ID:** 2408.03355
 * **One-liner:** Accelerated text-guided single-image editing to 17 seconds.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2408.03355) | [[PDF]](https://arxiv.org/pdf/2408.03355)
+* **Published in:** arxiv (6 Aug 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2408.03355) | [[PDF]](https://arxiv.org/pdf/2408.03355) | [[Code]]()
 
 > **Core Innovation**
 > Streamlined fine-tuning and used semantic-aware diffusion for faster processing.
@@ -7269,8 +7268,8 @@
 * **Authors:** Zongze Wu, Nicholas Kolkin, Jonathan Brandt, Richard Zhang, Eli Shechtman
 * **arXiv ID:** 2408.08332
 * **One-liner:** Enabled precise image inversion and disentangled editing in few-step diffusion models.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2408.08332) | [[PDF]](https://arxiv.org/pdf/2408.08332)
+* **Published in:** arxiv (14 Aug 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2408.08332) | [[PDF]](https://arxiv.org/pdf/2408.08332) | [[Code]]()
 
 > **Core Innovation**
 > Used encoder-based iterative inversion and text conditioning for real-time edits.
@@ -7297,8 +7296,8 @@
 * **Authors:** Ashutosh Srivastava, Tarun Ram Menta, Abhinav Java, Avadhoot Jadhav, Silky Singh, Surgan Jandial, Balaji Krishnamurthy
 * **arXiv ID:** 2411.03982
 * **One-liner:** Proposed an efficient exemplar-based image editing framework.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2411.03982) | [[PDF]](https://arxiv.org/pdf/2411.03982)
+* **Published in:** arxiv (6 Nov 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2411.03982) | [[PDF]](https://arxiv.org/pdf/2411.03982) | [[Code]]()
 
 > **Core Innovation**
 > Captured edits in text and image modalities for high fidelity and speed.
@@ -7325,8 +7324,8 @@
 * **Authors:** Xin Gu, Ming Li, Libo Zhang, Fan Chen, Longyin Wen, Tiejian Luo, Sijie Zhu
 * **arXiv ID:** 2411.04713
 * **One-liner:** Improved training data quality with multi-perspective reward data.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2411.04713) | [[PDF]](https://arxiv.org/pdf/2411.04713)
+* **Published in:** arxiv (6 Nov 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2411.04713) | [[PDF]](https://arxiv.org/pdf/2411.04713) | [[Code]](https://github.com/bytedance/Multi-Reward-Editing)
 
 > **Core Innovation**
 > Designed a metric system and training framework for better editing models.
@@ -7353,8 +7352,8 @@
 * **Authors:** Cong Wei, Zheyang Xiong, Weiming Ren, Xinrun Du, Ge Zhang, Wenhu Chen
 * **arXiv ID:** 2411.07199
 * **One-liner:** Developed an omnipotent editor for multiple tasks and aspect ratios.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2411.07199) | [[PDF]](https://arxiv.org/pdf/2411.07199)
+* **Published in:** arxiv (11 Nov 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2411.07199) | [[PDF]](https://arxiv.org/pdf/2411.07199) | [[Code]](https://github.com/TIGER-AI-Lab/OmniEdit)
 
 > **Core Innovation**
 > Utilized supervision from specialist models and improved data quality.
@@ -7381,8 +7380,8 @@
 * **Authors:** Qifan Yu, Wei Chow, Zhongqi Yue, Kaihang Pan, Yang Wu, Xiaoyang Wan, Juncheng Li, Siliang Tang, Hanwang Zhang, Yueting Zhuang
 * **arXiv ID:** 2411.15738
 * **One-liner:** Created a comprehensive multi-modal instruction editing dataset.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2411.15738) | [[PDF]](https://arxiv.org/pdf/2411.15738)
+* **Published in:** arxiv (24 Nov 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2411.15738) | [[PDF]](https://arxiv.org/pdf/2411.15738) | [[Code]](https://github.com/DCDmllm/AnyEdit)
 
 > **Core Innovation**
 > Ensured diversity and quality across editing types and domains.
@@ -7409,8 +7408,8 @@
 * **Authors:** Nivetha Jayakumar, Srivardhan Reddy Gadila, Tonmoy Hossain, Yangfeng Ji, Miaomiao Zhang
 * **arXiv ID:** 2411.16714
 * **One-liner:** Introduced topology-preserved image editing for sensitive domains.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2411.16714) | [[PDF]](https://arxiv.org/pdf/2411.16714)
+* **Published in:** arxiv (22 Nov 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2411.16714) | [[PDF]](https://arxiv.org/pdf/2411.16714) | [[Code]]()
 
 > **Core Innovation**
 > Ensured geometry remains intact through deformable variations and diffusion models.
@@ -7437,8 +7436,8 @@
 * **Authors:** Yingjing Xu, Jie Kong, Jiazhi Wang, Xiao Pan, Bo Lin, Qiang Liu
 * **arXiv ID:** 2411.17323
 * **One-liner:** Enhanced instruction-based editing with better dataset and feature utilization.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2411.17323) | [[PDF]](https://arxiv.org/pdf/2411.17323)
+* **Published in:** arxiv (26 Nov 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2411.17323) | [[PDF]](https://arxiv.org/pdf/2411.17323) | [[Code]](https://github.com/poppyxu/InsightEdit)
 
 > **Core Innovation**
 > Curated a high-quality dataset and used two-stream bridging for precise guidance.
@@ -7465,8 +7464,8 @@
 * **Authors:** Enis Simsar, Alessio Tonioni, Yongqin Xian, Thomas Hofmann, Federico Tombari
 * **arXiv ID:** 2412.15216
 * **One-liner:** Proposed an unsupervised instruction-based image editing approach eliminating the need for ground-truth edited images during training.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2412.15216) | [[PDF]](https://arxiv.org/pdf/2412.15216)
+* **Published in:** arxiv (19 Dec 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2412.15216) | [[PDF]](https://arxiv.org/pdf/2412.15216) | [[Code]]()
 
 > **Core Innovation**
 > Introduced the Edit Reversibility Constraint (ERC) to apply forward and reverse edits, enabling training on datasets with real image-caption pairs or triplets without ground-truth edited images.
@@ -7493,8 +7492,8 @@
 * **Authors:** Pengcheng Xu, Qingnan Fan, Fei Kou, Shuai Qin, Hong Gu, Ruoyu Zhao, Charles Ling, Boyu Wang
 * **arXiv ID:** 2501.03495
 * **One-liner:** Developed a framework for visual prompt-based image editing using any single text-to-image model without relying on an explicit image-to-image model.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2501.03495) | [[PDF]](https://arxiv.org/pdf/2501.03495)
+* **Published in:** arxiv (7 Jan 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2501.03495) | [[PDF]](https://arxiv.org/pdf/2501.03495) | [[Code]]()
 
 > **Core Innovation**
 > Leveraged probability-flow ordinary equation to construct a diffusion bridge for distribution transfer and optimized text embeddings via differential attention control.
@@ -7518,11 +7517,11 @@
 <details>
 <summary><b> Hands-off Image Editing: Language-guided Editing without any Task-specific Labeling, Masking or even Training</b></summary>
 
-* **Authors:** Rodrigo Santos, António Branco, João Silva, João Rodrigues
+* **Authors:** Rodrigo Santos, Ant贸nio Branco, Jo茫o Silva, Jo茫o Rodrigues
 * **arXiv ID:** 2502.10064
 * **One-liner:** Proposed a novel unsupervised approach for instruction-guided image editing without task-specific supervision.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2502.10064) | [[PDF]](https://arxiv.org/pdf/2502.10064)
+* **Published in:** arxiv (14 Feb 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2502.10064) | [[PDF]](https://arxiv.org/pdf/2502.10064) | [[Code]]()
 
 > **Core Innovation**
 > Achieved competitive performance by eliminating the need for task-specific labeling, masking, or training.
@@ -7549,8 +7548,8 @@
 * **Authors:** Kunal Swami, Raghu Chittersu, Pranav Adlinge, Rajeev Irny, Shashavali Doodekula, Alok Shukla
 * **arXiv ID:** 2502.10258
 * **One-liner:** Introduced PromptArtisan for multi-instruction image editing in a single pass without iterative refinement.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2502.10258) | [[PDF]](https://arxiv.org/pdf/2502.10258)
+* **Published in:** arxiv (14 Feb 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2502.10258) | [[PDF]](https://arxiv.org/pdf/2502.10258) | [[Code]]()
 
 > **Core Innovation**
 > Integrated a pre-trained InstructPix2Pix model with a Complete Attention Control Mechanism (CACM) for precise, zero-shot editing.
@@ -7577,8 +7576,8 @@
 * **Authors:** Sherry X. Chen, Misha Sra, Pradeep Sen
 * **arXiv ID:** 2503.18406
 * **One-liner:** Presented Instruct-CLIP, a self-supervised method to refine instruction-image alignment in datasets for training latent diffusion models.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2503.18406) | [[PDF]](https://arxiv.org/pdf/2503.18406)
+* **Published in:** arxiv (24 Mar 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2503.18406) | [[PDF]](https://arxiv.org/pdf/2503.18406) | [[Code]](https://github.com/SherryXTChen/Instruct-CLIP.git)
 
 > **Core Innovation**
 > Adapted Instruct-CLIP to handle noisy latent images and diffusion timesteps, enabling alignment enforcement in latent space.
@@ -7605,8 +7604,8 @@
 * **Authors:** Qi Mao, Lan Chen, Yuchao Gu, Mike Zheng Shou, Ming-Hsuan Yang
 * **arXiv ID:** 2504.05594
 * **One-liner:** Introduced UnifyEdit, a tuning-free method for balancing fidelity and editability in text-based image editing.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2504.05594) | [[PDF]](https://arxiv.org/pdf/2504.05594)
+* **Published in:** arxiv (8 Apr 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2504.05594) | [[PDF]](https://arxiv.org/pdf/2504.05594) | [[Code]](https://github.com/CUC-MIPG/UnifyEdit)
 
 > **Core Innovation**
 > Developed self-attention and cross-attention constraints with an adaptive time-step scheduler to prevent gradient conflicts.
@@ -7632,9 +7631,9 @@
 
 * **Authors:** Liu Yang, Huiyu Duan, Yucheng Zhu, Xiaohong Liu, Lu Liu, Zitong Xu, Guangji Ma, Xiongkuo Min, Guangtao Zhai, Patrick Le Callet
 * **arXiv ID:** 2504.11379
-* **One-liner:** Constructed Any2Omni, the first comprehensive dataset for omnidirectional image generation and editing, and proposed the Omni² model.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2504.11379) | [[PDF]](https://arxiv.org/pdf/2504.11379)
+* **One-liner:** Constructed Any2Omni, the first comprehensive dataset for omnidirectional image generation and editing, and proposed the Omni虏 model.
+* **Published in:** arxiv (15 Apr 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2504.11379) | [[PDF]](https://arxiv.org/pdf/2504.11379) | [[Code]](https://github.com/IntMeGroup/Omni2)
 
 > **Core Innovation**
 > Enabled handling of various ODI tasks under diverse input conditions using a single model.
@@ -7647,7 +7646,7 @@
 <details>
     <summary>Key points</summary>
     * Any2Omni dataset with 60,000+ training samples
-    * Omni² model for multi-task ODI generation and editing
+    * Omni虏 model for multi-task ODI generation and editing
     * Support for diverse input conditions
 </details>
 </details>
@@ -7661,8 +7660,8 @@
 * **Authors:** Valentina Bazyleva, Nicolo Bonettini, Gaurav Bharaj
 * **arXiv ID:** 2505.11753
 * **One-liner:** Introduced X-Edit, a method for localizing diffusion-based edits in images to detect deepfake manipulations.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2505.11753) | [[PDF]](https://arxiv.org/pdf/2505.11753)
+* **Published in:** arxiv (16 May 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2505.11753) | [[PDF]](https://arxiv.org/pdf/2505.11753) | [[Code]]()
 
 > **Core Innovation**
 > Used inverted diffusion features with a segmentation network and combined segmentation and relevance losses for accurate mask prediction.
@@ -7689,8 +7688,8 @@
 * **Authors:** Shiyu Liu, Yucheng Han, Peng Xing, Fukun Yin, Rui Wang, Wei Cheng, Jiaqi Liao, Yingming Wang, Honghao Fu, Chunrui Han, Guopeng Li, Yuang Peng, Quan Sun, Jingwei Wu, Yan Cai, Zheng Ge, Ranchen Ming, Lei Xia, Xianfang Zeng, Yibo Zhu, Binxing Jiao, Xiangyu Zhang, Gang Yu, Daxin Jiang
 * **arXiv ID:** 2504.17761
 * **One-liner:** Released Step1X-Edit, an open-source image editing model achieving performance comparable to closed-source models like GPT-4o.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2504.17761) | [[PDF]](https://arxiv.org/pdf/2504.17761)
+* **Published in:** arxiv (24 Apr 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2504.17761) | [[PDF]](https://arxiv.org/pdf/2504.17761) | [[Code]](https://github.com/stepfun-ai/Step1X-Edit)
 
 > **Core Innovation**
 > Integrated multimodal LLM for instruction processing and diffusion decoder, trained on a high-quality dataset with GEdit-Bench evaluation.
@@ -7714,11 +7713,11 @@
 <details>
 <summary><b> FLUX.1 Kontext: Flow Matching for In-Context Image Generation and Editing in Latent Space</b></summary>
 
-* **Authors:** Black Forest Labs, Stephen Batifol, Andreas Blattmann, Frederic Boesel, Saksham Consul, Cyril Diagne, Tim Dockhorn, Jack English, Zion English, Patrick Esser, Sumith Kulal, Kyle Lacey, Yam Levi, Cheng Li, Dominik Lorenz, Jonas Müller, Dustin Podell, Robin Rombach, Harry Saini, Axel Sauer, Luke Smith
+* **Authors:** Black Forest Labs, Stephen Batifol, Andreas Blattmann, Frederic Boesel, Saksham Consul, Cyril Diagne, Tim Dockhorn, Jack English, Zion English, Patrick Esser, Sumith Kulal, Kyle Lacey, Yam Levi, Cheng Li, Dominik Lorenz, Jonas M眉ller, Dustin Podell, Robin Rombach, Harry Saini, Axel Sauer, Luke Smith
 * **arXiv ID:** 2506.15742
 * **One-liner:** Evaluated FLUX.1 Kontext, a unified generative flow matching model for image generation and editing with improved consistency.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2506.15742) | [[PDF]](https://arxiv.org/pdf/2506.15742)
+* **Published in:** arxiv (17 Jun 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2506.15742) | [[PDF]](https://arxiv.org/pdf/2506.15742) | [[Code]](https://github.com/black-forest-labs/flux)
 
 > **Core Innovation**
 > Achieved competitive performance and faster generation times, validated on KontextBench for multi-turn tasks.
@@ -7745,8 +7744,8 @@
 * **Authors:** Avadhoot Jadhav, Ashutosh Srivastava, Abhinav Java, Silky Singh, Tarun Ram Menta, Surgan Jandial, Balaji Krishnamurthy
 * **arXiv ID:** 2506.20155
 * **One-liner:** Enabled exemplar-based image editing using pretrained models without optimization.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2506.20155) | [[PDF]](https://arxiv.org/pdf/2506.20155)
+* **Published in:** arxiv (25 Jun 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2506.20155) | [[PDF]](https://arxiv.org/pdf/2506.20155) | [[Code]]()
 
 > **Core Innovation**
 > Leveraged pretrained text-to-image diffusion models and multimodal VLMs to transfer edits from exemplar pairs to content images.
@@ -7773,8 +7772,8 @@
 * **Authors:** Qingdong He, Xueqin Chen, Chaoyi Wang, Yanjie Pan, Xiaobin Hu, Zhenye Gan, Yabiao Wang, Chengjie Wang, Xiangtai Li, Jiangning Zhang
 * **arXiv ID:** 2507.01908
 * **One-liner:** Introduced a dataset and framework for reasoning-aware image editing.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2507.01908) | [[PDF]](https://arxiv.org/pdf/2507.01908)
+* **Published in:** arxiv (2 Jul 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2507.01908) | [[PDF]](https://arxiv.org/pdf/2507.01908) | [[Code]](https://github.com/hithqd/ReasonBrain)
 
 > **Core Innovation**
 > Proposed Reason50K dataset and ReasonBrain framework to handle implicit hypothetical instructions with fine-grained reasoning.
@@ -7801,8 +7800,8 @@
 * **Authors:** Chun-Hsiao Yeh, Yilin Wang, Nanxuan Zhao, Richard Zhang, Yuheng Li, Yi Ma, Krishna Kumar Singh
 * **arXiv ID:** 2507.05259
 * **One-liner:** Developed an MLLM-based planning system for complex instruction decomposition.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2507.05259) | [[PDF]](https://arxiv.org/pdf/2507.05259)
+* **Published in:** arxiv (7 Jul 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2507.05259) | [[PDF]](https://arxiv.org/pdf/2507.05259) | [[Code]](https://danielchyeh.github.io/x-planner/)
 
 > **Core Innovation**
 > Introduced X-Planner to decompose instructions into sub-instructions with automatic mask generation for identity-preserving edits.
@@ -7829,8 +7828,8 @@
 * **Authors:** Maksim Kuprashevich, Grigorii Alekseenko, Irina Tolstykh, Georgii Fedorov, Bulat Suleimanov, Vladimir Dokholyan, Aleksandr Gordeev
 * **arXiv ID:** 2507.14119
 * **One-liner:** Automated the creation of high-quality training data for image editing.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2507.14119) | [[PDF]](https://arxiv.org/pdf/2507.14119)
+* **Published in:** arxiv (18 Jul 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2507.14119) | [[PDF]](https://arxiv.org/pdf/2507.14119) | [[Code]]()
 
 > **Core Innovation**
 > Presented a pipeline to mine and validate triplets using generative models and a Gemini validator, releasing NHR-Edit dataset.
@@ -7857,8 +7856,8 @@
 * **Authors:** Chenfei Wu, Jiahao Li, Jingren Zhou, Junyang Lin, Kaiyuan Gao, Kun Yan, Sheng-ming Yin, Shuai Bai, Xiao Xu, Yilei Chen, Yuxiang Chen, Zecheng Tang, Zekai Zhang, Zhengyi Wang, An Yang, Bowen Yu, Chen Cheng, Dayiheng Liu, Deqing Li, Hang Zhang, Hao Meng, Hu Wei, Jingyuan Ni, Kai Chen, Kuan Cao, Liang Peng, Lin Qu, Minggang Wu, Peng Wang, Shuting Yu, Tingkun Wen, Wensen Feng, Xiaoxiao Xu, Yi Wang, Yichang Zhang, Yongqiang Zhu, Yujia Wu, Yuxuan Cai, Zenan Liu
 * **arXiv ID:** 2508.02324
 * **One-liner:** Advanced text rendering and editing consistency in image generation.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2508.02324) | [[PDF]](https://arxiv.org/pdf/2508.02324)
+* **Published in:** arxiv (4 Aug 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2508.02324) | [[PDF]](https://arxiv.org/pdf/2508.02324) | [[Code]](https://github.com/QwenLM/Qwen-Image)
 
 > **Core Innovation**
 > Improved Qwen-Image with progressive training and dual-encoding for better text rendering and editing fidelity.
@@ -7885,8 +7884,8 @@
 * **Authors:** Shichao Ma, Yunhe Guo, Jiahao Su, Qihe Huang, Zhengyang Zhou, Yang Wang
 * **arXiv ID:** 2508.06916
 * **One-liner:** Enabled interactive multi-turn image editing with a multi-agent system.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2508.06916) | [[PDF]](https://arxiv.org/pdf/2508.06916)
+* **Published in:** arxiv (9 Aug 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2508.06916) | [[PDF]](https://arxiv.org/pdf/2508.06916) | [[Code]]()
 
 > **Core Innovation**
 > Introduced Talk2Image for dialogue-based editing with intention parsing and collaborative agents.
@@ -7913,8 +7912,8 @@
 * **Authors:** Weiyan Xie, Han Gao, Didan Deng, Kaican Li, April Hua Liu, Yongxiang Huang, Nevin L. Zhang
 * **arXiv ID:** 2508.06937
 * **One-liner:** Achieved balanced local editing with training-free structural guidance.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2508.06937) | [[PDF]](https://arxiv.org/pdf/2508.06937)
+* **Published in:** arxiv (9 Aug 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2508.06937) | [[PDF]](https://arxiv.org/pdf/2508.06937) | [[Code]](https://github.com/vaynexie/CannyEdit)
 
 > **Core Innovation**
 > Proposed CannyEdit using Selective Canny Control and Dual-Prompt Guidance for seamless edits.
@@ -7941,8 +7940,8 @@
 * **Authors:** Joonghyuk Shin, Alchan Hwang, Yujin Kim, Daneul Kim, Jaesik Park
 * **arXiv ID:** 2508.07519
 * **One-liner:** Adapted editing methods for MM-DiT architectures with bidirectional attention.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2508.07519) | [[PDF]](https://arxiv.org/pdf/2508.07519)
+* **Published in:** arxiv (11 Aug 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2508.07519) | [[PDF]](https://arxiv.org/pdf/2508.07519) | [[Code]](https://github.com/SNU-VGILab/exploring-mmdit)
 
 > **Core Innovation**
 > Analyzed MM-DiT attention and proposed a prompt-based editing method for global to local edits.
@@ -7969,8 +7968,8 @@
 * **Authors:** Jian Ma, Xujie Zhu, Zihao Pan, Qirong Peng, Xu Guo, Chen Chen, Haonan Lu
 * **arXiv ID:** 2508.07607
 * **One-liner:** Created a large-scale dataset and efficient model for diverse editing tasks.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2508.07607) | [[PDF]](https://arxiv.org/pdf/2508.07607)
+* **Published in:** arxiv (11 Aug 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2508.07607) | [[PDF]](https://arxiv.org/pdf/2508.07607) | [[Code]](https://github.com/OPPO-Mente-Lab/X2Edit)
 
 > **Core Innovation**
 > Introduced X2Edit dataset and task-aware MoE-LoRA training with contrastive learning.
@@ -7997,8 +7996,8 @@
 * **Authors:** Zihan Liang, Jiahao Sun, Haoran Ma
 * **arXiv ID:** 2508.17435
 * **One-liner:** Developed a training-free agent for iterative and context-aware editing.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2508.17435) | [[PDF]](https://arxiv.org/pdf/2508.17435)
+* **Published in:** arxiv (24 Aug 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2508.17435) | [[PDF]](https://arxiv.org/pdf/2508.17435) | [[Code]]()
 
 > **Core Innovation**
 > Introduced RefineEdit-Agent with LLM and LVLM integration for complex editing and feedback loops.
@@ -8025,8 +8024,8 @@
 * **Authors:** En Ci, Shanyan Guan, Yanhao Ge, Yilin Zhang, Wei Li, Zhenyu Zhang, Jian Yang, Ying Tai
 * **arXiv ID:** 2508.20505
 * **One-liner:** Proposed a descriptive-prompt-based editing framework to improve semantic image editing.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2508.20505) | [[PDF]](https://arxiv.org/pdf/2508.20505)
+* **Published in:** arxiv (28 Aug 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2508.20505) | [[PDF]](https://arxiv.org/pdf/2508.20505) | [[Code]]()
 
 > **Core Innovation**
 > Reframed instruction-based image editing as reference-image-based text-to-image generation to leverage well-trained models without modifications.
@@ -8053,8 +8052,8 @@
 * **Authors:** Ziyun Zeng, Junhao Zhang, Wei Li, Mike Zheng Shou
 * **arXiv ID:** 2509.01986
 * **One-liner:** Introduced a unified model with balanced responsibilities for precise image editing.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2509.01986) | [[PDF]](https://arxiv.org/pdf/2509.01986)
+* **Published in:** arxiv (2 Sep 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2509.01986) | [[PDF]](https://arxiv.org/pdf/2509.01986) | [[Code]](https://github.com/showlab/DIM)
 
 > **Core Innovation**
 > Addressed imbalance by assigning design responsibility to the understanding module using a dataset with chain-of-thought imaginations.
@@ -8081,8 +8080,8 @@
 * **Authors:** Mingsong Li, Lin Liu, Hongjun Wang, Haoxing Chen, Xijun Gu, Shizhan Liu, Dong Gong, Junbo Zhao, Zhenzhong Lan, Jianguo Li
 * **arXiv ID:** 2509.14638
 * **One-liner:** Developed a comprehensive dataset to enhance instruction-based image editing.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2509.14638) | [[PDF]](https://arxiv.org/pdf/2509.14638)
+* **Published in:** arxiv (18 Sep 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2509.14638) | [[PDF]](https://arxiv.org/pdf/2509.14638) | [[Code]](https://huggingface.co/datasets/inclusionAI/MultiEdit)
 
 > **Core Innovation**
 > Constructed MultiEdit dataset with diverse editing tasks and types to overcome dataset limitations.
@@ -8109,8 +8108,8 @@
 * **Authors:** Chau Pham, Quan Dao, Mahesh Bhosale, Yunjie Tian, Dimitris Metaxas, David Doermann
 * **arXiv ID:** 2509.15031
 * **One-liner:** Proposed a reinforcement learning framework for efficient hyperparameter tuning in diffusion-based editing.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2509.15031) | [[PDF]](https://arxiv.org/pdf/2509.15031)
+* **Published in:** arxiv (18 Sep 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2509.15031) | [[PDF]](https://arxiv.org/pdf/2509.15031) | [[Code]]()
 
 > **Core Innovation**
 > Modeled hyperparameter search as a sequential decision-making task to reduce computational costs.
@@ -8137,8 +8136,8 @@
 * **Authors:** Hyunseung Kim, Chiho Choi, Srikanth Malla, Sai Prahladh Padmanabhan, Saurabh Bagchi, Joon Hee Choi
 * **arXiv ID:** 2509.19731
 * **One-liner:** Introduced a context-aware method to handle infeasible instructions in image editing.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2509.19731) | [[PDF]](https://arxiv.org/pdf/2509.19731)
+* **Published in:** arxiv (24 Sep 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2509.19731) | [[PDF]](https://arxiv.org/pdf/2509.19731) | [[Code]]()
 
 > **Core Innovation**
 > Designed CAMILA to validate instruction coherence and apply only relevant edits.
@@ -8165,8 +8164,8 @@
 * **Authors:** Xuan Ju, Tianyu Wang, Yuqian Zhou, He Zhang, Qing Liu, Nanxuan Zhao, Zhifei Zhang, Yijun Li, Yuanhao Cai, Shaoteng Liu, Daniil Pakhomov, Zhe Lin, Soo Ye Kim, Qiang Xu
 * **arXiv ID:** 2509.20360
 * **One-liner:** Created a unified framework for image and video generation and editing.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2509.20360) | [[PDF]](https://arxiv.org/pdf/2509.20360)
+* **Published in:** arxiv (24 Sep 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2509.20360) | [[PDF]](https://arxiv.org/pdf/2509.20360) | [[Code]]()
 
 > **Core Innovation**
 > Represented all modalities as unified token sequences to enable cross-modal learning.
@@ -8193,8 +8192,8 @@
 * **Authors:** Xin Luo, Jiahao Wang, Chenyuan Wu, Shitao Xiao, Xiyan Jiang, Defu Lian, Jiajun Zhang, Dong Liu, Zheng liu
 * **arXiv ID:** 2509.23909
 * **One-liner:** Developed a high-fidelity reward model to enable reinforcement learning in image editing.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2509.23909) | [[PDF]](https://arxiv.org/pdf/2509.23909)
+* **Published in:** arxiv (28 Sep 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2509.23909) | [[PDF]](https://arxiv.org/pdf/2509.23909) | [[Code]](https://github.com/VectorSpaceLab/EditScore)
 
 > **Core Innovation**
 > Introduced EditScore reward models and benchmark to overcome RL adoption barriers.
@@ -8221,8 +8220,8 @@
 * **Authors:** Keming Wu, Sicong Jiang, Max Ku, Ping Nie, Minghao Liu, Wenhu Chen
 * **arXiv ID:** 2509.26346
 * **One-liner:** Built a reward model to scale high-quality synthetic training data for image editing.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2509.26346) | [[PDF]](https://arxiv.org/pdf/2509.26346)
+* **Published in:** arxiv (30 Sep 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2509.26346) | [[PDF]](https://arxiv.org/pdf/2509.26346) | [[Code]](https://github.com/TIGER-AI-Lab/EditReward)
 
 > **Core Innovation**
 > Trained \mname on large-scale human preference dataset to align with human preferences.
@@ -8249,8 +8248,8 @@
 * **Authors:** Yuxin Song, Wenkai Dong, Shizun Wang, Qi Zhang, Song Xue, Tao Yuan, Hu Yang, Haocheng Feng, Hang Zhou, Xinyan Xiao, Jingdong Wang
 * **arXiv ID:** 2509.26641
 * **One-liner:** Introduced a novel approach to disentangle generative reasoning from synthesis in unified models.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2509.26641) | [[PDF]](https://arxiv.org/pdf/2509.26641)
+* **Published in:** arxiv (30 Sep 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2509.26641) | [[PDF]](https://arxiv.org/pdf/2509.26641) | [[Code]]()
 
 > **Core Innovation**
 > Bridged VLM and diffusion model via multimodal kontext for improved editing and generation.
@@ -8277,8 +8276,8 @@
 * **Authors:** Chenfei Wu, Lun Huang, Qianxi Zhang, Binyang Li, Lei Ji, Fan Yang, Guillermo Sapiro, Nan Duan
 * **arXiv ID:** 2104.14806
 * **One-liner:** Proposed an open-domain text-to-video pretrained model with good generalization.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2104.14806) | [[PDF]](https://arxiv.org/pdf/2104.14806)
+* **Published in:** arxiv (30 Apr 2021)
+* **Links:** [[Paper]](https://arxiv.org/abs/2104.14806) | [[PDF]](https://arxiv.org/pdf/2104.14806) | [[Code]]()
 
 > **Core Innovation**
 > Pretrained GODIVA on large-scale dataset for auto-regressive video generation.
@@ -8300,20 +8299,20 @@
 
 
 <details>
-<summary><b> NÜWA: Visual Synthesis Pre-training for Neural visUal World creAtion</b></summary>
+<summary><b> N脺WA: Visual Synthesis Pre-training for Neural visUal World creAtion</b></summary>
 
 * **Authors:** Chenfei Wu, Jian Liang, Lei Ji, Fan Yang, Yuejian Fang, Daxin Jiang, Nan Duan
 * **arXiv ID:** 2111.12417
-* **One-liner:** Introduced NÜWA, a unified multimodal pre-trained model for generating and manipulating visual data.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2111.12417) | [[PDF]](https://arxiv.org/pdf/2111.12417)
+* **One-liner:** Introduced N脺WA, a unified multimodal pre-trained model for generating and manipulating visual data.
+* **Published in:** arxiv (24 Nov 2021)
+* **Links:** [[Paper]](https://arxiv.org/abs/2111.12417) | [[PDF]](https://arxiv.org/pdf/2111.12417) | [[Code]](https://github.com/microsoft/NUWA)
 
 > **Core Innovation**
 > Designed a 3D transformer encoder-decoder framework with 3DNA mechanism to handle text, image, and video data efficiently.
 
 <details>
     <summary>Abstract</summary>
-    This paper presents a unified multimodal pre-trained model called NÜWA that can generate new or manipulate existing visual data (i.e., images and videos) for various visual synthesis tasks. To cover language, image, and video at the same time for different scenarios, a 3D transformer encoder-decoder framework is designed, which can not only deal with videos as 3D data but also adapt to texts and images as 1D and 2D data, respectively. A 3D Nearby Attention (3DNA) mechanism is also proposed to consider the nature of the visual data and reduce the computational complexity. We evaluate NÜWA on 8 downstream tasks. Compared to several strong baselines, NÜWA achieves state-of-the-art results on text-to-image generation, text-to-video generation, video prediction, etc. Furthermore, it also shows surprisingly good zero-shot capabilities on text-guided image and video manipulation tasks. Project repo is <a href="https://github.com/microsoft/NUWA" rel="external noopener nofollow" class="link-external link-https">this https URL</a>.
+    This paper presents a unified multimodal pre-trained model called N脺WA that can generate new or manipulate existing visual data (i.e., images and videos) for various visual synthesis tasks. To cover language, image, and video at the same time for different scenarios, a 3D transformer encoder-decoder framework is designed, which can not only deal with videos as 3D data but also adapt to texts and images as 1D and 2D data, respectively. A 3D Nearby Attention (3DNA) mechanism is also proposed to consider the nature of the visual data and reduce the computational complexity. We evaluate N脺WA on 8 downstream tasks. Compared to several strong baselines, N脺WA achieves state-of-the-art results on text-to-image generation, text-to-video generation, video prediction, etc. Furthermore, it also shows surprisingly good zero-shot capabilities on text-guided image and video manipulation tasks. Project repo is <a href="https://github.com/microsoft/NUWA" rel="external noopener nofollow" class="link-external link-https">this https URL</a>.
 </details>
 
 <details>
@@ -8334,8 +8333,8 @@
 * **Authors:** Xin Li, Wenqing Chu, Ye Wu, Weihang Yuan, Fanglong Liu, Qi Zhang, Fu Li, Haocheng Feng, Errui Ding, Jingdong Wang
 * **arXiv ID:** 2309.00398
 * **One-liner:** Developed VideoGen, a text-to-video generation method using reference-guided latent diffusion.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2309.00398) | [[PDF]](https://arxiv.org/pdf/2309.00398)
+* **Published in:** arxiv (1 Sep 2023)
+* **Links:** [[Paper]](https://arxiv.org/abs/2309.00398) | [[PDF]](https://arxiv.org/pdf/2309.00398) | [[Code]]()
 
 > **Core Innovation**
 > Leveraged a text-to-image model for reference images and cascaded latent diffusion for high-fidelity video generation.
@@ -8363,8 +8362,8 @@
 * **Authors:** Zhiwu Qing, Shiwei Zhang, Jiayu Wang, Xiang Wang, Yujie Wei, Yingya Zhang, Changxin Gao, Nong Sang
 * **arXiv ID:** 2312.04483
 * **One-liner:** Proposed HiGen, a diffusion model that decouples spatial and temporal factors for improved video generation.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2312.04483) | [[PDF]](https://arxiv.org/pdf/2312.04483)
+* **Published in:** arxiv (7 Dec 2023)
+* **Links:** [[Paper]](https://arxiv.org/abs/2312.04483) | [[PDF]](https://arxiv.org/pdf/2312.04483) | [[Code]](https://github.com/ali-vilab/VGen)
 
 > **Core Innovation**
 > Decomposed T2V into spatial and temporal reasoning steps and used content cues for motion and appearance guidance.
@@ -8391,8 +8390,8 @@
 * **Authors:** Tian Xia, Xuweiyi Chen, Sihan Xu
 * **arXiv ID:** 2403.02332
 * **One-liner:** Introduced UniCtrl, a plug-and-play method to enhance spatiotemporal consistency in text-to-video models.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2403.02332) | [[PDF]](https://arxiv.org/pdf/2403.02332)
+* **Published in:** arxiv (4 Mar 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2403.02332) | [[PDF]](https://arxiv.org/pdf/2403.02332) | [[Code]](https://github.com/XuweiyiChen/UniCtrl)
 
 > **Core Innovation**
 > Used cross-frame self-attention control and motion injection for consistency without additional training.
@@ -8419,8 +8418,8 @@
 * **Authors:** Kaifeng Gao, Jiaxin Shi, Hanwang Zhang, Chunping Wang, Jun Xiao
 * **arXiv ID:** 2406.10981
 * **One-liner:** Presented ViD-GPT, a causal video diffusion model for long-term consistent video generation.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2406.10981) | [[PDF]](https://arxiv.org/pdf/2406.10981)
+* **Published in:** arxiv (16 Jun 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2406.10981) | [[PDF]](https://arxiv.org/pdf/2406.10981) | [[Code]](https://github.com/Dawn-LX/CausalCache-VDM)
 
 > **Core Innovation**
 > Incorporated causal temporal attention and frame-as-prompt with kv-cache for efficient inference.
@@ -8447,8 +8446,8 @@
 * **Authors:** Hritik Bansal, Yonatan Bitton, Michal Yarom, Idan Szpektor, Aditya Grover, Kai-Wei Chang
 * **arXiv ID:** 2405.04682
 * **One-liner:** Developed TALC framework for generating multi-scene videos from text descriptions.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2405.04682) | [[PDF]](https://arxiv.org/pdf/2405.04682)
+* **Published in:** arxiv (7 May 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2405.04682) | [[PDF]](https://arxiv.org/pdf/2405.04682) | [[Code]]()
 
 > **Core Innovation**
 > Enhanced text-conditioning with temporal alignment and fine-tuned on multi-scene data.
@@ -8475,8 +8474,8 @@
 * **Authors:** Hong Chen, Xin Wang, Yipeng Zhang, Yuwei Zhou, Zeyang Zhang, Siao Tang, Wenwu Zhu
 * **arXiv ID:** 2405.12796
 * **One-liner:** Proposed DisenStudio for generating videos with multiple customized subjects.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2405.12796) | [[PDF]](https://arxiv.org/pdf/2405.12796)
+* **Published in:** arxiv (21 May 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2405.12796) | [[PDF]](https://arxiv.org/pdf/2405.12796) | [[Code]]()
 
 > **Core Innovation**
 > Used spatial-disentangled cross-attention and motion-preserved fine-tuning strategies.
@@ -8503,8 +8502,8 @@
 * **Authors:** Jianzong Wu, Xiangtai Li, Yanhong Zeng, Jiangning Zhang, Qianyu Zhou, Yining Li, Yunhai Tong, Kai Chen
 * **arXiv ID:** 2406.17758
 * **One-liner:** Introduced MotionBooth for animating customized subjects with precise motion control.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2406.17758) | [[PDF]](https://arxiv.org/pdf/2406.17758)
+* **Published in:** arxiv (25 Jun 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2406.17758) | [[PDF]](https://arxiv.org/pdf/2406.17758) | [[Code]](https://github.com/jianzongwu/MotionBooth)
 
 > **Core Innovation**
 > Employed fine-tuning with specialized losses and training-free techniques for motion control.
@@ -8531,8 +8530,8 @@
 * **Authors:** Lin Liu, Quande Liu, Shengju Qian, Yuan Zhou, Wengang Zhou, Houqiang Li, Lingxi Xie, Qi Tian
 * **arXiv ID:** 2406.17777
 * **One-liner:** Presented Text-Animator for generating videos with visualized text.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2406.17777) | [[PDF]](https://arxiv.org/pdf/2406.17777)
+* **Published in:** arxiv (25 Jun 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2406.17777) | [[PDF]](https://arxiv.org/pdf/2406.17777) | [[Code]](https://github.com/laulampaul/text-animator)
 
 > **Core Innovation**
 > Developed text embedding injection and camera control modules for text stability.
@@ -8559,8 +8558,8 @@
 * **Authors:** Zhuoyi Yang, Jiayan Teng, Wendi Zheng, Ming Ding, Shiyu Huang, Jiazheng Xu, Yuanming Yang, Wenyi Hong, Xiaohan Zhang, Guanyu Feng, Da Yin, Yuxuan Zhang, Weihan Wang, Yean Cheng, Bin Xu, Xiaotao Gu, Yuxiao Dong, Jie Tang
 * **arXiv ID:** 2408.06072
 * **One-liner:** Developed CogVideoX, a large-scale diffusion transformer model for coherent long-duration video generation.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2408.06072) | [[PDF]](https://arxiv.org/pdf/2408.06072)
+* **Published in:** arxiv (12 Aug 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2408.06072) | [[PDF]](https://arxiv.org/pdf/2408.06072) | [[Code]](https://github.com/zai-org/CogVideo)
 
 > **Core Innovation**
 > Used 3D VAE, expert transformer, and progressive training for high-quality text-video alignment.
@@ -8587,8 +8586,8 @@
 * **Authors:** Jing Wang, Ao Ma, Jiasong Feng, Dawei Leng, Yuhui Yin, Xiaodan Liang
 * **arXiv ID:** 2409.04005
 * **One-liner:** Proposed PT-DiT for efficient diffusion transformers by reducing redundant computation with proxy tokens.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2409.04005) | [[PDF]](https://arxiv.org/pdf/2409.04005)
+* **Published in:** arxiv (6 Sep 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2409.04005) | [[PDF]](https://arxiv.org/pdf/2409.04005) | [[Code]](https://github.com/360CVGroup/Qihoo-T2X)
 
 > **Core Innovation**
 > Introduced a sparse representative token attention mechanism using proxy tokens to capture global semantics efficiently, with window and shift window attention for detail modeling.
@@ -8615,8 +8614,8 @@
 * **Authors:** Yuqing Wang, Tianwei Xiong, Daquan Zhou, Zhijie Lin, Yang Zhao, Bingyi Kang, Jiashi Feng, Xihui Liu
 * **arXiv ID:** 2410.02757
 * **One-liner:** Developed Loong, an autoregressive LLM-based video generator for minute-long videos.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2410.02757) | [[PDF]](https://arxiv.org/pdf/2410.02757)
+* **Published in:** arxiv (3 Oct 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2410.02757) | [[PDF]](https://arxiv.org/pdf/2410.02757) | [[Code]]()
 
 > **Core Innovation**
 > Modeled text and video tokens as a unified sequence with progressive short-to-long training and inference strategies to mitigate error accumulation.
@@ -8643,8 +8642,8 @@
 * **Authors:** Yizhuo Li, Yuying Ge, Yixiao Ge, Ping Luo, Ying Shan
 * **arXiv ID:** 2412.04446
 * **One-liner:** Introduced DiCoDe for scalable video generation using deep tokens with high compression.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2412.04446) | [[PDF]](https://arxiv.org/pdf/2412.04446)
+* **Published in:** arxiv (5 Dec 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2412.04446) | [[PDF]](https://arxiv.org/pdf/2412.04446) | [[Code]](https://github.com/liyz15/Diffusion-Compressed-Deep-Tokens)
 
 > **Core Innovation**
 > Leveraged diffusion-compressed deep tokens for autoregressive video generation, enabling efficient training and scalability with AR language models.
@@ -8671,8 +8670,8 @@
 * **Authors:** Tiehan Fan, Kepan Nan, Rui Xie, Penghao Zhou, Zhenheng Yang, Chaoyou Fu, Xiang Li, Jian Yang, Ying Tai
 * **arXiv ID:** 2412.09283
 * **One-liner:** Proposed InstanceCap for instance-level fine-grained video captioning to improve fidelity.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2412.09283) | [[PDF]](https://arxiv.org/pdf/2412.09283)
+* **Published in:** arxiv (12 Dec 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2412.09283) | [[PDF]](https://arxiv.org/pdf/2412.09283) | [[Code]](https://github.com/NJU-PCALab/InstanceCap)
 
 > **Core Innovation**
 > Designed an instance-aware structured caption framework with auxiliary models and a curated dataset to reduce hallucinations and enhance caption precision.
@@ -8699,8 +8698,8 @@
 * **Authors:** Xingrui Wang, Xin Li, Yaosi Hu, Hanxin Zhu, Chen Hou, Cuiling Lan, Zhibo Chen
 * **arXiv ID:** 2412.10275
 * **One-liner:** Developed TIV-Diffusion for precise text-driven image-to-video generation via object-centric alignment.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2412.10275) | [[PDF]](https://arxiv.org/pdf/2412.10275)
+* **Published in:** arxiv (13 Dec 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2412.10275) | [[PDF]](https://arxiv.org/pdf/2412.10275) | [[Code]]()
 
 > **Core Innovation**
 > Incorporated fused textual and visual knowledge with scale-offset modulation and an object-centric alignment module to ensure motion consistency and high quality.
@@ -8727,8 +8726,8 @@
 * **Authors:** Yoav HaCohen, Nisan Chiprut, Benny Brazowski, Daniel Shalem, Dudu Moshe, Eitan Richardson, Eran Levin, Guy Shiran, Nir Zabari, Ori Gordon, Poriya Panet, Sapir Weissbuch, Victor Kulikov, Yaki Bitterman, Zeev Melumian, Ofir Bibi
 * **arXiv ID:** 2501.00103
 * **One-liner:** Introduced LTX-Video, a holistic latent diffusion model for efficient high-resolution video generation.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2501.00103) | [[PDF]](https://arxiv.org/pdf/2501.00103)
+* **Published in:** arxiv (30 Dec 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2501.00103) | [[PDF]](https://arxiv.org/pdf/2501.00103) | [[Code]](https://github.com/Lightricks/LTX-Video)
 
 > **Core Innovation**
 > Integrated Video-VAE and denoising transformer with high compression and full spatiotemporal self-attention, enabling fast generation without separate upsampling.
@@ -8755,8 +8754,8 @@
 * **Authors:** Guoqing Ma, Haoyang Huang, Kun Yan, Liangyu Chen, Nan Duan, Shengming Yin, Changyi Wan, Ranchen Ming, Xiaoniu Song, Xing Chen, Yu Zhou, Deshan Sun, Deyu Zhou, Jian Zhou, Kaijun Tan, Kang An, Mei Chen, Wei Ji, Qiling Wu, Wen Sun, Xin Han, Yanan Wei, Zheng Ge, Aojie Li, Bin Wang, Bizhu Huang, Bo Wang, Brian Li, Changxing Miao, Chen Xu, Chenfei Wu, Chenguang Yu, Dapeng Shi, Dingyuan Hu, Enle Liu, Gang Yu, Ge Yang, Guanzhe Huang, Gulin Yan, Haiyang Feng, Hao Nie, Haonan Jia, Hanpeng Hu, Hanqi Chen, Haolong Yan, Heng Wang, Hongcheng Guo, Huilin Xiong, Huixin Xiong, Jiahao Gong, Jianchang Wu, Jiaoren Wu, Jie Wu, Jie Yang, Jiashuai Liu, Jiashuo Li, Jingyang Zhang, Junjing Guo, Junzhe Lin, Kaixiang Li, Lei Liu, Lei Xia, Liang Zhao, Liguo Tan, Liwen Huang, Liying Shi, Ming Li, Mingliang Li, Muhua Cheng, Na Wang, Qiaohui Chen, Qinglin He, Qiuyan Liang, Quan Sun, Ran Sun, Rui Wang, Shaoliang Pang, Shiliang Yang, Sitong Liu, Siqi Liu, Shuli Gao, Tiancheng Cao, Tianyu Wang, Weipeng Ming, Wenqing He, Xu Zhao, Xuelin Zhang, Xianfang Zeng, Xiaojia Liu, Xuan Yang, Yaqi Dai, Yanbo Yu, Yang Li, Yineng Deng, Yingming Wang, Yilei Wang, Yuanwei Lu, Yu Chen, Yu Luo, Yuchu Luo, Yuhe Yin, Yuheng Feng, Yuxiang Yang, Zecheng Tang, Zekai Zhang, Zidong Yang, Binxing Jiao, Jiansheng Chen, Jing Li, Shuchang Zhou, Xiangyu Zhang, Xinhao Zhang, Yibo Zhu, Heung-Yeung Shum, Daxin Jiang
 * **arXiv ID:** 2502.10248
 * **One-liner:** Presented Step-Video-T2V, a large-scale text-to-video model with 30B parameters for high-quality generation.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2502.10248) | [[PDF]](https://arxiv.org/pdf/2502.10248)
+* **Published in:** arxiv (14 Feb 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2502.10248) | [[PDF]](https://arxiv.org/pdf/2502.10248) | [[Code]](https://github.com/stepfun-ai/Step-Video-T2V)
 
 > **Core Innovation**
 > Employed a deep compression Video-VAE, DiT with 3D full attention, and Video-DPO for artifact reduction and improved visual quality.
@@ -8783,8 +8782,8 @@
 * **Authors:** Team Wan, Ang Wang, Baole Ai, Bin Wen, Chaojie Mao, Chen-Wei Xie, Di Chen, Feiwu Yu, Haiming Zhao, Jianxiao Yang, Jianyuan Zeng, Jiayu Wang, Jingfeng Zhang, Jingren Zhou, Jinkai Wang, Jixuan Chen, Kai Zhu, Kang Zhao, Keyu Yan, Lianghua Huang, Mengyang Feng, Ningyi Zhang, Pandeng Li, Pingyu Wu, Ruihang Chu, Ruili Feng, Shiwei Zhang, Siyang Sun, Tao Fang, Tianxing Wang, Tianyi Gui, Tingyu Weng, Tong Shen, Wei Lin, Wei Wang, Wei Wang, Wenmeng Zhou, Wente Wang, Wenting Shen, Wenyuan Yu, Xianzhong Shi, Xiaoming Huang, Xin Xu, Yan Kou, Yangyu Lv, Yifei Li, Yijing Liu, Yiming Wang, Yingya Zhang, Yitong Huang, Yong Li, You Wu, Yu Liu, Yulin Pan, Yun Zheng, Yuntao Hong, Yupeng Shi, Yutong Feng, Zeyinzi Jiang, Zhen Han, Zhi-Fan Wu, Ziyu Liu
 * **arXiv ID:** 2503.20314
 * **One-liner:** Introduced Wan, an open suite of video foundation models with leading performance and comprehensiveness.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2503.20314) | [[PDF]](https://arxiv.org/pdf/2503.20314)
+* **Published in:** arxiv (26 Mar 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2503.20314) | [[PDF]](https://arxiv.org/pdf/2503.20314) | [[Code]](https://github.com/Wan-Video/Wan2.1)
 
 > **Core Innovation**
 > Achieved advancements through novel VAE, scalable pre-training, large-scale data curation, and automated evaluation, covering multiple tasks and model sizes.
@@ -8811,8 +8810,8 @@
 * **Authors:** Jiale Cheng, Ruiliang Lyu, Xiaotao Gu, Xiao Liu, Jiazheng Xu, Yida Lu, Jiayan Teng, Zhuoyi Yang, Yuxiao Dong, Jie Tang, Hongning Wang, Minlie Huang
 * **arXiv ID:** 2503.20491
 * **One-liner:** Proposed VPO, a framework for prompt optimization to enhance video generation safety and quality.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2503.20491) | [[PDF]](https://arxiv.org/pdf/2503.20491)
+* **Published in:** arxiv (26 Mar 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2503.20491) | [[PDF]](https://arxiv.org/pdf/2503.20491) | [[Code]](https://github.com/thu-coai/VPO)
 
 > **Core Innovation**
 > Employed a two-stage optimization with SFT and preference learning based on harmlessness, accuracy, and helpfulness principles.
@@ -8839,8 +8838,8 @@
 * **Authors:** Weijie He, Mushui Liu, Yunlong Yu, Zhao Wang, Chao Wu
 * **arXiv ID:** 2504.15032
 * **One-liner:** Developed DyST-XL, a training-free framework for compositional text-to-video generation with precise control.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2504.15032) | [[PDF]](https://arxiv.org/pdf/2504.15032)
+* **Published in:** arxiv (21 Apr 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2504.15032) | [[PDF]](https://arxiv.org/pdf/2504.15032) | [[Code]](https://github.com/XiaoBuL/DyST-XL)
 
 > **Core Innovation**
 > Integrated Dynamic Layout Planner, Dual-Prompt Controlled Attention, and Entity-Consistency Constraint to improve layout and entity consistency.
@@ -8867,8 +8866,8 @@
 * **Authors:** Ozgur Kara, Krishna Kumar Singh, Feng Liu, Duygu Ceylan, James M. Rehg, Tobias Hinz
 * **arXiv ID:** 2505.07652
 * **One-liner:** Enabled text-to-multi-shot video generation with character consistency and user control over shots.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2505.07652) | [[PDF]](https://arxiv.org/pdf/2505.07652)
+* **Published in:** arxiv (12 May 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2505.07652) | [[PDF]](https://arxiv.org/pdf/2505.07652) | [[Code]]()
 
 > **Core Innovation**
 > Proposed a framework with dataset collection and architectural extensions to video diffusion models for generating multi-shot videos as a single video with full attention across frames.
@@ -8896,8 +8895,8 @@
 * **Authors:** Aimon Rahman, Jiang Liu, Ze Wang, Ximeng Sun, Jialian Wu, Xiaodong Yu, Yusheng Su, Vishal M. Patel, Zicheng Liu, Emad Barsoum
 * **arXiv ID:** 2505.22980
 * **One-liner:** Enhanced multi-object video generation without training using LLM-guided trajectories and attention manipulation.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2505.22980) | [[PDF]](https://arxiv.org/pdf/2505.22980)
+* **Published in:** arxiv (29 May 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2505.22980) | [[PDF]](https://arxiv.org/pdf/2505.22980) | [[Code]]()
 
 > **Core Innovation**
 > Introduced a training-free approach leveraging LLMs for object trajectory direction and noise re-initialization to control movements and prevent cross-object interference.
@@ -8925,8 +8924,8 @@
 * **Authors:** Xun Huang, Zhengqi Li, Guande He, Mingyuan Zhou, Eli Shechtman
 * **arXiv ID:** 2506.08009
 * **One-liner:** Addressed exposure bias in autoregressive video diffusion models for real-time streaming generation.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2506.08009) | [[PDF]](https://arxiv.org/pdf/2506.08009)
+* **Published in:** arxiv (9 Jun 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2506.08009) | [[PDF]](https://arxiv.org/pdf/2506.08009) | [[Code]](https://github.com/guandeh17/Self-Forcing)
 
 > **Core Innovation**
 > Proposed Self Forcing, a training paradigm using autoregressive rollout with KV caching to condition on self-generated outputs and apply holistic video-level loss.
@@ -8954,8 +8953,8 @@
 * **Authors:** Hangjie Yuan, Weihua Chen, Jun Cen, Hu Yu, Jingyun Liang, Shuning Chang, Zhihui Lin, Tao Feng, Pengwei Liu, Jiazheng Xing, Hao Luo, Jiasheng Tang, Fan Wang, Yi Yang
 * **arXiv ID:** 2507.08801
 * **One-liner:** Developed an autoregressive video generator (Lumos-1) with minimal LLM modifications for efficient multimodal spatiotemporal modeling.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2507.08801) | [[PDF]](https://arxiv.org/pdf/2507.08801)
+* **Published in:** arxiv (11 Jul 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2507.08801) | [[PDF]](https://arxiv.org/pdf/2507.08801) | [[Code]](https://github.com/alibaba-damo-academy/Lumos)
 
 > **Core Innovation**
 > Retained LLM architecture with MM-RoPE for balanced frequency spectra and introduced AR-DF to handle frame-wise loss imbalance and spatial redundancy.
@@ -8983,8 +8982,8 @@
 * **Authors:** Christian Simon, Masato Ishii, Akio Hayakawa, Zhi Zhong, Shusuke Takahashi, Takashi Shibuya, Yuki Mitsufuji
 * **arXiv ID:** 2508.00289
 * **One-liner:** Improved training-free guidance for text-to-video diffusion models with efficient memory usage and optimal control.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2508.00289) | [[PDF]](https://arxiv.org/pdf/2508.00289)
+* **Published in:** arxiv (1 Aug 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2508.00289) | [[PDF]](https://arxiv.org/pdf/2508.00289) | [[Code]]()
 
 > **Core Innovation**
 > Proposed TITAN-Guide, using forward gradient descents for latent optimization without backpropagation to overcome memory and control limitations.
@@ -9012,8 +9011,8 @@
 * **Authors:** Luca Zanchetta, Lorenzo Papa, Luca Maiano, Irene Amerini
 * **arXiv ID:** 2509.16956
 * **One-liner:** Enabled continual learning for text-to-video generation without retraining from scratch.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2509.16956) | [[PDF]](https://arxiv.org/pdf/2509.16956)
+* **Published in:** arxiv (21 Sep 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2509.16956) | [[PDF]](https://arxiv.org/pdf/2509.16956) | [[Code]]()
 
 > **Core Innovation**
 > Introduced VidCLearn with a student-teacher architecture, generative replay, temporal consistency loss, and video retrieval for incremental updates and knowledge preservation.
@@ -9041,8 +9040,8 @@
 * **Authors:** Haotian Dong, Wenjing Wang, Chen Li, Di Lin
 * **arXiv ID:** 2509.24979
 * **One-liner:** Generated high-quality transparent videos with superior visual and motion realism.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2509.24979) | [[PDF]](https://arxiv.org/pdf/2509.24979)
+* **Published in:** arxiv (29 Sep 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2509.24979) | [[PDF]](https://arxiv.org/pdf/2509.24979) | [[Code]](https://github.com/WeChatCV/Wan-Alpha)
 
 > **Core Innovation**
 > Proposed Wan-Alpha, a framework using a VAE to encode alpha channels into RGB latent space and trained on a diverse RGBA dataset for joint RGB and alpha generation.
@@ -9070,8 +9069,8 @@
 * **Authors:** Shira Schiber, Ofir Lindenbaum, Idan Schwartz
 * **arXiv ID:** 2510.02226
 * **One-liner:** Enabled fine-grained temporal control in text-to-video generation without retraining.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2510.02226) | [[PDF]](https://arxiv.org/pdf/2510.02226)
+* **Published in:** arxiv (2 Oct 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2510.02226) | [[PDF]](https://arxiv.org/pdf/2510.02226) | [[Code]]()
 
 > **Core Innovation**
 > Introduced TempoControl, using cross-attention maps and optimization principles for temporal alignment of visual concepts during inference.
@@ -9096,11 +9095,11 @@
 <details>
 <summary><b> CamViG: Camera Aware Image-to-Video Generation with Multimodal Transformers</b></summary>
 
-* **Authors:** Andrew Marmon, Grant Schindler, José Lezama, Dan Kondratyuk, Bryan Seybold, Irfan Essa
+* **Authors:** Andrew Marmon, Grant Schindler, Jos茅 Lezama, Dan Kondratyuk, Bryan Seybold, Irfan Essa
 * **arXiv ID:** 2405.13195
 * **One-liner:** Integrated 3D camera motion as a conditioning signal for video generation.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2405.13195) | [[PDF]](https://arxiv.org/pdf/2405.13195)
+* **Published in:** arxiv (21 May 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2405.13195) | [[PDF]](https://arxiv.org/pdf/2405.13195) | [[Code]]()
 
 > **Core Innovation**
 > Extended multimodal transformers to include 3D camera controls, enabling accurate camera path generation from a single frame and camera signal.
@@ -9128,20 +9127,20 @@
 * **Authors:** Dejia Xu, Weili Nie, Chao Liu, Sifei Liu, Jan Kautz, Zhangyang Wang, Arash Vahdat
 * **arXiv ID:** 2406.02509
 * **One-liner:** Achieved fine-grained camera pose control for image-to-video generation with improved 3D consistency.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2406.02509) | [[PDF]](https://arxiv.org/pdf/2406.02509)
+* **Published in:** arxiv (4 Jun 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2406.02509) | [[PDF]](https://arxiv.org/pdf/2406.02509) | [[Code]]()
 
 > **Core Innovation**
-> Proposed CamCo, using Plücker coordinates for camera pose input and epipolar attention to enforce 3D constraints, fine-tuned on real-world videos.
+> Proposed CamCo, using Pl眉cker coordinates for camera pose input and epipolar attention to enforce 3D constraints, fine-tuned on real-world videos.
 
 <details>
     <summary>Abstract</summary>
-    Recently video diffusion models have emerged as expressive generative tools for high-quality video content creation readily available to general users. However, these models often do not offer precise control over camera poses for video generation, limiting the expression of cinematic language and user control. To address this issue, we introduce CamCo, which allows fine-grained Camera pose Control for image-to-video generation. We equip a pre-trained image-to-video generator with accurately parameterized camera pose input using Plücker coordinates. To enhance 3D consistency in the videos produced, we integrate an epipolar attention module in each attention block that enforces epipolar constraints to the feature maps. Additionally, we fine-tune CamCo on real-world videos with camera poses estimated through structure-from-motion algorithms to better synthesize object motion. Our experiments show that CamCo significantly improves 3D consistency and camera control capabilities compared to previous models while effectively generating plausible object motion. Project page: <a href="https://ir1d.github.io/CamCo/" rel="external noopener nofollow" class="link-external link-https">this https URL</a>
+    Recently video diffusion models have emerged as expressive generative tools for high-quality video content creation readily available to general users. However, these models often do not offer precise control over camera poses for video generation, limiting the expression of cinematic language and user control. To address this issue, we introduce CamCo, which allows fine-grained Camera pose Control for image-to-video generation. We equip a pre-trained image-to-video generator with accurately parameterized camera pose input using Pl眉cker coordinates. To enhance 3D consistency in the videos produced, we integrate an epipolar attention module in each attention block that enforces epipolar constraints to the feature maps. Additionally, we fine-tune CamCo on real-world videos with camera poses estimated through structure-from-motion algorithms to better synthesize object motion. Our experiments show that CamCo significantly improves 3D consistency and camera control capabilities compared to previous models while effectively generating plausible object motion. Project page: <a href="https://ir1d.github.io/CamCo/" rel="external noopener nofollow" class="link-external link-https">this https URL</a>
 </details>
 
 <details>
     <summary>Key points</summary>
-    * Used Plücker coordinates for camera pose parameterization.
+    * Used Pl眉cker coordinates for camera pose parameterization.
     * Integrated epipolar attention module for 3D consistency.
     * Fine-tuned on real-world videos with estimated camera poses.
     * Enhanced object motion synthesis and camera control.
@@ -9157,8 +9156,8 @@
 * **Authors:** Hadrien Reynaud, Matthew Baugh, Mischa Dombrowski, Sarah Cechnicka, Qingjie Meng, Bernhard Kainz
 * **arXiv ID:** 2409.14149
 * **One-liner:** Introduced JVID for high-quality, temporally coherent video generation by integrating image and video diffusion models.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2409.14149) | [[PDF]](https://arxiv.org/pdf/2409.14149)
+* **Published in:** arxiv (21 Sep 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2409.14149) | [[PDF]](https://arxiv.org/pdf/2409.14149) | [[Code]]()
 
 > **Core Innovation**
 > Combines Latent Image Diffusion Model (LIDM) and Latent Video Diffusion Model (LVDM) in reverse diffusion to handle spatio-temporal dynamics.
@@ -9185,8 +9184,8 @@
 * **Authors:** Yuji Wang, Zehua Chen, Xiaoyu Chen, Yixiang Wei, Jun Zhu, Jianfei Chen
 * **arXiv ID:** 2410.15371
 * **One-liner:** Proposed FrameBridge for improved image-to-video generation by modeling frame-to-frames as a data-to-data process.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2410.15371) | [[PDF]](https://arxiv.org/pdf/2410.15371)
+* **Published in:** arxiv (20 Oct 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2410.15371) | [[PDF]](https://arxiv.org/pdf/2410.15371) | [[Code]]()
 
 > **Core Innovation**
 > Uses bridge model to align generation process with I2V task, exploiting given image information for better consistency.
@@ -9214,8 +9213,8 @@
 * **Authors:** Wenhao Wang, Yi Yang
 * **arXiv ID:** 2411.04709
 * **One-liner:** Introduced TIP-I2V, the first large-scale dataset for image-to-video prompts with over 1.70 million entries.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2411.04709) | [[PDF]](https://arxiv.org/pdf/2411.04709)
+* **Published in:** arxiv (5 Nov 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2411.04709) | [[PDF]](https://arxiv.org/pdf/2411.04709) | [[Code]](https://github.com/WangWenhao0716/TIP-I2V)
 
 > **Core Innovation**
 > Provides user-provided text and image prompts and generated videos to advance I2V research and model evaluation.
@@ -9242,8 +9241,8 @@
 * **Authors:** Koichi Namekata, Sherwin Bahmani, Ziyi Wu, Yash Kant, Igor Gilitschenski, David B. Lindell
 * **arXiv ID:** 2411.04989
 * **One-liner:** Developed SG-I2V for zero-shot controllable image-to-video generation without fine-tuning.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2411.04989) | [[PDF]](https://arxiv.org/pdf/2411.04989)
+* **Published in:** arxiv (7 Nov 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2411.04989) | [[PDF]](https://arxiv.org/pdf/2411.04989) | [[Code]](https://github.com/Kmcode1/SG-I2V)
 
 > **Core Innovation**
 > Relies on pre-trained model knowledge for self-guided control, improving visual quality and motion fidelity.
@@ -9270,8 +9269,8 @@
 * **Authors:** Weiqi Li, Shijie Zhao, Chong Mou, Xuhan Sheng, Zhenyu Zhang, Qian Wang, Junlin Li, Li Zhang, Jian Zhang
 * **arXiv ID:** 2412.09623
 * **One-liner:** Proposed OmniDrag for accurate, high-quality omnidirectional image-to-video generation with motion control.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2412.09623) | [[PDF]](https://arxiv.org/pdf/2412.09623)
+* **Published in:** arxiv (12 Dec 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2412.09623) | [[PDF]](https://arxiv.org/pdf/2412.09623) | [[Code]](https://github.com/lwq20020127/OmniDrag)
 
 > **Core Innovation**
 > Introduces omnidirectional control module and spherical motion estimator for handling complex spherical motions.
@@ -9299,8 +9298,8 @@
 * **Authors:** Xingrui Wang, Xin Li, Yaosi Hu, Hanxin Zhu, Chen Hou, Cuiling Lan, Zhibo Chen
 * **arXiv ID:** 2412.10275
 * **One-liner:** Introduced TIV-Diffusion for precise control and high-quality video generation via object-centric textual-visual alignment.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2412.10275) | [[PDF]](https://arxiv.org/pdf/2412.10275)
+* **Published in:** arxiv (13 Dec 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2412.10275) | [[PDF]](https://arxiv.org/pdf/2412.10275) | [[Code]]()
 
 > **Core Innovation**
 > Incorporates fused textual and visual knowledge and alignment module to ensure object consistency and motion accuracy.
@@ -9328,8 +9327,8 @@
 * **Authors:** Guy Yariv, Yuval Kirstain, Amit Zohar, Shelly Sheynin, Yaniv Taigman, Yossi Adi, Sagie Benaim, Adam Polyak
 * **arXiv ID:** 2501.03059
 * **One-liner:** Proposed a two-stage compositional framework for I2V generation using mask-based motion trajectory as intermediate representation.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2501.03059) | [[PDF]](https://arxiv.org/pdf/2501.03059)
+* **Published in:** arxiv (6 Jan 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2501.03059) | [[PDF]](https://arxiv.org/pdf/2501.03059) | [[Code]](https://guyyariv.github.io/TTM/)
 
 > **Core Innovation**
 > Decomposes generation into explicit representation and video stages with object-level attention for coherence and realism.
@@ -9357,8 +9356,8 @@
 * **Authors:** Sixiao Zheng, Zimian Peng, Yanpeng Zhou, Yi Zhu, Hang Xu, Xiangru Huang, Yanwei Fu
 * **arXiv ID:** 2502.07531
 * **One-liner:** Presented VidCRAFT3 for unified control over camera motion, object motion, and lighting direction in I2V generation.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2502.07531) | [[PDF]](https://arxiv.org/pdf/2502.07531)
+* **Published in:** arxiv (11 Feb 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2502.07531) | [[PDF]](https://arxiv.org/pdf/2502.07531) | [[Code]]()
 
 > **Core Innovation**
 > Integrates Image2Cloud, ObjMotionNet, and Spatial Triple-Attention Transformer with three-stage training strategy.
@@ -9387,8 +9386,8 @@
 * **Authors:** Teng Li, Guangcong Zheng, Rui Jiang, Shuigen Zhan, Tao Wu, Yehao Lu, Yining Lin, Chuanyun Deng, Yepan Xiong, Min Chen, Lin Cheng, Xi Li
 * **arXiv ID:** 2502.10059
 * **One-liner:** Developed RealCam-I2V for precise camera control in video generation using monocular depth estimation and 3D scene reconstruction.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2502.10059) | [[PDF]](https://arxiv.org/pdf/2502.10059)
+* **Published in:** arxiv (14 Feb 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2502.10059) | [[PDF]](https://arxiv.org/pdf/2502.10059) | [[Code]](https://github.com/ZGCTroy/RealCam-I2V)
 
 > **Core Innovation**
 > Enables intuitive camera trajectory drawing and scene-constrained noise shaping for improved controllability and quality.
@@ -9416,8 +9415,8 @@
 * **Authors:** Angel Villar-Corrales, Gjergj Plepi, Sven Behnke
 * **arXiv ID:** 2502.11655
 * **One-liner:** Proposed TextOCVP for object-centric video prediction guided by textual descriptions, improving controllability and robustness.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2502.11655) | [[PDF]](https://arxiv.org/pdf/2502.11655)
+* **Published in:** arxiv (17 Feb 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2502.11655) | [[PDF]](https://arxiv.org/pdf/2502.11655) | [[Code]](https://github.com/angelvillar96/TextOCVP)
 
 > **Core Innovation**
 > Uses object slots and text-conditioned transformer for forecasting future states with structured latent space.
@@ -9445,8 +9444,8 @@
 * **Authors:** Peng Liu, Xiaoming Ren, Fengkai Liu, Qingsong Xie, Quanlong Zheng, Yanhao Zhang, Haonan Lu, Yujiu Yang
 * **arXiv ID:** 2505.19901
 * **One-liner:** Proposed Dynamic-I2V framework with MLLM integration for enhanced motion control and temporal coherence in I2V generation.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2505.19901) | [[PDF]](https://arxiv.org/pdf/2505.19901)
+* **Published in:** arxiv (26 May 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2505.19901) | [[PDF]](https://arxiv.org/pdf/2505.19901) | [[Code]]()
 
 > **Core Innovation**
 > Integrates Multimodal Large Language Models (MLLMs) to encode visual and textual conditions for a diffusion transformer, improving motion controllability and temporal coherence, and introduces DIVE benchmark for dynamic quality assessment.
@@ -9474,8 +9473,8 @@
 * **Authors:** Zhongwei Zhang, Fuchen Long, Zhaofan Qiu, Yingwei Pan, Wu Liu, Ting Yao, Tao Mei
 * **arXiv ID:** 2505.20287
 * **One-liner:** Introduced MotionPro for precise motion control in I2V generation using region-wise trajectories and motion masks.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2505.20287) | [[PDF]](https://arxiv.org/pdf/2505.20287)
+* **Published in:** arxiv (26 May 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2505.20287) | [[PDF]](https://arxiv.org/pdf/2505.20287) | [[Code]](https://github.com/HiDream-ai/MotionPro)
 
 > **Core Innovation**
 > Leverages region-wise trajectories and motion masks to regulate fine-grained motion synthesis and distinguish object vs. camera movement, enhancing control and realism.
@@ -9503,8 +9502,8 @@
 * **Authors:** Ge Wang, Songlin Fan, Hangxu Liu, Quanjian Song, Hewei Wang, Jinfeng Xu
 * **arXiv ID:** 2506.07713
 * **One-liner:** Presented FlowV2V for video editing by re-investigating it as flow-driven I2V generation.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2506.07713) | [[PDF]](https://arxiv.org/pdf/2506.07713)
+* **Published in:** arxiv (9 Jun 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2506.07713) | [[PDF]](https://arxiv.org/pdf/2506.07713) | [[Code]](https://github.com/stepfun-ai/Step-Video-Ti2V)
 
 > **Core Innovation**
 > Decomposes video editing into first-frame editing and conditional I2V generation, using pseudo flow sequences to ensure temporal consistency and handle shape deformation.
@@ -9532,8 +9531,8 @@
 * **Authors:** Zuhao Yang, Jiahui Zhang, Yingchen Yu, Shijian Lu, Song Bai
 * **arXiv ID:** 2508.01698
 * **One-liner:** Developed VTG framework for smooth and coherent transition video generation between frames.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2508.01698) | [[PDF]](https://arxiv.org/pdf/2508.01698)
+* **Published in:** arxiv (3 Aug 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2508.01698) | [[PDF]](https://arxiv.org/pdf/2508.01698) | [[Code]](https://mwxely.github.io/projects/yang2025vtg/index)
 
 > **Core Innovation**
 > Introduces interpolation-based initialization, dual-directional motion fine-tuning, and representation alignment regularization to enhance motion smoothness and fidelity in transitions.
@@ -9561,8 +9560,8 @@
 * **Authors:** Ruicheng Zhang, Jun Zhou, Zunnan Xu, Zihao Liu, Jiehui Huang, Mingyang Zhang, Yu Sun, Xiu Li
 * **arXiv ID:** 2509.06723
 * **One-liner:** Proposed Zo3T, a zero-shot test-time-training framework for trajectory-guided I2V generation with 3D awareness.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2509.06723) | [[PDF]](https://arxiv.org/pdf/2509.06723)
+* **Published in:** arxiv (8 Sep 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2509.06723) | [[PDF]](https://arxiv.org/pdf/2509.06723) | [[Code]]()
 
 > **Core Innovation**
 > Incorporates 3D-Aware Kinematic Projection, Trajectory-Guided Test-Time LoRA, and Guidance Field Rectification to enhance motion accuracy and realism without fine-tuning.
@@ -9590,8 +9589,8 @@
 * **Authors:** Rohit Chowdhury, Aniruddha Bala, Rohan Jaiswal, Siddharth Roheda
 * **arXiv ID:** 2509.23279
 * **One-liner:** Introduced Vid-Freeze, an adversarial attack to block motion synthesis in I2V models while preserving image semantics.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2509.23279) | [[PDF]](https://arxiv.org/pdf/2509.23279)
+* **Published in:** arxiv (27 Sep 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2509.23279) | [[PDF]](https://arxiv.org/pdf/2509.23279) | [[Code]]()
 
 > **Core Innovation**
 > Uses attention-suppressing adversarial perturbations to disrupt motion synthesis, generating static videos to prevent malicious use of I2V generation.
@@ -9619,8 +9618,8 @@
 * **Authors:** Chenhui Zhu, Yilu Wu, Shuai Wang, Gangshan Wu, Limin Wang
 * **arXiv ID:** 2509.26391
 * **One-liner:** Proposed MotionRAG, a retrieval-augmented framework for enhancing motion realism in video generation.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2509.26391) | [[PDF]](https://arxiv.org/pdf/2509.26391)
+* **Published in:** arxiv (30 Sep 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2509.26391) | [[PDF]](https://arxiv.org/pdf/2509.26391) | [[Code]](https://github.com/MCG-NJU/MotionRAG)
 
 > **Core Innovation**
 > Adapts motion priors from reference videos using Context-Aware Motion Adaptation (CAMA), with retrieval-based pipeline and attention-based injection for zero-shot generalization.
@@ -9648,8 +9647,8 @@
 * **Authors:** David Junhao Zhang, Dongxu Li, Hung Le, Mike Zheng Shou, Caiming Xiong, Doyen Sahoo
 * **arXiv ID:** 2401.01827
 * **One-liner:** Presented Moonshot, a video generation model with multimodal conditioning on image and text inputs.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2401.01827) | [[PDF]](https://arxiv.org/pdf/2401.01827)
+* **Published in:** arxiv (3 Jan 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2401.01827) | [[PDF]](https://arxiv.org/pdf/2401.01827) | [[Code]](https://github.com/salesforce/LAVIS)
 
 > **Core Innovation**
 > Uses multimodal video blocks (MVB) with decoupled cross-attention for appearance conditioning and optional integration with ControlNet for geometry, improving visual quality and consistency.
@@ -9677,8 +9676,8 @@
 * **Authors:** Bryan Wang, Yuliang Li, Zhaoyang Lv, Haijun Xia, Yan Xu, Raj Sodhi
 * **arXiv ID:** 2402.10294
 * **One-liner:** Developed LAVE, an LLM-powered system to assist in video editing for beginners.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2402.10294) | [[PDF]](https://arxiv.org/pdf/2402.10294)
+* **Published in:** arxiv (15 Feb 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2402.10294) | [[PDF]](https://arxiv.org/pdf/2402.10294) | [[Code]]()
 
 > **Core Innovation**
 > Automatically generates language descriptions for footage, enabling LLM agents to plan and execute editing tasks based on user objectives, with flexibility for manual refinement.
@@ -9706,8 +9705,8 @@
 * **Authors:** Bekzat Tilekbay, Saelyne Yang, Michal Lewkowicz, Alex Suryapranata, Juho Kim
 * **arXiv ID:** 2403.17693
 * **One-liner:** Introduced ExpressEdit, a multimodal system for video editing using natural language and sketching.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2403.17693) | [[PDF]](https://arxiv.org/pdf/2403.17693)
+* **Published in:** arxiv (26 Mar 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2403.17693) | [[PDF]](https://arxiv.org/pdf/2403.17693) | [[Code]]()
 
 > **Core Innovation**
 > Interprets temporal, spatial, and operational references from NL commands and sketching, implementing edits iteratively to enhance expression and efficiency for novices.
@@ -9735,8 +9734,8 @@
 * **Authors:** Sai Sree Harsha, Ambareesh Revanur, Dhwanit Agarwal, Shradha Agrawal
 * **arXiv ID:** 2404.12541
 * **One-liner:** Proposed GenVideo for precise video editing using target images, handling objects of varying shapes and sizes.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2404.12541) | [[PDF]](https://arxiv.org/pdf/2404.12541)
+* **Published in:** arxiv (18 Apr 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2404.12541) | [[PDF]](https://arxiv.org/pdf/2404.12541) | [[Code]]()
 
 > **Core Innovation**
 > Leverages target-image aware T2I models with novel InvEdit masks and latent noise correction for temporal consistency.
@@ -9763,8 +9762,8 @@
 * **Authors:** Yi Zuo, Lingling Li, Licheng Jiao, Fang Liu, Xu Liu, Wenping Ma, Shuyuan Yang, Yuwei Guo
 * **arXiv ID:** 2405.04496
 * **One-liner:** Introduced Edit-Your-Motion for human motion editing with reduced ghosting and distortion in unseen cases.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2405.04496) | [[PDF]](https://arxiv.org/pdf/2405.04496)
+* **Published in:** arxiv (7 May 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2405.04496) | [[PDF]](https://arxiv.org/pdf/2405.04496) | [[Code]]()
 
 > **Core Innovation**
 > Utilizes one-shot fine-tuning, DDIM inversion, motion attention adapter, and spatio-temporal learning strategy.
@@ -9791,8 +9790,8 @@
 * **Authors:** Benno Krojer, Dheeraj Vattikonda, Luis Lara, Varun Jampani, Eva Portelance, Christopher Pal, Siva Reddy
 * **arXiv ID:** 2407.03471
 * **One-liner:** Curated AURORA Dataset and developed a model for diverse image edits, excelling in action and reasoning tasks.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2407.03471) | [[PDF]](https://arxiv.org/pdf/2407.03471)
+* **Published in:** arxiv (3 Jul 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2407.03471) | [[PDF]](https://arxiv.org/pdf/2407.03471) | [[Code]]()
 
 > **Core Innovation**
 > Focuses on high-quality data with minimal changes and proposes a new automatic metric for evaluation.
@@ -9819,8 +9818,8 @@
 * **Authors:** Panwen Hu, Nan Xiao, Feifei Li, Yongquan Chen, Rui Huang
 * **arXiv ID:** 2411.04942
 * **One-liner:** Proposed a two-stage scheme for general video editing using VLM-based context and RL-based framework.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2411.04942) | [[PDF]](https://arxiv.org/pdf/2411.04942)
+* **Published in:** arxiv (7 Nov 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2411.04942) | [[PDF]](https://arxiv.org/pdf/2411.04942) | [[Code]]()
 
 > **Core Innovation**
 > Leverages pre-trained VLM for editing context and RL for sequential decision-making in general scenes.
@@ -9847,8 +9846,8 @@
 * **Authors:** Yukun Wang, Longguang Wang, Zhiyuan Ma, Qibin Hu, Kai Xu, Yulan Guo
 * **arXiv ID:** 2411.17592
 * **One-liner:** Developed VideoDirector to harness T2V models for video editing with improved temporal coherence.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2411.17592) | [[PDF]](https://arxiv.org/pdf/2411.17592)
+* **Published in:** arxiv (26 Nov 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2411.17592) | [[PDF]](https://arxiv.org/pdf/2411.17592) | [[Code]](https://github.com/Yukun66/Video_Director)
 
 > **Core Innovation**
 > Introduces spatial-temporal decoupled guidance and multi-frame null-text optimization for precise inversion.
@@ -9875,8 +9874,8 @@
 * **Authors:** Rong-Cheng Tu, Wenhao Sun, Zhao Jin, Jingyi Liao, Jiaxing Huang, Dacheng Tao
 * **arXiv ID:** 2411.18983
 * **One-liner:** Created SPAgent system for coordinating multiple models in video generation and editing tasks.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2411.18983) | [[PDF]](https://arxiv.org/pdf/2411.18983)
+* **Published in:** arxiv (28 Nov 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2411.18983) | [[PDF]](https://arxiv.org/pdf/2411.18983) | [[Code]]()
 
 > **Core Innovation**
 > Assembles tool library with automatic coordination via intent recognition, route planning, and model selection.
@@ -9903,8 +9902,8 @@
 * **Authors:** Yi Huang, Wei Xiong, He Zhang, Chaoqi Chen, Jianzhuang Liu, Mingfu Yan, Shifeng Chen
 * **arXiv ID:** 2412.03347
 * **One-liner:** Proposed DIVE for subject-driven video editing using DINOv2 features for motion consistency and identity registration.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2412.03347) | [[PDF]](https://arxiv.org/pdf/2412.03347)
+* **Published in:** arxiv (4 Dec 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2412.03347) | [[PDF]](https://arxiv.org/pdf/2412.03347) | [[Code]]()
 
 > **Core Innovation**
 > Leverages DINO features for motion alignment and LoRAs for subject identity learning.
@@ -9931,8 +9930,8 @@
 * **Authors:** Yuanzhi Wang, Yong Li, Mengyi Liu, Xiaoya Zhang, Xin Liu, Zhen Cui, Antoni B. Chan
 * **arXiv ID:** 2412.11710
 * **One-liner:** Introduced ReAtCo method for controllable video editing with improved spatial alignment and artifact reduction.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2412.11710) | [[PDF]](https://arxiv.org/pdf/2412.11710)
+* **Published in:** arxiv (16 Dec 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2412.11710) | [[PDF]](https://arxiv.org/pdf/2412.11710) | [[Code]](https://github.com/mdswyz/ReAtCo)
 
 > **Core Innovation**
 > Uses Re-Attentional Diffusion and Invariant Region-guided Joint Sampling for fidelity and consistency.
@@ -9959,8 +9958,8 @@
 * **Authors:** Zhi-Lin Huang, Yixuan Liu, Chujun Qin, Zhongdao Wang, Dong Zhou, Dong Li, Emad Barsoum
 * **arXiv ID:** 2501.04325
 * **One-liner:** Developed IVEDiff for image-guided video editing with learnable motion modules and optical flow guidance.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2501.04325) | [[PDF]](https://arxiv.org/pdf/2501.04325)
+* **Published in:** arxiv (8 Jan 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2501.04325) | [[PDF]](https://arxiv.org/pdf/2501.04325) | [[Code]]()
 
 > **Core Innovation**
 > Incorporates masked motion modeling and motion reference network for temporal consistency.
@@ -9987,8 +9986,8 @@
 * **Authors:** Yuxuan Bian, Zhaoyang Zhang, Xuan Ju, Mingdeng Cao, Liangbin Xie, Ying Shan, Qiang Xu
 * **arXiv ID:** 2503.05639
 * **One-liner:** Proposed VideoPainter for video inpainting with dual-stream paradigm and any-length capability.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2503.05639) | [[PDF]](https://arxiv.org/pdf/2503.05639)
+* **Published in:** arxiv (7 Mar 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2503.05639) | [[PDF]](https://arxiv.org/pdf/2503.05639) | [[Code]](https://github.com/TencentARC/VideoPainter)
 
 > **Core Innovation**
 > Uses context encoder and target region ID resampling, and establishes VPData and VPBench.
@@ -10015,8 +10014,8 @@
 * **Authors:** Zeyinzi Jiang, Zhen Han, Chaojie Mao, Jingfeng Zhang, Yulin Pan, Yu Liu
 * **arXiv ID:** 2503.07598
 * **One-liner:** VACE enables unified video creation and editing in an all-in-one framework.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2503.07598) | [[PDF]](https://arxiv.org/pdf/2503.07598)
+* **Published in:** arxiv (10 Mar 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2503.07598) | [[PDF]](https://arxiv.org/pdf/2503.07598) | [[Code]](https://github.com/ali-vilab/VACE)
 
 > **Core Innovation**
 > Developed a unified model for various video tasks using a Video Condition Unit and Context Adapter.
@@ -10043,8 +10042,8 @@
 * **Authors:** Shoubin Yu, Difan Liu, Ziqiao Ma, Yicong Hong, Yang Zhou, Hao Tan, Joyce Chai, Mohit Bansal
 * **arXiv ID:** 2503.14350
 * **One-liner:** VEGGIE unifies video editing, grounding, and reasoning based on user instructions.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2503.14350) | [[PDF]](https://arxiv.org/pdf/2503.14350)
+* **Published in:** arxiv (18 Mar 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2503.14350) | [[PDF]](https://arxiv.org/pdf/2503.14350) | [[Code]](https://github.com/Yui010206/VEGGIE-VidEdit/)
 
 > **Core Innovation**
 > Introduced an end-to-end framework using MLLM for intention interpretation and diffusion for video rendering.
@@ -10071,8 +10070,8 @@
 * **Authors:** Chi Zhang, Chengjian Feng, Feng Yan, Qiming Zhang, Mingjin Zhang, Yujie Zhong, Jing Zhang, Lin Ma
 * **arXiv ID:** 2503.17641
 * **One-liner:** InstructVEdit provides a full-cycle approach for instructional video editing with improved data and model strategies.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2503.17641) | [[PDF]](https://arxiv.org/pdf/2503.17641)
+* **Published in:** arxiv (22 Mar 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2503.17641) | [[PDF]](https://arxiv.org/pdf/2503.17641) | [[Code]](https://o937-blip.github.io/InstructVEdit/)
 
 > **Core Innovation**
 > Established a dataset curation workflow and model improvements for better edit quality and temporal consistency.
@@ -10099,8 +10098,8 @@
 * **Authors:** Sen Liang, Zhentao Yu, Zhengguang Zhou, Teng Hu, Hongmei Wang, Yi Chen, Qin Lin, Yuan Zhou, Xin Li, Qinglin Lu, Zhibo Chen
 * **arXiv ID:** 2506.01801
 * **One-liner:** OmniV2V enables diverse video generation and editing across multiple scenarios.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2506.01801) | [[PDF]](https://arxiv.org/pdf/2506.01801)
+* **Published in:** arxiv (2 Jun 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2506.01801) | [[PDF]](https://arxiv.org/pdf/2506.01801) | [[Code]]()
 
 > **Core Innovation**
 > Designed a unified model with dynamic content manipulation and visual-text instruction modules.
@@ -10127,8 +10126,8 @@
 * **Authors:** Deheng Ye, Fangyun Zhou, Jiacheng Lv, Jianqi Ma, Jun Zhang, Junyan Lv, Junyou Li, Minwen Deng, Mingyu Yang, Qiang Fu, Wei Yang, Wenkai Lv, Yangbin Yu, Yewen Wang, Yonghang Guan, Zhihao Hu, Zhongbin Fang, Zhongqian Sun
 * **arXiv ID:** 2508.08601
 * **One-liner:** Yan integrates simulation, generation, and editing for interactive video creation.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2508.08601) | [[PDF]](https://arxiv.org/pdf/2508.08601)
+* **Published in:** arxiv (12 Aug 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2508.08601) | [[PDF]](https://arxiv.org/pdf/2508.08601) | [[Code]](https://greatx3.github.io/Yan/)
 
 > **Core Innovation**
 > Combined real-time simulation, multi-modal generation, and multi-granularity editing in a foundational framework.
@@ -10155,8 +10154,8 @@
 * **Authors:** Marcelo Sandoval-Castaneda, Bryan Russell, Josef Sivic, Gregory Shakhnarovich, Fabian Caba Heilbron
 * **arXiv ID:** 2509.10761
 * **One-liner:** Automated video editing via multi-agent sequential decision making.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2509.10761) | [[PDF]](https://arxiv.org/pdf/2509.10761)
+* **Published in:** arxiv (13 Sep 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2509.10761) | [[PDF]](https://arxiv.org/pdf/2509.10761) | [[Code]]()
 
 > **Core Innovation**
 > Formulated video editing as a sequential process with Editor and Critic agents.
@@ -10183,8 +10182,8 @@
 * **Authors:** Zihan Ding, Xinyi Wang, Junlong Chen, Per Ola Kristensson, Junxiao Shen
 * **arXiv ID:** 2509.16811
 * **One-liner:** Modular system for prompt-driven editing of long-form narrative videos.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2509.16811) | [[PDF]](https://arxiv.org/pdf/2509.16811)
+* **Published in:** arxiv (20 Sep 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2509.16811) | [[PDF]](https://arxiv.org/pdf/2509.16811) | [[Code]]()
 
 > **Core Innovation**
 > Developed a semantic indexing pipeline for global narrative and transparent editing.
@@ -10211,8 +10210,8 @@
 * **Authors:** Xuan Ju, Tianyu Wang, Yuqian Zhou, He Zhang, Qing Liu, Nanxuan Zhao, Zhifei Zhang, Yijun Li, Yuanhao Cai, Shaoteng Liu, Daniil Pakhomov, Zhe Lin, Soo Ye Kim, Qiang Xu
 * **arXiv ID:** 2509.20360
 * **One-liner:** EditVerse unifies image and video generation and editing in a single model.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2509.20360) | [[PDF]](https://arxiv.org/pdf/2509.20360)
+* **Published in:** arxiv (24 Sep 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2509.20360) | [[PDF]](https://arxiv.org/pdf/2509.20360) | [[Code]]()
 
 > **Core Innovation**
 > Represented modalities as unified token sequences for cross-modal tasks.
@@ -10239,8 +10238,8 @@
 * **Authors:** Han Zhang, Weichong Yin, Yewei Fang, Lanxin Li, Boqiang Duan, Zhihua Wu, Yu Sun, Hao Tian, Hua Wu, Haifeng Wang
 * **arXiv ID:** 2112.15283
 * **One-liner:** ERNIE-ViLG enables bidirectional image-text generation with unified pre-training.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2112.15283) | [[PDF]](https://arxiv.org/pdf/2112.15283)
+* **Published in:** arxiv (31 Dec 2021)
+* **Links:** [[Paper]](https://arxiv.org/abs/2112.15283) | [[PDF]](https://arxiv.org/pdf/2112.15283) | [[Code]]()
 
 > **Core Innovation**
 > Formulated image and text generation as autoregressive tasks for semantic alignment.
@@ -10267,8 +10266,8 @@
 * **Authors:** Jiasen Lu, Christopher Clark, Rowan Zellers, Roozbeh Mottaghi, Aniruddha Kembhavi
 * **arXiv ID:** 2206.08916
 * **One-liner:** Unified-IO performs diverse AI tasks across vision and language with a single model.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2206.08916) | [[PDF]](https://arxiv.org/pdf/2206.08916)
+* **Published in:** arxiv (17 Jun 2022)
+* **Links:** [[Paper]](https://arxiv.org/abs/2206.08916) | [[PDF]](https://arxiv.org/pdf/2206.08916) | [[Code]](https://github.com/allenai/unified-io-inference)
 
 > **Core Innovation**
 > Homogenized inputs and outputs into token sequences for unified transformer training.
@@ -10295,8 +10294,8 @@
 * **Authors:** Jing Yu Koh, Ruslan Salakhutdinov, Daniel Fried
 * **arXiv ID:** 2301.13823
 * **One-liner:** Enabled text-only language models to process and generate interleaved image-text data.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2301.13823) | [[PDF]](https://arxiv.org/pdf/2301.13823)
+* **Published in:** arxiv (31 Jan 2023)
+* **Links:** [[Paper]](https://arxiv.org/abs/2301.13823) | [[PDF]](https://arxiv.org/pdf/2301.13823) | [[Code]](https://github.com/kohjingyu/fromage)
 
 > **Core Innovation**
 > Grounded pretrained text-only language models to the visual domain by finetuning input/output linear layers while keeping the language model frozen.
@@ -10323,8 +10322,8 @@
 * **Authors:** Zineng Tang, Ziyi Yang, Chenguang Zhu, Michael Zeng, Mohit Bansal
 * **arXiv ID:** 2305.11846
 * **One-liner:** Developed a generative model that can generate any combination of output modalities from any input modalities.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2305.11846) | [[PDF]](https://arxiv.org/pdf/2305.11846)
+* **Published in:** arxiv (19 May 2023)
+* **Links:** [[Paper]](https://arxiv.org/abs/2305.11846) | [[PDF]](https://arxiv.org/pdf/2305.11846) | [[Code]](https://github.com/microsoft/i-Code/tree/main/i-Code-V3)
 
 > **Core Innovation**
 > Introduced Composable Diffusion (CoDi) for parallel generation of multiple modalities by aligning them in input and output spaces.
@@ -10351,8 +10350,8 @@
 * **Authors:** Yuying Ge, Yixiao Ge, Ziyun Zeng, Xintao Wang, Ying Shan
 * **arXiv ID:** 2307.08041
 * **One-liner:** Empowered LLMs with the ability to see and draw using a discrete image tokenizer.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2307.08041) | [[PDF]](https://arxiv.org/pdf/2307.08041)
+* **Published in:** arxiv (16 Jul 2023)
+* **Links:** [[Paper]](https://arxiv.org/abs/2307.08041) | [[PDF]](https://arxiv.org/pdf/2307.08041) | [[Code]](https://github.com/AILab-CVC/SEED)
 
 > **Core Innovation**
 > Designed SEED, an image tokenizer with 1D causal dependency and high-level semantics alignment for unified multimodal training.
@@ -10379,8 +10378,8 @@
 * **Authors:** Yang Jin, Kun Xu, Kun Xu, Liwei Chen, Chao Liao, Jianchao Tan, Quzhe Huang, Bin Chen, Chenyi Lei, An Liu, Chengru Song, Xiaoqiang Lei, Di Zhang, Wenwu Ou, Kun Gai, Yadong Mu
 * **arXiv ID:** 2309.04669
 * **One-liner:** Unified vision and language representation for generative multimodal tasks.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2309.04669) | [[PDF]](https://arxiv.org/pdf/2309.04669)
+* **Published in:** arxiv (9 Sep 2023)
+* **Links:** [[Paper]](https://arxiv.org/abs/2309.04669) | [[PDF]](https://arxiv.org/pdf/2309.04669) | [[Code]](https://github.com/jy0205/LaVIT)
 
 > **Core Innovation**
 > Introduced LaVIT, a foundation model that handles image and text indiscriminately under a generative learning paradigm.
@@ -10407,8 +10406,8 @@
 * **Authors:** Jinguo Zhu, Xiaohan Ding, Yixiao Ge, Yuying Ge, Sijie Zhao, Hengshuang Zhao, Xiaohua Wang, Ying Shan
 * **arXiv ID:** 2312.09251
 * **One-liner:** Created a transformer model for concurrent perception and generation of visual and linguistic data.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2312.09251) | [[PDF]](https://arxiv.org/pdf/2312.09251)
+* **Published in:** arxiv (14 Dec 2023)
+* **Links:** [[Paper]](https://arxiv.org/abs/2312.09251) | [[PDF]](https://arxiv.org/pdf/2312.09251) | [[Code]](https://github.com/AILab-CVC/VL-GPT)
 
 > **Core Innovation**
 > Developed VL-GPT with a unified auto-regressive objective for multimodal pre-training using an image tokenizer-detokenizer framework.
@@ -10435,8 +10434,8 @@
 * **Authors:** Naifu Xue, Qi Mao, Zijian Wang, Yuan Zhang, Siwei Ma
 * **arXiv ID:** 2403.03736
 * **One-liner:** Merged image generation and compression for ultra-low bitrate scenarios.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2403.03736) | [[PDF]](https://arxiv.org/pdf/2403.03736)
+* **Published in:** arxiv (6 Mar 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2403.03736) | [[PDF]](https://arxiv.org/pdf/2403.03736) | [[Code]]()
 
 > **Core Innovation**
 > Introduced the Unified Image Generation-Compression (UIGC) paradigm using VQ tokenization and multi-stage transformers.
@@ -10463,8 +10462,8 @@
 * **Authors:** Han Xue, Qianru Sun, Li Song, Wenjun Zhang, Zhiwu Huang
 * **arXiv ID:** 2404.09633
 * **One-liner:** Unified diverse vision tasks into a single framework using in-context learning.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2404.09633) | [[PDF]](https://arxiv.org/pdf/2404.09633)
+* **Published in:** arxiv (15 Apr 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2404.09633) | [[PDF]](https://arxiv.org/pdf/2404.09633) | [[Code]]()
 
 > **Core Innovation**
 > Proposed In-Context Translation (ICT) to standardize input-output as RGB image pairs and train with in-context learning.
@@ -10491,8 +10490,8 @@
 * **Authors:** Yuying Ge, Sijie Zhao, Jinguo Zhu, Yixiao Ge, Kun Yi, Lin Song, Chen Li, Xiaohan Ding, Ying Shan
 * **arXiv ID:** 2404.14396
 * **One-liner:** Enhanced multimodal foundation model for real-world applicability with arbitrary image sizes and multi-granularity generation.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2404.14396) | [[PDF]](https://arxiv.org/pdf/2404.14396)
+* **Published in:** arxiv (22 Apr 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2404.14396) | [[PDF]](https://arxiv.org/pdf/2404.14396) | [[Code]](https://github.com/AILab-CVC/SEED-X)
 
 > **Core Innovation**
 > Developed SEED-X to model multi-granularity visual semantics for comprehension and generation tasks.
@@ -10519,8 +10518,8 @@
 * **Authors:** Chameleon Team
 * **arXiv ID:** 2405.09818
 * **One-liner:** Built a mixed-modal model capable of understanding and generating images and text in any sequence.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2405.09818) | [[PDF]](https://arxiv.org/pdf/2405.09818)
+* **Published in:** arxiv (16 May 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2405.09818) | [[PDF]](https://arxiv.org/pdf/2405.09818) | [[Code]](https://github.com/facebookresearch/chameleon)
 
 > **Core Innovation**
 > Introduced Chameleon with early-fusion token-based architecture and stable training for unified multimodal modeling.
@@ -10547,8 +10546,8 @@
 * **Authors:** Yifan Xu, Xiaoshan Yang, Yaguang Song, Changsheng Xu
 * **arXiv ID:** 2405.10140
 * **One-liner:** Designed a decoupled vision system for effective multimodal comprehension with LLMs.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2405.10140) | [[PDF]](https://arxiv.org/pdf/2405.10140)
+* **Published in:** arxiv (16 May 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2405.10140) | [[PDF]](https://arxiv.org/pdf/2405.10140) | [[Code]](https://github.com/YifanXu74/Libra)
 
 > **Core Innovation**
 > Created Libra with a routed visual expert and cross-modal bridge module for discrete auto-regressive modeling.
@@ -10575,8 +10574,8 @@
 * **Authors:** Zhenyu Wang, Aoxue Li, Zhenguo Li, Xihui Liu
 * **arXiv ID:** 2407.05600
 * **One-liner:** Proposed GenArtist, a unified image generation and editing system coordinated by an MLLM agent.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2407.05600) | [[PDF]](https://arxiv.org/pdf/2407.05600)
+* **Published in:** arxiv (8 Jul 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2407.05600) | [[PDF]](https://arxiv.org/pdf/2407.05600) | [[Code]](https://github.com/zhenyuw16/GenArtist)
 
 > **Core Innovation**
 > Achieved state-of-the-art performance in various generation and editing tasks by decomposing complex problems and using a tool library with step-by-step verification.
@@ -10604,8 +10603,8 @@
 * **Authors:** Ethan Chern, Jiadi Su, Yan Ma, Pengfei Liu
 * **arXiv ID:** 2407.06135
 * **One-liner:** Introduced Anole, an open, autoregressive, native large multimodal model for interleaved image-text generation.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2407.06135) | [[PDF]](https://arxiv.org/pdf/2407.06135)
+* **Published in:** arxiv (8 Jul 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2407.06135) | [[PDF]](https://arxiv.org/pdf/2407.06135) | [[Code]](https://github.com/GAIR-NLP/anole)
 
 > **Core Innovation**
 > Built from Chameleon with efficient fine-tuning, enabling high-quality, coherent multimodal generation without separate diffusion models.
@@ -10632,8 +10631,8 @@
 * **Authors:** Jinheng Xie, Weijia Mao, Zechen Bai, David Junhao Zhang, Weihao Wang, Kevin Qinghong Lin, Yuchao Gu, Zhijie Chen, Zhenheng Yang, Mike Zheng Shou
 * **arXiv ID:** 2408.12528
 * **One-liner:** Developed Show-o, a unified transformer for multimodal understanding and generation.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2408.12528) | [[PDF]](https://arxiv.org/pdf/2408.12528)
+* **Published in:** arxiv (22 Aug 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2408.12528) | [[PDF]](https://arxiv.org/pdf/2408.12528) | [[Code]](https://github.com/showlab/Show-o)
 
 > **Core Innovation**
 > Combines autoregressive and discrete diffusion modeling to handle mixed modalities, achieving comparable or superior performance to specialized models.
@@ -10660,8 +10659,8 @@
 * **Authors:** Rongyao Fang, Chengqi Duan, Kun Wang, Hao Li, Hao Tian, Xingyu Zeng, Rui Zhao, Jifeng Dai, Hongsheng Li, Xihui Liu
 * **arXiv ID:** 2410.13861
 * **One-liner:** Proposed PUMA, a unified MLLM with multi-granular visual generation.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2410.13861) | [[PDF]](https://arxiv.org/pdf/2410.13861)
+* **Published in:** arxiv (17 Oct 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2410.13861) | [[PDF]](https://arxiv.org/pdf/2410.13861) | [[Code]](https://github.com/rongyaofang/PUMA)
 
 > **Core Innovation**
 > Addresses varying granularity demands in image generation tasks within a single framework, demonstrating proficiency in multimodal tasks.
@@ -10688,8 +10687,8 @@
 * **Authors:** Yecheng Wu, Zhuoyang Zhang, Junyu Chen, Haotian Tang, Dacheng Li, Yunhao Fang, Ligeng Zhu, Enze Xie, Hongxu Yin, Li Yi, Song Han, Yao Lu
 * **arXiv ID:** 2409.04429
 * **One-liner:** Presented VILA-U, a unified foundation model for video, image, language understanding and generation.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2409.04429) | [[PDF]](https://arxiv.org/pdf/2409.04429)
+* **Published in:** arxiv (6 Sep 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2409.04429) | [[PDF]](https://arxiv.org/pdf/2409.04429) | [[Code]](https://github.com/mit-han-lab/vila-u)
 
 > **Core Innovation**
 > Uses a single autoregressive next-token prediction framework, simplifying the model and achieving near state-of-the-art performance.
@@ -10716,8 +10715,8 @@
 * **Authors:** Han Yang, Kun Su, Yutong Zhang, Jiaben Chen, Kaizhi Qian, Gaowen Liu, Chuang Gan
 * **arXiv ID:** 2410.04534
 * **One-liner:** Introduced UniMuMo, a unified multimodal model for text, music, and motion generation.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2410.04534) | [[PDF]](https://arxiv.org/pdf/2410.04534)
+* **Published in:** arxiv (6 Oct 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2410.04534) | [[PDF]](https://arxiv.org/pdf/2410.04534) | [[Code]](https://github.com/hanyangclarence/UniMuMo)
 
 > **Core Innovation**
 > Aligns unpaired music and motion data and uses a unified encoder-decoder transformer, achieving competitive results across modalities.
@@ -10744,8 +10743,8 @@
 * **Authors:** Chengyue Wu, Xiaokang Chen, Zhiyu Wu, Yiyang Ma, Xingchao Liu, Zizheng Pan, Wen Liu, Zhenda Xie, Xingkai Yu, Chong Ruan, Ping Luo
 * **arXiv ID:** 2410.13848
 * **One-liner:** Developed Janus, an autoregressive framework that unifies multimodal understanding and generation.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2410.13848) | [[PDF]](https://arxiv.org/pdf/2410.13848)
+* **Published in:** arxiv (17 Oct 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2410.13848) | [[PDF]](https://arxiv.org/pdf/2410.13848) | [[Code]](https://github.com/deepseek-ai/Janus)
 
 > **Core Innovation**
 > Decouples visual encoding into separate pathways to enhance flexibility and performance, surpassing previous unified models.
@@ -10772,8 +10771,8 @@
 * **Authors:** Siqi Kou, Jiachun Jin, Zhihong Liu, Chang Liu, Ye Ma, Jian Jia, Quan Chen, Peng Jiang, Zhijie Deng
 * **arXiv ID:** 2412.00127
 * **One-liner:** Introduced Orthus, an autoregressive transformer for multimodal tasks with continuous image features.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2412.00127) | [[PDF]](https://arxiv.org/pdf/2412.00127)
+* **Published in:** arxiv (28 Nov 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2412.00127) | [[PDF]](https://arxiv.org/pdf/2412.00127) | [[Code]](https://github.com/zhijie-group/Orthus)
 
 > **Core Innovation**
 > Combines discrete text tokens and continuous image features under AR modeling, achieving high scores on benchmarks with efficient training.
@@ -10800,8 +10799,8 @@
 * **Authors:** Rongchang Xie, Chen Du, Ping Song, Chang Liu
 * **arXiv ID:** 2411.17762
 * **One-liner:** Proposed MUSE-VL, a unified vision-language model using Semantic Discrete Encoding.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2411.17762) | [[PDF]](https://arxiv.org/pdf/2411.17762)
+* **Published in:** arxiv (26 Nov 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2411.17762) | [[PDF]](https://arxiv.org/pdf/2411.17762) | [[Code]]()
 
 > **Core Innovation**
 > Improves alignment of visual and language tokens with semantic constraints, reducing training data needs and enhancing performance.
@@ -10828,8 +10827,8 @@
 * **Authors:** Junfeng Wu, Yi Jiang, Chuofan Ma, Yuliang Liu, Hengshuang Zhao, Zehuan Yuan, Song Bai, Xiang Bai
 * **arXiv ID:** 2412.04332
 * **One-liner:** Presented Liquid, an auto-regressive paradigm for visual comprehension and generation using a single LLM.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2412.04332) | [[PDF]](https://arxiv.org/pdf/2412.04332)
+* **Published in:** arxiv (5 Dec 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2412.04332) | [[PDF]](https://arxiv.org/pdf/2412.04332) | [[Code]](https://github.com/FoundationVision/Liquid)
 
 > **Core Innovation**
 > Uncovers a scaling law for unified training, enabling mutual enhancement of tasks and outperforming models like Chameleon and SD-XL.
@@ -10856,8 +10855,8 @@
 * **Authors:** Leigang Qu, Haochuan Li, Wenjie Wang, Xiang Liu, Juncheng Li, Liqiang Nie, Tat-Seng Chua
 * **arXiv ID:** 2412.05818
 * **One-liner:** Introduced SILMM, a model-agnostic iterative self-improvement framework for LMMs.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2412.05818) | [[PDF]](https://arxiv.org/pdf/2412.05818)
+* **Published in:** arxiv (8 Dec 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2412.05818) | [[PDF]](https://arxiv.org/pdf/2412.05818) | [[Code]](https://github.com/LgQu/SILMM)
 
 > **Core Innovation**
 > Enables LMMs to provide self-feedback and optimize text-image alignment via DPO, with adaptations for continuous visual features.
@@ -10885,8 +10884,8 @@
 * **Authors:** Chunwei Wang, Guansong Lu, Junwei Yang, Runhui Huang, Jianhua Han, Lu Hou, Wei Zhang, Hang Xu
 * **arXiv ID:** 2412.06673
 * **One-liner:** Developed ILLUME, a unified MLLM with integrated understanding and generation.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2412.06673) | [[PDF]](https://arxiv.org/pdf/2412.06673)
+* **Published in:** arxiv (9 Dec 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2412.06673) | [[PDF]](https://arxiv.org/pdf/2412.06673) | [[Code]]()
 
 > **Core Innovation**
 > Achieves data efficiency and synergistic enhancement through a vision tokenizer and self-enhancing alignment scheme.
@@ -10914,8 +10913,8 @@
 * **Authors:** XuDong Wang, Xingyi Zhou, Alireza Fathi, Trevor Darrell, Cordelia Schmid
 * **arXiv ID:** 2412.06774
 * **One-liner:** Created Visual Lexicon (ViLex), a visual language encoding image information into text tokens.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2412.06774) | [[PDF]](https://arxiv.org/pdf/2412.06774)
+* **Published in:** arxiv (9 Dec 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2412.06774) | [[PDF]](https://arxiv.org/pdf/2412.06774) | [[Code]]()
 
 > **Core Innovation**
 > Enables high-quality image generation and understanding by capturing semantics and details in a self-supervised manner.
@@ -10943,8 +10942,8 @@
 * **Authors:** Hao Li, Changyao Tian, Jie Shao, Xizhou Zhu, Zhaokai Wang, Jinguo Zhu, Wenhan Dou, Xiaogang Wang, Hongsheng Li, Lewei Lu, Jifeng Dai
 * **arXiv ID:** 2412.09604
 * **One-liner:** Proposed SynerGen-VL, an encoder-free MLLM for image understanding and generation.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2412.09604) | [[PDF]](https://arxiv.org/pdf/2412.09604)
+* **Published in:** arxiv (12 Dec 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2412.09604) | [[PDF]](https://arxiv.org/pdf/2412.09604) | [[Code]]()
 
 > **Core Innovation**
 > Simplifies model design with token folding and progressive alignment pretraining, achieving competitive performance.
@@ -10972,8 +10971,8 @@
 * **Authors:** Shengbang Tong, David Fan, Jiachen Zhu, Yunyang Xiong, Xinlei Chen, Koustuv Sinha, Michael Rabbat, Yann LeCun, Saining Xie, Zhuang Liu
 * **arXiv ID:** 2412.14164
 * **One-liner:** Introduced VPiT for instruction tuning to enable LLMs to generate text and visual tokens.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2412.14164) | [[PDF]](https://arxiv.org/pdf/2412.14164)
+* **Published in:** arxiv (18 Dec 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2412.14164) | [[PDF]](https://arxiv.org/pdf/2412.14164) | [[Code]](https://tsb0601.github.io/metamorph/)
 
 > **Core Innovation**
 > Unlocks visual generation as a byproduct of improved understanding with efficient data usage.
@@ -11001,8 +11000,8 @@
 * **Authors:** Weijia Shi, Xiaochuang Han, Chunting Zhou, Weixin Liang, Xi Victoria Lin, Luke Zettlemoyer, Lili Yu
 * **arXiv ID:** 2412.15188
 * **One-liner:** Developed LMFusion, a framework to add multimodal capabilities to text-only LLMs.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2412.15188) | [[PDF]](https://arxiv.org/pdf/2412.15188)
+* **Published in:** arxiv (19 Dec 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2412.15188) | [[PDF]](https://arxiv.org/pdf/2412.15188) | [[Code]]()
 
 > **Core Innovation**
 > Preserves language capabilities while enabling visual understanding and generation with parallel modules.
@@ -11030,8 +11029,8 @@
 * **Authors:** Zijie Li, Henry Li, Yichun Shi, Amir Barati Farimani, Yuval Kluger, Linjie Yang, Peng Wang
 * **arXiv ID:** 2501.00289
 * **One-liner:** Proposed a large-scale end-to-end diffusion model for multimodal understanding and generation.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2501.00289) | [[PDF]](https://arxiv.org/pdf/2501.00289)
+* **Published in:** arxiv (31 Dec 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2501.00289) | [[PDF]](https://arxiv.org/pdf/2501.00289) | [[Code]](https://github.com/zijieli-Jlee/Dual-Diffusion)
 
 > **Core Innovation**
 > First diffusion model to support full vision-language capabilities with a cross-modal likelihood framework.
@@ -11059,8 +11058,8 @@
 * **Authors:** Xiaokang Chen, Zhiyu Wu, Xingchao Liu, Zizheng Pan, Wen Liu, Zhenda Xie, Xingkai Yu, Chong Ruan
 * **arXiv ID:** 2501.17811
 * **One-liner:** Enhanced Janus to Janus-Pro with optimized training, data, and scaling.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2501.17811) | [[PDF]](https://arxiv.org/pdf/2501.17811)
+* **Published in:** arxiv (29 Jan 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2501.17811) | [[PDF]](https://arxiv.org/pdf/2501.17811) | [[Code]](https://github.com/deepseek-ai/Janus)
 
 > **Core Innovation**
 > Achieves advancements in multimodal understanding and text-to-image generation with improved stability.
@@ -11085,11 +11084,11 @@
 <details>
 <summary><b> QLIP: Text-Aligned Visual Tokenization Unifies Auto-Regressive Multimodal Understanding and Generation</b></summary>
 
-* **Authors:** Yue Zhao, Fuzhao Xue, Scott Reed, Linxi Fan, Yuke Zhu, Jan Kautz, Zhiding Yu, Philipp Krähenbühl, De-An Huang
+* **Authors:** Yue Zhao, Fuzhao Xue, Scott Reed, Linxi Fan, Yuke Zhu, Jan Kautz, Zhiding Yu, Philipp Kr盲henb眉hl, De-An Huang
 * **arXiv ID:** 2502.05178
 * **One-liner:** Introduced QLIP, a visual tokenization method for multimodal understanding and generation.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2502.05178) | [[PDF]](https://arxiv.org/pdf/2502.05178)
+* **Published in:** arxiv (7 Feb 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2502.05178) | [[PDF]](https://arxiv.org/pdf/2502.05178) | [[Code]](https://github.com/NVlabs/QLIP/tree/main)
 
 > **Core Innovation**
 > Balances reconstruction and alignment objectives, enabling unified models with efficient training.
@@ -11117,8 +11116,8 @@
 * **Authors:** Chenkai Xu, Xu Wang, Zhenyi Liao, Yishun Li, Tianqi Hou, Zhijie Deng
 * **arXiv ID:** 2502.05415
 * **One-liner:** Developed UniCMs, a unified consistency model for efficient multimodal generation and understanding.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2502.05415) | [[PDF]](https://arxiv.org/pdf/2502.05415)
+* **Published in:** arxiv (8 Feb 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2502.05415) | [[PDF]](https://arxiv.org/pdf/2502.05415) | [[Code]](https://github.com/zhijie-group/UniCMs)
 
 > **Core Innovation**
 > Uses discrete tokens and parallel decoding for text, outperforming existing models in speed and performance.
@@ -11146,8 +11145,8 @@
 * **Authors:** Chuofan Ma, Yi Jiang, Junfeng Wu, Jihan Yang, Xin Yu, Zehuan Yuan, Bingyue Peng, Xiaojuan Qi
 * **arXiv ID:** 2502.20321
 * **One-liner:** Introduced UniTok, a unified tokenizer that sets new performance records in image generation and understanding.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2502.20321) | [[PDF]](https://arxiv.org/pdf/2502.20321)
+* **Published in:** arxiv (27 Feb 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2502.20321) | [[PDF]](https://arxiv.org/pdf/2502.20321) | [[Code]](https://github.com/FoundationVision/UniTok)
 
 > **Core Innovation**
 > Unified reconstruction and semantic supervision by scaling up vocabulary and bottleneck dimension with multi-codebook quantization.
@@ -11175,8 +11174,8 @@
 * **Authors:** Jiepeng Wang, Zhaoqing Wang, Hao Pan, Yuan Liu, Dongdong Yu, Changhu Wang, Wenping Wang
 * **arXiv ID:** 2503.20644v1
 * **One-liner:** Introduced MMGen, a unified diffusion framework for multi-modal generation and understanding.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2503.20644v1) | [[PDF]](https://arxiv.org/pdf/2503.20644v1)
+* **Published in:** arxiv (26 Mar 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2503.20644v1) | [[PDF]](https://arxiv.org/pdf/2503.20644v1) | [[Code]](https://github.com/jiepengwang/MMGen)
 
 > **Core Innovation**
 > Integrated multiple generative tasks into a single diffusion model with a novel diffusion transformer and modality-decoupling strategy.
@@ -11205,8 +11204,8 @@
 * **Authors:** Yi Wang, Mushui Liu, Wanggui He, Hanyang Yuan, Longxiang Zhang, Ziwei Huang, Guanghao Zhang, Wenkai Fang, Haoze Jiang, Shengxuming Zhang, Dong She, Jinlong Liu, Weilong Dai, Mingli Song, Hao Jiang, Jie Song
 * **arXiv ID:** 2503.01298
 * **One-liner:** Introduced FoX with MCoT to enhance complex image generation in unified models.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2503.01298) | [[PDF]](https://arxiv.org/pdf/2503.01298)
+* **Published in:** arxiv (3 Mar 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2503.01298) | [[PDF]](https://arxiv.org/pdf/2503.01298) | [[Code]]()
 
 > **Core Innovation**
 > Addressed complex compositional instructions by integrating Chain of Thought (CoT) with a functionality-oriented expert architecture.
@@ -11234,8 +11233,8 @@
 * **Authors:** Zisheng Chen, Chunwei Wang, Xiuwei Chen, Hongbin Xu, Runhui Huang, Jun Zhou, Jianhua Han, Hang Xu, Xiaodan Liang
 * **arXiv ID:** 2503.06764
 * **One-liner:** Introduced SemHiTok, a unified image tokenizer achieving SOTA in reconstruction and understanding.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2503.06764) | [[PDF]](https://arxiv.org/pdf/2503.06764)
+* **Published in:** arxiv (9 Mar 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2503.06764) | [[PDF]](https://arxiv.org/pdf/2503.06764) | [[Code]]()
 
 > **Core Innovation**
 > Decoupled semantic and pixel features using a semantic-guided hierarchical codebook for consistent representations.
@@ -11263,8 +11262,8 @@
 * **Authors:** Yuwei Niu, Munan Ning, Mengren Zheng, Weiyang Jin, Bin Lin, Peng Jin, Jiaqi Liao, Chaoran Feng, Kunpeng Ning, Bin Zhu, Li Yuan
 * **arXiv ID:** 2503.07265
 * **One-liner:** Proposed WISE benchmark and WiScore metric for evaluating world knowledge in T2I models.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2503.07265) | [[PDF]](https://arxiv.org/pdf/2503.07265)
+* **Published in:** arxiv (10 Mar 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2503.07265) | [[PDF]](https://arxiv.org/pdf/2503.07265) | [[Code]](https://github.com/PKU-YuanGroup/WISE)
 
 > **Core Innovation**
 > Moved beyond traditional metrics by assessing complex semantic understanding and knowledge integration in image generation.
@@ -11292,8 +11291,8 @@
 * **Authors:** Wei Song, Yuran Wang, Zijia Song, Yadong Li, Haoze Sun, Weipeng Chen, Zenan Zhou, Jianhua Xu, Jiaqi Wang, Kaicheng Yu
 * **arXiv ID:** 2503.14324
 * **One-liner:** Introduced DualToken, a unified tokenizer achieving SOTA in both reconstruction and semantic tasks.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2503.14324) | [[PDF]](https://arxiv.org/pdf/2503.14324)
+* **Published in:** arxiv (18 Mar 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2503.14324) | [[PDF]](https://arxiv.org/pdf/2503.14324) | [[Code]]()
 
 > **Core Innovation**
 > Disentangled high and low-level features with separate codebooks to resolve conflicts between reconstruction and semantic objectives.
@@ -11321,8 +11320,8 @@
 * **Authors:** Alexander Swerdlow, Mihir Prabhudesai, Siddharth Gandhi, Deepak Pathak, Katerina Fragkiadaki
 * **arXiv ID:** 2503.20853
 * **One-liner:** Introduced UniDisc, a unified multimodal discrete diffusion model outperforming AR models.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2503.20853) | [[PDF]](https://arxiv.org/pdf/2503.20853)
+* **Published in:** arxiv (26 Mar 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2503.20853) | [[PDF]](https://arxiv.org/pdf/2503.20853) | [[Code]](https://github.com/alexanderswerdlow/unidisc)
 
 > **Core Innovation**
 > Leveraged discrete diffusion for joint text and image tasks with improved controllability and efficiency.
@@ -11350,8 +11349,8 @@
 * **Authors:** Size Wu, Wenwei Zhang, Lumin Xu, Sheng Jin, Zhonghua Wu, Qingyi Tao, Wentao Liu, Wei Li, Chen Change Loy
 * **arXiv ID:** 2503.21979
 * **One-liner:** Introduced Harmon, a unified autoregressive framework harmonizing understanding and generation.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2503.21979) | [[PDF]](https://arxiv.org/pdf/2503.21979)
+* **Published in:** arxiv (27 Mar 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2503.21979) | [[PDF]](https://arxiv.org/pdf/2503.21979) | [[Code]](https://github.com/wusize/Harmon)
 
 > **Core Innovation**
 > Used a shared MAR encoder with a three-stage training procedure to achieve SOTA in generation and understanding.
@@ -11379,8 +11378,8 @@
 * **Authors:** Thao Nguyen, Krishna Kumar Singh, Jing Shi, Trung Bui, Yong Jae Lee, Yuheng Li
 * **arXiv ID:** 2504.20998
 * **One-liner:** Introduced Yo'Chameleon, the first personalization method for large multimodal models.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2504.20998) | [[PDF]](https://arxiv.org/pdf/2504.20998)
+* **Published in:** arxiv (29 Apr 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2504.20998) | [[PDF]](https://arxiv.org/pdf/2504.20998) | [[Code]](https://github.com/WisconsinAIVision/YoChameleon)
 
 > **Core Innovation**
 > Enabled personalized image generation and understanding using soft-prompt tuning with few-shot examples.
@@ -11408,8 +11407,8 @@
 * **Authors:** Sicheng Mo, Thao Nguyen, Xun Huang, Siddharth Srinivasan Iyer, Yijun Li, Yuchen Liu, Abhishek Tandon, Eli Shechtman, Krishna Kumar Singh, Yong Jae Lee, Bolei Zhou, Yuheng Li
 * **arXiv ID:** 2504.20996
 * **One-liner:** Introduced X-Fusion, a framework extending LLMs for multimodal tasks while preserving language capabilities.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2504.20996) | [[PDF]](https://arxiv.org/pdf/2504.20996)
+* **Published in:** arxiv (29 Apr 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2504.20996) | [[PDF]](https://arxiv.org/pdf/2504.20996) | [[Code]](https://sichengmo.github.io/XFusion/)
 
 > **Core Innovation**
 > Employed a dual-tower design with frozen LLM parameters for efficient multimodal integration.
@@ -11437,8 +11436,8 @@
 * **Authors:** Hong Zhang, Zhongjie Duan, Xingjun Wang, Yingda Chen, Yuze Zhao, Yu Zhang
 * **arXiv ID:** 2504.21356v1
 * **One-liner:** Developed Nexus-Gen, a unified model combining LLM reasoning and diffusion model synthesis for multimodal tasks.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2504.21356v1) | [[PDF]](https://arxiv.org/pdf/2504.21356v1)
+* **Published in:** arxiv (30 Apr 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2504.21356v1) | [[PDF]](https://arxiv.org/pdf/2504.21356v1) | [[Code]]()
 
 > **Core Innovation**
 > Synergized language reasoning and image synthesis through dual-phase alignment training and prefilled autoregression.
@@ -11465,8 +11464,8 @@
 * **Authors:** Dongzhi Jiang, Ziyu Guo, Renrui Zhang, Zhuofan Zong, Hao Li, Le Zhuo, Shilin Yan, Pheng-Ann Heng, Hongsheng Li
 * **arXiv ID:** 2505.00703
 * **One-liner:** Introduced T2I-R1, a reasoning-enhanced text-to-image model using RL and bi-level CoT.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2505.00703) | [[PDF]](https://arxiv.org/pdf/2505.00703)
+* **Published in:** arxiv (1 May 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2505.00703) | [[PDF]](https://arxiv.org/pdf/2505.00703) | [[Code]](https://github.com/CaraJ7/T2I-R1)
 
 > **Core Innovation**
 > Enhanced generation with semantic-level and token-level CoT reasoning optimized via BiCoT-GRPO.
@@ -11493,8 +11492,8 @@
 * **Authors:** Inclusion AI, Biao Gong, Cheng Zou, Dandan Zheng, Hu Yu, Jingdong Chen, Jianxin Sun, Junbo Zhao, Jun Zhou, Kaixiang Ji, Lixiang Ru, Libin Wang, Qingpei Guo, Rui Liu, Weilong Chai, Xinyu Xiao, Ziyuan Huang
 * **arXiv ID:** 2505.02471
 * **One-liner:** Created Ming-Lite-Uni, an open-source unified multimodal framework with native AR capabilities.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2505.02471) | [[PDF]](https://arxiv.org/pdf/2505.02471)
+* **Published in:** arxiv (5 May 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2505.02471) | [[PDF]](https://arxiv.org/pdf/2505.02471) | [[Code]](https://github.com/inclusionAI/Ming/tree/Ming-Lite-Omni-Preview/Ming-unify)
 
 > **Core Innovation**
 > Unified visual generator and multimodal AR model using multi-scale tokens and alignment.
@@ -11521,8 +11520,8 @@
 * **Authors:** Haokun Lin, Teng Wang, Yixiao Ge, Yuying Ge, Zhichao Lu, Ying Wei, Qingfu Zhang, Zhenan Sun, Ying Shan
 * **arXiv ID:** 2505.05422
 * **One-liner:** Proposed TokLIP, a visual tokenizer enhancing comprehension and generation with semanticized VQ tokens.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2505.05422) | [[PDF]](https://arxiv.org/pdf/2505.05422)
+* **Published in:** arxiv (8 May 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2505.05422) | [[PDF]](https://arxiv.org/pdf/2505.05422) | [[Code]](https://github.com/TencentARC/TokLIP)
 
 > **Core Innovation**
 > Disentangled training objectives for comprehension and generation, enabling efficient AR training.
@@ -11549,8 +11548,8 @@
 * **Authors:** Bohan Wang, Zhongqi Yue, Fengda Zhang, Shuo Chen, Li&#39;an Bi, Junzhe Zhang, Xue Song, Kennard Yanting Chan, Jiachun Pan, Weijia Wu, Mingze Zhou, Wang Lin, Kaihang Pan, Saining Zhang, Liyu Jia, Wentao Hu, Wei Zhao, Hanwang Zhang
 * **arXiv ID:** 2505.07538
 * **One-liner:** Introduced Selftok, a discrete visual tokenizer with AR prior for unified VLM and RL support.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2505.07538) | [[PDF]](https://arxiv.org/pdf/2505.07538)
+* **Published in:** arxiv (12 May 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2505.07538) | [[PDF]](https://arxiv.org/pdf/2505.07538) | [[Code]](https://github.com/selftok-team/SelftokTokenizer)
 
 > **Core Innovation**
 > Enabled pure AR architecture for VLMs and effective RL in visual generation.
@@ -11577,8 +11576,8 @@
 * **Authors:** Jiuhai Chen, Zhiyang Xu, Xichen Pan, Yushi Hu, Can Qin, Tom Goldstein, Lifu Huang, Tianyi Zhou, Saining Xie, Silvio Savarese, Le Xue, Caiming Xiong, Ran Xu
 * **arXiv ID:** 2505.09568
 * **One-liner:** Developed BLIP3-o, a unified model with diffusion transformer and sequential pretraining.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2505.09568) | [[PDF]](https://arxiv.org/pdf/2505.09568)
+* **Published in:** arxiv (14 May 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2505.09568) | [[PDF]](https://arxiv.org/pdf/2505.09568) | [[Code]](https://github.com/JiuhaiChen/BLIP3o)
 
 > **Core Innovation**
 > Improved training efficiency and generative quality with curated datasets and innovative design.
@@ -11605,8 +11604,8 @@
 * **Authors:** Bingda Tang, Boyang Zheng, Xichen Pan, Sayak Paul, Saining Xie
 * **arXiv ID:** 2505.10046
 * **One-liner:** Conducted empirical study on LLM-DiT fusion for text-to-image generation.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2505.10046) | [[PDF]](https://arxiv.org/pdf/2505.10046)
+* **Published in:** arxiv (15 May 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2505.10046) | [[PDF]](https://arxiv.org/pdf/2505.10046) | [[Code]](https://github.com/tang-bd/fuse-dit)
 
 > **Core Innovation**
 > Provided controlled comparisons and reproducible training recipes for multimodal generation.
@@ -11633,8 +11632,8 @@
 * **Authors:** Wenxuan Wang, Fan Zhang, Yufeng Cui, Haiwen Diao, Zhuoyan Luo, Huchuan Lu, Jing Liu, Xinlong Wang
 * **arXiv ID:** 2505.10562
 * **One-liner:** Proposed ETT, an end-to-end vision tokenizer tuning method for joint optimization.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2505.10562) | [[PDF]](https://arxiv.org/pdf/2505.10562)
+* **Published in:** arxiv (15 May 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2505.10562) | [[PDF]](https://arxiv.org/pdf/2505.10562) | [[Code]]()
 
 > **Core Innovation**
 > Enabled joint optimization of tokenization and AR tasks, improving performance without architecture changes.
@@ -11661,8 +11660,8 @@
 * **Authors:** Ruichuan An, Sihan Yang, Renrui Zhang, Zijun Shen, Ming Lu, Gaole Dai, Hao Liang, Ziyu Guo, Shilin Yan, Yulin Luo, Bocheng Zou, Chaoqun Yang, Wentao Zhang
 * **arXiv ID:** 2505.14671
 * **One-liner:** Introduced UniCTokens for unified personalized VLM with attribute-reasoning generation.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2505.14671) | [[PDF]](https://arxiv.org/pdf/2505.14671)
+* **Published in:** arxiv (20 May 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2505.14671) | [[PDF]](https://arxiv.org/pdf/2505.14671) | [[Code]](https://github.com/arctanxarc/UniCTokens)
 
 > **Core Innovation**
 > Enhanced mutual benefits between understanding and generation through progressive training.
@@ -11689,8 +11688,8 @@
 * **Authors:** Rui Tian, Mingfei Gao, Mingze Xu, Jiaming Hu, Jiasen Lu, Zuxuan Wu, Yinfei Yang, Afshin Dehghan
 * **arXiv ID:** 2505.14682
 * **One-liner:** Developed UniGen, a unified MLLM with CoT-V strategy for test-time scaling.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2505.14682) | [[PDF]](https://arxiv.org/pdf/2505.14682)
+* **Published in:** arxiv (20 May 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2505.14682) | [[PDF]](https://arxiv.org/pdf/2505.14682) | [[Code]]()
 
 > **Core Innovation**
 > Achieved SOTA performance through full training pipeline and CoT verification.
@@ -11717,8 +11716,8 @@
 * **Authors:** Size Wu, Zhonghua Wu, Zerui Gong, Qingyi Tao, Sheng Jin, Qinyue Li, Wei Li, Chen Change Loy
 * **arXiv ID:** 2505.23661
 * **One-liner:** Developed OpenUni, a lightweight open-source baseline for unified multimodal understanding and generation.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2505.23661) | [[PDF]](https://arxiv.org/pdf/2505.23661)
+* **Published in:** arxiv (29 May 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2505.23661) | [[PDF]](https://arxiv.org/pdf/2505.23661) | [[Code]](https://github.com/wusize/OpenUni)
 
 > **Core Innovation**
 > Achieved high-quality image generation and exceptional benchmark performance with minimal parameters by bridging LLMs and diffusion models via learnable queries and a transformer connector.
@@ -11746,8 +11745,8 @@
 * **Authors:** Qingyu Shi, Jinbin Bai, Zhuoran Zhao, Wenhao Chai, Kaidong Yu, Jianzong Wu, Shuangyong Song, Yunhai Tong, Xiangtai Li, Xuelong Li, Shuicheng Yan
 * **arXiv ID:** 2505.23606
 * **One-liner:** Introduced Muddit, a unified discrete diffusion transformer for fast parallel generation across text and image modalities.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2505.23606) | [[PDF]](https://arxiv.org/pdf/2505.23606)
+* **Published in:** arxiv (29 May 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2505.23606) | [[PDF]](https://arxiv.org/pdf/2505.23606) | [[Code]](https://github.com/M-E-AGI-Lab/Muddit)
 
 > **Core Innovation**
 > Enabled fast and parallel multimodal generation by integrating strong visual priors from a pretrained backbone with a lightweight text decoder under a unified architecture.
@@ -11775,8 +11774,8 @@
 * **Authors:** Weijia Mao, Zhenheng Yang, Mike Zheng Shou
 * **arXiv ID:** 2505.23380
 * **One-liner:** Proposed UniRL, a self-improving post-training approach for unified multimodal models.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2505.23380) | [[PDF]](https://arxiv.org/pdf/2505.23380)
+* **Published in:** arxiv (29 May 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2505.23380) | [[PDF]](https://arxiv.org/pdf/2505.23380) | [[Code]](https://github.com/showlab/UniRL)
 
 > **Core Innovation**
 > Enhanced model performance by generating and using images as training data in iterations, improving both generation and understanding without external data.
@@ -11804,8 +11803,8 @@
 * **Authors:** Jihai Zhang, Tianle Li, Linjie Li, Zhengyuan Yang, Yu Cheng
 * **arXiv ID:** 2505.23043
 * **One-liner:** Systematically investigated generalization across understanding and generation tasks in unified VLMs.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2505.23043) | [[PDF]](https://arxiv.org/pdf/2505.23043)
+* **Published in:** arxiv (29 May 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2505.23043) | [[PDF]](https://arxiv.org/pdf/2505.23043) | [[Code]](https://github.com/MajorDavidZhang/Generalization_unified_VLM)
 
 > **Core Innovation**
 > Found mutual benefits between understanding and generation tasks, with better alignment and cross-task knowledge transfer in unified architectures.
@@ -11833,8 +11832,8 @@
 * **Authors:** Bin Lin, Zongjian Li, Xinhua Cheng, Yuwei Niu, Yang Ye, Xianyi He, Shenghai Yuan, Wangbo Yu, Shaodong Wang, Yunyang Ge, Yatian Pang, Li Yuan
 * **arXiv ID:** 2506.03147
 * **One-liner:** Developed UniWorld-V1, a unified generative framework for image understanding, generation, manipulation, and perception.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2506.03147) | [[PDF]](https://arxiv.org/pdf/2506.03147)
+* **Published in:** arxiv (3 Jun 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2506.03147) | [[PDF]](https://arxiv.org/pdf/2506.03147) | [[Code]](https://github.com/TencentARC/MindOmni)
 
 > **Core Innovation**
 > Achieved impressive performance across diverse tasks using semantic features from multimodal LLMs and contrastive encoders with minimal training data.
@@ -11862,8 +11861,8 @@
 * **Authors:** Ying Shen, Zhiyang Xu, Jiuhai Chen, Shizhe Diao, Jiaxin Zhang, Yuguang Yao, Joy Rimchala, Ismini Lourentzou, Lifu Huang
 * **arXiv ID:** 2506.06952
 * **One-liner:** Proposed LaTtE-Flow, an efficient architecture unifying image understanding and generation with fast inference.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2506.06952) | [[PDF]](https://arxiv.org/pdf/2506.06952)
+* **Published in:** arxiv (8 Jun 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2506.06952) | [[PDF]](https://arxiv.org/pdf/2506.06952) | [[Code]](https://github.com/yingShen-ys/LaTtE-Flow)
 
 > **Core Innovation**
 > Improved sampling efficiency and inference speed by distributing flow-matching across specialized layer groups and using timestep-conditioned residual attention.
@@ -11891,8 +11890,8 @@
 * **Authors:** Francisco Caetano, Christiaan Viviers, Peter H.N. De With, Fons van der Sommen
 * **arXiv ID:** 2506.10634
 * **One-liner:** Introduced SymmFlow, a symmetrical flow matching framework for unifying semantic segmentation, classification, and image generation.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2506.10634) | [[PDF]](https://arxiv.org/pdf/2506.10634)
+* **Published in:** arxiv (12 Jun 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2506.10634) | [[PDF]](https://arxiv.org/pdf/2506.10634) | [[Code]]()
 
 > **Core Innovation**
 > Enabled joint modeling of forward and reverse transformations with bi-directional consistency, achieving state-of-the-art performance in semantic image synthesis.
@@ -11920,8 +11919,8 @@
 * **Authors:** Chao Zhou, Tianyi Wei, Nenghai Yu
 * **arXiv ID:** 2507.16240
 * **One-liner:** Proposed SaaS, a method to address text instruction neglect in unified image generation models.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2507.16240) | [[PDF]](https://arxiv.org/pdf/2507.16240)
+* **Published in:** arxiv (22 Jul 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2507.16240) | [[PDF]](https://arxiv.org/pdf/2507.16240) | [[Code]](https://github.com/zhouchao-ops/SaaS)
 
 > **Core Innovation**
 > Enhanced instruction-following fidelity by dynamically scaling attention activations based on cross-attention consistency between timesteps, without additional training.
@@ -11949,8 +11948,8 @@
 * **Authors:** Yuan Gong, Xionghui Wang, Jie Wu, Shiyin Wang, Yitong Wang, Xinglong Wu
 * **arXiv ID:** 2508.21066
 * **One-liner:** Developed OneReward, a unified reinforcement learning framework for multi-task generation using a single reward model.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2508.21066) | [[PDF]](https://arxiv.org/pdf/2508.21066)
+* **Published in:** arxiv (28 Aug 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2508.21066) | [[PDF]](https://arxiv.org/pdf/2508.21066) | [[Code]](https://github.com/bytedance/OneReward)
 
 > **Core Innovation**
 > Enabled consistent performance across diverse tasks by employing a vision-language model as a generative reward model, eliminating task-specific fine-tuning.
@@ -11978,8 +11977,8 @@
 * **Authors:** Ji Xie, Trevor Darrell, Luke Zettlemoyer, XuDong Wang
 * **arXiv ID:** 2509.07295
 * **One-liner:** Introduced RecA, a resource-efficient post-training method for aligning understanding and generation in unified multimodal models.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2509.07295) | [[PDF]](https://arxiv.org/pdf/2509.07295)
+* **Published in:** arxiv (8 Sep 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2509.07295) | [[PDF]](https://arxiv.org/pdf/2509.07295) | [[Code]](https://github.com/HorizonWind2004/reconstruction-alignment)
 
 > **Core Innovation**
 > Improved generation and editing fidelity by conditioning models on their own visual embeddings and optimizing with self-supervised reconstruction loss.
@@ -12007,8 +12006,8 @@
 * **Authors:** Zhaokai Wang, Penghao Yin, Xiangyu Zhao, Changyao Tian, Yu Qiao, Wenhai Wang, Jifeng Dai, Gen Luo
 * **arXiv ID:** 2509.14232
 * **One-liner:** Introduced GenExam, the first benchmark for multidisciplinary text-to-image exams.
-* **Published in:** 
-* **Links:** [[Paper]](https://www.arxiv.org/abs/2509.14232) | [[PDF]](https://www.arxiv.org/pdf/2509.14232)
+* **Published in:** arxiv (17 Sep 2025)
+* **Links:** [[Paper]](https://www.arxiv.org/abs/2509.14232) | [[PDF]](https://www.arxiv.org/pdf/2509.14232) | [[Code]](https://github.com/OpenGVLab/GenExam)
 
 > **Core Innovation**
 > Established a rigorous evaluation framework for image generation models by framing it as an exam with fine-grained scoring.
@@ -12036,8 +12035,8 @@
 * **Authors:** Yanghao Li, Rui Qian, Bowen Pan, Haotian Zhang, Haoshuo Huang, Bowen Zhang, Jialing Tong, Haoxuan You, Xianzhi Du, Zhe Gan, Hyunjik Kim, Chao Jia, Zhenbang Wang, Yinfei Yang, Mingfei Gao, Zi-Yi Dou, Wenze Hu, Chang Gao, Dongxu Li, Philipp Dufter, Zirui Wang, Guoli Yin, Zhengdong Zhang, Chen Chen, Yang Zhao, Ruoming Pang, Zhifeng Chen
 * **arXiv ID:** 2509.16197
 * **One-liner:** Presented Manzano, a unified framework reducing performance trade-off between understanding and generation in multimodal LLMs.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2509.16197) | [[PDF]](https://arxiv.org/pdf/2509.16197)
+* **Published in:** arxiv (19 Sep 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2509.16197) | [[PDF]](https://arxiv.org/pdf/2509.16197) | [[Code]]()
 
 > **Core Innovation**
 > Achieved state-of-the-art results among unified models by coupling a hybrid image tokenizer with a curated training recipe.
@@ -12065,8 +12064,8 @@
 * **Authors:** Xuan Ju, Tianyu Wang, Yuqian Zhou, He Zhang, Qing Liu, Nanxuan Zhao, Zhifei Zhang, Yijun Li, Yuanhao Cai, Shaoteng Liu, Daniil Pakhomov, Zhe Lin, Soo Ye Kim, Qiang Xu
 * **arXiv ID:** 2509.20360
 * **One-liner:** Introduced EditVerse, a unified framework for image and video generation and editing in a single model.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2509.20360) | [[PDF]](https://arxiv.org/pdf/2509.20360)
+* **Published in:** arxiv (24 Sep 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2509.20360) | [[PDF]](https://arxiv.org/pdf/2509.20360) | [[Code]]()
 
 > **Core Innovation**
 > Enabled robust in-context learning and cross-modal knowledge transfer by representing all modalities as unified token sequences.
@@ -12094,8 +12093,8 @@
 * **Authors:** Xinyang Song, Libin Wang, Weining Wang, Shaozhen Liu, Dandan Zheng, Jingdong Chen, Qi Li, Zhenan Sun
 * **arXiv ID:** 2509.23760
 * **One-liner:** Proposed UniAlignment, a unified multimodal generation framework within a single diffusion transformer.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2509.23760) | [[PDF]](https://arxiv.org/pdf/2509.23760)
+* **Published in:** arxiv (28 Sep 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2509.23760) | [[PDF]](https://arxiv.org/pdf/2509.23760) | [[Code]]()
 
 > **Core Innovation**
 > Enhanced cross-modal consistency and instruction-following robustness through dual-stream diffusion training.
@@ -12123,8 +12122,8 @@
 * **Authors:** Yuxin Song, Wenkai Dong, Shizun Wang, Qi Zhang, Song Xue, Tao Yuan, Hu Yang, Haocheng Feng, Hang Zhou, Xinyan Xiao, Jingdong Wang
 * **arXiv ID:** 2509.26641
 * **One-liner:** Introduced Query-Kontext, a novel approach bridging VLM and diffusion models for multimodal generative reasoning.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2509.26641) | [[PDF]](https://arxiv.org/pdf/2509.26641)
+* **Published in:** arxiv (30 Sep 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2509.26641) | [[PDF]](https://arxiv.org/pdf/2509.26641) | [[Code]]()
 
 > **Core Innovation**
 > Delegated generative reasoning to VLM while using diffusion for high-fidelity synthesis, matching or outperforming state-of-the-art methods.
@@ -12152,8 +12151,8 @@
 * **Authors:** Junyang Lin, Rui Men, An Yang, Chang Zhou, Ming Ding, Yichang Zhang, Peng Wang, Ang Wang, Le Jiang, Xianyan Jia, Jie Zhang, Jianwei Zhang, Xu Zou, Zhikang Li, Xiaodong Deng, Jie Liu, Jinbao Xue, Huiling Zhou, Jianxin Ma, Jin Yu, Yong Li, Wei Lin, Jingren Zhou, Jie Tang, Hongxia Yang
 * **arXiv ID:** 2103.00823
 * **One-liner:** Constructed the largest Chinese multimodal pretraining dataset and proposed the M6 model for unified pretraining.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2103.00823) | [[PDF]](https://arxiv.org/pdf/2103.00823)
+* **Published in:** arxiv (1 Mar 2021)
+* **Links:** [[Paper]](https://arxiv.org/abs/2103.00823) | [[PDF]](https://arxiv.org/pdf/2103.00823) | [[Code]]()
 
 > **Core Innovation**
 > Scaled model size up to 100 billion parameters and demonstrated outstanding performance in downstream applications, including text-guided image generation.
@@ -12181,8 +12180,8 @@
 * **Authors:** Jean-Baptiste Alayrac, Jeff Donahue, Pauline Luc, Antoine Miech, Iain Barr, Yana Hasson, Karel Lenc, Arthur Mensch, Katie Millican, Malcolm Reynolds, Roman Ring, Eliza Rutherford, Serkan Cabi, Tengda Han, Zhitao Gong, Sina Samangooei, Marianne Monteiro, Jacob Menick, Sebastian Borgeaud, Andrew Brock, Aida Nematzadeh, Sahand Sharifzadeh, Mikolaj Binkowski, Ricardo Barreira, Oriol Vinyals, Andrew Zisserman, Karen Simonyan
 * **arXiv ID:** 2204.14198
 * **One-liner:** Introduced Flamingo, a family of VLMs with in-context few-shot learning capabilities for multimodal tasks.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2204.14198) | [[PDF]](https://arxiv.org/pdf/2204.14198)
+* **Published in:** arxiv (29 Apr 2022)
+* **Links:** [[Paper]](https://arxiv.org/abs/2204.14198) | [[PDF]](https://arxiv.org/pdf/2204.14198) | [[Code]]()
 
 > **Core Innovation**
 > Achieved state-of-the-art performance on various image and video tasks using few-shot learning without extensive fine-tuning.
@@ -12210,8 +12209,8 @@
 * **Authors:** Lijun Yu, Yong Cheng, Zhiruo Wang, Vivek Kumar, Wolfgang Macherey, Yanping Huang, David A. Ross, Irfan Essa, Yonatan Bisk, Ming-Hsuan Yang, Kevin Murphy, Alexander G. Hauptmann, Lu Jiang
 * **arXiv ID:** 2306.17842
 * **One-liner:** Introduced Semantic Pyramid AutoEncoder (SPAE) for enabling frozen LLMs to perform multimodal understanding and generation.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2306.17842) | [[PDF]](https://arxiv.org/pdf/2306.17842)
+* **Published in:** arxiv (30 Jun 2023)
+* **Links:** [[Paper]](https://arxiv.org/abs/2306.17842) | [[PDF]](https://arxiv.org/pdf/2306.17842) | [[Code]]()
 
 > **Core Innovation**
 > Enabled frozen LLMs to generate images and achieve over 25% improvement in understanding tasks, marking a first in such capabilities.
@@ -12239,8 +12238,8 @@
 * **Authors:** Quan Sun, Qiying Yu, Yufeng Cui, Fan Zhang, Xiaosong Zhang, Yueze Wang, Hongcheng Gao, Jingjing Liu, Tiejun Huang, Xinlong Wang
 * **arXiv ID:** 2307.05222
 * **One-liner:** Presented Emu, a Transformer-based multimodal foundation model for seamless image and text generation in multimodal contexts.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2307.05222) | [[PDF]](https://arxiv.org/pdf/2307.05222)
+* **Published in:** arxiv (11 Jul 2023)
+* **Links:** [[Paper]](https://arxiv.org/abs/2307.05222) | [[PDF]](https://arxiv.org/pdf/2307.05222) | [[Code]](https://github.com/baaivision/Emu)
 
 > **Core Innovation**
 > Achieved superb performance in zero-shot/few-shot tasks across image and video modalities through unified autoregressive training.
@@ -12268,8 +12267,8 @@
 * **Authors:** Shengqiong Wu, Hao Fei, Leigang Qu, Wei Ji, Tat-Seng Chua
 * **arXiv ID:** 2309.05519
 * **One-liner:** Presented NExT-GPT, an end-to-end any-to-any MM-LLM system for input and output in text, images, videos, and audio.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2309.05519) | [[PDF]](https://arxiv.org/pdf/2309.05519)
+* **Published in:** arxiv (11 Sep 2023)
+* **Links:** [[Paper]](https://arxiv.org/abs/2309.05519) | [[PDF]](https://arxiv.org/pdf/2309.05519) | [[Code]](https://github.com/NExT-GPT/NExT-GPT)
 
 > **Core Innovation**
 > Enabled perception and generation in arbitrary multimodal combinations with low-cost training and expansion potential.
@@ -12297,8 +12296,8 @@
 * **Authors:** Yuying Ge, Sijie Zhao, Ziyun Zeng, Yixiao Ge, Chen Li, Xintao Wang, Ying Shan
 * **arXiv ID:** 2310.01218
 * **One-liner:** SEED enables LLMs to perform scalable multimodal autoregression for both comprehension and generation tasks.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2310.01218) | [[PDF]](https://arxiv.org/pdf/2310.01218)
+* **Published in:** arxiv (2 Oct 2023)
+* **Links:** [[Paper]](https://arxiv.org/abs/2310.01218) | [[PDF]](https://arxiv.org/pdf/2310.01218) | [[Code]](https://github.com/AILab-CVC/SEED)
 
 > **Core Innovation**
 > SEED introduces an image tokenizer that allows text and images to be represented and processed interchangeably in a unified autoregressive Transformer.
@@ -12325,8 +12324,8 @@
 * **Authors:** Xichen Pan, Li Dong, Shaohan Huang, Zhiliang Peng, Wenhu Chen, Furu Wei
 * **arXiv ID:** 2310.02992
 * **One-liner:** Kosmos-G achieves zero-shot subject-driven image generation with interleaved multi-image and text input.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2310.02992) | [[PDF]](https://arxiv.org/pdf/2310.02992)
+* **Published in:** arxiv (4 Oct 2023)
+* **Links:** [[Paper]](https://arxiv.org/abs/2310.02992) | [[PDF]](https://arxiv.org/pdf/2310.02992) | [[Code]](https://github.com/xichenpan/Kosmos-G)
 
 > **Core Innovation**
 > Kosmos-G aligns MLLM output with CLIP using textual modality and performs compositional instruction tuning.
@@ -12350,11 +12349,11 @@
 <details>
 <summary><b> Gemini: A Family of Highly Capable Multimodal Models</b></summary>
 
-* **Authors:** Gemini Team Google, Rohan Anil, Sebastian Borgeaud, Jean-Baptiste Alayrac, Jiahui Yu, Radu Soricut, Johan Schalkwyk, Andrew M. Dai, Anja Hauth, Katie Millican, David Silver, Melvin Johnson, Ioannis Antonoglou, Julian Schrittwieser, Amelia Glaese, Jilin Chen, Emily Pitler, Timothy Lillicrap, Angeliki Lazaridou, Orhan Firat, James Molloy, Michael Isard, Paul R. Barham, Tom Hennigan, Benjamin Lee, Fabio Viola, Malcolm Reynolds, Yuanzhong Xu, Ryan Doherty, Eli Collins, Clemens Meyer, Eliza Rutherford, Erica Moreira, Kareem Ayoub, Megha Goel, Jack Krawczyk, Cosmo Du, Ed Chi, Heng-Tze Cheng, Eric Ni, Purvi Shah, Patrick Kane, Betty Chan, Manaal Faruqui, Aliaksei Severyn, Hanzhao Lin, YaGuang Li, Yong Cheng, Abe Ittycheriah, Mahdis Mahdieh, Mia Chen, Pei Sun, Dustin Tran, Sumit Bagri, Balaji Lakshminarayanan, Jeremiah Liu, Andras Orban, Fabian Güra, Hao Zhou, Xinying Song, Aurelien Boffy, Harish Ganapathy, Steven Zheng, HyunJeong Choe, Ágoston Weisz, Tao Zhu, Yifeng Lu, Siddharth Gopal, Jarrod Kahn, Maciej Kula, Jeff Pitman, Rushin Shah, Emanuel Taropa, Majd Al Merey, Martin Baeuml, Zhifeng Chen, Laurent El Shafey, Yujing Zhang, Olcan Sercinoglu, George Tucker, Enrique Piqueras, Maxim Krikun, Iain Barr, Nikolay Savinov, Ivo Danihelka, Becca Roelofs, Anaïs White, Anders Andreassen, Tamara von Glehn, Lakshman Yagati, Mehran Kazemi, Lucas Gonzalez, Misha Khalman, Jakub Sygnowski, Alexandre Frechette, Charlotte Smith, Laura Culp, Lev Proleev, Yi Luan, Xi Chen, James Lottes, Nathan Schucher, Federico Lebron, Alban Rrustemi, Natalie Clay, Phil Crone, Tomas Kocisky, Jeffrey Zhao, Bartek Perz, Dian Yu, Heidi Howard, Adam Bloniarz, Jack W. Rae, Han Lu, Laurent Sifre, Marcello Maggioni, Fred Alcober, Dan Garrette, Megan Barnes, Shantanu Thakoor, Jacob Austin, Gabriel Barth-Maron, William Wong, Rishabh Joshi, Rahma Chaabouni, Deeni Fatiha, Arun Ahuja, Gaurav Singh Tomar, Evan Senter, Martin Chadwick, Ilya Kornakov, Nithya Attaluri, Iñaki Iturrate, Ruibo Liu, Yunxuan Li, Sarah Cogan, Jeremy Chen, Chao Jia, Chenjie Gu, Qiao Zhang, Jordan Grimstad, Ale Jakse Hartman, Xavier Garcia, Thanumalayan Sankaranarayana Pillai, Jacob Devlin, Michael Laskin, Diego de Las Casas, Dasha Valter, Connie Tao, Lorenzo Blanco, Adrià Puigdomènech Badia, David Reitter, Mianna Chen, Jenny Brennan, Clara Rivera, Sergey Brin, Shariq Iqbal, Gabriela Surita, Jane Labanowski, Abhi Rao, Stephanie Winkler, Emilio Parisotto, Yiming Gu, Kate Olszewska, Ravi Addanki, Antoine Miech, Annie Louis, Denis Teplyashin, Geoff Brown, Elliot Catt, Jan Balaguer, Jackie Xiang, Pidong Wang, Zoe Ashwood, Anton Briukhov, Albert Webson, Sanjay Ganapathy, Smit Sanghavi, Ajay Kannan, Ming-Wei Chang, Axel Stjerngren, Josip Djolonga, Yuting Sun, Ankur Bapna, Matthew Aitchison, Pedram Pejman, Henryk Michalewski, Tianhe Yu, Cindy Wang, Juliette Love, Junwhan Ahn, Dawn Bloxwich, Kehang Han, Peter Humphreys, Thibault Sellam, James Bradbury, Varun Godbole, Sina Samangooei, Bogdan Damoc, Alex Kaskasoli, Sébastien M. R. Arnold, Vijay Vasudevan, Shubham Agrawal, Jason Riesa, Dmitry Lepikhin, Richard Tanburn, Srivatsan Srinivasan, Hyeontaek Lim, Sarah Hodkinson, Pranav Shyam, Johan Ferret, Steven Hand, Ankush Garg, Tom Le Paine, Jian Li, Yujia Li, Minh Giang, Alexander Neitz, Zaheer Abbas, Sarah York, Machel Reid, Elizabeth Cole, Aakanksha Chowdhery, Dipanjan Das, Dominika Rogozińska, Vitaliy Nikolaev, Pablo Sprechmann, Zachary Nado, Lukas Zilka, Flavien Prost, Luheng He, Marianne Monteiro, Gaurav Mishra, Chris Welty, Josh Newlan, Dawei Jia, Miltiadis Allamanis, Clara Huiyi Hu, Raoul de Liedekerke, Justin Gilmer, Carl Saroufim, Shruti Rijhwani, Shaobo Hou, Disha Shrivastava, Anirudh Baddepudi, Alex Goldin, Adnan Ozturel, Albin Cassirer, Yunhan Xu, Daniel Sohn, Devendra Sachan, Reinald Kim Amplayo, Craig Swanson, Dessie Petrova, Shashi Narayan, Arthur Guez, Siddhartha Brahma, Jessica Landon, Miteyan Patel, Ruizhe Zhao, Kevin Villela, Luyu Wang, Wenhao Jia, Matthew Rahtz, Mai Giménez, Legg Yeung, James Keeling, Petko Georgiev, Diana Mincu, Boxi Wu, Salem Haykal, Rachel Saputro, Kiran Vodrahalli, James Qin, Zeynep Cankara, Abhanshu Sharma, Nick Fernando, Will Hawkins, Behnam Neyshabur, Solomon Kim, Adrian Hutter, Priyanka Agrawal, Alex Castro-Ros, George van den Driessche, Tao Wang, Fan Yang, Shuo-yiin Chang, Paul Komarek, Ross McIlroy, Mario Lučić, Guodong Zhang, Wael Farhan, Michael Sharman, Paul Natsev, Paul Michel, Yamini Bansal, Siyuan Qiao, Kris Cao, Siamak Shakeri, Christina Butterfield, Justin Chung, Paul Kishan Rubenstein, Shivani Agrawal, Arthur Mensch, Kedar Soparkar, Karel Lenc, Timothy Chung, Aedan Pope, Loren Maggiore, Jackie Kay, Priya Jhakra, Shibo Wang, Joshua Maynez, Mary Phuong, Taylor Tobin, Andrea Tacchetti, Maja Trebacz, Kevin Robinson, Yash Katariya, Sebastian Riedel, Paige Bailey, Kefan Xiao, Nimesh Ghelani, Lora Aroyo, Ambrose Slone, Neil Houlsby, Xuehan Xiong, Zhen Yang, Elena Gribovskaya, Jonas Adler, Mateo Wirth, Lisa Lee, Music Li, Thais Kagohara, Jay Pavagadhi, Sophie Bridgers, Anna Bortsova, Sanjay Ghemawat, Zafarali Ahmed, Tianqi Liu, Richard Powell, Vijay Bolina, Mariko Iinuma, Polina Zablotskaia, James Besley, Da-Woon Chung, Timothy Dozat, Ramona Comanescu, Xiance Si, Jeremy Greer, Guolong Su, Martin Polacek, Raphaël Lopez Kaufman, Simon Tokumine, Hexiang Hu, Elena Buchatskaya, Yingjie Miao, Mohamed Elhawaty, Aditya Siddhant, Nenad Tomasev, Jinwei Xing, Christina Greer, Helen Miller, Shereen Ashraf, Aurko Roy, Zizhao Zhang, Ada Ma, Angelos Filos, Milos Besta, Rory Blevins, Ted Klimenko, Chih-Kuan Yeh, Soravit Changpinyo, Jiaqi Mu, Oscar Chang, Mantas Pajarskas, Carrie Muir, Vered Cohen, Charline Le Lan, Krishna Haridasan, Amit Marathe, Steven Hansen, Sholto Douglas, Rajkumar Samuel, Mingqiu Wang, Sophia Austin, Chang Lan, Jiepu Jiang, Justin Chiu, Jaime Alonso Lorenzo, Lars Lowe Sjösund, Sébastien Cevey, Zach Gleicher, Thi Avrahami, Anudhyan Boral, Hansa Srinivasan, Vittorio Selo, Rhys May, Konstantinos Aisopos, Léonard Hussenot, Livio Baldini Soares, Kate Baumli, Michael B. Chang, Adrià Recasens, Ben Caine, Alexander Pritzel, Filip Pavetic, Fabio Pardo, Anita Gergely, Justin Frye, Vinay Ramasesh, Dan Horgan, Kartikeya Badola, Nora Kassner, Subhrajit Roy, Ethan Dyer, Víctor Campos Campos, Alex Tomala, Yunhao Tang, Dalia El Badawy, Elspeth White, Basil Mustafa, Oran Lang, Abhishek Jindal, Sharad Vikram, Zhitao Gong, Sergi Caelles, Ross Hemsley, Gregory Thornton, Fangxiaoyu Feng, Wojciech Stokowiec, Ce Zheng, Phoebe Thacker, Çağlar Ünlü, Zhishuai Zhang, Mohammad Saleh, James Svensson, Max Bileschi, Piyush Patil, Ankesh Anand, Roman Ring, Katerina Tsihlas, Arpi Vezer, Marco Selvi, Toby Shevlane, Mikel Rodriguez, Tom Kwiatkowski, Samira Daruki, Keran Rong, Allan Dafoe, Nicholas FitzGerald, Keren Gu-Lemberg, Mina Khan, Lisa Anne Hendricks, Marie Pellat, Vladimir Feinberg, James Cobon-Kerr, Tara Sainath, Maribeth Rauh, Sayed Hadi Hashemi, Richard Ives, Yana Hasson, Eric Noland, Yuan Cao, Nathan Byrd, Le Hou, Qingze Wang, Thibault Sottiaux, Michela Paganini, Jean-Baptiste Lespiau, Alexandre Moufarek, Samer Hassan, Kaushik Shivakumar, Joost van Amersfoort, Amol Mandhane, Pratik Joshi, Anirudh Goyal, Matthew Tung, Andrew Brock, Hannah Sheahan, Vedant Misra, Cheng Li, Nemanja Rakićević, Mostafa Dehghani, Fangyu Liu, Sid Mittal, Junhyuk Oh, Seb Noury, Eren Sezener, Fantine Huot, Matthew Lamm, Nicola De Cao, Charlie Chen, Sidharth Mudgal, Romina Stella, Kevin Brooks, Gautam Vasudevan, Chenxi Liu, Mainak Chain, Nivedita Melinkeri, Aaron Cohen, Venus Wang, Kristie Seymore, Sergey Zubkov, Rahul Goel, Summer Yue, Sai Krishnakumaran, Brian Albert, Nate Hurley, Motoki Sano, Anhad Mohananey, Jonah Joughin, Egor Filonov, Tomasz Kępa, Yomna Eldawy, Jiawern Lim, Rahul Rishi, Shirin Badiezadegan, Taylor Bos, Jerry Chang, Sanil Jain, Sri Gayatri Sundara Padmanabhan, Subha Puttagunta, Kalpesh Krishna, Leslie Baker, Norbert Kalb, Vamsi Bedapudi, Adam Kurzrok, Shuntong Lei, Anthony Yu, Oren Litvin, Xiang Zhou, Zhichun Wu, Sam Sobell, Andrea Siciliano, Alan Papir, Robby Neale, Jonas Bragagnolo, Tej Toor, Tina Chen, Valentin Anklin, Feiran Wang, Richie Feng, Milad Gholami, Kevin Ling, Lijuan Liu, Jules Walter, Hamid Moghaddam, Arun Kishore, Jakub Adamek, Tyler Mercado, Jonathan Mallinson, Siddhinita Wandekar, Stephen Cagle, Eran Ofek, Guillermo Garrido, Clemens Lombriser, Maksim Mukha, Botu Sun, Hafeezul Rahman Mohammad, Josip Matak, Yadi Qian, Vikas Peswani, Pawel Janus, Quan Yuan, Leif Schelin, Oana David, Ankur Garg, Yifan He, Oleksii Duzhyi, Anton Älgmyr, Timothée Lottaz, Qi Li, Vikas Yadav, Luyao Xu, Alex Chinien, Rakesh Shivanna, Aleksandr Chuklin, Josie Li, Carrie Spadine, Travis Wolfe, Kareem Mohamed, Subhabrata Das, Zihang Dai, Kyle He, Daniel von Dincklage, Shyam Upadhyay, Akanksha Maurya, Luyan Chi, Sebastian Krause, Khalid Salama, Pam G Rabinovitch, Pavan Kumar Reddy M, Aarush Selvan, Mikhail Dektiarev, Golnaz Ghiasi, Erdem Guven, Himanshu Gupta, Boyi Liu, Deepak Sharma, Idan Heimlich Shtacher, Shachi Paul, Oscar Akerlund, François-Xavier Aubet, Terry Huang, Chen Zhu, Eric Zhu, Elico Teixeira, Matthew Fritze, Francesco Bertolini, Liana-Eleonora Marinescu, Martin Bölle, Dominik Paulus, Khyatti Gupta, Tejasi Latkar, Max Chang, Jason Sanders, Roopa Wilson, Xuewei Wu, Yi-Xuan Tan, Lam Nguyen Thiet, Tulsee Doshi, Sid Lall, Swaroop Mishra, Wanming Chen, Thang Luong, Seth Benjamin, Jasmine Lee, Ewa Andrejczuk, Dominik Rabiej, Vipul Ranjan, Krzysztof Styrc, Pengcheng Yin, Jon Simon, Malcolm Rose Harriott, Mudit Bansal, Alexei Robsky, Geoff Bacon, David Greene, Daniil Mirylenka, Chen Zhou, Obaid Sarvana, Abhimanyu Goyal, Samuel Andermatt, Patrick Siegler, Ben Horn, Assaf Israel, Francesco Pongetti, Chih-Wei &#34;Louis&#34; Chen, Marco Selvatici, Pedro Silva, Kathie Wang, Jackson Tolins, Kelvin Guu, Roey Yogev, Xiaochen Cai, Alessandro Agostini, Maulik Shah, Hung Nguyen, Noah Ó Donnaile, Sébastien Pereira, Linda Friso, Adam Stambler, Adam Kurzrok, Chenkai Kuang, Yan Romanikhin, Mark Geller, ZJ Yan, Kane Jang, Cheng-Chun Lee, Wojciech Fica, Eric Malmi, Qijun Tan, Dan Banica, Daniel Balle, Ryan Pham, Yanping Huang, Diana Avram, Hongzhi Shi, Jasjot Singh, Chris Hidey, Niharika Ahuja, Pranab Saxena, Dan Dooley, Srividya Pranavi Potharaju, Eileen O&#39;Neill, Anand Gokulchandran, Ryan Foley, Kai Zhao, Mike Dusenberry, Yuan Liu, Pulkit Mehta, Ragha Kotikalapudi, Chalence Safranek-Shrader, Andrew Goodman, Joshua Kessinger, Eran Globen, Prateek Kolhar, Chris Gorgolewski, Ali Ibrahim, Yang Song, Ali Eichenbaum, Thomas Brovelli, Sahitya Potluri, Preethi Lahoti, Cip Baetu, Ali Ghorbani, Charles Chen, Andy Crawford, Shalini Pal, Mukund Sridhar, Petru Gurita, Asier Mujika, Igor Petrovski, Pierre-Louis Cedoz, Chenmei Li, Shiyuan Chen, Niccolò Dal Santo, Siddharth Goyal, Jitesh Punjabi, Karthik Kappaganthu, Chester Kwak, Pallavi LV, Sarmishta Velury, Himadri Choudhury, Jamie Hall, Premal Shah, Ricardo Figueira, Matt Thomas, Minjie Lu, Ting Zhou, Chintu Kumar, Thomas Jurdi, Sharat Chikkerur, Yenai Ma, Adams Yu, Soo Kwak, Victor Ähdel, Sujeevan Rajayogam, Travis Choma, Fei Liu, Aditya Barua, Colin Ji, Ji Ho Park, Vincent Hellendoorn, Alex Bailey, Taylan Bilal, Huanjie Zhou, Mehrdad Khatir, Charles Sutton, Wojciech Rzadkowski, Fiona Macintosh, Roopali Vij, Konstantin Shagin, Paul Medina, Chen Liang, Jinjing Zhou, Pararth Shah, Yingying Bi, Attila Dankovics, Shipra Banga, Sabine Lehmann, Marissa Bredesen, Zifan Lin, John Eric Hoffmann, Jonathan Lai, Raynald Chung, Kai Yang, Nihal Balani, Arthur Bražinskas, Andrei Sozanschi, Matthew Hayes, Héctor Fernández Alcalde, Peter Makarov, Will Chen, Antonio Stella, Liselotte Snijders, Michael Mandl, Ante Kärrman, Paweł Nowak, Xinyi Wu, Alex Dyck, Krishnan Vaidyanathan, Raghavender R, Jessica Mallet, Mitch Rudominer, Eric Johnston, Sushil Mittal, Akhil Udathu, Janara Christensen, Vishal Verma, Zach Irving, Andreas Santucci, Gamaleldin Elsayed, Elnaz Davoodi, Marin Georgiev, Ian Tenney, Nan Hua, Geoffrey Cideron, Edouard Leurent, Mahmoud Alnahlawi, Ionut Georgescu, Nan Wei, Ivy Zheng, Dylan Scandinaro, Heinrich Jiang, Jasper Snoek, Mukund Sundararajan, Xuezhi Wang, Zack Ontiveros, Itay Karo, Jeremy Cole, Vinu Rajashekhar, Lara Tumeh, Eyal Ben-David, Rishub Jain, Jonathan Uesato, Romina Datta, Oskar Bunyan, Shimu Wu, John Zhang, Piotr Stanczyk, Ye Zhang, David Steiner, Subhajit Naskar, Michael Azzam, Matthew Johnson, Adam Paszke, Chung-Cheng Chiu, Jaume Sanchez Elias, Afroz Mohiuddin, Faizan Muhammad, Jin Miao, Andrew Lee, Nino Vieillard, Jane Park, Jiageng Zhang, Jeff Stanway, Drew Garmon, Abhijit Karmarkar, Zhe Dong, Jong Lee, Aviral Kumar, Luowei Zhou, Jonathan Evens, William Isaac, Geoffrey Irving, Edward Loper, Michael Fink, Isha Arkatkar, Nanxin Chen, Izhak Shafran, Ivan Petrychenko, Zhe Chen, Johnson Jia, Anselm Levskaya, Zhenkai Zhu, Peter Grabowski, Yu Mao, Alberto Magni, Kaisheng Yao, Javier Snaider, Norman Casagrande, Evan Palmer, Paul Suganthan, Alfonso Castaño, Irene Giannoumis, Wooyeol Kim, Mikołaj Rybiński, Ashwin Sreevatsa, Jennifer Prendki, David Soergel, Adrian Goedeckemeyer, Willi Gierke, Mohsen Jafari, Meenu Gaba, Jeremy Wiesner, Diana Gage Wright, Yawen Wei, Harsha Vashisht, Yana Kulizhskaya, Jay Hoover, Maigo Le, Lu Li, Chimezie Iwuanyanwu, Lu Liu, Kevin Ramirez, Andrey Khorlin, Albert Cui, Tian LIN, Marcus Wu, Ricardo Aguilar, Keith Pallo, Abhishek Chakladar, Ginger Perng, Elena Allica Abellan, Mingyang Zhang, Ishita Dasgupta, Nate Kushman, Ivo Penchev, Alena Repina, Xihui Wu, Tom van der Weide, Priya Ponnapalli, Caroline Kaplan, Jiri Simsa, Shuangfeng Li, Olivier Dousse, Fan Yang, Jeff Piper, Nathan Ie, Rama Pasumarthi, Nathan Lintz, Anitha Vijayakumar, Daniel Andor, Pedro Valenzuela, Minnie Lui, Cosmin Paduraru, Daiyi Peng, Katherine Lee, Shuyuan Zhang, Somer Greene, Duc Dung Nguyen, Paula Kurylowicz, Cassidy Hardin, Lucas Dixon, Lili Janzer, Kiam Choo, Ziqiang Feng, Biao Zhang, Achintya Singhal, Dayou Du, Dan McKinnon, Natasha Antropova, Tolga Bolukbasi, Orgad Keller, David Reid, Daniel Finchelstein, Maria Abi Raad, Remi Crocker, Peter Hawkins, Robert Dadashi, Colin Gaffney, Ken Franko, Anna Bulanova, Rémi Leblond, Shirley Chung, Harry Askham, Luis C. Cobo, Kelvin Xu, Felix Fischer, Jun Xu, Christina Sorokin, Chris Alberti, Chu-Cheng Lin, Colin Evans, Alek Dimitriev, Hannah Forbes, Dylan Banarse, Zora Tung, Mark Omernick, Colton Bishop, Rachel Sterneck, Rohan Jain, Jiawei Xia, Ehsan Amid, Francesco Piccinno, Xingyu Wang, Praseem Banzal, Daniel J. Mankowitz, Alex Polozov, Victoria Krakovna, Sasha Brown, MohammadHossein Bateni, Dennis Duan, Vlad Firoiu, Meghana Thotakuri, Tom Natan, Matthieu Geist, Ser tan Girgin, Hui Li, Jiayu Ye, Ofir Roval, Reiko Tojo, Michael Kwong, James Lee-Thorp, Christopher Yew, Danila Sinopalnikov, Sabela Ramos, John Mellor, Abhishek Sharma, Kathy Wu, David Miller, Nicolas Sonnerat, Denis Vnukov, Rory Greig, Jennifer Beattie, Emily Caveness, Libin Bai, Julian Eisenschlos, Alex Korchemniy, Tomy Tsai, Mimi Jasarevic, Weize Kong, Phuong Dao, Zeyu Zheng, Frederick Liu, Fan Yang, Rui Zhu, Tian Huey Teh, Jason Sanmiya, Evgeny Gladchenko, Nejc Trdin, Daniel Toyama, Evan Rosen, Sasan Tavakkol, Linting Xue, Chen Elkind, Oliver Woodman, John Carpenter, George Papamakarios, Rupert Kemp, Sushant Kafle, Tanya Grunina, Rishika Sinha, Alice Talbert, Diane Wu, Denese Owusu-Afriyie, Cosmo Du, Chloe Thornton, Jordi Pont-Tuset, Pradyumna Narayana, Jing Li, Saaber Fatehi, John Wieting, Omar Ajmeri, Benigno Uria, Yeongil Ko, Laura Knight, Amélie Héliou, Ning Niu, Shane Gu, Chenxi Pang, Yeqing Li, Nir Levine, Ariel Stolovich, Rebeca Santamaria-Fernandez, Sonam Goenka, Wenny Yustalim, Robin Strudel, Ali Elqursh, Charlie Deck, Hyo Lee, Zonglin Li, Kyle Levin, Raphael Hoffmann, Dan Holtmann-Rice, Olivier Bachem, Sho Arora, Christy Koh, Soheil Hassas Yeganeh, Siim Põder, Mukarram Tariq, Yanhua Sun, Lucian Ionita, Mojtaba Seyedhosseini, Pouya Tafti, Zhiyu Liu, Anmol Gulati, Jasmine Liu, Xinyu Ye, Bart Chrzaszcz, Lily Wang, Nikhil Sethi, Tianrun Li, Ben Brown, Shreya Singh, Wei Fan, Aaron Parisi, Joe Stanton, Vinod Koverkathu, Christopher A. Choquette-Choo, Yunjie Li, TJ Lu, Abe Ittycheriah, Prakash Shroff, Mani Varadarajan, Sanaz Bahargam, Rob Willoughby, David Gaddy, Guillaume Desjardins, Marco Cornero, Brona Robenek, Bhavishya Mittal, Ben Albrecht, Ashish Shenoy, Fedor Moiseev, Henrik Jacobsson, Alireza Ghaffarkhah, Morgane Rivière, Alanna Walton, Clément Crepy, Alicia Parrish, Zongwei Zhou, Clement Farabet, Carey Radebaugh, Praveen Srinivasan, Claudia van der Salm, Andreas Fidjeland, Salvatore Scellato, Eri Latorre-Chimoto, Hanna Klimczak-Plucińska, David Bridson, Dario de Cesare, Tom Hudson, Piermaria Mendolicchio, Lexi Walker, Alex Morris, Matthew Mauger, Alexey Guseynov, Alison Reid, Seth Odoom, Lucia Loher, Victor Cotruta, Madhavi Yenugula, Dominik Grewe, Anastasia Petrushkina, Tom Duerig, Antonio Sanchez, Steve Yadlowsky, Amy Shen, Amir Globerson, Lynette Webb, Sahil Dua, Dong Li, Surya Bhupatiraju, Dan Hurt, Haroon Qureshi, Ananth Agarwal, Tomer Shani, Matan Eyal, Anuj Khare, Shreyas Rammohan Belle, Lei Wang, Chetan Tekur, Mihir Sanjay Kale, Jinliang Wei, Ruoxin Sang, Brennan Saeta, Tyler Liechty, Yi Sun, Yao Zhao, Stephan Lee, Pandu Nayak, Doug Fritz, Manish Reddy Vuyyuru, John Aslanides, Nidhi Vyas, Martin Wicke, Xiao Ma, Evgenii Eltyshev, Nina Martin, Hardie Cate, James Manyika, Keyvan Amiri, Yelin Kim, Xi Xiong, Kai Kang, Florian Luisier, Nilesh Tripuraneni, David Madras, Mandy Guo, Austin Waters, Oliver Wang, Joshua Ainslie, Jason Baldridge, Han Zhang, Garima Pruthi, Jakob Bauer, Feng Yang, Riham Mansour, Jason Gelman, Yang Xu, George Polovets, Ji Liu, Honglong Cai, Warren Chen, XiangHai Sheng, Emily Xue, Sherjil Ozair, Christof Angermueller, Xiaowei Li, Anoop Sinha, Weiren Wang, Julia Wiesinger, Emmanouil Koukoumidis, Yuan Tian, Anand Iyer, Madhu Gurumurthy, Mark Goldenson, Parashar Shah, MK Blake, Hongkun Yu, Anthony Urbanowicz, Jennimaria Palomaki, Chrisantha Fernando, Ken Durden, Harsh Mehta, Nikola Momchev, Elahe Rahimtoroghi, Maria Georgaki, Amit Raul, Sebastian Ruder, Morgan Redshaw, Jinhyuk Lee, Denny Zhou, Komal Jalan, Dinghua Li, Blake Hechtman, Parker Schuh, Milad Nasr, Kieran Milan, Vladimir Mikulik, Juliana Franco, Tim Green, Nam Nguyen, Joe Kelley, Aroma Mahendru, Andrea Hu, Joshua Howland, Ben Vargas, Jeffrey Hui, Kshitij Bansal, Vikram Rao, Rakesh Ghiya, Emma Wang, Ke Ye, Jean Michel Sarr, Melanie Moranski Preston, Madeleine Elish, Steve Li, Aakash Kaku, Jigar Gupta, Ice Pasupat, Da-Cheng Juan, Milan Someswar, Tejvi M., Xinyun Chen, Aida Amini, Alex Fabrikant, Eric Chu, Xuanyi Dong, Amruta Muthal, Senaka Buthpitiya, Sarthak Jauhari, Nan Hua, Urvashi Khandelwal, Ayal Hitron, Jie Ren, Larissa Rinaldi, Shahar Drath, Avigail Dabush, Nan-Jiang Jiang, Harshal Godhia, Uli Sachs, Anthony Chen, Yicheng Fan, Hagai Taitelbaum, Hila Noga, Zhuyun Dai, James Wang, Chen Liang, Jenny Hamer, Chun-Sung Ferng, Chenel Elkind, Aviel Atias, Paulina Lee, Vít Listík, Mathias Carlen, Jan van de Kerkhof, Marcin Pikus, Krunoslav Zaher, Paul Müller, Sasha Zykova, Richard Stefanec, Vitaly Gatsko, Christoph Hirnschall, Ashwin Sethi, Xingyu Federico Xu, Chetan Ahuja, Beth Tsai, Anca Stefanoiu, Bo Feng, Keshav Dhandhania, Manish Katyal, Akshay Gupta, Atharva Parulekar, Divya Pitta, Jing Zhao, Vivaan Bhatia, Yashodha Bhavnani, Omar Alhadlaq, Xiaolin Li, Peter Danenberg, Dennis Tu, Alex Pine, Vera Filippova, Abhipso Ghosh, Ben Limonchik, Bhargava Urala, Chaitanya Krishna Lanka, Derik Clive, Yi Sun, Edward Li, Hao Wu, Kevin Hongtongsak, Ianna Li, Kalind Thakkar, Kuanysh Omarov, Kushal Majmundar, Michael Alverson, Michael Kucharski, Mohak Patel, Mudit Jain, Maksim Zabelin, Paolo Pelagatti, Rohan Kohli, Saurabh Kumar, Joseph Kim, Swetha Sankar, Vineet Shah, Lakshmi Ramachandruni, Xiangkai Zeng, Ben Bariach, Laura Weidinger, Tu Vu, Alek Andreev, Antoine He, Kevin Hui, Sheleem Kashem, Amar Subramanya, Sissie Hsiao, Demis Hassabis, Koray Kavukcuoglu, Adam Sadovsky, Quoc Le, Trevor Strohman, Yonghui Wu, Slav Petrov, Jeffrey Dean, Oriol Vinyals
+* **Authors:** Gemini Team Google, Rohan Anil, Sebastian Borgeaud, Jean-Baptiste Alayrac, Jiahui Yu, Radu Soricut, Johan Schalkwyk, Andrew M. Dai, Anja Hauth, Katie Millican, David Silver, Melvin Johnson, Ioannis Antonoglou, Julian Schrittwieser, Amelia Glaese, Jilin Chen, Emily Pitler, Timothy Lillicrap, Angeliki Lazaridou, Orhan Firat, James Molloy, Michael Isard, Paul R. Barham, Tom Hennigan, Benjamin Lee, Fabio Viola, Malcolm Reynolds, Yuanzhong Xu, Ryan Doherty, Eli Collins, Clemens Meyer, Eliza Rutherford, Erica Moreira, Kareem Ayoub, Megha Goel, Jack Krawczyk, Cosmo Du, Ed Chi, Heng-Tze Cheng, Eric Ni, Purvi Shah, Patrick Kane, Betty Chan, Manaal Faruqui, Aliaksei Severyn, Hanzhao Lin, YaGuang Li, Yong Cheng, Abe Ittycheriah, Mahdis Mahdieh, Mia Chen, Pei Sun, Dustin Tran, Sumit Bagri, Balaji Lakshminarayanan, Jeremiah Liu, Andras Orban, Fabian G眉ra, Hao Zhou, Xinying Song, Aurelien Boffy, Harish Ganapathy, Steven Zheng, HyunJeong Choe, 脕goston Weisz, Tao Zhu, Yifeng Lu, Siddharth Gopal, Jarrod Kahn, Maciej Kula, Jeff Pitman, Rushin Shah, Emanuel Taropa, Majd Al Merey, Martin Baeuml, Zhifeng Chen, Laurent El Shafey, Yujing Zhang, Olcan Sercinoglu, George Tucker, Enrique Piqueras, Maxim Krikun, Iain Barr, Nikolay Savinov, Ivo Danihelka, Becca Roelofs, Ana茂s White, Anders Andreassen, Tamara von Glehn, Lakshman Yagati, Mehran Kazemi, Lucas Gonzalez, Misha Khalman, Jakub Sygnowski, Alexandre Frechette, Charlotte Smith, Laura Culp, Lev Proleev, Yi Luan, Xi Chen, James Lottes, Nathan Schucher, Federico Lebron, Alban Rrustemi, Natalie Clay, Phil Crone, Tomas Kocisky, Jeffrey Zhao, Bartek Perz, Dian Yu, Heidi Howard, Adam Bloniarz, Jack W. Rae, Han Lu, Laurent Sifre, Marcello Maggioni, Fred Alcober, Dan Garrette, Megan Barnes, Shantanu Thakoor, Jacob Austin, Gabriel Barth-Maron, William Wong, Rishabh Joshi, Rahma Chaabouni, Deeni Fatiha, Arun Ahuja, Gaurav Singh Tomar, Evan Senter, Martin Chadwick, Ilya Kornakov, Nithya Attaluri, I帽aki Iturrate, Ruibo Liu, Yunxuan Li, Sarah Cogan, Jeremy Chen, Chao Jia, Chenjie Gu, Qiao Zhang, Jordan Grimstad, Ale Jakse Hartman, Xavier Garcia, Thanumalayan Sankaranarayana Pillai, Jacob Devlin, Michael Laskin, Diego de Las Casas, Dasha Valter, Connie Tao, Lorenzo Blanco, Adri脿 Puigdom猫nech Badia, David Reitter, Mianna Chen, Jenny Brennan, Clara Rivera, Sergey Brin, Shariq Iqbal, Gabriela Surita, Jane Labanowski, Abhi Rao, Stephanie Winkler, Emilio Parisotto, Yiming Gu, Kate Olszewska, Ravi Addanki, Antoine Miech, Annie Louis, Denis Teplyashin, Geoff Brown, Elliot Catt, Jan Balaguer, Jackie Xiang, Pidong Wang, Zoe Ashwood, Anton Briukhov, Albert Webson, Sanjay Ganapathy, Smit Sanghavi, Ajay Kannan, Ming-Wei Chang, Axel Stjerngren, Josip Djolonga, Yuting Sun, Ankur Bapna, Matthew Aitchison, Pedram Pejman, Henryk Michalewski, Tianhe Yu, Cindy Wang, Juliette Love, Junwhan Ahn, Dawn Bloxwich, Kehang Han, Peter Humphreys, Thibault Sellam, James Bradbury, Varun Godbole, Sina Samangooei, Bogdan Damoc, Alex Kaskasoli, S茅bastien M. R. Arnold, Vijay Vasudevan, Shubham Agrawal, Jason Riesa, Dmitry Lepikhin, Richard Tanburn, Srivatsan Srinivasan, Hyeontaek Lim, Sarah Hodkinson, Pranav Shyam, Johan Ferret, Steven Hand, Ankush Garg, Tom Le Paine, Jian Li, Yujia Li, Minh Giang, Alexander Neitz, Zaheer Abbas, Sarah York, Machel Reid, Elizabeth Cole, Aakanksha Chowdhery, Dipanjan Das, Dominika Rogozi艅ska, Vitaliy Nikolaev, Pablo Sprechmann, Zachary Nado, Lukas Zilka, Flavien Prost, Luheng He, Marianne Monteiro, Gaurav Mishra, Chris Welty, Josh Newlan, Dawei Jia, Miltiadis Allamanis, Clara Huiyi Hu, Raoul de Liedekerke, Justin Gilmer, Carl Saroufim, Shruti Rijhwani, Shaobo Hou, Disha Shrivastava, Anirudh Baddepudi, Alex Goldin, Adnan Ozturel, Albin Cassirer, Yunhan Xu, Daniel Sohn, Devendra Sachan, Reinald Kim Amplayo, Craig Swanson, Dessie Petrova, Shashi Narayan, Arthur Guez, Siddhartha Brahma, Jessica Landon, Miteyan Patel, Ruizhe Zhao, Kevin Villela, Luyu Wang, Wenhao Jia, Matthew Rahtz, Mai Gim茅nez, Legg Yeung, James Keeling, Petko Georgiev, Diana Mincu, Boxi Wu, Salem Haykal, Rachel Saputro, Kiran Vodrahalli, James Qin, Zeynep Cankara, Abhanshu Sharma, Nick Fernando, Will Hawkins, Behnam Neyshabur, Solomon Kim, Adrian Hutter, Priyanka Agrawal, Alex Castro-Ros, George van den Driessche, Tao Wang, Fan Yang, Shuo-yiin Chang, Paul Komarek, Ross McIlroy, Mario Lu膷i膰, Guodong Zhang, Wael Farhan, Michael Sharman, Paul Natsev, Paul Michel, Yamini Bansal, Siyuan Qiao, Kris Cao, Siamak Shakeri, Christina Butterfield, Justin Chung, Paul Kishan Rubenstein, Shivani Agrawal, Arthur Mensch, Kedar Soparkar, Karel Lenc, Timothy Chung, Aedan Pope, Loren Maggiore, Jackie Kay, Priya Jhakra, Shibo Wang, Joshua Maynez, Mary Phuong, Taylor Tobin, Andrea Tacchetti, Maja Trebacz, Kevin Robinson, Yash Katariya, Sebastian Riedel, Paige Bailey, Kefan Xiao, Nimesh Ghelani, Lora Aroyo, Ambrose Slone, Neil Houlsby, Xuehan Xiong, Zhen Yang, Elena Gribovskaya, Jonas Adler, Mateo Wirth, Lisa Lee, Music Li, Thais Kagohara, Jay Pavagadhi, Sophie Bridgers, Anna Bortsova, Sanjay Ghemawat, Zafarali Ahmed, Tianqi Liu, Richard Powell, Vijay Bolina, Mariko Iinuma, Polina Zablotskaia, James Besley, Da-Woon Chung, Timothy Dozat, Ramona Comanescu, Xiance Si, Jeremy Greer, Guolong Su, Martin Polacek, Rapha毛l Lopez Kaufman, Simon Tokumine, Hexiang Hu, Elena Buchatskaya, Yingjie Miao, Mohamed Elhawaty, Aditya Siddhant, Nenad Tomasev, Jinwei Xing, Christina Greer, Helen Miller, Shereen Ashraf, Aurko Roy, Zizhao Zhang, Ada Ma, Angelos Filos, Milos Besta, Rory Blevins, Ted Klimenko, Chih-Kuan Yeh, Soravit Changpinyo, Jiaqi Mu, Oscar Chang, Mantas Pajarskas, Carrie Muir, Vered Cohen, Charline Le Lan, Krishna Haridasan, Amit Marathe, Steven Hansen, Sholto Douglas, Rajkumar Samuel, Mingqiu Wang, Sophia Austin, Chang Lan, Jiepu Jiang, Justin Chiu, Jaime Alonso Lorenzo, Lars Lowe Sj枚sund, S茅bastien Cevey, Zach Gleicher, Thi Avrahami, Anudhyan Boral, Hansa Srinivasan, Vittorio Selo, Rhys May, Konstantinos Aisopos, L茅onard Hussenot, Livio Baldini Soares, Kate Baumli, Michael B. Chang, Adri脿 Recasens, Ben Caine, Alexander Pritzel, Filip Pavetic, Fabio Pardo, Anita Gergely, Justin Frye, Vinay Ramasesh, Dan Horgan, Kartikeya Badola, Nora Kassner, Subhrajit Roy, Ethan Dyer, V铆ctor Campos Campos, Alex Tomala, Yunhao Tang, Dalia El Badawy, Elspeth White, Basil Mustafa, Oran Lang, Abhishek Jindal, Sharad Vikram, Zhitao Gong, Sergi Caelles, Ross Hemsley, Gregory Thornton, Fangxiaoyu Feng, Wojciech Stokowiec, Ce Zheng, Phoebe Thacker, 脟a臒lar 脺nl眉, Zhishuai Zhang, Mohammad Saleh, James Svensson, Max Bileschi, Piyush Patil, Ankesh Anand, Roman Ring, Katerina Tsihlas, Arpi Vezer, Marco Selvi, Toby Shevlane, Mikel Rodriguez, Tom Kwiatkowski, Samira Daruki, Keran Rong, Allan Dafoe, Nicholas FitzGerald, Keren Gu-Lemberg, Mina Khan, Lisa Anne Hendricks, Marie Pellat, Vladimir Feinberg, James Cobon-Kerr, Tara Sainath, Maribeth Rauh, Sayed Hadi Hashemi, Richard Ives, Yana Hasson, Eric Noland, Yuan Cao, Nathan Byrd, Le Hou, Qingze Wang, Thibault Sottiaux, Michela Paganini, Jean-Baptiste Lespiau, Alexandre Moufarek, Samer Hassan, Kaushik Shivakumar, Joost van Amersfoort, Amol Mandhane, Pratik Joshi, Anirudh Goyal, Matthew Tung, Andrew Brock, Hannah Sheahan, Vedant Misra, Cheng Li, Nemanja Raki膰evi膰, Mostafa Dehghani, Fangyu Liu, Sid Mittal, Junhyuk Oh, Seb Noury, Eren Sezener, Fantine Huot, Matthew Lamm, Nicola De Cao, Charlie Chen, Sidharth Mudgal, Romina Stella, Kevin Brooks, Gautam Vasudevan, Chenxi Liu, Mainak Chain, Nivedita Melinkeri, Aaron Cohen, Venus Wang, Kristie Seymore, Sergey Zubkov, Rahul Goel, Summer Yue, Sai Krishnakumaran, Brian Albert, Nate Hurley, Motoki Sano, Anhad Mohananey, Jonah Joughin, Egor Filonov, Tomasz K臋pa, Yomna Eldawy, Jiawern Lim, Rahul Rishi, Shirin Badiezadegan, Taylor Bos, Jerry Chang, Sanil Jain, Sri Gayatri Sundara Padmanabhan, Subha Puttagunta, Kalpesh Krishna, Leslie Baker, Norbert Kalb, Vamsi Bedapudi, Adam Kurzrok, Shuntong Lei, Anthony Yu, Oren Litvin, Xiang Zhou, Zhichun Wu, Sam Sobell, Andrea Siciliano, Alan Papir, Robby Neale, Jonas Bragagnolo, Tej Toor, Tina Chen, Valentin Anklin, Feiran Wang, Richie Feng, Milad Gholami, Kevin Ling, Lijuan Liu, Jules Walter, Hamid Moghaddam, Arun Kishore, Jakub Adamek, Tyler Mercado, Jonathan Mallinson, Siddhinita Wandekar, Stephen Cagle, Eran Ofek, Guillermo Garrido, Clemens Lombriser, Maksim Mukha, Botu Sun, Hafeezul Rahman Mohammad, Josip Matak, Yadi Qian, Vikas Peswani, Pawel Janus, Quan Yuan, Leif Schelin, Oana David, Ankur Garg, Yifan He, Oleksii Duzhyi, Anton 脛lgmyr, Timoth茅e Lottaz, Qi Li, Vikas Yadav, Luyao Xu, Alex Chinien, Rakesh Shivanna, Aleksandr Chuklin, Josie Li, Carrie Spadine, Travis Wolfe, Kareem Mohamed, Subhabrata Das, Zihang Dai, Kyle He, Daniel von Dincklage, Shyam Upadhyay, Akanksha Maurya, Luyan Chi, Sebastian Krause, Khalid Salama, Pam G Rabinovitch, Pavan Kumar Reddy M, Aarush Selvan, Mikhail Dektiarev, Golnaz Ghiasi, Erdem Guven, Himanshu Gupta, Boyi Liu, Deepak Sharma, Idan Heimlich Shtacher, Shachi Paul, Oscar Akerlund, Fran莽ois-Xavier Aubet, Terry Huang, Chen Zhu, Eric Zhu, Elico Teixeira, Matthew Fritze, Francesco Bertolini, Liana-Eleonora Marinescu, Martin B枚lle, Dominik Paulus, Khyatti Gupta, Tejasi Latkar, Max Chang, Jason Sanders, Roopa Wilson, Xuewei Wu, Yi-Xuan Tan, Lam Nguyen Thiet, Tulsee Doshi, Sid Lall, Swaroop Mishra, Wanming Chen, Thang Luong, Seth Benjamin, Jasmine Lee, Ewa Andrejczuk, Dominik Rabiej, Vipul Ranjan, Krzysztof Styrc, Pengcheng Yin, Jon Simon, Malcolm Rose Harriott, Mudit Bansal, Alexei Robsky, Geoff Bacon, David Greene, Daniil Mirylenka, Chen Zhou, Obaid Sarvana, Abhimanyu Goyal, Samuel Andermatt, Patrick Siegler, Ben Horn, Assaf Israel, Francesco Pongetti, Chih-Wei &#34;Louis&#34; Chen, Marco Selvatici, Pedro Silva, Kathie Wang, Jackson Tolins, Kelvin Guu, Roey Yogev, Xiaochen Cai, Alessandro Agostini, Maulik Shah, Hung Nguyen, Noah 脫 Donnaile, S茅bastien Pereira, Linda Friso, Adam Stambler, Adam Kurzrok, Chenkai Kuang, Yan Romanikhin, Mark Geller, ZJ Yan, Kane Jang, Cheng-Chun Lee, Wojciech Fica, Eric Malmi, Qijun Tan, Dan Banica, Daniel Balle, Ryan Pham, Yanping Huang, Diana Avram, Hongzhi Shi, Jasjot Singh, Chris Hidey, Niharika Ahuja, Pranab Saxena, Dan Dooley, Srividya Pranavi Potharaju, Eileen O&#39;Neill, Anand Gokulchandran, Ryan Foley, Kai Zhao, Mike Dusenberry, Yuan Liu, Pulkit Mehta, Ragha Kotikalapudi, Chalence Safranek-Shrader, Andrew Goodman, Joshua Kessinger, Eran Globen, Prateek Kolhar, Chris Gorgolewski, Ali Ibrahim, Yang Song, Ali Eichenbaum, Thomas Brovelli, Sahitya Potluri, Preethi Lahoti, Cip Baetu, Ali Ghorbani, Charles Chen, Andy Crawford, Shalini Pal, Mukund Sridhar, Petru Gurita, Asier Mujika, Igor Petrovski, Pierre-Louis Cedoz, Chenmei Li, Shiyuan Chen, Niccol貌 Dal Santo, Siddharth Goyal, Jitesh Punjabi, Karthik Kappaganthu, Chester Kwak, Pallavi LV, Sarmishta Velury, Himadri Choudhury, Jamie Hall, Premal Shah, Ricardo Figueira, Matt Thomas, Minjie Lu, Ting Zhou, Chintu Kumar, Thomas Jurdi, Sharat Chikkerur, Yenai Ma, Adams Yu, Soo Kwak, Victor 脛hdel, Sujeevan Rajayogam, Travis Choma, Fei Liu, Aditya Barua, Colin Ji, Ji Ho Park, Vincent Hellendoorn, Alex Bailey, Taylan Bilal, Huanjie Zhou, Mehrdad Khatir, Charles Sutton, Wojciech Rzadkowski, Fiona Macintosh, Roopali Vij, Konstantin Shagin, Paul Medina, Chen Liang, Jinjing Zhou, Pararth Shah, Yingying Bi, Attila Dankovics, Shipra Banga, Sabine Lehmann, Marissa Bredesen, Zifan Lin, John Eric Hoffmann, Jonathan Lai, Raynald Chung, Kai Yang, Nihal Balani, Arthur Bra啪inskas, Andrei Sozanschi, Matthew Hayes, H茅ctor Fern谩ndez Alcalde, Peter Makarov, Will Chen, Antonio Stella, Liselotte Snijders, Michael Mandl, Ante K盲rrman, Pawe艂 Nowak, Xinyi Wu, Alex Dyck, Krishnan Vaidyanathan, Raghavender R, Jessica Mallet, Mitch Rudominer, Eric Johnston, Sushil Mittal, Akhil Udathu, Janara Christensen, Vishal Verma, Zach Irving, Andreas Santucci, Gamaleldin Elsayed, Elnaz Davoodi, Marin Georgiev, Ian Tenney, Nan Hua, Geoffrey Cideron, Edouard Leurent, Mahmoud Alnahlawi, Ionut Georgescu, Nan Wei, Ivy Zheng, Dylan Scandinaro, Heinrich Jiang, Jasper Snoek, Mukund Sundararajan, Xuezhi Wang, Zack Ontiveros, Itay Karo, Jeremy Cole, Vinu Rajashekhar, Lara Tumeh, Eyal Ben-David, Rishub Jain, Jonathan Uesato, Romina Datta, Oskar Bunyan, Shimu Wu, John Zhang, Piotr Stanczyk, Ye Zhang, David Steiner, Subhajit Naskar, Michael Azzam, Matthew Johnson, Adam Paszke, Chung-Cheng Chiu, Jaume Sanchez Elias, Afroz Mohiuddin, Faizan Muhammad, Jin Miao, Andrew Lee, Nino Vieillard, Jane Park, Jiageng Zhang, Jeff Stanway, Drew Garmon, Abhijit Karmarkar, Zhe Dong, Jong Lee, Aviral Kumar, Luowei Zhou, Jonathan Evens, William Isaac, Geoffrey Irving, Edward Loper, Michael Fink, Isha Arkatkar, Nanxin Chen, Izhak Shafran, Ivan Petrychenko, Zhe Chen, Johnson Jia, Anselm Levskaya, Zhenkai Zhu, Peter Grabowski, Yu Mao, Alberto Magni, Kaisheng Yao, Javier Snaider, Norman Casagrande, Evan Palmer, Paul Suganthan, Alfonso Casta帽o, Irene Giannoumis, Wooyeol Kim, Miko艂aj Rybi艅ski, Ashwin Sreevatsa, Jennifer Prendki, David Soergel, Adrian Goedeckemeyer, Willi Gierke, Mohsen Jafari, Meenu Gaba, Jeremy Wiesner, Diana Gage Wright, Yawen Wei, Harsha Vashisht, Yana Kulizhskaya, Jay Hoover, Maigo Le, Lu Li, Chimezie Iwuanyanwu, Lu Liu, Kevin Ramirez, Andrey Khorlin, Albert Cui, Tian LIN, Marcus Wu, Ricardo Aguilar, Keith Pallo, Abhishek Chakladar, Ginger Perng, Elena Allica Abellan, Mingyang Zhang, Ishita Dasgupta, Nate Kushman, Ivo Penchev, Alena Repina, Xihui Wu, Tom van der Weide, Priya Ponnapalli, Caroline Kaplan, Jiri Simsa, Shuangfeng Li, Olivier Dousse, Fan Yang, Jeff Piper, Nathan Ie, Rama Pasumarthi, Nathan Lintz, Anitha Vijayakumar, Daniel Andor, Pedro Valenzuela, Minnie Lui, Cosmin Paduraru, Daiyi Peng, Katherine Lee, Shuyuan Zhang, Somer Greene, Duc Dung Nguyen, Paula Kurylowicz, Cassidy Hardin, Lucas Dixon, Lili Janzer, Kiam Choo, Ziqiang Feng, Biao Zhang, Achintya Singhal, Dayou Du, Dan McKinnon, Natasha Antropova, Tolga Bolukbasi, Orgad Keller, David Reid, Daniel Finchelstein, Maria Abi Raad, Remi Crocker, Peter Hawkins, Robert Dadashi, Colin Gaffney, Ken Franko, Anna Bulanova, R茅mi Leblond, Shirley Chung, Harry Askham, Luis C. Cobo, Kelvin Xu, Felix Fischer, Jun Xu, Christina Sorokin, Chris Alberti, Chu-Cheng Lin, Colin Evans, Alek Dimitriev, Hannah Forbes, Dylan Banarse, Zora Tung, Mark Omernick, Colton Bishop, Rachel Sterneck, Rohan Jain, Jiawei Xia, Ehsan Amid, Francesco Piccinno, Xingyu Wang, Praseem Banzal, Daniel J. Mankowitz, Alex Polozov, Victoria Krakovna, Sasha Brown, MohammadHossein Bateni, Dennis Duan, Vlad Firoiu, Meghana Thotakuri, Tom Natan, Matthieu Geist, Ser tan Girgin, Hui Li, Jiayu Ye, Ofir Roval, Reiko Tojo, Michael Kwong, James Lee-Thorp, Christopher Yew, Danila Sinopalnikov, Sabela Ramos, John Mellor, Abhishek Sharma, Kathy Wu, David Miller, Nicolas Sonnerat, Denis Vnukov, Rory Greig, Jennifer Beattie, Emily Caveness, Libin Bai, Julian Eisenschlos, Alex Korchemniy, Tomy Tsai, Mimi Jasarevic, Weize Kong, Phuong Dao, Zeyu Zheng, Frederick Liu, Fan Yang, Rui Zhu, Tian Huey Teh, Jason Sanmiya, Evgeny Gladchenko, Nejc Trdin, Daniel Toyama, Evan Rosen, Sasan Tavakkol, Linting Xue, Chen Elkind, Oliver Woodman, John Carpenter, George Papamakarios, Rupert Kemp, Sushant Kafle, Tanya Grunina, Rishika Sinha, Alice Talbert, Diane Wu, Denese Owusu-Afriyie, Cosmo Du, Chloe Thornton, Jordi Pont-Tuset, Pradyumna Narayana, Jing Li, Saaber Fatehi, John Wieting, Omar Ajmeri, Benigno Uria, Yeongil Ko, Laura Knight, Am茅lie H茅liou, Ning Niu, Shane Gu, Chenxi Pang, Yeqing Li, Nir Levine, Ariel Stolovich, Rebeca Santamaria-Fernandez, Sonam Goenka, Wenny Yustalim, Robin Strudel, Ali Elqursh, Charlie Deck, Hyo Lee, Zonglin Li, Kyle Levin, Raphael Hoffmann, Dan Holtmann-Rice, Olivier Bachem, Sho Arora, Christy Koh, Soheil Hassas Yeganeh, Siim P玫der, Mukarram Tariq, Yanhua Sun, Lucian Ionita, Mojtaba Seyedhosseini, Pouya Tafti, Zhiyu Liu, Anmol Gulati, Jasmine Liu, Xinyu Ye, Bart Chrzaszcz, Lily Wang, Nikhil Sethi, Tianrun Li, Ben Brown, Shreya Singh, Wei Fan, Aaron Parisi, Joe Stanton, Vinod Koverkathu, Christopher A. Choquette-Choo, Yunjie Li, TJ Lu, Abe Ittycheriah, Prakash Shroff, Mani Varadarajan, Sanaz Bahargam, Rob Willoughby, David Gaddy, Guillaume Desjardins, Marco Cornero, Brona Robenek, Bhavishya Mittal, Ben Albrecht, Ashish Shenoy, Fedor Moiseev, Henrik Jacobsson, Alireza Ghaffarkhah, Morgane Rivi猫re, Alanna Walton, Cl茅ment Crepy, Alicia Parrish, Zongwei Zhou, Clement Farabet, Carey Radebaugh, Praveen Srinivasan, Claudia van der Salm, Andreas Fidjeland, Salvatore Scellato, Eri Latorre-Chimoto, Hanna Klimczak-Pluci艅ska, David Bridson, Dario de Cesare, Tom Hudson, Piermaria Mendolicchio, Lexi Walker, Alex Morris, Matthew Mauger, Alexey Guseynov, Alison Reid, Seth Odoom, Lucia Loher, Victor Cotruta, Madhavi Yenugula, Dominik Grewe, Anastasia Petrushkina, Tom Duerig, Antonio Sanchez, Steve Yadlowsky, Amy Shen, Amir Globerson, Lynette Webb, Sahil Dua, Dong Li, Surya Bhupatiraju, Dan Hurt, Haroon Qureshi, Ananth Agarwal, Tomer Shani, Matan Eyal, Anuj Khare, Shreyas Rammohan Belle, Lei Wang, Chetan Tekur, Mihir Sanjay Kale, Jinliang Wei, Ruoxin Sang, Brennan Saeta, Tyler Liechty, Yi Sun, Yao Zhao, Stephan Lee, Pandu Nayak, Doug Fritz, Manish Reddy Vuyyuru, John Aslanides, Nidhi Vyas, Martin Wicke, Xiao Ma, Evgenii Eltyshev, Nina Martin, Hardie Cate, James Manyika, Keyvan Amiri, Yelin Kim, Xi Xiong, Kai Kang, Florian Luisier, Nilesh Tripuraneni, David Madras, Mandy Guo, Austin Waters, Oliver Wang, Joshua Ainslie, Jason Baldridge, Han Zhang, Garima Pruthi, Jakob Bauer, Feng Yang, Riham Mansour, Jason Gelman, Yang Xu, George Polovets, Ji Liu, Honglong Cai, Warren Chen, XiangHai Sheng, Emily Xue, Sherjil Ozair, Christof Angermueller, Xiaowei Li, Anoop Sinha, Weiren Wang, Julia Wiesinger, Emmanouil Koukoumidis, Yuan Tian, Anand Iyer, Madhu Gurumurthy, Mark Goldenson, Parashar Shah, MK Blake, Hongkun Yu, Anthony Urbanowicz, Jennimaria Palomaki, Chrisantha Fernando, Ken Durden, Harsh Mehta, Nikola Momchev, Elahe Rahimtoroghi, Maria Georgaki, Amit Raul, Sebastian Ruder, Morgan Redshaw, Jinhyuk Lee, Denny Zhou, Komal Jalan, Dinghua Li, Blake Hechtman, Parker Schuh, Milad Nasr, Kieran Milan, Vladimir Mikulik, Juliana Franco, Tim Green, Nam Nguyen, Joe Kelley, Aroma Mahendru, Andrea Hu, Joshua Howland, Ben Vargas, Jeffrey Hui, Kshitij Bansal, Vikram Rao, Rakesh Ghiya, Emma Wang, Ke Ye, Jean Michel Sarr, Melanie Moranski Preston, Madeleine Elish, Steve Li, Aakash Kaku, Jigar Gupta, Ice Pasupat, Da-Cheng Juan, Milan Someswar, Tejvi M., Xinyun Chen, Aida Amini, Alex Fabrikant, Eric Chu, Xuanyi Dong, Amruta Muthal, Senaka Buthpitiya, Sarthak Jauhari, Nan Hua, Urvashi Khandelwal, Ayal Hitron, Jie Ren, Larissa Rinaldi, Shahar Drath, Avigail Dabush, Nan-Jiang Jiang, Harshal Godhia, Uli Sachs, Anthony Chen, Yicheng Fan, Hagai Taitelbaum, Hila Noga, Zhuyun Dai, James Wang, Chen Liang, Jenny Hamer, Chun-Sung Ferng, Chenel Elkind, Aviel Atias, Paulina Lee, V铆t List铆k, Mathias Carlen, Jan van de Kerkhof, Marcin Pikus, Krunoslav Zaher, Paul M眉ller, Sasha Zykova, Richard Stefanec, Vitaly Gatsko, Christoph Hirnschall, Ashwin Sethi, Xingyu Federico Xu, Chetan Ahuja, Beth Tsai, Anca Stefanoiu, Bo Feng, Keshav Dhandhania, Manish Katyal, Akshay Gupta, Atharva Parulekar, Divya Pitta, Jing Zhao, Vivaan Bhatia, Yashodha Bhavnani, Omar Alhadlaq, Xiaolin Li, Peter Danenberg, Dennis Tu, Alex Pine, Vera Filippova, Abhipso Ghosh, Ben Limonchik, Bhargava Urala, Chaitanya Krishna Lanka, Derik Clive, Yi Sun, Edward Li, Hao Wu, Kevin Hongtongsak, Ianna Li, Kalind Thakkar, Kuanysh Omarov, Kushal Majmundar, Michael Alverson, Michael Kucharski, Mohak Patel, Mudit Jain, Maksim Zabelin, Paolo Pelagatti, Rohan Kohli, Saurabh Kumar, Joseph Kim, Swetha Sankar, Vineet Shah, Lakshmi Ramachandruni, Xiangkai Zeng, Ben Bariach, Laura Weidinger, Tu Vu, Alek Andreev, Antoine He, Kevin Hui, Sheleem Kashem, Amar Subramanya, Sissie Hsiao, Demis Hassabis, Koray Kavukcuoglu, Adam Sadovsky, Quoc Le, Trevor Strohman, Yonghui Wu, Slav Petrov, Jeffrey Dean, Oriol Vinyals
 * **arXiv ID:** 2312.11805
 * **One-liner:** Gemini advances state-of-the-art in multimodal understanding across image, audio, video, and text.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2312.11805) | [[PDF]](https://arxiv.org/pdf/2312.11805)
+* **Published in:** arxiv (19 Dec 2023)
+* **Links:** [[Paper]](https://arxiv.org/abs/2312.11805) | [[PDF]](https://arxiv.org/pdf/2312.11805) | [[Code]]()
 
 > **Core Innovation**
 > Gemini models achieve human-expert performance on benchmarks like MMLU and improve results in 30 of 32 benchmarks.
@@ -12381,8 +12380,8 @@
 * **Authors:** Jiasen Lu, Christopher Clark, Sangho Lee, Zichen Zhang, Savya Khosla, Ryan Marten, Derek Hoiem, Aniruddha Kembhavi
 * **arXiv ID:** 2312.17172
 * **One-liner:** Unified-IO 2 is the first autoregressive multimodal model for understanding and generating image, text, audio, and action.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2312.17172) | [[PDF]](https://arxiv.org/pdf/2312.17172)
+* **Published in:** arxiv (28 Dec 2023)
+* **Links:** [[Paper]](https://arxiv.org/abs/2312.17172) | [[PDF]](https://arxiv.org/pdf/2312.17172) | [[Code]](https://github.com/allenai/unified-io-2)
 
 > **Core Innovation**
 > Unified-IO 2 tokenizes diverse modalities into a shared semantic space and uses a single encoder-decoder transformer.
@@ -12409,8 +12408,8 @@
 * **Authors:** Xianwei Zhuang, Yuxin Xie, Yufan Deng, Liming Liang, Jinghan Ru, Yuguo Yin, Yuexian Zou
 * **arXiv ID:** 2501.12327
 * **One-liner:** VARGPT unifies visual understanding and generation in a single autoregressive framework.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2501.12327) | [[PDF]](https://arxiv.org/pdf/2501.12327)
+* **Published in:** arxiv (21 Jan 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2501.12327) | [[PDF]](https://arxiv.org/pdf/2501.12327) | [[Code]](https://vargpt-1.github.io)
 
 > **Core Innovation**
 > VARGPT uses next-token prediction for understanding and next-scale prediction for generation, extending LLaVA architecture.
@@ -12437,8 +12436,8 @@
 * **Authors:** Quan Sun, Yufeng Cui, Xiaosong Zhang, Fan Zhang, Qiying Yu, Zhengxiong Luo, Yueze Wang, Yongming Rao, Jingjing Liu, Tiejun Huang, Xinlong Wang
 * **arXiv ID:** 2312.13286
 * **One-liner:** Emu2 enhances multimodal in-context learning with 37B parameters, achieving state-of-the-art in few-shot tasks.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2312.13286) | [[PDF]](https://arxiv.org/pdf/2312.13286)
+* **Published in:** arxiv (20 Dec 2023)
+* **Links:** [[Paper]](https://arxiv.org/abs/2312.13286) | [[PDF]](https://arxiv.org/pdf/2312.13286) | [[Code]](https://github.com/baaivision/Emu2)
 
 > **Core Innovation**
 > Emu2 is trained on large-scale multimodal sequences with a unified autoregressive objective.
@@ -12465,8 +12464,8 @@
 * **Authors:** Changyao Tian, Xizhou Zhu, Yuwen Xiong, Weiyun Wang, Zhe Chen, Wenhai Wang, Yuntao Chen, Lewei Lu, Tong Lu, Jie Zhou, Hongsheng Li, Yu Qiao, Jifeng Dai
 * **arXiv ID:** 2401.10208
 * **One-liner:** MM-Interleaved is an end-to-end generative model for interleaved image-text data with improved detail capture.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2401.10208) | [[PDF]](https://arxiv.org/pdf/2401.10208)
+* **Published in:** arxiv (18 Jan 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2401.10208) | [[PDF]](https://arxiv.org/pdf/2401.10208) | [[Code]](https://github.com/OpenGVLab/MM-Interleaved)
 
 > **Core Innovation**
 > MM-Interleaved uses a multi-scale and multi-image feature synchronizer to access fine-grained image features.
@@ -12493,8 +12492,8 @@
 * **Authors:** Jun Zhan, Junqi Dai, Jiasheng Ye, Yunhua Zhou, Dong Zhang, Zhigeng Liu, Xin Zhang, Ruibin Yuan, Ge Zhang, Linyang Li, Hang Yan, Jie Fu, Tao Gui, Tianxiang Sun, Yu-Gang Jiang, Xipeng Qiu
 * **arXiv ID:** 2402.12226
 * **One-liner:** AnyGPT enables any-to-any multimodal conversation using discrete representations without altering LLM architecture.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2402.12226) | [[PDF]](https://arxiv.org/pdf/2402.12226)
+* **Published in:** arxiv (19 Feb 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2402.12226) | [[PDF]](https://arxiv.org/pdf/2402.12226) | [[Code]](https://github.com/OpenMOSS/AnyGPT)
 
 > **Core Innovation**
 > AnyGPT utilizes discrete representations for unified processing of speech, text, images, and music.
@@ -12521,8 +12520,8 @@
 * **Authors:** Chenyu Yang, Xuan Dong, Xizhou Zhu, Weijie Su, Jiahao Wang, Hao Tian, Zhe Chen, Wenhai Wang, Lewei Lu, Jifeng Dai
 * **arXiv ID:** 2412.09613
 * **One-liner:** PVC unifies token compression for images and videos, achieving state-of-the-art in video understanding without image performance loss.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2412.09613) | [[PDF]](https://arxiv.org/pdf/2412.09613)
+* **Published in:** arxiv (12 Dec 2024)
+* **Links:** [[Paper]](https://arxiv.org/abs/2412.09613) | [[PDF]](https://arxiv.org/pdf/2412.09613) | [[Code]](https://github.com/OpenGVLab/PVC)
 
 > **Core Innovation**
 > PVC progressively encodes and compresses visual tokens, treating images as static videos to preserve details.
@@ -12549,8 +12548,8 @@
 * **Authors:** Miran Heo, Min-Hung Chen, De-An Huang, Sifei Liu, Subhashree Radhakrishnan, Seon Joo Kim, Yu-Chiang Frank Wang, Ryo Hachiuma
 * **arXiv ID:** 2501.08326
 * **One-liner:** Omni-RGPT facilitates region-level comprehension for images and videos using Token Mark for consistent representation.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2501.08326) | [[PDF]](https://arxiv.org/pdf/2501.08326)
+* **Published in:** arxiv (14 Jan 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2501.08326) | [[PDF]](https://arxiv.org/pdf/2501.08326) | [[Code]]()
 
 > **Core Innovation**
 > Omni-RGPT embeds Token Mark tokens into visual features and text prompts for direct connection.
@@ -12577,8 +12576,8 @@
 * **Authors:** Hongxuan Tang, Hao Liu, Xinyan Xiao
 * **arXiv ID:** 2503.21193
 * **One-liner:** Introduced UGen, a unified autoregressive multimodal model achieving strong performance in text processing, image understanding, and generation.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2503.21193) | [[PDF]](https://arxiv.org/pdf/2503.21193)
+* **Published in:** arxiv (27 Mar 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2503.21193) | [[PDF]](https://arxiv.org/pdf/2503.21193) | [[Code]]()
 
 > **Core Innovation**
 > UGen converts texts and images into discrete token sequences and uses a single transformer for uniform autoregressive generation, enhanced by progressive vocabulary learning.
@@ -12605,8 +12604,8 @@
 * **Authors:** Jialv Zou, Bencheng Liao, Qian Zhang, Wenyu Liu, Xinggang Wang
 * **arXiv ID:** 2503.08686
 * **One-liner:** Presented OmniMamba, the first linear-architecture-based multimodal generation model with high efficiency and data efficiency.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2503.08686) | [[PDF]](https://arxiv.org/pdf/2503.08686)
+* **Published in:** arxiv (11 Mar 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2503.08686) | [[PDF]](https://arxiv.org/pdf/2503.08686) | [[Code]](https://github.com/hustvl/OmniMamba)
 
 > **Core Innovation**
 > OmniMamba uses Mamba-2 for linear computational complexity and introduces decoupled vocabularies and task-specific LoRA for efficient multimodal generation.
@@ -12634,8 +12633,8 @@
 * **Authors:** Xianwei Zhuang, Yuxin Xie, Yufan Deng, Dongchao Yang, Liming Liang, Jinghan Ru, Yuguo Yin, Yuexian Zou
 * **arXiv ID:** 2504.02949
 * **One-liner:** Advanced VARGPT-v1.1 to achieve state-of-the-art performance in multimodal understanding and text-to-image instruction-following.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2504.02949) | [[PDF]](https://arxiv.org/pdf/2504.02949)
+* **Published in:** arxiv (3 Apr 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2504.02949) | [[PDF]](https://arxiv.org/pdf/2504.02949) | [[Code]](https://github.com/VARGPT-family/VARGPT-v1.1)
 
 > **Core Innovation**
 > VARGPT-v1.1 integrates iterative visual instruction tuning with DPO, an expanded corpus, and an upgraded backbone for enhanced generation and emergent editing.
@@ -12663,8 +12662,8 @@
 * **Authors:** Jin Wang, Yao Lai, Aoxue Li, Shifeng Zhang, Jiacheng Sun, Ning Kang, Chengyue Wu, Zhenguo Li, Ping Luo
 * **arXiv ID:** 2505.20147
 * **One-liner:** Introduced FUDOKI, a unified multimodal model based on discrete flow matching as an alternative to autoregressive paradigms.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2505.20147) | [[PDF]](https://arxiv.org/pdf/2505.20147)
+* **Published in:** arxiv (26 May 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2505.20147) | [[PDF]](https://arxiv.org/pdf/2505.20147) | [[Code]](https://github.com/fudoki-hku/FUDOKI)
 
 > **Core Innovation**
 > FUDOKI leverages metric-induced probability paths for iterative refinement and bidirectional context integration, initialized from pre-trained AR models.
@@ -12692,8 +12691,8 @@
 * **Authors:** Ling Yang, Ye Tian, Bowen Li, Xinchen Zhang, Ke Shen, Yunhai Tong, Mengdi Wang
 * **arXiv ID:** 2505.15809
 * **One-liner:** Developed MMaDA, a unified multimodal diffusion foundation model with strong generalization across reasoning, understanding, and generation.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2505.15809) | [[PDF]](https://arxiv.org/pdf/2505.15809)
+* **Published in:** arxiv (21 May 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2505.15809) | [[PDF]](https://arxiv.org/pdf/2505.15809) | [[Code]](https://github.com/Gen-Verse/MMaDA)
 
 > **Core Innovation**
 > MMaDA uses a unified diffusion architecture, mixed CoT fine-tuning, and UniGRPO RL algorithm for seamless multimodal integration.
@@ -12721,8 +12720,8 @@
 * **Authors:** Tao Yang, Ruibin Li, Yangming Shi, Yuqi Zhang, Qide Dong, Haoran Cheng, Weiguo Feng, Shilei Wen, Bingyue Peng, Lei Zhang
 * **arXiv ID:** 2506.01758
 * **One-liner:** Introduced a many-for-many unified framework for visual generation and manipulation tasks with improved video generation.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2506.01758) | [[PDF]](https://arxiv.org/pdf/2506.01758)
+* **Published in:** arxiv (2 Jun 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2506.01758) | [[PDF]](https://arxiv.org/pdf/2506.01758) | [[Code]](https://github.com/leeruibin/MfM)
 
 > **Core Innovation**
 > The framework uses a lightweight adapter and joint image-video learning to train a single model for multiple tasks, incorporating depth maps for 3D perception.
@@ -12750,8 +12749,8 @@
 * **Authors:** Zhiyang Xu, Jiuhai Chen, Zhaojiang Lin, Xichen Pan, Lifu Huang, Tianyi Zhou, Madian Khabsa, Qifan Wang, Di Jin, Michihiro Yasunaga, Lili Yu, Xi Victoria Lin, Shaoliang Nie
 * **arXiv ID:** 2506.10395
 * **One-liner:** Presented Pisces, an autoregressive multimodal foundation model achieving competitive performance in both image understanding and generation.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2506.10395) | [[PDF]](https://arxiv.org/pdf/2506.10395)
+* **Published in:** arxiv (12 Jun 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2506.10395) | [[PDF]](https://arxiv.org/pdf/2506.10395) | [[Code]]()
 
 > **Core Innovation**
 > Pisces employs a decoupled visual encoding architecture and tailored training techniques to address modality differences.
@@ -12779,8 +12778,8 @@
 * **Authors:** Inclusion AI, Biao Gong, Cheng Zou, Chuanyang Zheng, Chunluan Zhou, Canxiang Yan, Chunxiang Jin, Chunjie Shen, Dandan Zheng, Fudong Wang, Furong Xu, GuangMing Yao, Jun Zhou, Jingdong Chen, Jianxin Sun, Jiajia Liu, Jianjiang Zhu, Jun Peng, Kaixiang Ji, Kaiyou Song, Kaimeng Ren, Libin Wang, Lixiang Ru, Lele Xie, Longhua Tan, Lyuxin Xue, Lan Wang, Mochen Bai, Ning Gao, Pei Chen, Qingpei Guo, Qinglong Zhang, Qiang Xu, Rui Liu, Ruijie Xiong, Sirui Gao, Tinghao Liu, Taisong Li, Weilong Chai, Xinyu Xiao, Xiaomei Wang, Xiaoxue Chen, Xiao Lu, Xiaoyu Li, Xingning Dong, Xuzheng Yu, Yi Yuan, Yuting Gao, Yunxiao Sun, Yipeng Chen, Yifei Wu, Yongjie Lyu, Ziping Ma, Zipeng Feng, Zhijiang Fang, Zhihao Qiu, Ziyuan Huang, Zhengyu He
 * **arXiv ID:** 2506.09344
 * **One-liner:** Proposed Ming-Omni, a unified multimodal model supporting image, text, audio, and video processing with generation capabilities.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2506.09344) | [[PDF]](https://arxiv.org/pdf/2506.09344)
+* **Published in:** arxiv (11 Jun 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2506.09344) | [[PDF]](https://arxiv.org/pdf/2506.09344) | [[Code]](https://github.com/inclusionAI/Ming/tree/main)
 
 > **Core Innovation**
 > Ming-Omni uses dedicated encoders and an MoE architecture with modality-specific routers for efficient multimodal fusion and generation.
@@ -12808,8 +12807,8 @@
 * **Authors:** Yanzhe Chen, Huasong Zhong, Yan Li, Zhenheng Yang
 * **arXiv ID:** 2506.20214
 * **One-liner:** Introduced UniCode^2, a cascaded codebook framework for stable and semantically aligned visual tokenization.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2506.20214) | [[PDF]](https://arxiv.org/pdf/2506.20214)
+* **Published in:** arxiv (25 Jun 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2506.20214) | [[PDF]](https://arxiv.org/pdf/2506.20214) | [[Code]]()
 
 > **Core Innovation**
 > UniCode^2 builds a 500K-entry codebook by clustering SigLIP embeddings, enabling high utilization and integration with diffusion decoders.
@@ -12837,8 +12836,8 @@
 * **Authors:** Guo-Hua Wang, Shanshan Zhao, Xinjie Zhang, Liangfu Cao, Pengxin Zhan, Lunhao Duan, Shiyin Lu, Minghao Fu, Xiaohao Chen, Jianshan Zhao, Yang Li, Qing-Guo Chen
 * **arXiv ID:** 2506.23044
 * **One-liner:** Developed Ovis-U1, a unified model integrating multimodal understanding, text-to-image generation, and image editing.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2506.23044) | [[PDF]](https://arxiv.org/pdf/2506.23044)
+* **Published in:** arxiv (29 Jun 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2506.23044) | [[PDF]](https://arxiv.org/pdf/2506.23044) | [[Code]](https://github.com/AIDC-AI/Ovis-U1)
 
 > **Core Innovation**
 > Ovis-U1 uses a diffusion-based visual decoder and unified training from a language model, achieving high benchmark scores.
@@ -12866,8 +12865,8 @@
 * **Authors:** Hao Tang, Chenwei Xie, Xiaoyi Bao, Tingyu Weng, Pandeng Li, Yun Zheng, Liwei Wang
 * **arXiv ID:** 2507.23278
 * **One-liner:** Proposed UniLIP, a unified framework adapting CLIP for multimodal understanding, generation, and editing with high performance.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2507.23278) | [[PDF]](https://arxiv.org/pdf/2507.23278)
+* **Published in:** arxiv (31 Jul 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2507.23278) | [[PDF]](https://arxiv.org/pdf/2507.23278) | [[Code]]()
 
 > **Core Innovation**
 > Introduced a two-stage training scheme with self-distillation to enhance CLIP's reconstruction abilities while maintaining comprehension, achieving state-of-the-art results on benchmarks like GenEval and WISE.
@@ -12895,8 +12894,8 @@
 * **Authors:** Yanzuo Lu, Xin Xia, Manlin Zhang, Huafeng Kuang, Jianbin Zheng, Yuxi Ren, Xuefeng Xiao
 * **arXiv ID:** 2509.18824
 * **One-liner:** Developed Hyper-Bagel, a unified acceleration framework for multimodal tasks, significantly speeding up understanding and generation.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2509.18824) | [[PDF]](https://arxiv.org/pdf/2509.18824)
+* **Published in:** arxiv (23 Sep 2025)
+* **Links:** [[Paper]](https://arxiv.org/abs/2509.18824) | [[PDF]](https://arxiv.org/pdf/2509.18824) | [[Code]]()
 
 > **Core Innovation**
 > Employed speculative decoding and multi-stage distillation to achieve over 2x speedup in understanding and up to 22x in generation, while preserving output quality.
