@@ -2,10 +2,6 @@
   <a href="README.md">English</a> | <a href="README_zh.md">中文</a>
 </p>
 
-## 🌟 The "Trinity" Prototype: Emerging World Models
-
-This section highlights models that demonstrate **preliminary integration of all three consistencies**, exhibiting emergent world model capabilities. These systems represent the current frontier, showing glimpses of true world simulation.
-
 ### Text-to-World Generators
 
 Models that generate dynamic, spatially consistent virtual environments from language descriptions.
