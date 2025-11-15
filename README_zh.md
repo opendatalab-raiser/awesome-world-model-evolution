@@ -126,11 +126,11 @@
 
 #### 代表性工作
 
-* CLIP: Learning Transferable Visual Models From Natural Language Supervision, ICML 2021
-* DALL-E: Zero-Shot Text-to-Image Generation, ICML 2021
-* Show, Attend and Tell: Neural Image Caption Generation with Visual Attention, ICML 2015
-* AttnGAN: Fine-Grained Text-to-Image Generation with Attentional GANs, CVPR 2018
-* NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis, ECCV 2020
+* CLIP: Learning Transferable Visual Models From Natural Language Supervision, ICML 2021.
+* DALL-E: Zero-Shot Text-to-Image Generation, ICML 2021.
+* Show, Attend and Tell: Neural Image Caption Generation with Visual Attention, ICML 2015.
+* AttnGAN: Fine-Grained Text-to-Image Generation with Attentional GANs, CVPR 2018.
+* NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis, ECCV 2020.
 
 ### <a href="./consisency-paper/spatial-consistency/README_zh.md">空间一致性</a>
 
@@ -140,10 +140,10 @@
 
 #### 代表性工作
 
-* NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis, ECCV 2020
-* 3D Gaussian Splatting for Real-Time Radiance Field Rendering, SIGGRAPH 2023
-* EG3D: Efficient Geometry-aware 3D Generative Adversarial Networks, CVPR 2022
-* Instant Neural Graphics Primitives with a Multiresolution Hash Encoding, SIGGRAPH 2022
+* NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis, ECCV 2020.
+* 3D Gaussian Splatting for Real-Time Radiance Field Rendering, SIGGRAPH 2023.
+* EG3D: Efficient Geometry-aware 3D Generative Adversarial Networks, CVPR 2022.
+* Instant Neural Graphics Primitives with a Multiresolution Hash Encoding, SIGGRAPH 2022.
 
 ### <a href="./consisency-paper/temporal-consistency/README_zh.md">时间一致性</a>
 
@@ -153,11 +153,11 @@
 
 #### 代表性工作
 
-* PredRNN: A Recurrent Neural Network for Spatiotemporal Predictive Learning, TPAMI 2023
-* SimVP: Simpler yet Better Video Prediction, CVPR 2022
-* Temporal Attention Unit: Towards Efficient Spatiotemporal Predictive Learning, CVPR 2023
-* VideoGPT: Video Generation using VQ-VAE and Transformers, arXiv 2021
-* Phenaki: Variable Length Video Generation from Open Domain Textual Descriptions, ICLR 2023
+* PredRNN: A Recurrent Neural Network for Spatiotemporal Predictive Learning, TPAMI 2023.
+* SimVP: Simpler yet Better Video Prediction, CVPR 2022.
+* Temporal Attention Unit: Towards Efficient Spatiotemporal Predictive Learning, CVPR 2023.
+* VideoGPT: Video Generation using VQ-VAE and Transformers, arXiv 2021.
+* Phenaki: Variable Length Video Generation from Open Domain Textual Descriptions, ICLR 2023.
 
 ## 🔗 初步融合：统一多模态模型
 
@@ -171,32 +171,32 @@
 
 #### 代表性工作
 
-* Zero-1-to-3: Zero-shot One Image to 3D Object, ICCV 2023
-* MVDream: Multi-view Diffusion for 3D Generation, ICLR 2024
-* Wonder3D: Single Image to 3D using Cross-Domain Diffusion, CVPR 2024
-* SyncDreamer: Generating Multiview-consistent Images from a Single-view Image, ICLR 2024
-* DreamFusion: Text-to-3D using 2D Diffusion, ICRL 2023
-* ULIP-2: Towards Scalable Multimodal Pre-training for 3D Understanding, CVPR 2024
-* OpenShape: Scaling Up 3D Shape Representation Towards Open-World Understanding, NeurIPS 2023
-* DreamLLM: Synergistic Multimodal Comprehension and Creation, ICLR 2024
-* EditWorld: Simulating World Dynamics for Instruction-Following Image Editing, ACM Multimedia 2025
-* MIO: A Foundation Model on Multimodal Tokens, EMNLP 2025
-* SGEdit: Bridging LLM with Text2Image Generative Model for Scene Graph-based Image Editing, SIGGRAPH Asia 2024
-* UniReal: Universal Image Generation and Editing via Learning Real-world Dynamics, CVPR 2025
-* ShapeLLM-Omni: A Native Multimodal LLM for 3D Generation and Understanding, NeurIPS 2025
-* Step1X-Edit: A Practical Framework for General Image Editing, arXiv 2025
-* LangScene-X: Reconstruct Generalizable 3D Language-Embedded Scenes with TriMap Video Diffusion, ICCV 2025
-* MENTOR: Efficient Multimodal-Conditioned Tuning for Autoregressive Vision Generation Models, arXiv 2025
-* GSFixer: Improving 3D Gaussian Splatting with Reference-Guided Video Diffusion Priors, arXiv 2025
-* CLIP-NeRF: Text-and-Image Driven Manipulation of Neural Radiance Fields, CVPR 2022
-* Genesis: Multimodal Driving Scene Generation with Spatio-Temporal and Cross-Modal Consistency, arXiv 2025
-* Hunyuan3D-Omni: A Unified Framework for Controllable Generation of 3D Assets, arXiv 2025
-* LERF: Language Embedded Radiance Fields, ICCV 2023
-* Viewset Diffusion: (0-)Image-Conditioned 3D Generative Models from 2D Data, ICCV 2023
-* Aligned Novel View Image and Geometry Synthesis via Cross-modal Attention Instillation, arXiv 2025
-* Scaling Transformer-Based Novel View Synthesis Models with Token Disentanglement and Synthetic Data, ICCV 2025
-* NeRF-HuGS: Improved Neural Radiance Fields in Non-static Scenes Using Heuristics-Guided Segmentation, CVPR 2024
-* RealFusion: 360° Reconstruction of Any Object from a Single Image, CVPR 2023
+* Zero-1-to-3: Zero-shot One Image to 3D Object, ICCV 2023.
+* MVDream: Multi-view Diffusion for 3D Generation, ICLR 2024.
+* Wonder3D: Single Image to 3D using Cross-Domain Diffusion, CVPR 2024.
+* SyncDreamer: Generating Multiview-consistent Images from a Single-view Image, ICLR 2024.
+* DreamFusion: Text-to-3D using 2D Diffusion, ICRL 2023.
+* ULIP-2: Towards Scalable Multimodal Pre-training for 3D Understanding, CVPR 2024.
+* OpenShape: Scaling Up 3D Shape Representation Towards Open-World Understanding, NeurIPS 2023.
+* DreamLLM: Synergistic Multimodal Comprehension and Creation, ICLR 2024.
+* EditWorld: Simulating World Dynamics for Instruction-Following Image Editing, ACM Multimedia 2025.
+* MIO: A Foundation Model on Multimodal Tokens, EMNLP 2025.
+* SGEdit: Bridging LLM with Text2Image Generative Model for Scene Graph-based Image Editing, SIGGRAPH Asia 2024.
+* UniReal: Universal Image Generation and Editing via Learning Real-world Dynamics, CVPR 2025.
+* ShapeLLM-Omni: A Native Multimodal LLM for 3D Generation and Understanding, NeurIPS 2025.
+* Step1X-Edit: A Practical Framework for General Image Editing, arXiv 2025.
+* LangScene-X: Reconstruct Generalizable 3D Language-Embedded Scenes with TriMap Video Diffusion, ICCV 2025.
+* MENTOR: Efficient Multimodal-Conditioned Tuning for Autoregressive Vision Generation Models, arXiv 2025.
+* GSFixer: Improving 3D Gaussian Splatting with Reference-Guided Video Diffusion Priors, arXiv 2025.
+* CLIP-NeRF: Text-and-Image Driven Manipulation of Neural Radiance Fields, CVPR 2022.
+* Genesis: Multimodal Driving Scene Generation with Spatio-Temporal and Cross-Modal Consistency, arXiv 2025.
+* Hunyuan3D-Omni: A Unified Framework for Controllable Generation of 3D Assets, arXiv 2025.
+* LERF: Language Embedded Radiance Fields, ICCV 2023.
+* Viewset Diffusion: (0-)Image-Conditioned 3D Generative Models from 2D Data, ICCV 2023.
+* Aligned Novel View Image and Geometry Synthesis via Cross-modal Attention Instillation, arXiv 2025.
+* Scaling Transformer-Based Novel View Synthesis Models with Token Disentanglement and Synthetic Data, ICCV 2025.
+* NeRF-HuGS: Improved Neural Radiance Fields in Non-static Scenes Using Heuristics-Guided Segmentation, CVPR 2024.
+* RealFusion: 360° Reconstruction of Any Object from a Single Image, CVPR 2023.
 
   
 ### <a href="./consisency-paper/modality+temporal-consistency/README_zh.md">模态 + 时间一致性</a>
@@ -207,11 +207,11 @@
 
 #### 代表性工作
 
-* Lumiere: A Space-Time Diffusion Model for Video Generation, SIGGRAPH-ASIA 2024
-* Stable Video Diffusion: Scaling Latent Video Diffusion Models to Large Datasets, arXiv 2023
-* AnimateDiff: Animate Your Personalized Text-to-Image Diffusion Models without Specific Tuning, arXiv 2023
-* Emu Video: Factorizing Text-to-Video Generation by Explicit Image Conditioning, ECCV 2024
-* VideoPoet: A Large Language Model for Zero-Shot Video Generation, ICML 2024
+* Lumiere: A Space-Time Diffusion Model for Video Generation, SIGGRAPH-ASIA 2024.
+* Stable Video Diffusion: Scaling Latent Video Diffusion Models to Large Datasets, arXiv 2023.
+* AnimateDiff: Animate Your Personalized Text-to-Image Diffusion Models without Specific Tuning, arXiv 2023.
+* Emu Video: Factorizing Text-to-Video Generation by Explicit Image Conditioning, ECCV 2024.
+* VideoPoet: A Large Language Model for Zero-Shot Video Generation, ICML 2024.
 
 ### <a href="./consisency-paper/spatial-temporal-consistency/README_zh.md">空间一致性 + 时间一致性</a>
 
@@ -221,11 +221,11 @@
 
 #### 代表性工作
 
-* DUSt3R: Geometric 3D Vision Made Easy, CVPR 2024
-* 4D Gaussian Splatting for Real-Time Dynamic Scene Rendering, CVPR 2024
-* Neural Scene Flow Fields for Space-Time View Synthesis of Dynamic Scenes, CVPR 2021
-* CoTracker: It is Better to Track Together, ECCV 2024
-* GEN3C: 3D-Informed World-Consistent Video Generation with Precise Camera Control, 2024 (open release)
+* DUSt3R: Geometric 3D Vision Made Easy, CVPR 2024.
+* 4D Gaussian Splatting for Real-Time Dynamic Scene Rendering, CVPR 2024.
+* Neural Scene Flow Fields for Space-Time View Synthesis of Dynamic Scenes, CVPR 2021.
+* CoTracker: It is Better to Track Together, ECCV 2024.
+* GEN3C: 3D-Informed World-Consistent Video Generation with Precise Camera Control, 2024 (open release).
 
 ## 🌟 "三位一体"原型：涌现的世界模型
 
@@ -268,9 +268,9 @@
 > **核心创新**  
 > 将大模型从“看图 + 说话”扩展为“看图 + 理解 + 动作执行”，首次将互联网视觉-语言知识迁移到真实机器人动作层面，使机器人具备开放世界推理和零样本动作能力。
 
-* RT-2: Vision-Language-Action Models, CoRL 2023
-* GAIA-1: A Generative World Model for Autonomous Driving, arXiv 2023
-* PaLM-E: An Embodied Multimodal Language Model, ICLR 2024
+* RT-2: Vision-Language-Action Models, CoRL 2023.
+* GAIA-1: A Generative World Model for Autonomous Driving, arXiv 2023.
+* PaLM-E: An Embodied Multimodal Language Model, ICLR 2024.
 
 ## 📊 <a href="./consisency-paper/benchmarks+evaluation/README_zh.md">基准测试与评估</a>
 
@@ -287,8 +287,8 @@
 
 #### 代表性工作
 
-* WISE: A World Knowledge-Informed Semantic Evaluation for Text-to-Image Generation, arXiv 2025
-* Are Video Models Ready as Zero-Shot Reasoners? An Empirical Study with the MME-COF Benchmark, arXiv 2025
+* WISE: A World Knowledge-Informed Semantic Evaluation for Text-to-Image Generation, arXiv 2025.
+* Are Video Models Ready as Zero-Shot Reasoners? An Empirical Study with the MME-COF Benchmark, arXiv 2025.
 
 ## 📝 贡献指南
 
