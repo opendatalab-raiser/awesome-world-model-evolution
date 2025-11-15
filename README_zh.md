@@ -9,6 +9,10 @@
 </div>
 
 <p align="center">
+  <a href="README.md">English</a> | <a href="README_zh.md">中文</a>
+</p>
+
+<p align="center">
   <strong>精心收集的研究论文、模型和资源合集，追溯从专用模型到统一世界模型的演化历程。</strong>
 </p>
 
