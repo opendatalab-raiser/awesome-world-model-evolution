@@ -118,7 +118,7 @@
 
 在统一模型时代之前，研究人员采用"分而治之"的方法，针对每个一致性挑战开发专门的架构。这些奠基性工作建立了关键技术和洞见，为当前的统一方法提供了基础。
 
-### 模态一致性
+### <a href="./consisency-paper/modality-consistency/README_zh.md">模态一致性</a>
 
 **目标**：在符号（语言）和感知（视觉）表示之间建立双向映射。
 
@@ -238,7 +238,7 @@
 
 ---
 
-### 空间一致性
+### <a href="./consisency-paper/spatial-consistency/README_zh.md">空间一致性</a>
 
 **目标**：使模型能够从二维观察中理解和生成三维空间结构。
 
@@ -358,7 +358,7 @@
 
 ---
 
-### 时间一致性
+### <a href="./consisency-paper/temporal-consistency/README_zh.md">时间一致性</a>
 
 **目标**：建模视频序列中的时间动态、物体运动和因果关系。
 
@@ -510,7 +510,7 @@
 
 当前最先进的模型正开始打破各个一致性之间的壁垒。本节展示成功整合**三大一致性中的两项**的模型，它们代表了通向完整世界模型的关键中间步骤。
 
-### 模态 + 空间一致性
+### <a href="./consisency-paper/modality+spatial-consistency/README_zh.md">模态 + 空间一致性</a>
 
 **能力特征**：能够将文本/图像描述转换为空间连贯的 3D 表示或多视角一致输出的模型。
 
@@ -1264,7 +1264,7 @@
 
 ---
 
-### 模态 + 时间一致性
+### <a href="./consisency-paper/modality+temporal-consistency/README_zh.md">模态 + 时间一致性</a>
 
 **能力特征**：将文本描述或静态图像转换为时间连贯的动态视频序列的模型。
 
@@ -1412,7 +1412,7 @@
 
 ---
 
-### 空间一致性 + 时间一致性
+### <a href="./consisency-paper/spatial-temporal-consistency/README_zh.md">空间一致性 + 时间一致性</a>
 
 **能力特征**：这类模型能够在模拟时间动态演化的同时保持三维空间结构的一致性，但可能在语言理解或可控性方面存在一定局限。
 
@@ -1566,7 +1566,7 @@
 
 本节重点介绍展示**三大一致性初步整合**的模型，表现出涌现的世界模型能力。这些系统代表了当前前沿，展现了真正世界模拟的雏形。
 
-### 文本到世界生成器
+### <a href="./consisency-paper/world-models/README_zh.md">文本到世界生成器</a>
 
 从语言描述生成动态、空间一致的虚拟环境的模型。
 
@@ -1662,7 +1662,7 @@
 
 ---
 
-### 具身智能系统
+### <a href="./consisency-paper/embodied-intelligence-systems/README_zh.md">具身智能系统</a>
 
 为机器人控制和自主智能体设计的模型，必须整合感知、空间推理和时间预测以执行真实世界任务。
 
@@ -1757,7 +1757,7 @@
 
 ---
 
-## 📊 基准测试与评估
+## 📊 <a href="./consisency-paper/benchmarks+evaluation/README_zh.md">基准测试与评估</a>
 
 **当前挑战**：现有指标（FID、FVD、CLIP Score）无法充分评估世界模型能力，侧重于感知质量而非物理理解。
 
