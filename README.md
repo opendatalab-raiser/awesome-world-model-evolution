@@ -243,7 +243,7 @@ Before the era of unified models, researchers pursued a "divide-and-conquer" app
 
 ---
 
-### Spatial Consistency
+### <a href="./consisency-paper/spatial-consistency/README.md">Spatial Consistency</a>
 
 **Objective**: Enable models to understand and generate 3D spatial structure from 2D observations.
 
@@ -363,7 +363,7 @@ Before the era of unified models, researchers pursued a "divide-and-conquer" app
 
 ---
 
-### Temporal Consistency
+### <a href="./consisency-paper/temporal-consistency/README.md">Temporal Consistency</a>
 
 **Objective**: Model temporal dynamics, object motion, and causal relationships in video sequences.
 
@@ -515,7 +515,7 @@ Before the era of unified models, researchers pursued a "divide-and-conquer" app
 
 Current state-of-the-art models are beginning to break down the barriers between individual consistencies. This section showcases models that successfully integrate **two** of the three fundamental consistencies, representing crucial intermediate steps toward complete world models.
 
-### Modality + Spatial Consistency
+### <a href="./consisency-paper/modality+spatial-consistency/README.md">Modality + Spatial Consistency</a>
 
 **Capability Profile**: Models that can translate text/image descriptions into spatially coherent 3D representations or multi-view consistent outputs.
 
@@ -1269,7 +1269,7 @@ Current state-of-the-art models are beginning to break down the barriers between
 
 ---
 
-### Modality + Temporal Consistency
+### <a href="./consisency-paper/modality+temporal-consistency/README.md">Modality + Temporal Consistency</a>
 
 **Capability Profile**: Models that transform textual descriptions or static images into temporally coherent, dynamic video sequences.
 
@@ -1412,7 +1412,7 @@ Current state-of-the-art models are beginning to break down the barriers between
 
 ---
 
-### Spatial + Temporal Consistency
+### <a href="./consisency-paper/spatial-temporal-consistency/README.md">Spatial + Temporal Consistency</a>
 
 Capability Profile: Models that maintain 3D spatial structure while simulating temporal dynamics, but may have limited language understanding or controllability.
 
@@ -1560,7 +1560,7 @@ Significance: These models represent crucial technical achievements in understan
 
 This section highlights models that demonstrate **preliminary integration of all three consistencies**, exhibiting emergent world model capabilities. These systems represent the current frontier, showing glimpses of true world simulation.
 
-### Text-to-World Generators
+### <a href="./consisency-paper/world-models/README.md">Text-to-World Generators</a>
 
 Models that generate dynamic, spatially consistent virtual environments from language descriptions.
 
@@ -1655,7 +1655,7 @@ Models that generate dynamic, spatially consistent virtual environments from lan
 
 ---
 
-### Embodied Intelligence Systems
+### <a href="./consisency-paper/embodied-intelligence-systems/README.md">Embodied Intelligence Systems</a>
 
 Models designed for robotic control and autonomous agents that must integrate perception, spatial reasoning, and temporal prediction for real-world task execution.
 
@@ -1751,7 +1751,7 @@ Models designed for robotic control and autonomous agents that must integrate pe
 
 ---
 
-## 📊 Benchmarks and Evaluation
+## 📊 <a href="./consisency-paper/benchmarks+evaluation/README.md">Benchmarks and Evaluation</a>
 
 **Current Challenge**: Existing metrics (FID, FVD, CLIP Score) inadequately assess world model capabilities, focusing on perceptual quality rather than physical understanding.
 
@@ -1862,6 +1862,7 @@ If this project helps you, please give us a Star ⭐️!
 ## 📄 License
 
 This project is licensed under [MIT License](LICENSE).
+
 
 
 
