@@ -1,3 +1,7 @@
+<p align="center">
+  <a href="README.md">English</a> | <a href="README_zh.md">中文</a>
+</p>
+
 ### Modality + Temporal Consistency
 
 **Capability Profile**: Models that transform textual descriptions or static images into temporally coherent, dynamic video sequences.
