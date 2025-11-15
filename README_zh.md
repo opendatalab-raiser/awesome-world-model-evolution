@@ -238,35 +238,6 @@
 
 ---
 
-
-<details>
-<summary><b> Muddit: Liberating Generation Beyond Text-to-Image with a Unified Discrete Diffusion Model</b></summary>
-
-* **Authors:** Qingyu Shi, Jinbin Bai, Zhuoran Zhao, Wenhao Chai, Kaidong Yu, Jianzong Wu, Shuangyong Song, Yunhai Tong, Xiangtai Li, Xuelong Li, Shuicheng Yan
-* **arXiv ID:** 2505.23606
-* **One-liner:** Introduced Muddit, a unified discrete diffusion transformer for fast parallel generation across text and image modalities.
-* **Published in:** 
-* **Links:** [[Paper]](https://arxiv.org/abs/2505.23606) | [[PDF]](https://arxiv.org/pdf/2505.23606)
-
-> **核心创新**
-> 通过将预训练骨干的强视觉先验与轻量级文本解码器集成于统一架构，实现快速并行的多模态生成。
-
-<details>
-    <summary>Abstract</summary>
-    统一生成模型旨在单一架构和解码范式下处理跨模态的多样化任务——如文本生成、图像生成和视觉语言推理。自回归统一模型因顺序解码而推理缓慢，非自回归统一模型因预训练骨干有限而泛化能力弱。我们引入了Muddit，一个统一的离散扩散Transformer，能够在文本和图像模态上实现快速并行生成。与先前从头训练的统一直散模型不同，Muddit将预训练文本到图像骨干的强视觉先验与轻量级文本解码器集成，在统一架构下实现灵活高质量的多模态生成。实证结果表明，Muddit在质量和效率上与显著更大的自回归模型相比，达到了竞争性或更优的性能。这项工作突显了纯离散扩散在配备强视觉先验时，作为统一生成的可扩展有效骨干的潜力。
-</details>
-
-<details>
-    <summary>Key points</summary>
-    * 利用离散扩散实现可扩展生成
-    * 集成预训练文本到图像骨干
-    * 采用轻量级文本解码器
-    * 在质量和效率上实现竞争性性能
-</details>
-</details>
-
----
-
 ### 空间一致性
 
 **目标**：使模型能够从二维观察中理解和生成三维空间结构。
