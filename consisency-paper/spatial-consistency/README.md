@@ -1,3 +1,7 @@
+<p align="center">
+  <a href="README.md">English</a> | <a href="README_zh.md">中文</a>
+</p>
+
 ### Spatial Consistency
 
 **Objective**: Enable models to understand and generate 3D spatial structure from 2D observations.
