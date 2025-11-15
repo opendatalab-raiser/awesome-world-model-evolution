@@ -122,7 +122,7 @@ This repository traces the evolution toward world models through **Unified Multi
 
 Before the era of unified models, researchers pursued a "divide-and-conquer" approach, developing specialized architectures for each consistency challenge. This foundational work established key techniques and insights that inform current unified approaches.
 
-### Modality Consistency
+### <a href="./consisency-paper/modality-consistency/README.md">Modality Consistency</a>
 
 **Objective**: Establish bidirectional mappings between symbolic (language) and perceptual (vision) representations.
 
@@ -1862,6 +1862,7 @@ If this project helps you, please give us a Star ⭐️!
 ## 📄 License
 
 This project is licensed under [MIT License](LICENSE).
+
 
 
 
