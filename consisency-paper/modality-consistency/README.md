@@ -1,3 +1,7 @@
+<p align="center">
+  <a href="README.md">English</a> | <a href="README_zh.md">中文</a>
+</p>
+
 ### Modality Consistency
 
 **Objective**: Establish bidirectional mappings between symbolic (language) and perceptual (vision) representations.
