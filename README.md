@@ -128,10 +128,10 @@ Before the era of unified models, researchers pursued a "divide-and-conquer" app
 
 **Historical Significance**: These models created the first "symbol-perception bridges," solving the fundamental I/O problem for world models.
 
-<details>
-<summary><b>Representative Works</b></summary>
-#### Representative Works {#representative-works}
+#### Representative Works
 
+<details>
+<summary><b>paper catalog</b></summary>
 
 * CLIP: Learning Transferable Visual Models From Natural Language Supervision, ICML 2021.
 * DALL-E: Zero-Shot Text-to-Image Generation, ICML 2021.
@@ -598,8 +598,10 @@ Before the era of unified models, researchers pursued a "divide-and-conquer" app
 
 **Historical Significance**: Provided methodologies for constructing internal "3D scene graphs" and understanding geometric relationships.
 
+#### Representative Works
+
 <details>
-<summary><b>Representative Works</b></summary>
+<summary><b>paper catalog</b></summary>
 
 * NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis, ECCV 2020.
 * 3D Gaussian Splatting for Real-Time Radiance Field Rendering, SIGGRAPH 2023.
@@ -614,8 +616,10 @@ Before the era of unified models, researchers pursued a "divide-and-conquer" app
 
 **Historical Significance**: Early explorations of the world's "physics engine," capturing regularities in how scenes evolve over time.
 
+#### Representative Works
+
 <details>
-<summary><b>Representative Works</b></summary>
+<summary><b>paper catalog</b></summary>
 
 * PredRNN: A Recurrent Neural Network for Spatiotemporal Predictive Learning, TPAMI 2023.
 * SimVP: Simpler yet Better Video Prediction, CVPR 2022.
@@ -635,8 +639,10 @@ Current state-of-the-art models are beginning to break down the barriers between
 
 **Significance**: These models demonstrate "3D imagination" - they are no longer mere "2D painters" but "digital sculptors" understanding spatial structure.
 
+#### Representative Works
+
 <details>
-<summary><b>Representative Works</b></summary>
+<summary><b>paper catalog</b></summary>
 
 * Zero-1-to-3: Zero-shot One Image to 3D Object, ICCV 2023.
 * MVDream: Multi-view Diffusion for 3D Generation, ICLR 2024.
@@ -673,8 +679,10 @@ Current state-of-the-art models are beginning to break down the barriers between
 
 **Significance**: Currently the most prominent integration direction, enabling high-quality text-to-video and image-to-video generation.
 
+#### Representative Works
+
 <details>
-<summary><b>Representative Works</b></summary>
+<summary><b>paper catalog</b></summary>
 
 * Lumiere: A Space-Time Diffusion Model for Video Generation, SIGGRAPH-ASIA 2024.
 * Stable Video Diffusion: Scaling Latent Video Diffusion Models to Large Datasets, arXiv 2023.
@@ -690,8 +698,10 @@ Capability Profile: Models that maintain 3D spatial structure while simulating t
 
 Significance: These models represent crucial technical achievements in understanding "how the 3D world moves," forming the physics engine component of world models.
 
+#### Representative Works
+
 <details>
-<summary><b>Representative Works</b></summary>
+<summary><b>paper catalog</b></summary>
 
 * DUSt3R: Geometric 3D Vision Made Easy, CVPR 2024.
 * 4D Gaussian Splatting for Real-Time Dynamic Scene Rendering, CVPR 2024.
@@ -714,8 +724,10 @@ Models that generate dynamic, spatially consistent virtual environments from lan
 - ✅ Spatial: 3D-aware scene composition with object permanence
 - ✅ Temporal: Physically plausible dynamics and motion
 
+#### Representative Works
+
 <details>
-<summary><b>Representative Works</b></summary>
+<summary><b>paper catalog</b></summary>
 
 * Runway Gen-3 Alpha, 2024 (Alpha).
 * Pika 1.0, 2023 (November).
@@ -731,8 +743,10 @@ Models designed for robotic control and autonomous agents that must integrate pe
 - 3D spatial navigation and manipulation planning
 - Predictive modeling of action consequences
 
+#### Representative Works
+
 <details>
-<summary><b>Representative Works</b></summary>
+<summary><b>paper catalog</b></summary>
 
 * RT-2: Vision-Language-Action Models, CoRL 2023.
 * GAIA-1: A Generative World Model for Autonomous Driving, arXiv 2023.
@@ -753,8 +767,10 @@ A true world model benchmark should evaluate:
 - 🎯 **Goal-Directed Planning**: Can it chain actions to achieve complex objectives?
 - 🎛️ **Controllability**: How precisely can users manipulate simulated elements?
 
+#### Representative Works
+
 <details>
-<summary><b>Representative Works</b></summary>
+<summary><b>paper catalog</b></summary>
 
 * WISE: A World Knowledge-Informed Semantic Evaluation for Text-to-Image Generation, arXiv 2025.
 * Are Video Models Ready as Zero-Shot Reasoners? An Empirical Study with the MME-COF Benchmark, arXiv 2025.
@@ -801,6 +817,7 @@ If this project helps you, please give us a Star ⭐️!
 ## 📄 License
 
 This project is licensed under [MIT License](LICENSE).
+
 
 
 
