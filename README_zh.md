@@ -128,7 +128,8 @@
 
 **历史意义**：这些模型创建了首批"符号-感知桥梁"，解决了世界模型的基本输入/输出问题。
 
-#### 代表性工作
+<details>
+<summary><b>代表性工作</b></summary>
 
 * CLIP: Learning Transferable Visual Models From Natural Language Supervision, ICML 2021.
 * DALL-E: Zero-Shot Text-to-Image Generation, ICML 2021.
@@ -588,18 +589,23 @@
 *  UniLiP: Adapting CLIP for Unified Multimodal Understanding, Generation and Editing, arxiv (31 Jul 2025).
 *  Hyper-Bagel: A Unified Acceleration Framework for Multimodal Understanding and Generation, arxiv (23 Sep 2025).
 
+</details>
+
 ### <a href="./consisency-paper/spatial-consistency/README_zh.md">空间一致性</a>
 
 **目标**：使模型能够从二维观察中理解和生成三维空间结构。
 
 **历史意义**：为构建内部"3D 场景图"和理解几何关系提供了方法论。
 
-#### 代表性工作
+<details>
+<summary><b>代表性工作</b></summary>
 
 * NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis, ECCV 2020.
 * 3D Gaussian Splatting for Real-Time Radiance Field Rendering, SIGGRAPH 2023.
 * EG3D: Efficient Geometry-aware 3D Generative Adversarial Networks, CVPR 2022.
 * Instant Neural Graphics Primitives with a Multiresolution Hash Encoding, SIGGRAPH 2022.
+
+</details>
 
 ### <a href="./consisency-paper/temporal-consistency/README_zh.md">时间一致性</a>
 
@@ -607,13 +613,16 @@
 
 **历史意义**：对世界"物理引擎"的早期探索，捕捉场景随时间演化的规律。
 
-#### 代表性工作
+<details>
+<summary><b>代表性工作</b></summary>
 
 * PredRNN: A Recurrent Neural Network for Spatiotemporal Predictive Learning, TPAMI 2023.
 * SimVP: Simpler yet Better Video Prediction, CVPR 2022.
 * Temporal Attention Unit: Towards Efficient Spatiotemporal Predictive Learning, CVPR 2023.
 * VideoGPT: Video Generation using VQ-VAE and Transformers, arXiv 2021.
 * Phenaki: Variable Length Video Generation from Open Domain Textual Descriptions, ICLR 2023.
+
+</details>
 
 ## 🔗 初步融合：统一多模态模型
 
@@ -625,7 +634,8 @@
 
 **意义**：这些模型展示了"3D 想象力"——它们不再是简单的"2D 画家"，而是理解空间结构的"数字雕塑家"。
 
-#### 代表性工作
+<details>
+<summary><b>代表性工作</b></summary>
 
 * Zero-1-to-3: Zero-shot One Image to 3D Object, ICCV 2023.
 * MVDream: Multi-view Diffusion for 3D Generation, ICLR 2024.
@@ -654,6 +664,7 @@
 * NeRF-HuGS: Improved Neural Radiance Fields in Non-static Scenes Using Heuristics-Guided Segmentation, CVPR 2024.
 * RealFusion: 360° Reconstruction of Any Object from a Single Image, CVPR 2023.
 
+</details>
   
 ### <a href="./consisency-paper/modality+temporal-consistency/README_zh.md">模态 + 时间一致性</a>
 
@@ -661,7 +672,8 @@
 
 **意义**：目前最突出的融合方向，实现高质量的文本到视频和图像到视频生成。
 
-#### 代表性工作
+<details>
+<summary><b>代表性工作</b></summary>
 
 * Lumiere: A Space-Time Diffusion Model for Video Generation, SIGGRAPH-ASIA 2024.
 * Stable Video Diffusion: Scaling Latent Video Diffusion Models to Large Datasets, arXiv 2023.
@@ -669,19 +681,24 @@
 * Emu Video: Factorizing Text-to-Video Generation by Explicit Image Conditioning, ECCV 2024.
 * VideoPoet: A Large Language Model for Zero-Shot Video Generation, ICML 2024.
 
+</details>
+
 ### <a href="./consisency-paper/spatial-temporal-consistency/README_zh.md">空间一致性 + 时间一致性</a>
 
 **能力特征**：这类模型能够在模拟时间动态演化的同时保持三维空间结构的一致性，但可能在语言理解或可控性方面存在一定局限。
 
 **意义**：这些模型代表了理解"三维世界如何运动"的关键技术成就，构成了世界模型的物理引擎组成部分。
 
-#### 代表性工作
+<details>
+<summary><b>代表性工作</b></summary>
 
 * DUSt3R: Geometric 3D Vision Made Easy, CVPR 2024.
 * 4D Gaussian Splatting for Real-Time Dynamic Scene Rendering, CVPR 2024.
 * Neural Scene Flow Fields for Space-Time View Synthesis of Dynamic Scenes, CVPR 2021.
 * CoTracker: It is Better to Track Together, ECCV 2024.
 * GEN3C: 3D-Informed World-Consistent Video Generation with Precise Camera Control, 2024 (open release).
+
+</details>
 
 ## 🌟 "三位一体"原型：涌现的世界模型
 
@@ -696,10 +713,13 @@
 - ✅ 空间一致性：具有物体恒存性的 3D 感知场景组合
 - ✅ 时间一致性：物理上可信的动力学和运动
 
-#### 代表性工作
+<details>
+<summary><b>代表性工作</b></summary>
 
 * Runway Gen-3 Alpha, 2024 (Alpha)
 * Pika 1.0, 2023 (November)
+
+</details>
 
 ### <a href="./consisency-paper/embodied-intelligence-systems/README_zh.md">具身智能系统</a>
 
@@ -710,23 +730,14 @@
 - 3D 空间导航和操作规划
 - 动作后果的预测建模
 
-#### 代表性工作
-
 <details>
-<summary><b>RT-2: Vision-Language-Action Models</b></summary>
-
-* **Authors:** Anthony Brohan, Noah Brown, Justice Carbajal, Yevgen Chebotar, Xi Chen, Krzysztof Choromanski, Tianli Ding, Danny Driess, Avinava Dubey, Chelsea Finn, Pete Florence, Chuyuan Fu, Montse Gonzalez Arenas, Keerthana Gopalakrishnan, Kehang Han, Karol Hausman, Alexander Herzog, Jasmine Hsu, Brian Ichter, Alex Irpan, Nikhil Joshi, Ryan Julian, Dmitry Kalashnikov, Yuheng Kuang, Isabel Leal, Lisa Lee, Tsang-Wei Edward Lee, Sergey Levine, Yao Lu, Henryk Michalewski, Igor Mordatch, Karl Pertsch, Kanishka Rao, Krista Reymann, Michael Ryoo, Grecia Salazar, Pannag Sanketi, Pierre Sermanet, Jaspiar Singh, Anikait Singh, Radu Soricut, Huong Tran, Vincent Vanhoucke, Quan Vuong, Ayzaan Wahid, Stefan Welker, Paul Wohlhart, Jialin Wu, Fei Xia, Ted Xiao, Peng Xu, Sichun Xu, Tianhe Yu, Brianna Zitkovich
-* **arXiv ID:** 2307.15818
-* **One-liner:** 将大规模网络 VLM 与机器人动作训练结合，将视觉与语言直接转化为真实机器人动作，实现零样本现实操控。
-* **Published in:** CoRL 2023
-* **Links:** [[Paper]](https://arxiv.org/abs/2307.15818) | [[PDF]](https://arxiv.org/pdf/2307.15818.pdf) | [[Project Page]](https://robotics-transformer2.github.io/)
-
-> **核心创新**  
-> 将大模型从“看图 + 说话”扩展为“看图 + 理解 + 动作执行”，首次将互联网视觉-语言知识迁移到真实机器人动作层面，使机器人具备开放世界推理和零样本动作能力。
+<summary><b>代表性工作</b></summary>
 
 * RT-2: Vision-Language-Action Models, CoRL 2023.
 * GAIA-1: A Generative World Model for Autonomous Driving, arXiv 2023.
 * PaLM-E: An Embodied Multimodal Language Model, ICLR 2024.
+
+</details>
 
 ## 📊 <a href="./consisency-paper/benchmarks+evaluation/README_zh.md">基准测试与评估</a>
 
@@ -741,10 +752,13 @@
 - 🎯 **目标导向规划**：能否链接动作以实现复杂目标？
 - 🎛️ **可控性**：用户能多精确地操控模拟元素？
 
-#### 代表性工作
+<details>
+<summary><b>代表性工作</b></summary>
 
 * WISE: A World Knowledge-Informed Semantic Evaluation for Text-to-Image Generation, arXiv 2025.
 * Are Video Models Ready as Zero-Shot Reasoners? An Empirical Study with the MME-COF Benchmark, arXiv 2025.
+
+</details>
 
 ## 📝 贡献指南
 
