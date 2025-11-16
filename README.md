@@ -130,6 +130,7 @@ Before the era of unified models, researchers pursued a "divide-and-conquer" app
 
 <details>
 <summary><b>Representative Works</b></summary>
+#### Representative Works {#representative-works}
 
 
 * CLIP: Learning Transferable Visual Models From Natural Language Supervision, ICML 2021.
@@ -800,6 +801,7 @@ If this project helps you, please give us a Star ⭐️!
 ## 📄 License
 
 This project is licensed under [MIT License](LICENSE).
+
 
 
 
