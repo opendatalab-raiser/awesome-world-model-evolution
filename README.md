@@ -607,6 +607,36 @@ Before the era of unified models, researchers pursued a "divide-and-conquer" app
 * 3D Gaussian Splatting for Real-Time Radiance Field Rendering, SIGGRAPH 2023.
 * EG3D: Efficient Geometry-aware 3D Generative Adversarial Networks, CVPR 2022.
 * Instant Neural Graphics Primitives with a Multiresolution Hash Encoding, SIGGRAPH 2022.
+* Sora: A Review on Background, Technology, Limitations, and Opportunities of Large Scale Models, arXiv 2024.
+* Point-E: A System for Generating 3D Point Clouds from Complex Prompts, arXiv 2022.
+* Shap-E: Generating Conditional 3D Implicit Functions, arXiv 2023.
+* DreamFusion: Text-to-3D using 2D Diffusion, arXiv 2022.
+* Magic3D: High-Resolution Text-to-3D Content Creation, arXiv 2022.
+* DreamGaussian: Generative Gaussian Splatting for Efficient 3D Content Creation, arXiv 2023.
+* GET3D: A Generative Model of High Quality 3D Textured Shapes Learned from Images, arXiv 2022.
+* Mamba3D: Enhancing Local Features for 3D Point Cloud Analysis via State Space Model, arXiv 2024.
+* Zero-1-to-3: Zero-shot One Image to 3D Object, arXiv 2023.
+* One-2-3-45: Any Single Image to 3D Mesh in 45 Seconds Without Per-Shape Optimization, arXiv 2023.
+* Vidu4D: Single Generated Video to High-Fidelity 4D Reconstruction with Dynamic Gaussian Surfels, arXiv 2024.
+* GaussianFlow: Splatting Gaussian Dynamics for 4D Content Creation, arXiv 2024.
+* LLM-to-Phy3D: Physically Conform Online 3D Object Generation with LLMs, arXiv 2025.
+* Hunyuan3D 2.5: Towards High-Fidelity 3D Assets Generation with Multi-View Diffusion and Reconstruction, arXiv 2025.
+* Efficient 3D Shape Generation via Diffusion Mamba with Bidirectional SSMs, arXiv 2024.
+* Progressive3D: Progressively Local Editing for Text-to-3D Content Creation with Complex Textural Descriptions, arXiv 2023.
+* Hallo3D: Multi-Modal Hallucination Detection and Mitigation for Consistent 3D Content Generation, arXiv 2024.
+* SV3D: Novel Multi-view Synthesis and 3D Generation from a Single Image using Latent Video Diffusion, arXiv 2024.
+* Ca2-VDM: Efficient Autoregressive Video Diffusion Model with Causal Generation and Cache Sharing, arXiv 2024.
+* Flex3D: Feed-Forward 3D Generation with Flexible Reconstruction Model and Input View Curation, arXiv 2024.
+* Zero3D: Semantic-Driven Multi-Category 3D Shape Generation, arXiv 2023.
+* LinGen: Enhancing Long Video Generation with Linear Attention, arXiv 2024.
+* ByTheWay: Boost Your Text-to-Video Generation Model to Higher Quality in a Training-free Way, arXiv 2024.
+* Pandora: Towards General World Model with Natural Language Actions and Video States, arXiv 2024.
+* PhyT2V: LLM-Guided Iterative Self-Refinement for Physics-Grounded Text-to-Video Generation, arXiv 2024.
+* DSC-PoseNet: Learning 6DoF Object Pose Estimation via Dual-Scale Consistency, arXiv 2021.
+* A Quantitative Evaluation of Score Distillation Sampling Based Text-to-3D, arXiv 2024.
+* NeRF++: Analyzing and Improving Neural Radiance Fields, arXiv 2020.
+* Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding, arXiv 2022.
+* LiftImage3D: Lifting Any Single Image to 3D Gaussians with Video Diffusion Priors, arXiv 2024.
 
 </details>
 
@@ -626,6 +656,32 @@ Before the era of unified models, researchers pursued a "divide-and-conquer" app
 * Temporal Attention Unit: Towards Efficient Spatiotemporal Predictive Learning, CVPR 2023.
 * VideoGPT: Video Generation using VQ-VAE and Transformers, arXiv 2021.
 * Phenaki: Variable Length Video Generation from Open Domain Textual Descriptions, ICLR 2023.
+* Context-Alignment: Balanced Multimodal Alignment for LLM-Based Time Series Forecasting, arXiv preprint.
+* Qwen2.5-Omni: Qwen2.5-Omni Technical Report, arXiv preprint.
+* AID: Adapting Image2Video Diffusion Models for Instruction-guided Video Prediction, arXiv preprint.
+* ConvLSTM: Convolutional LSTM Network: A Machine Learning Approach for Precipitation Nowcasting, arXiv preprint.
+* Stable Video Diffusion: Scaling Latent Video Diffusion Models to Large Datasets, arXiv preprint.
+* StreamingT2V: Consistent, Dynamic, and Extendable Long Video Generation from Text, arXiv preprint.
+* HiTVideo: Hierarchical Tokenizers for Enhancing Text-to-Video Generation with Autoregressive Large Language Models, arXiv preprint.
+* DEMO: Decoupled Motion and Object for Text-to-Video Synthesis, arXiv preprint.
+* PhyT2V: LLM-Guided Iterative Self-Refinement for Physics-Grounded Text-to-Video Generation, arXiv preprint.
+* GenMAC: Compositional Text-to-Video Generation with Multi-Agent Collaboration, arXiv preprint.
+* SwarmGen: Fast Generation of Diverse Feasible Swarm Behaviors, arXiv preprint.
+* Decouple Content and Motion for Conditional Image-to-Video Generation, arXiv preprint.
+* I2V-Adapter: A General Image-to-Video Adapter for Diffusion Models, arXiv preprint.
+* Mo-Diff: Temporal Differential Fields for 4D Motion Modeling via Image-to-Video Synthesis, arXiv preprint.
+* One-Step Consistency Distillation: OSV - One Step is Enough for High-Quality Image to Video Generation, arXiv preprint.
+* Multi-Modal I2V: HuMo - Human-Centric Video Generation via Collaborative Multi-Modal Agents, arXiv preprint.
+* Audio-Visual Sync I2V: Syncphony - Synchronized Audio-to-Video Generation with Diffusion Transformers, arXiv preprint.
+* FreeMask: Rethinking the Importance of Attention Masks for Zero-Shot Video Editing, arXiv preprint.
+* BrushEdit: All-In-One Image Inpainting and Editing, arXiv preprint.
+* DAPE: Dual-Stage Parameter-Efficient Fine-Tuning for Consistent Video Editing with Text Instructions, arXiv preprint.
+* MoViE: Mobile Diffusion for Video Editing, arXiv preprint.
+* Temporally Consistent Object Editing in Videos using Extended Attention, arXiv preprint.
+* Consistent Video Editing as Flow-Driven I2V: Consistent Video Editing as Flow-Driven Image-to-Video Generation, arXiv preprint.
+* Audio-Visual Joint Attention: Audio-Visual Joint Attention for Enhancing Audio-Visual Generation, arXiv preprint.
+* Controllable Multi-Agent Editing: Controllable Multi-Agent Editing in Videos Using Text Instructions, arXiv preprint.
+* MimicBrush: Zero-shot Image Editing with Reference Imitation, arXiv preprint.
 
 </details>
 
@@ -817,6 +873,7 @@ If this project helps you, please give us a Star ⭐️!
 ## 📄 License
 
 This project is licensed under [MIT License](LICENSE).
+
 
 
 
