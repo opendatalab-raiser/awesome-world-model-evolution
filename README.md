@@ -610,10 +610,10 @@ Before the era of unified models, researchers pursued a "divide-and-conquer" app
 * Sora: A Review on Background, Technology, Limitations, and Opportunities of Large Scale Models, arXiv 2024.
 * Point-E: A System for Generating 3D Point Clouds from Complex Prompts, arXiv 2022.
 * Shap-E: Generating Conditional 3D Implicit Functions, arXiv 2023.
-* DreamFusion: Text-to-3D using 2D Diffusion, arXiv 2022.
-* Magic3D: High-Resolution Text-to-3D Content Creation, arXiv 2022.
+* DreamFusion: Text-to-3D using 2D Diffusion, ICLR 2023.
+* Magic3D: High-Resolution Text-to-3D Content Creation, CVPR 2023.
 * DreamGaussian: Generative Gaussian Splatting for Efficient 3D Content Creation, arXiv 2023.
-* GET3D: A Generative Model of High Quality 3D Textured Shapes Learned from Images, arXiv 2022.
+* GET3D: A Generative Model of High Quality 3D Textured Shapes Learned from Images, NeurIPS 2022.
 * Mamba3D: Enhancing Local Features for 3D Point Cloud Analysis via State Space Model, arXiv 2024.
 * Zero-1-to-3: Zero-shot One Image to 3D Object, arXiv 2023.
 * One-2-3-45: Any Single Image to 3D Mesh in 45 Seconds Without Per-Shape Optimization, arXiv 2023.
@@ -632,10 +632,10 @@ Before the era of unified models, researchers pursued a "divide-and-conquer" app
 * ByTheWay: Boost Your Text-to-Video Generation Model to Higher Quality in a Training-free Way, arXiv 2024.
 * Pandora: Towards General World Model with Natural Language Actions and Video States, arXiv 2024.
 * PhyT2V: LLM-Guided Iterative Self-Refinement for Physics-Grounded Text-to-Video Generation, arXiv 2024.
-* DSC-PoseNet: Learning 6DoF Object Pose Estimation via Dual-Scale Consistency, arXiv 2021.
+* DSC-PoseNet: Learning 6DoF Object Pose Estimation via Dual-Scale Consistency, CVPR 2021.
 * A Quantitative Evaluation of Score Distillation Sampling Based Text-to-3D, arXiv 2024.
-* NeRF++: Analyzing and Improving Neural Radiance Fields, arXiv 2020.
-* Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding, arXiv 2022.
+* NeRF++: Analyzing and Improving Neural Radiance Fields, CVPR 2021.
+* Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding, CVPR 2023.
 * LiftImage3D: Lifting Any Single Image to 3D Gaussians with Video Diffusion Priors, arXiv 2024.
 
 </details>
@@ -656,32 +656,32 @@ Before the era of unified models, researchers pursued a "divide-and-conquer" app
 * Temporal Attention Unit: Towards Efficient Spatiotemporal Predictive Learning, CVPR 2023.
 * VideoGPT: Video Generation using VQ-VAE and Transformers, arXiv 2021.
 * Phenaki: Variable Length Video Generation from Open Domain Textual Descriptions, ICLR 2023.
-* Context-Alignment: Balanced Multimodal Alignment for LLM-Based Time Series Forecasting, arXiv preprint.
-* Qwen2.5-Omni: Qwen2.5-Omni Technical Report, arXiv preprint.
-* AID: Adapting Image2Video Diffusion Models for Instruction-guided Video Prediction, arXiv preprint.
-* ConvLSTM: Convolutional LSTM Network: A Machine Learning Approach for Precipitation Nowcasting, arXiv preprint.
-* Stable Video Diffusion: Scaling Latent Video Diffusion Models to Large Datasets, arXiv preprint.
-* StreamingT2V: Consistent, Dynamic, and Extendable Long Video Generation from Text, arXiv preprint.
-* HiTVideo: Hierarchical Tokenizers for Enhancing Text-to-Video Generation with Autoregressive Large Language Models, arXiv preprint.
-* DEMO: Decoupled Motion and Object for Text-to-Video Synthesis, arXiv preprint.
-* PhyT2V: LLM-Guided Iterative Self-Refinement for Physics-Grounded Text-to-Video Generation, arXiv preprint.
-* GenMAC: Compositional Text-to-Video Generation with Multi-Agent Collaboration, arXiv preprint.
-* SwarmGen: Fast Generation of Diverse Feasible Swarm Behaviors, arXiv preprint.
-* Decouple Content and Motion for Conditional Image-to-Video Generation, arXiv preprint.
-* I2V-Adapter: A General Image-to-Video Adapter for Diffusion Models, arXiv preprint.
-* Mo-Diff: Temporal Differential Fields for 4D Motion Modeling via Image-to-Video Synthesis, arXiv preprint.
-* One-Step Consistency Distillation: OSV - One Step is Enough for High-Quality Image to Video Generation, arXiv preprint.
-* Multi-Modal I2V: HuMo - Human-Centric Video Generation via Collaborative Multi-Modal Agents, arXiv preprint.
-* Audio-Visual Sync I2V: Syncphony - Synchronized Audio-to-Video Generation with Diffusion Transformers, arXiv preprint.
-* FreeMask: Rethinking the Importance of Attention Masks for Zero-Shot Video Editing, arXiv preprint.
-* BrushEdit: All-In-One Image Inpainting and Editing, arXiv preprint.
-* DAPE: Dual-Stage Parameter-Efficient Fine-Tuning for Consistent Video Editing with Text Instructions, arXiv preprint.
-* MoViE: Mobile Diffusion for Video Editing, arXiv preprint.
-* Temporally Consistent Object Editing in Videos using Extended Attention, arXiv preprint.
-* Consistent Video Editing as Flow-Driven I2V: Consistent Video Editing as Flow-Driven Image-to-Video Generation, arXiv preprint.
-* Audio-Visual Joint Attention: Audio-Visual Joint Attention for Enhancing Audio-Visual Generation, arXiv preprint.
-* Controllable Multi-Agent Editing: Controllable Multi-Agent Editing in Videos Using Text Instructions, arXiv preprint.
-* MimicBrush: Zero-shot Image Editing with Reference Imitation, arXiv preprint.
+* Context-Alignment: Balanced Multimodal Alignment for LLM-Based Time Series Forecasting, arXiv preprint 2025.
+* Qwen2.5-Omni: Qwen2.5-Omni Technical Report, arXiv preprint 2025.
+* AID: Adapting Image2Video Diffusion Models for Instruction-guided Video Prediction, arXiv preprint 2024.
+* ConvLSTM: Convolutional LSTM Network: A Machine Learning Approach for Precipitation Nowcasting, NeurIPS 2015.
+* Stable Video Diffusion: Scaling Latent Video Diffusion Models to Large Datasets, ICLR 2024.
+* StreamingT2V: Consistent, Dynamic, and Extendable Long Video Generation from Text, CVPR 2024.
+* HiTVideo: Hierarchical Tokenizers for Enhancing Text-to-Video Generation with Autoregressive Large Language Models, arXiv preprint 2025.
+* DEMO: Decoupled Motion and Object for Text-to-Video Synthesis, NeurIPS 2024.
+* PhyT2V: LLM-Guided Iterative Self-Refinement for Physics-Grounded Text-to-Video Generation, ICLR 2025.
+* GenMAC: Compositional Text-to-Video Generation with Multi-Agent Collaboration, NeurIPS 2024.
+* SwarmGen: Fast Generation of Diverse Feasible Swarm Behaviors, ICRA 2025.
+* Decouple Content and Motion for Conditional Image-to-Video Generation, ICCV 2023.
+* I2V-Adapter: A General Image-to-Video Adapter for Diffusion Models, CVPR 2024.
+* Mo-Diff: Temporal Differential Fields for 4D Motion Modeling via Image-to-Video Synthesis, SIGGRAPH 2025.
+* One-Step Consistency Distillation: OSV - One Step is Enough for High-Quality Image to Video Generation, ECCV 2024.
+* Multi-Modal I2V: HuMo - Human-Centric Video Generation via Collaborative Multi-Modal Agents, NeurIPS 2025.
+* Audio-Visual Sync I2V: Syncphony - Synchronized Audio-to-Video Generation with Diffusion Transformers, ICML 2025.
+* FreeMask: Rethinking the Importance of Attention Masks for Zero-Shot Video Editing, ECCV 2024.
+* BrushEdit: All-In-One Image Inpainting and Editing, CVPR 2025.
+* DAPE: Dual-Stage Parameter-Efficient Fine-Tuning for Consistent Video Editing with Text Instructions, ICCV 2025.
+* MoViE: Mobile Diffusion for Video Editing, MM 2024.
+* Temporally Consistent Object Editing in Videos using Extended Attention, CVPR 2024.
+* Consistent Video Editing as Flow-Driven I2V: Consistent Video Editing as Flow-Driven Image-to-Video Generation, SIGGRAPH 2025.
+* Audio-Visual Joint Attention: Audio-Visual Joint Attention for Enhancing Audio-Visual Generation, NeurIPS 2025.
+* Controllable Multi-Agent Editing: Controllable Multi-Agent Editing in Videos Using Text Instructions, ICCV 2025.
+* MimicBrush: Zero-shot Image Editing with Reference Imitation, CVPR 2024.
 
 </details>
 
@@ -873,6 +873,7 @@ If this project helps you, please give us a Star ⭐️!
 ## 📄 License
 
 This project is licensed under [MIT License](LICENSE).
+
 
 
 
