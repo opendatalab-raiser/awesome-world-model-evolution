@@ -215,7 +215,7 @@
 * **Authors:** Ben Poole, Ajay Jain, Jonathan T. Barron, Ben Mildenhall
 * **arXiv ID:** 2209.14988
 * **One-liner:** DreamFusion引入分数蒸馏采样（SDS），通过利用2D扩散先验实现无需3D训练数据的文本到3D生成。
-* **Published in:** arXiv 2022
+* **Published in:**  ICLR 2023 
 * **Links:** [[Paper]](https://arxiv.org/abs/2209.14988) | [[PDF]](https://arxiv.org/pdf/2209.14988.pdf)
 
 > **核心创新**  
@@ -244,7 +244,7 @@
 * **Authors:** Chen-Hsuan Lin, Jun Gao, Luming Tang, Towaki Takikawa, Xiaohui Zeng, Xun Huang, Karsten Kreis, Sanja Fidler, Ming-Yu Liu, Tsung-Yi Lin
 * **arXiv ID:** 2211.10440
 * **One-liner:** Magic3D引入两阶段优化框架，使用粗糙NeRF初始化和精细3D高斯溅射精炼实现高分辨率文本到3D生成。
-* **Published in:** arXiv 2022
+* **Published in:** CVPR 2023
 * **Links:** [[Paper]](https://arxiv.org/abs/2211.10440) | [[PDF]](https://arxiv.org/pdf/2211.10440.pdf)
 
 > **核心创新**  
@@ -302,7 +302,7 @@
 * **Authors:** Jun Gao, Tianchang Shen, Zian Wang, Wenzheng Chen, Kangxue Yin, Daiqing Li, Or Litany, Zan Gojcic, Sanja Fidler
 * **arXiv ID:** 2209.11163
 * **One-liner:** GET3D是一个端到端的3D原生扩散模型，直接在3D数据域中生成高保真纹理3D形状，无需显式3D监督。
-* **Published in:** arXiv 2022
+* **Published in:** NeurIPS 2022
 * **Links:** [[Paper]](https://arxiv.org/abs/2209.11163) | [[PDF]](https://arxiv.org/pdf/2209.11163.pdf) | [[Code]](https://github.com/nv-tlabs/GET3D)
 
 > **核心创新**  
@@ -853,7 +853,7 @@
 * **Authors:** Yiming Yang, Sixian Chan, Xiangyu Xu, Haibin Ling, Xiaoming Liu
 * **arXiv ID:** 2104.03658
 * **One-liner:** 双尺度一致性学习框架从2D边界框弱监督学习6DoF物体姿态，误差减少18%。
-* **Published in:** arXiv 2021
+* **Published in:** CVPR 2021
 * **Links:** [[Paper]](https://arxiv.org/abs/2104.03658) | [[PDF]](https://arxiv.org/pdf/2104.03658.pdf)
 
 > **核心创新**  
@@ -911,7 +911,7 @@
 * **Authors:** Kai Zhang, Gernot Riegler, Noah Snavely, Vladlen Koltun
 * **arXiv ID:** 2010.07492
 * **One-liner:** 球坐标扩展和形状-辐射歧义分析改进NeRF的无边界场景建模，具有更好的泛化性。
-* **Published in:** arXiv 2020
+* **Published in:** CVPR 2021
 * **Links:** [[Paper]](https://arxiv.org/abs/2010.07492) | [[PDF]](https://arxiv.org/pdf/2010.07492.pdf) | [[Code]](https://github.com/Kai-46/nerfplusplus)
 
 > **核心创新**  
@@ -940,7 +940,7 @@
 * **Authors:** Chitwan Saharia, William Chan, Saurabh Saxena, Lala Li, Jay Whang, Emily Denton, Seyed Kamyar Seyed Ghasemipour, Karsten Kreis, David Fleet, Mohammad Norouzi
 * **arXiv ID:** 2205.11487
 * **One-liner:** 深度条件扩散模型增强空间关系理解和几何推理，在文本到图像生成中布局准确率提高35%。
-* **Published in:** arXiv 2022
+* **Published in:** CVPR 2023
 * **Links:** [[Paper]](https://arxiv.org/abs/2205.11487) | [[PDF]](https://arxiv.org/pdf/2205.11487.pdf)
 
 > **核心创新**  
@@ -989,5 +989,3 @@
     * 失真感知渲染改进几何对齐
 </details>
 </details>
-
----
