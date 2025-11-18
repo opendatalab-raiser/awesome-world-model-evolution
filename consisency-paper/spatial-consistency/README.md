@@ -215,7 +215,7 @@
 * **Authors:** Ben Poole, Ajay Jain, Jonathan T. Barron, Ben Mildenhall
 * **arXiv ID:** 2209.14988
 * **One-liner:** DreamFusion introduces Score Distillation Sampling (SDS) to enable text-to-3D generation without 3D training data by leveraging 2D diffusion priors.
-* **Published in:** arXiv 2022
+* **Published in:** ICLR 2023 
 * **Links:** [[Paper]](https://arxiv.org/abs/2209.14988) | [[PDF]](https://arxiv.org/pdf/2209.14988.pdf)
 
 > **Core Innovation**  
@@ -244,7 +244,7 @@
 * **Authors:** Chen-Hsuan Lin, Jun Gao, Luming Tang, Towaki Takikawa, Xiaohui Zeng, Xun Huang, Karsten Kreis, Sanja Fidler, Ming-Yu Liu, Tsung-Yi Lin
 * **arXiv ID:** 2211.10440
 * **One-liner:** Magic3D introduces a two-stage optimization framework for high-resolution text-to-3D generation using coarse NeRF initialization and fine 3D Gaussian splatting refinement.
-* **Published in:** arXiv 2022
+* **Published in:** CVPR 2023 
 * **Links:** [[Paper]](https://arxiv.org/abs/2211.10440) | [[PDF]](https://arxiv.org/pdf/2211.10440.pdf)
 
 > **Core Innovation**  
@@ -302,7 +302,7 @@
 * **Authors:** Jun Gao, Tianchang Shen, Zian Wang, Wenzheng Chen, Kangxue Yin, Daiqing Li, Or Litany, Zan Gojcic, Sanja Fidler
 * **arXiv ID:** 2209.11163
 * **One-liner:** GET3D is an end-to-end 3D native diffusion model that generates high-fidelity textured 3D shapes directly in the 3D data domain without explicit 3D supervision.
-* **Published in:** arXiv 2022
+* **Published in:** NeurIPS 2022
 * **Links:** [[Paper]](https://arxiv.org/abs/2209.11163) | [[PDF]](https://arxiv.org/pdf/2209.11163.pdf) | [[Code]](https://github.com/nv-tlabs/GET3D)
 
 > **Core Innovation**  
@@ -852,7 +852,7 @@
 * **Authors:** Yiming Yang, Sixian Chan, Xiangyu Xu, Haibin Ling, Xiaoming Liu
 * **arXiv ID:** 2104.03658
 * **One-liner:** Dual-scale consistency learning framework enables weakly supervised 6DoF object pose estimation from 2D bounding boxes with 18% error reduction.
-* **Published in:** arXiv 2021
+* **Published in:** CVPR 2021
 * **Links:** [[Paper]](https://arxiv.org/abs/2104.03658) | [[PDF]](https://arxiv.org/pdf/2104.03658.pdf)
 
 > **Core Innovation**  
@@ -910,7 +910,7 @@
 * **Authors:** Kai Zhang, Gernot Riegler, Noah Snavely, Vladlen Koltun
 * **arXiv ID:** 2010.07492
 * **One-liner:** Spherical coordinate extension and shape-radiance ambiguity analysis improve NeRF for unbounded scenes with better generalization.
-* **Published in:** arXiv 2020
+* **Published in:** CVPR 2021
 * **Links:** [[Paper]](https://arxiv.org/abs/2010.07492) | [[PDF]](https://arxiv.org/pdf/2010.07492.pdf) | [[Code]](https://github.com/Kai-46/nerfplusplus)
 
 > **Core Innovation**  
@@ -939,7 +939,7 @@
 * **Authors:** Chitwan Saharia, William Chan, Saurabh Saxena, Lala Li, Jay Whang, Emily Denton, Seyed Kamyar Seyed Ghasemipour, Karsten Kreis, David Fleet, Mohammad Norouzi
 * **arXiv ID:** 2205.11487
 * **One-liner:** Depth-conditioned diffusion models enhance spatial relationship understanding and geometric reasoning in text-to-image generation with 35% layout accuracy improvement.
-* **Published in:** arXiv 2022
+* **Published in:** CVPR 2023
 * **Links:** [[Paper]](https://arxiv.org/abs/2205.11487) | [[PDF]](https://arxiv.org/pdf/2205.11487.pdf)
 
 > **Core Innovation**  
