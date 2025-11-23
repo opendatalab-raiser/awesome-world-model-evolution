@@ -745,6 +745,23 @@ Current state-of-the-art models are beginning to break down the barriers between
 * AnimateDiff: Animate Your Personalized Text-to-Image Diffusion Models without Specific Tuning, arXiv 2023.
 * Emu Video: Factorizing Text-to-Video Generation by Explicit Image Conditioning, ECCV 2024.
 * VideoPoet: A Large Language Model for Zero-Shot Video Generation, ICML 2024.
+* UniVG: Towards UNIfied-modal Video Generation, ICME 2025.
+* VideoGen: A Reference-Guided Latent Diffusion Approach for High Definition Text-to-Video Generation, arXiv preprint.
+* VideoPoet: A Large Language Model for Zero-Shot Video Generation, ICML 2024.
+* Imagen Video: High Definition Video Generation with Diffusion Models, arXiv preprint.
+* Align your Latents: High-Resolution Video Synthesis with Latent Diffusion Models, CVPR 2023.
+* Show-1: Marrying Pixel and Latent Diffusion Models for Text-to-Video Generation, IJCV 2025.
+* Stable Video Diffusion: Scaling Latent Video Diffusion Models to Large Datasets, arXiv preprint.
+* MagicVideo: Efficient Video Generation With Latent Diffusion Models, arXiv preprint.
+* Make Pixels Dance: High-Dynamic Video Generation, CVPR 2024.
+* Latent Video Diffusion Models for High-Fidelity Long Video Generation, arXiv preprint.
+* TriDet: Temporal Action Detection with Relative Boundary Modeling, CVPR 2023.
+* Temporal Action Localization with Enhanced Instant Discriminability, IJCV 2023.
+* BasicTAD: an Astounding RGB-Only Baseline for Temporal Action Detection, CVIU 2023.
+* Action Sensitivity Learning for Temporal Action Localization, ICCV 2023.
+* TemporalMaxer: Maximize Temporal Context with only Max Pooling for Temporal Action Localization, ICCV 2023.
+* Contextual Object Detection with Multimodal Large Language Models, IJCV 2024.
+* ActionFormer: Localizing Moments of Actions with Transformers, ECCV 2022.
 
 </details>
 
@@ -873,6 +890,7 @@ If this project helps you, please give us a Star ⭐️!
 ## 📄 License
 
 This project is licensed under [MIT License](LICENSE).
+
 
 
 
