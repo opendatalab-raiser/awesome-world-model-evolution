@@ -534,7 +534,9 @@
 </details>
 </details>
 
+---
 
+<details>
 <summary><b>TemporalMaxer: Maximize Temporal Context with only Max Pooling for Temporal Action Localization</b></summary>
 
 * **Authors:** Tuan N. Tang, Kwonyoung Kim, Kwanghoon Sohn
@@ -613,4 +615,5 @@
     * Generates significantly higher-quality long videos than previous methods across multi-category small-domain datasets, and further extends to large-scale text-to-video tasks, validating the framework's generalization capability
 </details>
 </details>
+
 ---
