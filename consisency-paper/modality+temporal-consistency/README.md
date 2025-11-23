@@ -254,7 +254,9 @@
 </details>
 </details>
 
+---
 
+<details>
 <summary><b>Align your Latents: High-Resolution Video Synthesis with Latent Diffusion Models</b></summary>
 
 * **Authors:** Andreas Blattmann, Robin Rombach, Huan Ling, Tim Dockhorn, Seung Wook Kim, Sanja Fidler, Karsten Kreis
@@ -282,6 +284,7 @@
 
 ---
 
+<details>
 <summary><b>Show-1: Marrying Pixel and Latent Diffusion Models for Text-to-Video Generation</b></summary>
 
 * **Authors:** David Junhao Zhang, Jay Zhangjie Wu, Jia-Wei Liu, Rui Zhao, Lingmin Ran, Yuchao Gu, Difei Gao, Mike Zheng Shou
