@@ -229,6 +229,7 @@
 
 ---
 
+<details>
 <summary><b>Imagen Video: High Definition Video Generation with Diffusion Models</b></summary>
 
 * **Authors:** Jonathan Ho, William Chan, Chitwan Saharia, Jay Whang, Ruiqi Gao, Alexey Gritsenko, Diederik P. Kingma, Ben Poole, Mohammad Norouzi, David J. Fleet, Tim Salimans
