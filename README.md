@@ -83,7 +83,7 @@ World models are considered a cornerstone toward achieving **Artificial General 
 A fully functional world model must master three core competencies, which we term the **Three Fundamental Consistencies**:
 
 #### 1️⃣ **Modality Consistency**
-![modality](./m.jpg)
+![modality](./assets/m.jpg)
 The "linguistic interface" between the model and reality.
 
 - **Capability**: Bidirectional translation between high-dimensional sensory inputs (images, video, audio) and abstract symbolic representations (language, structured data)
@@ -891,6 +891,7 @@ If this project helps you, please give us a Star ⭐️!
 ## 📄 License
 
 This project is licensed under [MIT License](LICENSE).
+
 
 
 
