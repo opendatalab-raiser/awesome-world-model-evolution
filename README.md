@@ -91,6 +91,7 @@ The "linguistic interface" between the model and reality.
 - **Significance**: Enables the world model to receive instructions and communicate observations in human-interpretable formats
 
 #### 2️⃣ **Spatial Consistency**
+![spatial](./assets/s.jpg)
 The "static 3D comprehension" of the physical world.
 
 - **Capability**: Understanding that objects possess fixed geometric forms, occupy space, exhibit occlusion relationships, and maintain identity across viewpoints
@@ -98,6 +99,7 @@ The "static 3D comprehension" of the physical world.
 - **Significance**: Forms the foundational "scene graph" enabling accurate spatial reasoning and navigation
 
 #### 3️⃣ **Temporal Consistency**
+![temporal](./assets/t.jpg)
 The "physics engine" for dynamic simulation.
 
 - **Capability**: Modeling how the world evolves over time, including object motion, physical interactions, and causal event chains
@@ -891,6 +893,7 @@ If this project helps you, please give us a Star ⭐️!
 ## 📄 License
 
 This project is licensed under [MIT License](LICENSE).
+
 
 
 
