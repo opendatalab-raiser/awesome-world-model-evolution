@@ -20,7 +20,7 @@
 
 ## 📋 Table of Contents
 
-- [Awesome World Model Evolution - Forging the World Model Universe from Unified Multimodal Models](#awesome-world-model-evolution---forging-the-world-model-universe-from-unified-multimodal-models-)
+- [Awesome World Model Evolution - Forging the World Model Universe from Unified Multimodal Models ](#awesome-world-model-evolution---forging-the-world-model-universe-from-unified-multimodal-models-)
   - [📋 Table of Contents](#-table-of-contents)
   - [🎯 Introduction](#-introduction)
     - [What is a World Model?](#what-is-a-world-model)
@@ -83,7 +83,6 @@ World models are considered a cornerstone toward achieving **Artificial General 
 A fully functional world model must master three core competencies, which we term the **Three Fundamental Consistencies**:
 
 #### 1️⃣ **Modality Consistency**
-![modality](./assets/m.jpg)
 The "linguistic interface" between the model and reality.
 
 - **Capability**: Bidirectional translation between high-dimensional sensory inputs (images, video, audio) and abstract symbolic representations (language, structured data)
@@ -91,7 +90,6 @@ The "linguistic interface" between the model and reality.
 - **Significance**: Enables the world model to receive instructions and communicate observations in human-interpretable formats
 
 #### 2️⃣ **Spatial Consistency**
-![spatial](./assets/s.jpg)
 The "static 3D comprehension" of the physical world.
 
 - **Capability**: Understanding that objects possess fixed geometric forms, occupy space, exhibit occlusion relationships, and maintain identity across viewpoints
@@ -99,7 +97,6 @@ The "static 3D comprehension" of the physical world.
 - **Significance**: Forms the foundational "scene graph" enabling accurate spatial reasoning and navigation
 
 #### 3️⃣ **Temporal Consistency**
-![temporal](./assets/t.jpg)
 The "physics engine" for dynamic simulation.
 
 - **Capability**: Modeling how the world evolves over time, including object motion, physical interactions, and causal event chains
@@ -126,6 +123,8 @@ This repository traces the evolution toward world models through **Unified Multi
 Before the era of unified models, researchers pursued a "divide-and-conquer" approach, developing specialized architectures for each consistency challenge. This foundational work established key techniques and insights that inform current unified approaches.
 
 ### <a href="./consisency-paper/modality-consistency/README.md">Modality Consistency</a>
+
+![modality](./assets/m.jpg)
 
 **Objective**: Establish bidirectional mappings between symbolic (language) and perceptual (vision) representations.
 
@@ -597,6 +596,8 @@ Before the era of unified models, researchers pursued a "divide-and-conquer" app
 
 ### <a href="./consisency-paper/spatial-consistency/README.md">Spatial Consistency</a>
 
+![spatial](./assets/s.jpg)
+
 **Objective**: Enable models to understand and generate 3D spatial structure from 2D observations.
 
 **Historical Significance**: Provided methodologies for constructing internal "3D scene graphs" and understanding geometric relationships.
@@ -644,6 +645,8 @@ Before the era of unified models, researchers pursued a "divide-and-conquer" app
 </details>
 
 ### <a href="./consisency-paper/temporal-consistency/README.md">Temporal Consistency</a>
+
+![temporal](./assets/t.jpg)
 
 **Objective**: Model temporal dynamics, object motion, and causal relationships in video sequences.
 
@@ -694,6 +697,8 @@ Current state-of-the-art models are beginning to break down the barriers between
 
 ### <a href="./consisency-paper/modality+spatial-consistency/README.md">Modality + Spatial Consistency</a>
 
+![modality+spatial](./assets/ms.png)
+
 **Capability Profile**: Models that can translate text/image descriptions into spatially coherent 3D representations or multi-view consistent outputs.
 
 **Significance**: These models demonstrate "3D imagination" - they are no longer mere "2D painters" but "digital sculptors" understanding spatial structure.
@@ -734,6 +739,8 @@ Current state-of-the-art models are beginning to break down the barriers between
 
 ### <a href="./consisency-paper/modality+temporal-consistency/README.md">Modality + Temporal Consistency</a>
 
+![modality+temporal](./assets/mt.png)
+
 **Capability Profile**: Models that transform textual descriptions or static images into temporally coherent, dynamic video sequences.
 
 **Significance**: Currently the most prominent integration direction, enabling high-quality text-to-video and image-to-video generation.
@@ -769,6 +776,8 @@ Current state-of-the-art models are beginning to break down the barriers between
 </details>
 
 ### <a href="./consisency-paper/spatial-temporal-consistency/README.md">Spatial + Temporal Consistency</a>
+
+![spatial-temporal](./assets/st.png)
 
 Capability Profile: Models that maintain 3D spatial structure while simulating temporal dynamics, but may have limited language understanding or controllability.
 

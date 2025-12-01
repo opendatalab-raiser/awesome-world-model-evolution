@@ -124,6 +124,8 @@
 
 ### <a href="./consisency-paper/modality-consistency/README_zh.md">模态一致性</a>
 
+![modality](./assets/m.jpg)
+
 **目标**：在符号（语言）和感知（视觉）表示之间建立双向映射。
 
 **历史意义**：这些模型创建了首批"符号-感知桥梁"，解决了世界模型的基本输入/输出问题。
@@ -595,6 +597,8 @@
 
 ### <a href="./consisency-paper/spatial-consistency/README_zh.md">空间一致性</a>
 
+![spatial](./assets/s.jpg)
+
 **目标**：使模型能够从二维观察中理解和生成三维空间结构。
 
 **历史意义**：为构建内部"3D 场景图"和理解几何关系提供了方法论。
@@ -612,6 +616,8 @@
 </details>
 
 ### <a href="./consisency-paper/temporal-consistency/README_zh.md">时间一致性</a>
+
+![temporal](./assets/t.jpg)
 
 **目标**：建模视频序列中的时间动态、物体运动和因果关系。
 
@@ -635,6 +641,8 @@
 当前最先进的模型正开始打破各个一致性之间的壁垒。本节展示成功整合**三大一致性中的两项**的模型，它们代表了通向完整世界模型的关键中间步骤。
 
 ### <a href="./consisency-paper/modality+spatial-consistency/README_zh.md">模态 + 空间一致性</a>
+
+![modality+spatial](./assets/ms.png)
 
 **能力特征**：能够将文本/图像描述转换为空间连贯的 3D 表示或多视角一致输出的模型。
 
@@ -676,6 +684,8 @@
   
 ### <a href="./consisency-paper/modality+temporal-consistency/README_zh.md">模态 + 时间一致性</a>
 
+![modality+temporal](./assets/mt.png)
+
 **能力特征**：将文本描述或静态图像转换为时间连贯的动态视频序列的模型。
 
 **意义**：目前最突出的融合方向，实现高质量的文本到视频和图像到视频生成。
@@ -694,6 +704,8 @@
 </details>
 
 ### <a href="./consisency-paper/spatial-temporal-consistency/README_zh.md">空间一致性 + 时间一致性</a>
+
+![spatial-temporal](./assets/st.png)
 
 **能力特征**：这类模型能够在模拟时间动态演化的同时保持三维空间结构的一致性，但可能在语言理解或可控性方面存在一定局限。
 
